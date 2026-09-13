@@ -10,6 +10,10 @@ Decided 2026-09-13.
   synced when possible. Offline play loses nothing. Two devices merge by
   union of their logs.
 
+Project: https://djxniucbbckvlnfngsys.supabase.co (ref `djxniucbbckvlnfngsys`).
+The Supabase MCP server is configured in `.mcp.json` so Claude can run SQL
+and read project settings once authenticated.
+
 ## What you need to do once
 
 About fifteen minutes. The game runs fine before this is done; it just stays

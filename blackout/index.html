@@ -603,7 +603,7 @@ function renderVoid(){const n=TOPICS.length?voidQuestions().length:0;const el=$(
 /* server sync. Fill in the two constants from the Supabase project (Settings, API). Until then the game is
    local-only and this whole block is inert. The anon key is public by design; row-level security on the server
    is what keeps one player's rows away from another's. */
-const SUPABASE_URL='',SUPABASE_KEY='';
+const SUPABASE_URL='https://djxniucbbckvlnfngsys.supabase.co',SUPABASE_KEY='';
 let sb=null,user=null,syncing=false,syncAgain=false;
 function loadScript(src){return new Promise((res,rej)=>{const el=document.createElement('script');el.src=src;el.onload=res;el.onerror=rej;document.head.appendChild(el)})}
 async function initSync(){
