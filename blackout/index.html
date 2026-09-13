@@ -144,6 +144,10 @@ button{font-family:inherit}
 .title .void-line{margin:18px 0 0;font-size:13px;color:var(--dust);position:relative;z-index:1}
 .auth{display:flex;gap:10px;align-items:center;margin-top:14px;font-size:13px;color:var(--dust);position:relative;z-index:1}
 .node .pct{display:block;font-size:11px;color:var(--dust);padding-top:2px}
+.magic{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.magic input{flex:1;min-width:150px;padding:12px 0;border:0;border-bottom:1px solid var(--hair);border-radius:0;background:none;color:var(--ink);font:400 15px var(--font);outline:none;transition:border-color .3s}
+.magic input:focus{border-color:rgba(236,235,230,.5)}
+.magic input::placeholder{color:var(--dust)}
 .quiz.is-void .lights{visibility:hidden}
 .end .notes{margin-top:14px}
 
@@ -619,8 +623,17 @@ function renderAuth(){
   el.hidden=false;el.innerHTML='';
   if(user){el.append(Object.assign(document.createElement('span'),{textContent:'Progress syncs to '+(user.email||'your account')}));
     const b=document.createElement('button');b.className='btn';b.textContent='Sign out';b.onclick=()=>sb.auth.signOut();el.append(b)}
-  else{const b=document.createElement('button');b.className='btn';b.textContent='Sign in with Google';
-    b.onclick=()=>sb.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.origin+location.pathname}});el.append(b)}
+  else{
+    /* magic link: type an email, Supabase sends a sign-in link that returns here */
+    const form=document.createElement('form');form.className='magic';
+    const inp=document.createElement('input');inp.type='email';inp.required=true;inp.placeholder='Email';inp.autocomplete='email';inp.setAttribute('aria-label','Email for sign-in link');
+    const b=document.createElement('button');b.className='btn';b.type='submit';b.textContent='Send sign-in link';
+    form.append(inp,b);el.append(form);
+    form.onsubmit=async e=>{e.preventDefault();b.disabled=true;b.textContent='Sending';
+      const {error}=await sb.auth.signInWithOtp({email:inp.value.trim(),options:{emailRedirectTo:location.origin+location.pathname}});
+      el.innerHTML='';el.append(Object.assign(document.createElement('span'),{textContent:error?'Could not send the link: '+error.message:'Check your email for the sign-in link.'}));
+    };
+  }
 }
 const sent={get(){try{return new Set(JSON.parse(localStorage.getItem('blackout.sent')||'[]'))}catch(e){return new Set()}},set(v){try{localStorage.setItem('blackout.sent',JSON.stringify([...v]))}catch(e){}}};
 async function sync(){

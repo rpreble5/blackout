@@ -5,7 +5,8 @@ Decided 2026-09-13.
 - The game itself stays static on GitHub Pages: https://rpreble5.github.io/blackout/
 - Player memory (every answer, from which the void and topic stats are
   derived) lives in Supabase, a hosted Postgres with sign-in.
-- Sign-in is Google.
+- Sign-in is Supabase's magic link by email (chosen 2026-09-13 over Google
+  to avoid the OAuth setup).
 - The game is local-first: every answer is written to the phone at once and
   synced when possible. Offline play loses nothing. Two devices merge by
   union of their logs.
@@ -30,25 +31,19 @@ local to each phone.
    It creates one table with row-level security so each player only ever
    touches their own rows.
 
-### 2. Turn on Google sign-in
+### 2. Tell Supabase where the sign-in link should return
 
-1. In Supabase go to **Authentication, Providers, Google** and switch it on.
-   Copy the **callback URL** it shows (it looks like
-   `https://<project>.supabase.co/auth/v1/callback`).
-2. In Google Cloud Console (https://console.cloud.google.com), create or
-   pick a project, then **APIs and Services, Credentials, Create
-   credentials, OAuth client ID**, type **Web application**.
-   - Authorized JavaScript origins: `https://rpreble5.github.io`
-   - Authorized redirect URIs: the Supabase callback URL from step 1.
-   If it asks you to configure the consent screen first, choose External,
-   fill in the app name and your email, and you can leave it in testing
-   mode with yourself as a test user.
-3. Copy the client ID and client secret back into the Supabase Google
-   provider settings and save.
-4. In Supabase, **Authentication, URL Configuration**:
-   - Site URL: `https://rpreble5.github.io/blackout/blackout/`
-   - Redirect URLs: add `https://rpreble5.github.io/blackout/**` and, for
-     local testing, `http://localhost:8765/**`.
+Magic-link email works out of the box, but the link must be allowed to
+return to the game. In Supabase, **Authentication, URL Configuration**:
+
+- Site URL: `https://rpreble5.github.io/blackout/blackout/`
+- Redirect URLs: add `https://rpreble5.github.io/blackout/**` and, for local
+  testing, `http://localhost:8765/**`.
+
+Without this the link sends you to Supabase's default localhost page and
+the sign-in does not complete. The built-in email sender allows only a few
+messages an hour, which is plenty for one player; a custom SMTP provider can
+be added later under **Authentication, SMTP Settings** if that ever bites.
 
 ### 3. Keys (done 2026-09-13)
 
