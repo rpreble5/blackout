@@ -111,23 +111,22 @@ button{font-family:inherit}
 .quiz .why{font-size:21px;font-weight:300;line-height:1.4;max-width:30ch;opacity:0}
 .quiz .prompt.is-why h2{opacity:0}
 .quiz .prompt.is-why .why{opacity:1}
-.answers{display:flex;flex-direction:column;gap:4px;margin:0 -24px}
-.answer{position:relative;isolation:isolate;display:flex;align-items:center;width:100%;min-height:52px;padding:8px 24px;border:0;border-radius:0 18px 18px 0;background:none;color:var(--ink);font:400 17px/1.35 var(--font);text-align:left;cursor:pointer;transition:color .45s var(--ease),opacity .45s var(--ease)}
-.answer::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transform:scale(.55,.7);transform-origin:0 50%;transition:opacity .45s var(--ease),transform .55s cubic-bezier(.2,.8,.2,1)}
-.answer .tick{position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 2px 2px 0;overflow:hidden;background:#111;transform:translateZ(0);transition:opacity .45s var(--ease),transform .45s var(--ease)}
-.answer .tick .sheet{position:absolute;inset:-6% -500%;filter:blur(4px)}
-.answer .tick .sheet i{position:absolute;display:block}
+.answers{display:flex;flex-direction:column;gap:4px;margin:0 -16px}
+.answer{position:relative;isolation:isolate;display:flex;align-items:center;gap:16px;width:100%;min-height:52px;padding:8px 16px;border:0;border-radius:18px;background:none;color:var(--ink);font:400 17px/1.35 var(--font);text-align:left;cursor:pointer;transition:color .45s var(--ease),opacity .45s var(--ease)}
+.answer::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transform:scale(.55,.7);transform-origin:28px 50%;transition:opacity .45s var(--ease),transform .55s cubic-bezier(.2,.8,.2,1)}
+.answer .dot{flex:none;width:24px;height:24px;border-radius:50%;background:var(--dot);transition:opacity .45s var(--ease),transform .45s var(--ease),filter .5s}
 .answer.is-correct::before{opacity:1;transform:scale(1)}
 .answer.is-correct{color:var(--fill-ink)}
-.answer.is-correct .tick{opacity:0;transform:scaleY(.4)}
+.answer.is-correct .dot{opacity:0;transform:scale(.5)}
 .answer.is-wrong{opacity:.22}
 /* multi-select: a held row shows a faint wash of the fill; a wrong pick stays visible with its circle greyed */
 .answer.is-pick::before{opacity:.16;transform:scale(1)}
 .answer.is-miss{opacity:.6}
-.answer.is-miss .tick{filter:grayscale(1) brightness(.45)}
+.answer.is-miss .dot{filter:grayscale(1) brightness(.45)}
 /* dense lists for six or more options */
-.answers.is-dense .answer{min-height:46px;padding:6px 24px;font-size:16px}
-.answers.is-dense .answer .tick{top:9px;bottom:9px}
+.answers.is-dense .answer{min-height:46px;padding:6px 16px;font-size:16px;gap:14px}
+.answers.is-dense .answer .dot{width:20px;height:20px}
+.answers.is-dense .answer::before{transform-origin:26px 50%}
 .answer[disabled]{cursor:default}
 
 /* notes: swipe left on a question to write one */
@@ -237,6 +236,21 @@ function oklchToRgb(L,C,h){
   const l=l_**3,m=m_**3,s=s_**3;
   return [4.0767416621*l-3.3077115913*m+0.2309699292*s,-1.2684380046*l+2.6097574011*m-0.3413193965*s,-0.0041960863*l-0.7034186147*m+1.7076147010*s];
 }
+function hexToOklab(hex){
+  const n=parseInt(hex.slice(1),16);const lin=v=>{v/=255;return v<=0.04045?v/12.92:((v+0.055)/1.055)**2.4};
+  const r=lin(n>>16),g=lin(n>>8&255),b=lin(n&255);
+  const l=Math.cbrt(0.4122214708*r+0.5363325363*g+0.0514459929*b),m=Math.cbrt(0.2119034982*r+0.6806995451*g+0.1073969566*b),s_=Math.cbrt(0.0883024619*r+0.2817188376*g+0.6299787005*b);
+  return [0.2104542553*l+0.7936177850*m-0.0040720468*s_,1.9779984951*l-2.4285922050*m+0.4505937099*s_,0.0259040371*l+0.7827717662*m-0.8086757660*s_];
+}
+function oklabToHex(L,a,b){
+  const l_=L+0.3963377774*a+0.2158037573*b,m_=L-0.1055613458*a-0.0638541728*b,s_=L-0.0894841775*a-1.2914855480*b;
+  const l=l_**3,m=m_**3,sv=s_**3;
+  const rgb=[4.0767416621*l-3.3077115913*m+0.2309699292*sv,-1.2684380046*l+2.6097574011*m-0.3413193965*sv,-0.0041960863*l-0.7034186147*m+1.7076147010*sv];
+  const gam=x=>{x=Math.max(0,Math.min(1,x));return x<=0.0031308?12.92*x:1.055*x**(1/2.4)-0.055};
+  return '#'+rgb.map(x=>Math.round(gam(x)*255).toString(16).padStart(2,'0')).join('');
+}
+/* a colour part way between two hexes, mixed perceptually */
+function mix(h1,h2,t){const a=hexToOklab(h1),b=hexToOklab(h2);return oklabToHex(a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t,a[2]+(b[2]-a[2])*t)}
 function ok(L,C,h){
   let c=C,rgb;
   for(let i=0;i<14;i++){rgb=oklchToRgb(L,c,h);if(rgb.every(x=>x>=-0.003&&x<=1.003))break;c*=.86}
@@ -535,11 +549,10 @@ async function ask(p,qs,opts){
     prompt.classList.remove('is-why');
     const wrap=$('q-answers');wrap.innerHTML='';wrap.classList.toggle('is-dense',options.length>=6);
     const [c1,c2,c3,c4]=p.c;
-    const orders=[[c1,c2,c3,c4],[c3,c1,c2,c4],[c2,c3,c1,c4],[c1,c3,c2,c4]];
     wrap.style.setProperty('--fill-a',c1);wrap.style.setProperty('--fill-b',c2);wrap.style.setProperty('--fill-ink',lum(c2)>.14?'#000':'#ECEBE6');
     options.forEach((t,j)=>{
       const b=document.createElement('button');b.className='answer';
-      const orb=document.createElement('span');orb.className='tick';paintTick(orb,orders[j%4]);
+      const orb=document.createElement('span');orb.className='dot';b.style.setProperty('--dot',mix(c1,c2,options.length>1?j/(options.length-1):0));
       const label=document.createElement('span');label.textContent=t;
       b.append(orb,label);b.dataset.t=t;wrap.appendChild(b);
     });
