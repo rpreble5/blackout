@@ -170,11 +170,19 @@ button{font-family:inherit}
 .bonus .head .where{flex:1;line-height:1.25}
 .bonus .head .where b{display:block;font-weight:500;font-size:15px}
 .bonus .head .where span{display:block;font-size:12.5px;color:var(--dust)}
-.bonus .body{flex:1;display:flex;flex-direction:column;justify-content:safe center;padding-bottom:6vh;overflow-y:auto;overflow-x:hidden;margin:0 -24px;padding-left:24px;padding-right:24px;transition:opacity .35s var(--ease)}
+.bonus .body{flex:1;display:flex;flex-direction:column;justify-content:safe center;padding-bottom:6vh;overflow-y:auto;overflow-x:hidden;margin:0 -24px;padding-left:24px;padding-right:24px;scrollbar-width:none;transition:opacity .35s var(--ease)}
+.bonus .body::-webkit-scrollbar{display:none}
 .bonus .body.is-swapping{opacity:0}
 .match{display:flex;flex-direction:column;gap:22px}
 .match .answers{gap:5px}
 .match .answer{min-height:44px;padding:6px 16px;font-size:16px}
+/* side by side when every name fits on one line in a compact row */
+.match.is-wide{flex-direction:row;gap:12px;margin:0 -8px}
+.match.is-wide .answers{flex:1;margin:0;gap:5px}
+.match.is-wide .answer{min-height:40px;padding:6px 10px;gap:10px;font-size:15px;white-space:nowrap;border-radius:14px}
+.match.is-wide .answer .dot{width:14px;height:14px}
+.match.is-wide .answer::before{transform-origin:17px 50%}
+.measure{position:absolute;visibility:hidden;white-space:nowrap;font:400 15px var(--font)}
 .match .answer .dot{background:none;border:1px solid rgba(236,235,230,.35);transition:background .3s,border-color .3s}
 .match .answer.is-pick .dot{background:var(--ink);border-color:var(--ink)}
 .match .answer.is-done{color:var(--dust);pointer-events:none}
@@ -783,6 +791,13 @@ async function matching(i,cls){
     const dot=document.createElement('span');dot.className='dot';const label=document.createElement('span');label.textContent=item.text;b.append(dot,label);return b};
   shuffle(pairs.map((x,k)=>({k,text:x.generic}))).forEach(it=>L.appendChild(mk(it,'l')));
   shuffle(pairs.map((x,k)=>({k,text:x.brand}))).forEach(it=>R.appendChild(mk(it,'r')));
+  /* measure the longest name on each side; if both columns fit without wrapping, lay them side by side */
+  await document.fonts.ready;
+  const m=document.createElement('span');m.className='measure';document.body.appendChild(m);
+  const widest=arr=>Math.max(...arr.map(t=>{m.textContent=t;return m.getBoundingClientRect().width}));
+  const wl=widest(pairs.map(x=>x.generic)),wr=widest(pairs.map(x=>x.brand));m.remove();
+  const rowExtra=10+14+10+10,avail=($('b-body').clientWidth||342)+16;
+  wrap.classList.toggle('is-wide',wl+rowExtra+wr+rowExtra+12<=avail);
   $('b-result').classList.remove('is-in');
   $('b-body').classList.add('is-swapping');
   show('s-bonus');

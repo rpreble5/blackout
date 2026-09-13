@@ -145,8 +145,10 @@ else, and a clean clear relights a light. Credits have no spend yet.
 Built: **Names**, brand and generic matching. Six pairs drawn from one drug
 class in `blackout/drugs.json` (18 classes, 202 pairs on 2026-09-13), so
 confusable class-mates sit together: beta blockers with beta blockers,
-SSRIs with SNRIs. Two vertical lists, generics then brands, rows styled as
-answer rows with hollow dots; a tap fills the dot, a match colours both rows
+SSRIs with SNRIs. Two lists, generics and brands, rows styled as answer rows with
+hollow dots. Before layout the six drawn names are measured; if the longest
+generic and the longest brand both fit on one line in a compact half-width
+row, the lists sit side by side, otherwise they stack. a tap fills the dot, a match colours both rows
 from the planet ramp, a wrong pair shakes. Two credits per pair matched first
 time, one otherwise. One Names node appears per run on one of the five
 middle-tier nodes. The dev menu lists every class. A two-column grid of
