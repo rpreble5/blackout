@@ -18,7 +18,25 @@
       "blurb": "Questions we wrote ourselves on the things an intern meets every week.",
       "topics": [
         "fd-hypertension.json",
-        "fd-diabetes.json"
+        "fd-diabetes.json",
+        "fd-afib.json",
+        "fd-lipids.json",
+        "fd-insulin-inpatient.json",
+        "fd-thyroid.json",
+        "fd-asthma.json",
+        "fd-copd.json",
+        "fd-hyperkalemia.json",
+        "fd-hyponatremia.json",
+        "fd-uti.json",
+        "fd-cellulitis.json",
+        "fd-ugib.json",
+        "fd-cirrhosis.json",
+        "fd-depression.json",
+        "fd-delirium.json",
+        "fd-anaemia.json",
+        "fd-vte.json",
+        "fd-perioperative.json",
+        "fd-opioids.json"
       ]
     }
   ]

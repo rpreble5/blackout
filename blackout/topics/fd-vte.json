@@ -1,0 +1,232 @@
+{
+  "id": "fd-vte",
+  "title": "Venous thromboembolism: choosing the anticoagulant and how long",
+  "short": "Venous thromboembolism",
+  "specialty": "Hospital medicine",
+  "tags": [
+    "vte",
+    "dvt",
+    "pe",
+    "anticoagulation",
+    "duration"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-09-13. Based on the CHEST 2021 antithrombotic therapy for VTE guideline. Not tied to an article; review before trusting.",
+    "facts": "none"
+  },
+  "questions": [
+    {
+      "id": "fd-vte-01",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "A deep vein thrombosis after hip surgery. How long is anticoagulation?",
+      "a": "3 months",
+      "d": [
+        "6 weeks",
+        "6 months",
+        "Indefinitely"
+      ],
+      "options": [
+        "6 weeks",
+        "3 months",
+        "6 months",
+        "Indefinitely"
+      ],
+      "why": "A major transient provoking factor means the risk falls away once it has passed. The same three months applies to minor transient factors such as oestrogen or a long flight.",
+      "tags": [
+        "duration",
+        "provoked"
+      ]
+    },
+    {
+      "id": "fd-vte-02",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A first unprovoked pulmonary embolism in a patient with low bleeding risk. How long is anticoagulation?",
+      "a": "Extended, with no scheduled stop date, reassessed each year",
+      "d": [
+        "3 months",
+        "6 months",
+        "12 months"
+      ],
+      "why": "Recurrence after stopping runs about 10% in the first year and 30% at five years. Bleeding risk and patient preference are reviewed annually rather than the drug being stopped by default.",
+      "tags": [
+        "duration",
+        "unprovoked"
+      ]
+    },
+    {
+      "id": "fd-vte-03",
+      "type": "single",
+      "difficulty": 2,
+      "q": "For most patients with venous thromboembolism and no cancer, which anticoagulant is preferred?",
+      "a": "A direct oral anticoagulant",
+      "d": [
+        "Warfarin",
+        "Low molecular weight heparin long term",
+        "Aspirin"
+      ],
+      "why": "Apixaban and rivaroxaban can be started alone with a loading phase; dabigatran and edoxaban need five to ten days of parenteral anticoagulation first.",
+      "tags": [
+        "doac"
+      ]
+    },
+    {
+      "id": "fd-vte-04",
+      "type": "single",
+      "difficulty": 3,
+      "q": "Venous thromboembolism in a patient with active cancer. Which is preferred?",
+      "a": "A direct oral anticoagulant or low molecular weight heparin, while the cancer is active",
+      "d": [
+        "Warfarin for 3 months",
+        "Aspirin",
+        "Three months of any agent then stop"
+      ],
+      "why": "Low molecular weight heparin is favoured over rivaroxaban and edoxaban in gastrointestinal and genitourinary cancers because of bleeding at the tumour site; apixaban is the usual oral choice there.",
+      "tags": [
+        "cancer"
+      ]
+    },
+    {
+      "id": "fd-vte-05",
+      "type": "single",
+      "difficulty": 3,
+      "q": "After 6 months of full-dose treatment, a patient continues extended anticoagulation. What dose is reasonable?",
+      "a": "Reduced dose: apixaban 2.5 mg twice daily or rivaroxaban 10 mg daily",
+      "d": [
+        "The full treatment dose only",
+        "Aspirin instead",
+        "Alternate-day full dose"
+      ],
+      "why": "Reduced dosing kept recurrence low with less bleeding in trials. Full dose stays for patients at high recurrence risk, such as those with antiphospholipid syndrome.",
+      "tags": [
+        "extended",
+        "dose"
+      ]
+    },
+    {
+      "id": "fd-vte-06",
+      "type": "single",
+      "difficulty": 3,
+      "q": "Venous thromboembolism in a patient with antiphospholipid syndrome. Which anticoagulant?",
+      "a": "Warfarin",
+      "d": [
+        "Rivaroxaban",
+        "Apixaban",
+        "Dabigatran"
+      ],
+      "why": "Direct oral anticoagulants had more arterial events than warfarin in triple-positive antiphospholipid syndrome, so warfarin remains the standard there.",
+      "tags": [
+        "antiphospholipid",
+        "warfarin"
+      ]
+    },
+    {
+      "id": "fd-vte-07",
+      "type": "single",
+      "difficulty": 2,
+      "q": "An isolated distal calf vein thrombosis in a patient with mild symptoms and no risk factors for extension. Which option is reasonable?",
+      "a": "Serial ultrasound over two weeks rather than immediate anticoagulation",
+      "d": [
+        "Three months of anticoagulation is mandatory",
+        "Thrombolysis",
+        "An inferior vena cava filter"
+      ],
+      "why": "If the clot extends, or if symptoms are severe or risk factors present, anticoagulation is given as for a proximal thrombosis.",
+      "tags": [
+        "distal-dvt"
+      ]
+    },
+    {
+      "id": "fd-vte-08",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A second unprovoked venous thromboembolism. How long is anticoagulation?",
+      "a": "Indefinitely",
+      "d": [
+        "3 months",
+        "6 months",
+        "12 months"
+      ],
+      "why": "Two unprovoked events mark a patient whose recurrence risk stays high. Only a high bleeding risk argues for stopping.",
+      "tags": [
+        "duration",
+        "recurrent"
+      ]
+    },
+    {
+      "id": "fd-vte-09",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A haemodynamically stable patient with a low-risk pulmonary embolism, a simplified PESI of zero, and good support at home. Where is treatment given?",
+      "a": "At home, or after a short observation period",
+      "d": [
+        "In hospital for at least five days",
+        "In intensive care",
+        "In hospital until the D-dimer normalises"
+      ],
+      "why": "Outpatient treatment is safe for low-risk PE with an oral anticoagulant that needs no lead-in. Right ventricular strain or a raised troponin changes that.",
+      "tags": [
+        "pe",
+        "outpatient"
+      ]
+    },
+    {
+      "id": "fd-vte-10",
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is an inferior vena cava filter indicated?",
+      "a": "Acute venous thromboembolism when anticoagulation is contraindicated",
+      "d": [
+        "Every pulmonary embolism",
+        "As an addition to anticoagulation in large clots",
+        "For all patients over 80"
+      ],
+      "why": "Filters do not replace anticoagulation and are removed once anticoagulation becomes possible. Adding a filter to anticoagulation did not reduce recurrence in trials.",
+      "tags": [
+        "ivc-filter"
+      ]
+    },
+    {
+      "id": "fd-vte-11",
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "Superficial vein thrombosis 8 cm long, near the saphenofemoral junction. How long is prophylactic-dose fondaparinux given?",
+      "a": "45 days",
+      "d": [
+        "7 days",
+        "14 days",
+        "90 days"
+      ],
+      "options": [
+        "7 days",
+        "14 days",
+        "45 days",
+        "90 days"
+      ],
+      "why": "Superficial thrombosis of 5 cm or more carries a real risk of extending into the deep system; a clot within 3 cm of the junction is treated as a deep vein thrombosis.",
+      "tags": [
+        "superficial"
+      ]
+    },
+    {
+      "id": "fd-vte-12",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which test can wait until well after acute treatment of a deep vein thrombosis has started?",
+      "a": "Thrombophilia testing",
+      "d": [
+        "A creatinine and creatinine clearance",
+        "A full blood count",
+        "A pregnancy test in a woman of childbearing age"
+      ],
+      "why": "Thrombophilia results rarely change acute management and are distorted by the clot and the drug. They are considered later, and only if the result would change the duration decision.",
+      "tags": [
+        "workup",
+        "thrombophilia"
+      ]
+    }
+  ]
+}

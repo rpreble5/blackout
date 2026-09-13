@@ -14,8 +14,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 | Topic | Status | Source |
 |---|---|---|
 | Hypertension: diagnosis, drug choice, targets | done | ACC/AHA 2017 |
-| Anticoagulation in atrial fibrillation: CHA2DS2-VASc, agent choice, bleeding | next | ACC/AHA/HRS |
-| Lipids: who gets a statin, intensity, LDL goals | next | ACC/AHA 2018 |
+| Anticoagulation in atrial fibrillation: CHA2DS2-VASc, agent choice, bleeding | done | ACC/AHA/HRS |
+| Lipids: who gets a statin, intensity, LDL goals | done | ACC/AHA 2018 |
 | Chest pain in clinic: who goes to the emergency department | later | |
 | Syncope: red flags and first tests | later | |
 | Heart failure with preserved ejection fraction | later | AHA/ACC 2022 |
@@ -26,8 +26,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 | Topic | Status | Source |
 |---|---|---|
 | Type 2 diabetes: diagnosis, targets, drug choice | done | ADA Standards |
-| Insulin in hospital and at discharge: basal, correction, sliding scale | next | ADA |
-| Hypothyroidism and the abnormal TSH | later | ATA |
+| Insulin in hospital and at discharge: basal, correction, sliding scale | done | ADA |
+| Hypothyroidism and the abnormal TSH | done | ATA |
 | Hyperglycaemic emergencies: DKA and HHS basics | later | ADA |
 | Osteoporosis: who to screen, who to treat | later | |
 
@@ -35,8 +35,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 
 | Topic | Status | Source |
 |---|---|---|
-| Asthma: stepwise therapy and the exacerbation | next | GINA |
-| COPD: staging, inhalers, exacerbations | next | GOLD |
+| Asthma: stepwise therapy and the exacerbation | done | GINA |
+| COPD: staging, inhalers, exacerbations | done | GOLD |
 | Community-acquired pneumonia: severity, antibiotics, follow-up | next | ATS/IDSA 2019 |
 | Pulmonary embolism: Wells, D-dimer, when to image | later | |
 
@@ -44,8 +44,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 
 | Topic | Status | Source |
 |---|---|---|
-| Hyperkalemia: thresholds and the order of treatment | next | |
-| Hyponatremia: rate of correction and the common causes | later | |
+| Hyperkalemia: thresholds and the order of treatment | done | |
+| Hyponatremia: rate of correction and the common causes | done | |
 | Acute kidney injury: staging and the drugs to hold | later | KDIGO |
 | Chronic kidney disease: staging and what slows it | later | KDIGO |
 
@@ -53,8 +53,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 
 | Topic | Status | Source |
 |---|---|---|
-| Urinary tract infection: cystitis, pyelonephritis, the catheter | next | IDSA |
-| Cellulitis and abscess: when to cover MRSA | later | IDSA |
+| Urinary tract infection: cystitis, pyelonephritis, the catheter | done | IDSA |
+| Cellulitis and abscess: when to cover MRSA | done | IDSA |
 | Sepsis: recognition and the first hour | later | Surviving Sepsis |
 | Clostridioides difficile: testing and treatment | later | IDSA |
 
@@ -62,32 +62,32 @@ Status: done, next, later. Source: the guideline it should rest on.
 
 | Topic | Status | Source |
 |---|---|---|
-| Upper GI bleeding: risk scores, PPI, when to scope | later | |
-| Cirrhosis: ascites, SBP prophylaxis, encephalopathy | later | AASLD |
+| Upper GI bleeding: risk scores, PPI, when to scope | done | |
+| Cirrhosis: ascites, SBP prophylaxis, encephalopathy | done | AASLD |
 | GERD and when to scope | later | ACG |
 
 ## Neurology and psychiatry
 
 | Topic | Status | Source |
 |---|---|---|
-| Depression: screening, first-line drugs, when to switch | next | |
+| Depression: screening, first-line drugs, when to switch | done | |
 | Stroke and TIA in clinic: antiplatelets, targets, driving | later | AHA/ASA |
 | Headache red flags | later | |
-| Delirium: recognising it, causes, what not to give | later | |
+| Delirium: recognising it, causes, what not to give | done | |
 
 ## Haematology and oncology
 
 | Topic | Status | Source |
 |---|---|---|
-| Anaemia: the three patterns and the first tests | later | |
-| Venous thromboembolism: duration of anticoagulation | later | CHEST |
+| Anaemia: the three patterns and the first tests | done | |
+| Venous thromboembolism: duration of anticoagulation | done | CHEST |
 
 ## Everyday ward and clinic
 
 | Topic | Status | Source |
 |---|---|---|
-| Perioperative medicine: which drugs to hold and when | later | |
-| Pain: opioid conversions and safe prescribing | later | CDC 2022 |
+| Perioperative medicine: which drugs to hold and when | done | |
+| Pain: opioid conversions and safe prescribing | done | CDC 2022 |
 | Preventive care: screening ages and intervals | later | USPSTF |
 | Vaccines for adults | later | ACIP |
 
