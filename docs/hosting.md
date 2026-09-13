@@ -50,18 +50,19 @@ local to each phone.
    - Redirect URLs: add `https://rpreble5.github.io/blackout/**` and, for
      local testing, `http://localhost:8765/**`.
 
-### 3. Hand over two values
+### 3. Keys (done 2026-09-13)
 
-In Supabase, **Settings, API**: copy the **Project URL** and the
-**anon public** key. Paste them here in chat, or put them into the two
-constants near the top of the sync block in `blackout/index.html`:
+The project URL and the publishable key are in the two constants near the
+top of the sync block in `blackout/index.html`. The secret key is in the
+git-ignored `docs/local/secrets.md` and is never used by the page:
 
 ```js
-const SUPABASE_URL='https://xxxx.supabase.co',SUPABASE_KEY='eyJ...';
+const SUPABASE_URL='https://djxniucbbckvlnfngsys.supabase.co',SUPABASE_KEY='sb_publishable_...';
 ```
 
-The anon key is meant to be public; the row-level security policies are
-what protect the data. Never share the **service_role** key.
+The publishable key is meant to be public; the row-level security policies
+are what protect the data. The secret key bypasses them, so it stays out of
+the repo.
 
 ## How sync works
 
