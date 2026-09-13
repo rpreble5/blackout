@@ -31,20 +31,18 @@ the Eclipse, a boss planet that draws four questions from every category.
 | Dust | `#6A6A72` | Secondary text |
 | Hair | `rgba(236,235,230,.14)` | Outlines, rings |
 
-Planets. Rule: c1 and c2 sit next to each other on the spectrum and carry
-the sphere. c3 is the free accent, kept small. c4 is c2 deepened, never a new
-hue. So each sphere reads as one colour family with a hint of something else.
-
-| Planet | Category | c1 light | c2 base | c3 accent | c4 dark |
-|---|---|---|---|---|---|
-| Sol | Music | `#FFE24A` | `#FF8A1F` | `#FF3D3D` | `#8A1C1C` |
-| Vesper | Astronomy | `#B49BFF` | `#7B5CFF` | `#4FA3FF` | `#2A1A6E` |
-| Halide | Science | `#7FF0D8` | `#1FB5A3` | `#2E7BFF` | `#0B4A48` |
-| Meridian | Geography | `#C9FF5E` | `#3ED47A` | `#FFD84A` | `#146B3A` |
-| Cinder | History | `#FFB061` | `#FF5A2E` | `#C1123A` | `#4A0F14` |
-| Umbra | Film and art | `#8F7BFF` | `#4B3FCC` | `#FF9A4A` | `#1B1650` |
-| Opal | Words | `#FFFFFF` | `#C6CFDC` | `#8FA4C4` | `#4E6282` |
-| Eclipse | Everything (boss) | `#C9A2FF` | `#7C3FB5` | `#FF8A5B` | `#0A0510` |
+Planet colours are procedural, generated fresh for every run (since
+2026-09-13). Palettes are built in OKLCH so lightness and chroma behave the
+same at every hue, then converted to hex. The rule is unchanged: c1 and c2
+are neighbouring hues (18 to 40 degrees apart) and carry the sphere, c3 is a
+free accent 60 to 150 degrees away, c4 is c2 deepened. Chroma is reduced
+until the colour is inside sRGB. About one palette in eight is pale, like an
+opal. A run's eight base hues are spread evenly around the wheel with jitter
+and then shuffled, skipping the olive band (about 80 to 140 degrees) that
+looks muddy at mid lightness. Shape compositions are also generated per
+sphere, jittering position, size, rotation and corner radii within the
+light-top-left, accent-right, dark-bottom structure. The hand-picked
+palettes that preceded this are in git history.
 
 Type: Sora only. Weight 200 for the title and end-screen headline, 300 for
 questions, 400 for answers, 500 for buttons and planet names. Sentence case

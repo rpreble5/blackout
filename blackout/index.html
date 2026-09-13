@@ -77,7 +77,7 @@ button{font-family:inherit}
 .map-lines path.is-lit{stroke-dashoffset:0}
 .node{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:9px;padding:6px;background:none;border:0;color:var(--dust);font:400 12px var(--font);cursor:default;transition:opacity .6s}
 .node .planet{transition:filter .6s}
-.node span{padding:1px 7px;border-radius:6px;background:#000}
+.node span{max-width:124px;padding:1px 7px;border-radius:6px;background:#000;line-height:1.25;text-align:center}
 .node.is-locked .planet{filter:saturate(.45) brightness(.55)}
 .node.is-open{cursor:pointer;color:var(--ink)}
 .node.is-open .planet{transition:transform .5s var(--ease)}
@@ -214,17 +214,37 @@ button{font-family:inherit}
 </div>
 
 <script>
-/* colours: c1 and c2 sit next to each other on the spectrum, c3 is the free accent, c4 is c2 deepened */
-const PLANETS=[
-  {name:'Sol',c:['#FFE24A','#FF8A1F','#FF3D3D','#8A1C1C']},
-  {name:'Vesper',c:['#B49BFF','#7B5CFF','#4FA3FF','#2A1A6E']},
-  {name:'Halide',c:['#7FF0D8','#1FB5A3','#2E7BFF','#0B4A48']},
-  {name:'Meridian',c:['#C9FF5E','#3ED47A','#FFD84A','#146B3A']},
-  {name:'Cinder',c:['#FFB061','#FF5A2E','#C1123A','#4A0F14']},
-  {name:'Umbra',c:['#8F7BFF','#4B3FCC','#FF9A4A','#1B1650']},
-  {name:'Opal',c:['#FFFFFF','#C6CFDC','#8FA4C4','#4E6282']},
-];
-const BOSS={name:'Eclipse',c:['#C9A2FF','#7C3FB5','#FF8A5B','#0A0510'],boss:true};
+const PLANETS=[{name:'Sol'},{name:'Vesper'},{name:'Halide'},{name:'Meridian'},{name:'Cinder'},{name:'Umbra'},{name:'Opal'}];
+const BOSS={name:'Eclipse',boss:true};
+
+/* procedural colour. Palettes are built in OKLCH so lightness and chroma mean the same thing at every hue,
+   then converted to hex (the map paths average hex colours). Rule: c1 and c2 are neighbouring hues and carry
+   the sphere, c3 is a free accent, c4 is c2 deepened. About one palette in eight is pale, like an opal. */
+function oklchToRgb(L,C,h){
+  const a=C*Math.cos(h*Math.PI/180),b=C*Math.sin(h*Math.PI/180);
+  const l_=L+0.3963377774*a+0.2158037573*b,m_=L-0.1055613458*a-0.0638541728*b,s_=L-0.0894841775*a-1.2914855480*b;
+  const l=l_**3,m=m_**3,s=s_**3;
+  return [4.0767416621*l-3.3077115913*m+0.2309699292*s,-1.2684380046*l+2.6097574011*m-0.3413193965*s,-0.0041960863*l-0.7034186147*m+1.7076147010*s];
+}
+function ok(L,C,h){
+  let c=C,rgb;
+  for(let i=0;i<14;i++){rgb=oklchToRgb(L,c,h);if(rgb.every(x=>x>=-0.003&&x<=1.003))break;c*=.86}
+  const gam=x=>{x=Math.max(0,Math.min(1,x));return x<=0.0031308?12.92*x:1.055*x**(1/2.4)-0.055};
+  return '#'+rgb.map(x=>Math.round(gam(x)*255).toString(16).padStart(2,'0')).join('');
+}
+const rnd=(a,b)=>a+Math.random()*(b-a);
+function palette(h,pale=Math.random()<.12){
+  const side=Math.random()<.5?-1:1;
+  const C=pale?rnd(.02,.05):rnd(.15,.22);
+  const c2=ok(pale?rnd(.76,.82):rnd(.58,.68),C,h);
+  const c1=ok(pale?rnd(.93,.97):rnd(.84,.90),pale?C*.6:rnd(.10,.15),h+side*rnd(18,40));
+  const c3=ok(rnd(.62,.74),pale?rnd(.05,.09):rnd(.16,.22),h+(Math.random()<.5?-1:1)*rnd(60,150));
+  const c4=ok(pale?rnd(.42,.5):rnd(.27,.36),pale?C:rnd(.09,.14),h+rnd(-10,10));
+  return [c1,c2,c3,c4];
+}
+/* eight hues spread around the wheel with jitter, so a run's planets never crowd one colour */
+/* base hues between about 80 and 140 (olive, mustard) come out muddy at mid lightness, so the wheel skips them */
+const spreadHues=n=>shuffle([...Array(n)].map((_,i)=>{const h=(i*300/n+rnd(-12,12)+360)%300;return h<80?h:h+60}));
 
 /* topics: one json file each, listed in topics/index.json. A planet is one visit to a topic. */
 let TOPICS=[];
@@ -279,29 +299,22 @@ const lum=h=>{const n=parseInt(h.slice(1),16);const f=v=>{v/=255;return v<=.0392
 
 let run=null;
 
-/* four shape layouts: [left,top,width,height,rotate,border-radius] per colour, in % of the sheet */
-const LAYOUTS=[
-  [[-12,-14,74,66,-22,'46% 54% 62% 38%'],[6,14,96,96,0,'50%'],[60,4,52,46,28,'58% 42% 50% 50%'],[-8,62,124,74,-6,'48% 52% 0 0']],
-  [[-6,-18,70,72,18,'52% 48% 40% 60%'],[0,10,100,100,0,'50%'],[50,-8,62,42,-30,'64% 36% 52% 48%'],[24,58,112,80,10,'40% 60% 0 0']],
-  [[-16,-2,64,80,-38,'40% 60% 56% 44%'],[8,8,92,98,0,'50%'],[64,22,50,54,12,'50% 50% 42% 58%'],[-14,70,120,64,4,'60% 40% 0 0']],
-  [[-4,-16,84,54,8,'56% 44% 48% 52%'],[4,12,96,96,0,'50%'],[68,-2,46,68,40,'44% 56% 60% 40%'],[-10,64,116,78,-14,'52% 48% 0 0']],
-];
-/* the same idea as a sphere, sliced into a bar: shapes across a wide sheet, blurred, cropped to a strip */
-function paintBand(el,cols){
-  el.querySelector('.sheet')?.remove();
-  const sheet=document.createElement('span');sheet.className='sheet';sheet.style.background=cols[1];
-  [[-10,0,46,100,cols[0]],[54,0,34,100,cols[2]],[84,0,30,100,cols[3]]].forEach(([x,y,w,h,c])=>{
-    const sh=document.createElement('i');
-    sh.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%;border-radius:50%;background:${c}`;
-    sheet.appendChild(sh);
-  });
-  el.appendChild(sheet);
+/* a shape composition: light shape top-left, base circle, a smaller accent to the right, dark along the bottom.
+   Every value is jittered so no two spheres share a layout. Units are % of the sheet. */
+function shapes(){
+  const br=()=>`${rnd(38,62)|0}% ${rnd(38,62)|0}% ${rnd(38,62)|0}% ${rnd(38,62)|0}%`;
+  return [
+    [rnd(-18,-2),rnd(-20,-4),rnd(60,84),rnd(52,72),rnd(-40,20),br()],
+    [rnd(0,10),rnd(6,16),rnd(90,100),rnd(90,100),0,'50%'],
+    [rnd(54,70),rnd(-10,24),rnd(44,56),rnd(40,70),rnd(-30,40),br()],
+    [rnd(-14,-2),rnd(58,72),rnd(112,124),rnd(64,82),rnd(-14,14),`${rnd(40,60)|0}% ${rnd(40,60)|0}% 0 0`],
+  ];
 }
-function paint(el,cols,size,layout=0){
+function paint(el,cols,size){
   if(size)el.style.setProperty('--s',size+'px');
   el.querySelector('.sheet')?.remove();
   const sheet=document.createElement('span');sheet.className='sheet';sheet.style.background=cols[1];
-  LAYOUTS[layout%LAYOUTS.length].forEach(([x,y,w,h,r,br],i)=>{
+  shapes().forEach(([x,y,w,h,r,br],i)=>{
     const sh=document.createElement('i');
     sh.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%;transform:rotate(${r}deg);border-radius:${br};background:${cols[i]};z-index:${[3,1,4,2][i]}`;
     sheet.appendChild(sh);
@@ -320,13 +333,15 @@ function syncLights(){['map-lights','q-lights','end-lights'].forEach(id=>{
 })}
 
 /* title */
-paint($('horizon'),PLANETS[Math.random()*PLANETS.length|0].c,null,Math.random()*4|0);
+paint($('horizon'),palette(rnd(0,360)));
 
 function newRun(){
-  const order=shuffle(PLANETS);
+  const hues=spreadHues(NODES.length);
+  const order=shuffle(PLANETS).map((p,i)=>({...p,c:palette(hues[i])}));
+  const boss={...BOSS,c:palette(hues[NODES.length-1],false)};
   const cycle=shuffle(TOPICS);
   const topics=NODES.map((n,i)=>i===NODES.length-1?null:cycle[i%cycle.length]);
-  run={planets:[...order,BOSS],topics,lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
+  run={planets:[...order,boss],topics,lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
   $('map-note').textContent='Choose a planet';
   buildMap();syncLights();
   show('s-map');
@@ -362,7 +377,7 @@ function buildMap(){
     const p=run.planets[i];
     const b=document.createElement('button');
     b.className='node';b.style.left=n.x+'%';b.style.top=n.y+'%';b.dataset.i=i;
-    const pl=document.createElement('div');pl.className='planet';paint(pl,p.c,SIZES[i],i);pl.style.setProperty('--d',(-i*3)+'s');
+    const pl=document.createElement('div');pl.className='planet';paint(pl,p.c,SIZES[i]);pl.style.setProperty('--d',(-i*3)+'s');
     const nm=document.createElement('span');nm.textContent=run.topics[i]?run.topics[i].short:'Everything so far';
     b.append(pl,nm);b.addEventListener('click',()=>{if(run.open.includes(i))travel(i)});
     field.appendChild(b);
@@ -425,7 +440,7 @@ async function quiz(i){
     wrap.style.setProperty('--fill-a',c1);wrap.style.setProperty('--fill-b',c2);wrap.style.setProperty('--fill-ink',lum(c2)>.14?'#000':'#ECEBE6');
     options.forEach((t,j)=>{
       const b=document.createElement('button');b.className='answer';
-      const orb=document.createElement('span');orb.className='planet';paint(orb,orders[j%4],null,j);orb.style.setProperty('--d',(-j*5)+'s');
+      const orb=document.createElement('span');orb.className='planet';paint(orb,orders[j%4]);orb.style.setProperty('--d',(-j*5)+'s');
       const label=document.createElement('span');label.textContent=t;
       b.append(orb,label);b.dataset.t=t;wrap.appendChild(b);
     });
