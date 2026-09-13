@@ -96,7 +96,7 @@ button{font-family:inherit}
 @keyframes slide{from{transform:translateX(-3%)}to{transform:translateX(3%)}}
 /* the band doubles as progress: the part not yet earned sits under a dark scrim that slides right */
 .band .dim{position:absolute;top:0;bottom:0;right:0;left:var(--p,0%);z-index:1;background:rgba(0,0,0,.72);transition:left .9s var(--ease)}
-.quiz .body{flex:1;display:flex;flex-direction:column;justify-content:safe center;padding-bottom:6vh;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;margin:0 -24px;padding-left:24px;padding-right:24px;transition:opacity .35s var(--ease)}
+.quiz .body{flex:1;display:flex;flex-direction:column;justify-content:safe center;padding-bottom:6vh;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:none;margin:0 -24px;padding-left:24px;padding-right:24px;transition:opacity .35s var(--ease)}
 .quiz .body::-webkit-scrollbar{display:none}
 .quiz .body.is-swapping{opacity:0}
 /* while the body is hidden, state changes inside it snap instead of animating */
@@ -111,10 +111,10 @@ button{font-family:inherit}
 .quiz .why{font-size:21px;font-weight:300;line-height:1.4;max-width:30ch;opacity:0}
 .quiz .prompt.is-why h2{opacity:0}
 .quiz .prompt.is-why .why{opacity:1}
-.answers{display:flex;flex-direction:column;gap:4px;margin:0 -16px}
-.answer{position:relative;isolation:isolate;display:flex;align-items:center;gap:16px;width:100%;min-height:52px;padding:8px 16px;border:0;border-radius:18px;background:none;color:var(--ink);font:400 17px/1.35 var(--font);text-align:left;cursor:pointer;transition:color .45s var(--ease),opacity .45s var(--ease)}
-.answer::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transform:scale(.55,.7);transform-origin:17px 50%;transition:opacity .45s var(--ease),transform .55s cubic-bezier(.2,.8,.2,1)}
-.answer .tick{position:relative;flex:none;width:3px;height:22px;border-radius:2px;overflow:hidden;background:#111;transform:translateZ(0);transition:opacity .45s var(--ease),transform .45s var(--ease)}
+.answers{display:flex;flex-direction:column;gap:4px;margin:0 -24px}
+.answer{position:relative;isolation:isolate;display:flex;align-items:center;width:100%;min-height:52px;padding:8px 24px;border:0;border-radius:0 18px 18px 0;background:none;color:var(--ink);font:400 17px/1.35 var(--font);text-align:left;cursor:pointer;transition:color .45s var(--ease),opacity .45s var(--ease)}
+.answer::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transform:scale(.55,.7);transform-origin:0 50%;transition:opacity .45s var(--ease),transform .55s cubic-bezier(.2,.8,.2,1)}
+.answer .tick{position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 2px 2px 0;overflow:hidden;background:#111;transform:translateZ(0);transition:opacity .45s var(--ease),transform .45s var(--ease)}
 .answer .tick .sheet{position:absolute;inset:-6% -500%;filter:blur(4px)}
 .answer .tick .sheet i{position:absolute;display:block}
 .answer.is-correct::before{opacity:1;transform:scale(1)}
@@ -126,9 +126,8 @@ button{font-family:inherit}
 .answer.is-miss{opacity:.6}
 .answer.is-miss .tick{filter:grayscale(1) brightness(.45)}
 /* dense lists for six or more options */
-.answers.is-dense .answer{min-height:46px;padding:6px 16px;font-size:16px;gap:14px}
-.answers.is-dense .answer .tick{height:18px}
-.answers.is-dense .answer::before{transform-origin:17px 50%}
+.answers.is-dense .answer{min-height:46px;padding:6px 24px;font-size:16px}
+.answers.is-dense .answer .tick{top:9px;bottom:9px}
 .answer[disabled]{cursor:default}
 
 /* notes: swipe left on a question to write one */
