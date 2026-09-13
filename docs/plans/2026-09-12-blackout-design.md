@@ -58,7 +58,9 @@ everywhere. No all-caps labels.
    by curved paths. Each path is an S-curve that leaves and arrives
    vertically with a small sideways lean, stroked with a gradient from one
    planet's average colour to the other's (mean of its four colours). Paths
-   out of the current planet are at full opacity; the rest sit at 28%.
+   are hidden until travelled: choosing a planet draws its path in (0.7 s)
+   before the quiz fades in, and the travelled route stays lit. Showing all
+   paths at once was rejected.
    Reachable planets are full colour and grow slightly on hover. Locked ones
    are desaturated. Visited ones stay at full colour (fading them was
    rejected). No rings (tried and rejected).
