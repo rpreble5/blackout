@@ -111,10 +111,10 @@ button{font-family:inherit}
 .quiz .why{font-size:21px;font-weight:300;line-height:1.4;max-width:30ch;opacity:0}
 .quiz .prompt.is-why h2{opacity:0}
 .quiz .prompt.is-why .why{opacity:1}
-.answers{display:flex;flex-direction:column;gap:4px;margin:0 -16px}
+.answers{display:flex;flex-direction:column;gap:10px;margin:0 -16px}
 .answer{position:relative;isolation:isolate;display:flex;align-items:center;gap:16px;width:100%;min-height:52px;padding:8px 16px;border:0;border-radius:18px;background:none;color:var(--ink);font:400 17px/1.35 var(--font);text-align:left;cursor:pointer;transition:color .45s var(--ease),opacity .45s var(--ease)}
-.answer::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transform:scale(.55,.7);transform-origin:28px 50%;transition:opacity .45s var(--ease),transform .55s cubic-bezier(.2,.8,.2,1)}
-.answer .dot{flex:none;width:24px;height:24px;border-radius:50%;background:var(--dot);transition:opacity .45s var(--ease),transform .45s var(--ease),filter .5s}
+.answer::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transform:scale(.55,.7);transform-origin:25px 50%;transition:opacity .45s var(--ease),transform .55s cubic-bezier(.2,.8,.2,1)}
+.answer .dot{flex:none;width:18px;height:18px;border-radius:50%;background:var(--dot);transition:opacity .45s var(--ease),transform .45s var(--ease),filter .5s}
 .answer.is-correct::before{opacity:1;transform:scale(1)}
 .answer.is-correct{color:var(--fill-ink)}
 .answer.is-correct .dot{opacity:0;transform:scale(.5)}
@@ -124,9 +124,10 @@ button{font-family:inherit}
 .answer.is-miss{opacity:.6}
 .answer.is-miss .dot{filter:grayscale(1) brightness(.45)}
 /* dense lists for six or more options */
-.answers.is-dense .answer{min-height:46px;padding:6px 16px;font-size:16px;gap:14px}
-.answers.is-dense .answer .dot{width:20px;height:20px}
-.answers.is-dense .answer::before{transform-origin:26px 50%}
+.answers.is-dense .answer{min-height:44px;padding:5px 16px;font-size:16px;gap:14px}
+.answers.is-dense .answer .dot{width:15px;height:15px}
+.answers.is-dense .answer::before{transform-origin:23px 50%}
+.answers.is-dense{gap:6px}
 .answer[disabled]{cursor:default}
 
 /* notes: swipe left on a question to write one */
