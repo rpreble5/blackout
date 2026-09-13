@@ -3,136 +3,341 @@
   "title": "HFrEF: add-on drugs, iron, devices, and trouble on therapy",
   "short": "HFrEF, beyond the pillars",
   "specialty": "Cardiology",
-  "tags": ["heart-failure", "hfref", "secondary-therapy", "iron", "devices", "adverse-effects"],
+  "tags": [
+    "heart-failure",
+    "hfref",
+    "secondary-therapy",
+    "iron",
+    "devices",
+    "adverse-effects"
+  ],
   "source": {
     "citation": "Gauer RL, Rifaat A, Foulkrod AM. Heart Failure With Reduced Ejection Fraction: Medical Management. Am Fam Physician. 2025;112(2):131-145.",
     "facts": "docs/facts/hfref.md (topic C)"
   },
   "questions": [
     {
-      "id": "hf-by-01", "type": "single", "difficulty": 2,
+      "id": "hf-by-01",
+      "type": "single",
+      "difficulty": 2,
       "q": "A patient with HFrEF and atrial fibrillation still has a fast ventricular rate on a maximally tolerated beta blocker. Which drug is indicated next?",
       "a": "Digoxin",
-      "d": ["Ivabradine", "Vericiguat", "Diltiazem"],
+      "d": [
+        "Ivabradine",
+        "Vericiguat",
+        "Diltiazem"
+      ],
       "why": "Digoxin cuts hospitalisation but not mortality, and is avoided in sinus or atrioventricular block without a pacemaker. Diltiazem worsens HFrEF.",
-      "tags": ["digoxin", "atrial-fibrillation"]
+      "tags": [
+        "digoxin",
+        "atrial-fibrillation"
+      ]
     },
     {
-      "id": "hf-by-02", "type": "single", "difficulty": 2,
+      "id": "hf-by-02",
+      "type": "single",
+      "difficulty": 2,
       "q": "In which patients is isosorbide dinitrate with hydralazine added on top of a RAS/neprilysin inhibitor?",
       "a": "Self-identified Black patients with persistent symptoms",
-      "d": ["All patients over 75", "Patients with atrial fibrillation", "Patients with an eGFR under 30"],
+      "d": [
+        "All patients over 75",
+        "Patients with atrial fibrillation",
+        "Patients with an eGFR under 30"
+      ],
       "why": "The combination is also the substitute for patients who cannot tolerate any RAS/neprilysin inhibitor at all.",
-      "tags": ["hydralazine-nitrate"]
+      "tags": [
+        "hydralazine-nitrate"
+      ]
     },
     {
-      "id": "hf-by-03", "type": "single", "difficulty": 3,
+      "id": "hf-by-03",
+      "type": "single",
+      "difficulty": 3,
       "q": "Which patient is a candidate for ivabradine?",
       "a": "Sinus rhythm with a heart rate of 70 or more on a maximally tolerated beta blocker",
-      "d": ["Atrial fibrillation with a rate over 100", "Sinus rhythm with a heart rate of 55 on no beta blocker", "Any patient with NYHA class IV symptoms"],
+      "d": [
+        "Atrial fibrillation with a rate over 100",
+        "Sinus rhythm with a heart rate of 55 on no beta blocker",
+        "Any patient with NYHA class IV symptoms"
+      ],
       "why": "It is titrated at 2 weeks toward a heart rate of 50 to 60; its adverse effects are atrial fibrillation, symptomatic bradycardia and visual disturbance.",
-      "tags": ["ivabradine"]
+      "tags": [
+        "ivabradine"
+      ]
     },
     {
-      "id": "hf-by-04", "type": "single", "difficulty": 3,
+      "id": "hf-by-04",
+      "type": "single",
+      "difficulty": 3,
       "q": "Vericiguat is reserved for which patients?",
       "a": "Recent admission for worsening heart failure, or outpatient intravenous diuretics",
-      "d": ["Newly diagnosed patients before GDMT", "Patients with atrial fibrillation", "Patients who cannot tolerate beta blockers"],
+      "d": [
+        "Newly diagnosed patients before GDMT",
+        "Patients with atrial fibrillation",
+        "Patients who cannot tolerate beta blockers"
+      ],
       "why": "It is a soluble guanylate cyclase stimulator, titrated every 2 weeks to 10 mg, and avoided with long-acting nitrates or PDE-5 inhibitors.",
-      "tags": ["vericiguat"]
+      "tags": [
+        "vericiguat"
+      ]
     },
     {
-      "id": "hf-by-05", "type": "single", "difficulty": 2,
+      "id": "hf-by-05",
+      "type": "single",
+      "difficulty": 2,
       "q": "What does intravenous iron improve in HFrEF with iron deficiency?",
       "a": "Functional status and quality of life",
-      "d": ["All-cause mortality", "Ejection fraction", "Kidney function"],
+      "d": [
+        "All-cause mortality",
+        "Ejection fraction",
+        "Kidney function"
+      ],
       "why": "Earlier trials showed 22% to 25% fewer heart failure hospitalisations and a 2025 trial a nonsignificant reduction; mortality is unchanged (SORT B).",
-      "tags": ["iron", "sort"]
+      "tags": [
+        "iron",
+        "sort"
+      ]
     },
     {
-      "id": "hf-by-06", "type": "single", "difficulty": 2, "order": "fixed",
+      "id": "hf-by-06",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "Below what ferritin level is a heart failure patient iron deficient regardless of transferrin saturation?",
       "a": "100 ng/mL",
-      "d": ["30 ng/mL", "300 ng/mL", "500 ng/mL"],
-      "options": ["30 ng/mL", "100 ng/mL", "300 ng/mL", "500 ng/mL"],
+      "d": [
+        "30 ng/mL",
+        "300 ng/mL",
+        "500 ng/mL"
+      ],
+      "options": [
+        "30 ng/mL",
+        "100 ng/mL",
+        "300 ng/mL",
+        "500 ng/mL"
+      ],
       "why": "Between 100 and 300 the diagnosis needs a transferrin saturation under 20%. Iron deficiency affects 40% to 60% of patients, with or without anaemia.",
-      "tags": ["iron"]
+      "tags": [
+        "iron"
+      ]
     },
     {
-      "id": "hf-by-07", "type": "single", "difficulty": 3, "order": "fixed",
+      "id": "hf-by-07",
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
       "q": "For how long should GDMT be optimised before an ICD is recommended for ischaemic HFrEF with an ejection fraction of 35% or less?",
       "a": "3 months",
-      "d": ["2 weeks", "6 weeks", "12 months"],
-      "options": ["2 weeks", "6 weeks", "3 months", "12 months"],
+      "d": [
+        "2 weeks",
+        "6 weeks",
+        "12 months"
+      ],
+      "options": [
+        "2 weeks",
+        "6 weeks",
+        "3 months",
+        "12 months"
+      ],
       "why": "Devices come after drugs because ejection fraction often improves on GDMT; cardiac resynchronisation is a separate decision, for selected patients with a QRS over 150 ms.",
-      "tags": ["icd", "crt"]
+      "tags": [
+        "icd",
+        "crt"
+      ]
     },
     {
-      "id": "hf-by-08", "type": "single", "difficulty": 2,
+      "id": "hf-by-08",
+      "type": "single",
+      "difficulty": 2,
       "q": "In HFrEF with atrial fibrillation, what does catheter ablation offer over conventional therapy?",
       "a": "Fewer heart failure events",
-      "d": ["Freedom from anticoagulation", "Lower bleeding risk", "No further need for a beta blocker"],
+      "d": [
+        "Freedom from anticoagulation",
+        "Lower bleeding risk",
+        "No further need for a beta blocker"
+      ],
       "why": "Ablation also improves ejection fraction, and the guidance is that it should be strongly considered in selected patients rather than reserved for failure of rate control.",
-      "tags": ["ablation", "atrial-fibrillation"]
+      "tags": [
+        "ablation",
+        "atrial-fibrillation"
+      ]
     },
     {
-      "id": "hf-by-09", "type": "multi", "difficulty": 3,
+      "id": "hf-by-09",
+      "type": "multi",
+      "difficulty": 3,
       "q": "A patient on full GDMT has symptomatic hypotension. Which steps come before reducing any GDMT dose?",
-      "a": ["Look for other blood-pressure-lowering drugs", "Reassess the need for ongoing diuresis", "Retime doses across the day"],
-      "d": ["Start midodrine", "Stop the SGLT-2 inhibitor", "Stop the beta blocker"],
+      "a": [
+        "Look for other blood-pressure-lowering drugs",
+        "Reassess the need for ongoing diuresis",
+        "Retime doses across the day"
+      ],
+      "d": [
+        "Start midodrine",
+        "Stop the SGLT-2 inhibitor",
+        "Stop the beta blocker"
+      ],
       "why": "Midodrine has been used off label to make GDMT tolerable but is associated with worse outcomes, and GDMT gives the same benefit at low blood pressure as at high.",
-      "tags": ["hypotension"]
+      "tags": [
+        "hypotension"
+      ]
     },
     {
-      "id": "hf-by-10", "type": "single", "difficulty": 3,
+      "id": "hf-by-10",
+      "type": "single",
+      "difficulty": 3,
       "q": "When a GDMT dose must be reduced for hypotension, which class is reduced first?",
       "a": "The RAS/neprilysin inhibitor",
-      "d": ["The beta blocker", "The mineralocorticoid receptor antagonist", "The SGLT-2 inhibitor"],
+      "d": [
+        "The beta blocker",
+        "The mineralocorticoid receptor antagonist",
+        "The SGLT-2 inhibitor"
+      ],
       "why": "The order is RAS/neprilysin inhibitor, then beta blocker, then mineralocorticoid receptor antagonist; MRAs and SGLT-2 inhibitors barely lower blood pressure.",
-      "tags": ["hypotension", "sequencing"]
+      "tags": [
+        "hypotension",
+        "sequencing"
+      ]
     },
     {
-      "id": "hf-by-11", "type": "single", "difficulty": 2, "order": "fixed",
+      "id": "hf-by-11",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "Above what potassium level should a mineralocorticoid receptor antagonist be stopped?",
       "a": "6.0 mEq/L",
-      "d": ["5.0 mEq/L", "5.5 mEq/L", "6.5 mEq/L"],
-      "options": ["5.0 mEq/L", "5.5 mEq/L", "6.0 mEq/L", "6.5 mEq/L"],
+      "d": [
+        "5.0 mEq/L",
+        "5.5 mEq/L",
+        "6.5 mEq/L"
+      ],
+      "options": [
+        "5.0 mEq/L",
+        "5.5 mEq/L",
+        "6.0 mEq/L",
+        "6.5 mEq/L"
+      ],
       "why": "Between 5.6 and 5.9 the dose is reduced, and it can resume at a lower dose once potassium is under 5.0. Adding an SGLT-2 inhibitor is prioritised because it lowers hyperkalemia risk.",
-      "tags": ["hyperkalemia", "mra"]
+      "tags": [
+        "hyperkalemia",
+        "mra"
+      ]
     },
     {
-      "id": "hf-by-12", "type": "single", "difficulty": 3, "order": "fixed",
+      "id": "hf-by-12",
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
       "q": "A clinically stable patient's eGFR falls after GDMT is started. Up to what decline is acceptable without stopping therapy?",
       "a": "30%",
-      "d": ["10%", "20%", "50%"],
-      "options": ["10%", "20%", "30%", "50%"],
+      "d": [
+        "10%",
+        "20%",
+        "50%"
+      ],
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "50%"
+      ],
       "why": "RAS/neprilysin inhibitors and SGLT-2 inhibitors both cause an early dip and then slow long-term decline; maintenance dosing reduces progression to end-stage kidney disease.",
-      "tags": ["kidney", "gdmt"]
+      "tags": [
+        "kidney",
+        "gdmt"
+      ]
     },
     {
-      "id": "hf-by-13", "type": "single", "difficulty": 2, "order": "fixed",
+      "id": "hf-by-13",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "Below what eGFR is spironolactone contraindicated?",
       "a": "30 mL/min per 1.73 m²",
-      "d": ["15 mL/min per 1.73 m²", "45 mL/min per 1.73 m²", "60 mL/min per 1.73 m²"],
-      "options": ["15 mL/min per 1.73 m²", "30 mL/min per 1.73 m²", "45 mL/min per 1.73 m²", "60 mL/min per 1.73 m²"],
+      "d": [
+        "15 mL/min per 1.73 m²",
+        "45 mL/min per 1.73 m²",
+        "60 mL/min per 1.73 m²"
+      ],
+      "options": [
+        "15 mL/min per 1.73 m²",
+        "30 mL/min per 1.73 m²",
+        "45 mL/min per 1.73 m²",
+        "60 mL/min per 1.73 m²"
+      ],
       "why": "Eplerenone's cutoff is 30 or less and finerenone's 25 or less. SGLT-2 inhibitors, by contrast, can be continued down to an eGFR of 15.",
-      "tags": ["mra", "kidney"]
+      "tags": [
+        "mra",
+        "kidney"
+      ]
     },
     {
-      "id": "hf-by-14", "type": "multi", "difficulty": 3,
+      "id": "hf-by-14",
+      "type": "multi",
+      "difficulty": 3,
       "q": "Which findings are criteria for referral to an advanced heart failure team?",
-      "a": ["More than two hospitalisations in 6 months", "Inability to titrate GDMT", "Ejection fraction under 20% with persistent class III or IV symptoms", "A defibrillator shock"],
-      "d": ["A single admission in the past year", "An ejection fraction of 35% on stable GDMT", "Age over 80"],
+      "a": [
+        "More than two hospitalisations in 6 months",
+        "Inability to titrate GDMT",
+        "Ejection fraction under 20% with persistent class III or IV symptoms",
+        "A defibrillator shock"
+      ],
+      "d": [
+        "A single admission in the past year",
+        "An ejection fraction of 35% on stable GDMT",
+        "Age over 80"
+      ],
       "why": "Palliative care is indicated alongside when there is cardiac cachexia, meaning 5% unintentional weight loss in a year, frequent admissions, or ineligibility for transplant.",
-      "tags": ["advanced-hf", "palliative"]
+      "tags": [
+        "advanced-hf",
+        "palliative"
+      ]
     },
     {
-      "id": "hf-by-15", "type": "single", "difficulty": 2,
+      "id": "hf-by-15",
+      "type": "single",
+      "difficulty": 2,
       "q": "What defines worsening heart failure?",
       "a": "Progressive symptoms, hospitalisation or escalating diuretic need despite stable GDMT",
-      "d": ["Any hospitalisation for any cause", "Symptoms after missed GDMT doses", "An ejection fraction that has not improved"],
+      "d": [
+        "Any hospitalisation for any cause",
+        "Symptoms after missed GDMT doses",
+        "An ejection fraction that has not improved"
+      ],
       "why": "It carries 23% two-year mortality and 56% readmission within 30 days. Patients not adhering to GDMT are not counted as worsening.",
-      "tags": ["worsening-hf"]
+      "tags": [
+        "worsening-hf"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "generic": "finerenone",
+      "brand": "Kerendia"
+    },
+    {
+      "generic": "ivabradine",
+      "brand": "Corlanor"
+    },
+    {
+      "generic": "vericiguat",
+      "brand": "Verquvo"
+    },
+    {
+      "generic": "isosorbide dinitrate-hydralazine",
+      "brand": "BiDil"
+    },
+    {
+      "generic": "ferric carboxymaltose",
+      "brand": "Injectafer"
+    },
+    {
+      "generic": "ferric derisomaltose",
+      "brand": "Monoferric"
+    },
+    {
+      "generic": "ethacrynic acid",
+      "brand": "Edecrin"
     }
   ]
 }

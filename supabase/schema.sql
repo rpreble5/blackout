@@ -10,9 +10,10 @@ create table if not exists public.attempts (
   qid         text not null,                          -- question id, e.g. as-dx-01
   topic       text not null,                          -- topic id, e.g. aortic-stenosis-diagnosis
   ok          boolean not null,
-  ctx         text not null check (ctx in ('planet', 'boss', 'void')),
+  ctx         text not null check (ctx in ('planet', 'boss', 'void', 'bonus')),
   at          timestamptz not null,                   -- when the player answered, device clock
   device      text,
+  credits     integer not null default 0,              -- earned on bonus levels; the player's balance is the sum
   created_at  timestamptz not null default now()      -- when the row reached the server; used for incremental pulls
 );
 
@@ -40,6 +41,11 @@ create policy "players update own attempts"
   with check (auth.uid() = user_id);
 
 -- No delete policy on purpose: the log is append-only.
+
+-- Applied 2026-09-13 as a migration after the first version of this file:
+--   alter table public.attempts drop constraint attempts_ctx_check;
+--   alter table public.attempts add constraint attempts_ctx_check check (ctx in ('planet','boss','void','bonus'));
+--   alter table public.attempts add column if not exists credits integer not null default 0;
 
 -- Handy views for looking at progress from the dashboard (respect the same policies).
 create or replace view public.topic_accuracy as

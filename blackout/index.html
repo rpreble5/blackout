@@ -152,6 +152,28 @@ button{font-family:inherit}
 .quiz.is-void .lights{visibility:hidden}
 .end .notes{margin-top:14px}
 
+/* bonus: matching */
+.status{display:flex;align-items:center;gap:14px}
+.credits{font-size:12.5px;color:var(--dust)}
+.bonus .head{display:flex;align-items:flex-start;gap:14px}
+.bonus .head .where{flex:1;line-height:1.25}
+.bonus .head .where b{display:block;font-weight:500;font-size:15px}
+.bonus .head .where span{display:block;font-size:12.5px;color:var(--dust)}
+.bonus .body{flex:1;display:flex;flex-direction:column;justify-content:safe center;padding-bottom:6vh;overflow-y:auto;overflow-x:hidden;margin:0 -24px;padding-left:24px;padding-right:24px;transition:opacity .35s var(--ease)}
+.bonus .body.is-swapping{opacity:0}
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px}
+.pair{position:relative;isolation:isolate;min-height:52px;padding:10px 14px;border:1px solid var(--hair);border-radius:16px;background:none;color:var(--ink);font:400 15px/1.3 var(--font);text-align:left;cursor:pointer;transition:border-color .3s,color .4s,opacity .5s}
+.pair::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transition:opacity .4s var(--ease)}
+.pair.is-pick{border-color:rgba(236,235,230,.6)}
+.pair.is-done{color:var(--fill-ink);border-color:transparent;pointer-events:none}
+.pair.is-done::before{opacity:.6}
+.pair.is-wrong{animation:shake .35s var(--ease)}
+@keyframes shake{20%{transform:translateX(-4px)}60%{transform:translateX(4px)}}
+.bonus .result{margin:26px 0 0;font-size:15px;line-height:1.5;color:var(--dust);opacity:0;transition:opacity .5s var(--ease)}
+.bonus .result.is-in{opacity:1}
+/* a bonus node on the map is a ring, not a sphere */
+.node.is-bonus .planet{-webkit-mask:radial-gradient(circle,transparent 56%,#000 58%);mask:radial-gradient(circle,transparent 56%,#000 58%)}
+
 /* end */
 .end{justify-content:center}
 .end h2{margin:0;font-size:40px;font-weight:200;letter-spacing:-.02em;line-height:1.05}
@@ -184,7 +206,7 @@ button{font-family:inherit}
   <section class="screen map" id="s-map">
     <div class="head">
       <p id="map-note">Choose a planet</p>
-      <div class="lights" id="map-lights"></div>
+      <div class="status"><span class="credits" id="credits" hidden></span><div class="lights" id="map-lights"></div></div>
     </div>
     <div class="map-body" id="map-body">
       <div class="map-field" id="map-field">
@@ -211,6 +233,18 @@ button{font-family:inherit}
           <div class="note-actions"><button class="btn is-primary" id="note-save">Save note</button><button class="btn" id="note-cancel">Cancel</button></div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="screen bonus" id="s-bonus">
+    <div class="head">
+      <div class="where"><b id="b-name">Names</b><span id="b-cat">Match each generic to its brand</span></div>
+      <div class="status"><span class="credits" id="b-credits" hidden></span><div class="lights" id="b-lights"></div></div>
+    </div>
+    <div class="band" id="b-band"><span class="dim" id="b-dim"></span></div>
+    <div class="body" id="b-body">
+      <div class="pairs" id="b-pairs"></div>
+      <p class="result" id="b-result"></p>
     </div>
   </section>
 
@@ -299,6 +333,7 @@ function derive(){
   const entries=log.get().slice().sort((a,b)=>a.at<b.at?-1:a.at>b.at?1:0);
   const q={},topics={};
   for(const e of entries){
+    if(e.ctx==='bonus')continue;
     const st=q[e.qid]||(q[e.qid]={streak:0,inVoid:false,seen:0,last:null});
     st.seen++;st.last=e.at;
     if(e.ok){st.streak++;if(st.inVoid&&st.streak>=VOID_STREAK)st.inVoid=false}
@@ -307,6 +342,9 @@ function derive(){
   }
   return memo={q,topics};
 }
+function credits(){return log.get().reduce((n,e)=>n+(e.credits||0),0)}
+function renderCredits(){const n=credits();document.querySelectorAll('.credits').forEach(el=>{el.hidden=n===0;el.textContent=n===1?'1 credit':n+' credits'})}
+function pairsPool(){return TOPICS.flatMap(t=>(t.pairs||[]).map(x=>({...x,topic:t})))}
 function voidQuestions(){
   const {q}=derive();
   return TOPICS.flatMap(t=>t.questions).filter(x=>q[x.id]?.inVoid);
@@ -405,7 +443,7 @@ function renderLights(el,n){
   el.innerHTML='';
   for(let i=0;i<MAX_LIGHTS;i++){const d=document.createElement('span');d.className='light'+(i<n?'':' is-out');el.appendChild(d)}
 }
-function syncLights(){['map-lights','q-lights','end-lights'].forEach(id=>{
+function syncLights(){['map-lights','q-lights','end-lights','b-lights'].forEach(id=>{
   const el=$(id);
   if(el.children.length!==MAX_LIGHTS)renderLights(el,run.lights);
   [...el.children].forEach((d,i)=>d.classList.toggle('is-out',i>=run.lights));
@@ -420,9 +458,11 @@ async function newRun(){
   const boss={...BOSS,c:palette(hues[NODES.length-1],false)};
   const cycle=shuffle(TOPICS);
   const topics=NODES.map((n,i)=>i===NODES.length-1?null:cycle[i%cycle.length]);
+  const bonusAt=pairsPool().length>=4?[2,3,4,5,6][Math.random()*5|0]:-1;
+  if(bonusAt>=0)topics[bonusAt]=BONUS_NAMES;
   run={planets:[...order,boss],topics,lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
   $('map-note').textContent='Choose a planet';
-  buildMap();syncLights();
+  buildMap();syncLights();renderCredits();
   requestAnimationFrame(()=>{$('map-body').scrollTop=$('map-body').scrollHeight});
   await voidSession();
   show('s-map');
@@ -458,8 +498,9 @@ function buildMap(){
     const b=document.createElement('button');
     b.className='node';b.style.left=n.x+'%';b.style.top=n.y+'%';b.dataset.i=i;
     const pl=document.createElement('div');pl.className='planet';paint(pl,p.c,SIZES[i]);pl.style.setProperty('--d',(-i*3)+'s');
+    if(run.topics[i]?.bonus)b.classList.add('is-bonus');
     const nm=document.createElement('span');nm.textContent=run.topics[i]?run.topics[i].short:'Everything so far';
-    const st=run.topics[i]&&derive().topics[run.topics[i].id];
+    const st=run.topics[i]&&!run.topics[i].bonus&&derive().topics[run.topics[i].id];
     if(st&&st.n>=3){const pct=document.createElement('span');pct.className='pct';pct.textContent=Math.round(st.ok/st.n*100)+'% over '+st.n;nm.appendChild(pct)}
     b.append(pl,nm);b.addEventListener('click',()=>{if(run.open.includes(i))travel(i)});
     field.appendChild(b);
@@ -481,6 +522,11 @@ function syncMap(){
 
 async function travel(i){
   const p=run.planets[i];
+  if(run.topics[i]?.bonus){
+    run.open=[];syncMap();
+    if(run.here>=0){run.route.push(run.here+'-'+i);document.querySelector(`.map-lines path[data-edge="${run.here}-${i}"]`)?.classList.add('is-lit');await sleep(reduced?0:750)}
+    return matching(i);
+  }
   run.open=[];syncMap();
   if(run.here>=0){
     run.route.push(run.here+'-'+i);
@@ -515,6 +561,7 @@ async function quiz(i){
   syncMap();syncLights();
   show('s-map');
 }
+const BONUS_NAMES={id:'bonus-names',short:'Names',specialty:'Brand and generic',bonus:'names'};
 /* the void: up to ten questions you have missed, answered before the map. No lights at stake. */
 const VOID={name:'The void',c:['#ECEBE6','#8C8C94','#5A5A63','#232328']};
 async function voidSession(){
@@ -670,16 +717,16 @@ async function sync(){
     const entries=log.get(),done=sent.get();
     const pending=entries.filter(e=>!done.has(e.id));
     if(pending.length){
-      const rows=pending.map(e=>({id:e.id,user_id:user.id,qid:e.qid,topic:e.topic,ok:e.ok,ctx:e.ctx,at:e.at,device:e.device}));
+      const rows=pending.map(e=>({id:e.id,user_id:user.id,qid:e.qid,topic:e.topic,ok:e.ok,ctx:e.ctx,at:e.at,device:e.device,credits:e.credits||0}));
       const {error}=await sb.from('attempts').upsert(rows,{onConflict:'id'});
       if(!error){pending.forEach(e=>done.add(e.id));sent.set(done)}
     }
     const since=localStorage.getItem('blackout.pulled')||'1970-01-01T00:00:00Z';
-    const {data}=await sb.from('attempts').select('id,qid,topic,ok,ctx,at,device,created_at').gt('created_at',since).order('created_at');
+    const {data}=await sb.from('attempts').select('id,qid,topic,ok,ctx,at,device,credits,created_at').gt('created_at',since).order('created_at');
     if(data&&data.length){
       const have=new Set(entries.map(e=>e.id));
       const add=data.filter(e=>!have.has(e.id)).map(({created_at,...e})=>e);
-      if(add.length){log.set([...log.get(),...add]);renderVoid()}
+      if(add.length){log.set([...log.get(),...add]);renderVoid();renderCredits()}
       data.forEach(e=>done.add(e.id));sent.set(done);
       localStorage.setItem('blackout.pulled',data[data.length-1].created_at);
     }
@@ -691,6 +738,61 @@ function goFull(){
   const el=document.documentElement;
   if(document.fullscreenElement||!el.requestFullscreen)return;
   el.requestFullscreen({navigationUI:'hide'}).then(()=>screen.orientation?.lock?.('portrait').catch(()=>{})).catch(()=>{});
+}
+/* bonus: brand and generic matching. Six pairs, two columns, tap one from each. Two credits per pair matched
+   first time, one if it took more than one try; a clean clear relights a light. Never costs a light. */
+const PAIRS_PER_ROUND=6;
+async function matching(i){
+  const p=run.planets[i];
+  const pairs=shuffle(pairsPool()).slice(0,PAIRS_PER_ROUND);
+  paintBand($('b-band'),p.c);
+  const dim=$('b-dim');dim.style.setProperty('--p','0%');
+  syncLights();renderCredits();
+  const wrap=$('b-pairs');wrap.innerHTML='';wrap.style.setProperty('--fill-a',p.c[0]);wrap.style.setProperty('--fill-b',p.c[1]);wrap.style.setProperty('--fill-ink',lum(p.c[1])>.14?'#000':'#ECEBE6');
+  const left=shuffle(pairs.map((x,k)=>({k,text:x.generic}))),right=shuffle(pairs.map((x,k)=>({k,text:x.brand})));
+  const mk=(item,side)=>{const b=document.createElement('button');b.className='pair';b.textContent=item.text;b.dataset.k=item.k;b.dataset.side=side;return b};
+  const cells=[];for(let r=0;r<pairs.length;r++){cells.push(mk(left[r],'l'),mk(right[r],'r'))}
+  cells.forEach(c=>wrap.appendChild(c));
+  $('b-result').classList.remove('is-in');
+  $('b-body').classList.add('is-swapping');
+  show('s-bonus');
+  await sleep(reduced?0:450);
+  $('b-body').classList.remove('is-swapping');
+  let done=0,misses=0,earned=0;const tried=new Set();
+  let pick=null;
+  await new Promise(res=>{
+    wrap.addEventListener('click',async e=>{
+      const b=e.target.closest('.pair');if(!b||b.classList.contains('is-done'))return;
+      if(pick===b){b.classList.remove('is-pick');pick=null;return}
+      if(pick&&pick.dataset.side===b.dataset.side){pick.classList.remove('is-pick');pick=b;b.classList.add('is-pick');return}
+      if(!pick){pick=b;b.classList.add('is-pick');return}
+      const a=pick;pick=null;
+      if(a.dataset.k===b.dataset.k){
+        a.classList.remove('is-pick');[a,b].forEach(x=>x.classList.add('is-done'));
+        earned+=tried.has(a.dataset.k)?1:2;done++;
+        dim.style.setProperty('--p',(done/pairs.length*100).toFixed(1)+'%');
+        if(done===pairs.length)res();
+      }else{
+        misses++;tried.add(a.dataset.k);tried.add(b.dataset.k);
+        [a,b].forEach(x=>{x.classList.remove('is-pick');x.classList.add('is-wrong')});
+        await sleep(400);[a,b].forEach(x=>x.classList.remove('is-wrong'));
+      }
+    });
+  });
+  const relit=misses===0&&run.lights<MAX_LIGHTS;
+  if(relit)run.lights++;
+  log.add({id:uuid(),qid:'bonus-names',topic:'bonus-names',ok:misses===0,ctx:'bonus',credits:earned,at:new Date().toISOString(),device:deviceId});sync();
+  syncLights();renderCredits();
+  const r=$('b-result');
+  r.textContent=(misses===0?'All six matched first time.':misses===1?'One miss.':misses+' misses.')+(relit?' A light comes back.':'')+' '+earned+' credits earned.';
+  r.classList.add('is-in');
+  await sleep(reduced?0:400);
+  await tapToContinue($('s-bonus'));
+  run.visited++;run.done.push(i);run.here=i;
+  run.open=EDGES.filter(e=>e[0]===i).map(e=>e[1]);
+  $('map-note').textContent='Choose the next planet';
+  syncMap();syncLights();
+  show('s-map');
 }
 function blackout(p){
   const n=run.visited;

@@ -3,135 +3,326 @@
   "title": "HFrEF: starting and titrating guideline-directed therapy",
   "short": "HFrEF, the four pillars",
   "specialty": "Cardiology",
-  "tags": ["heart-failure", "hfref", "gdmt", "titration"],
+  "tags": [
+    "heart-failure",
+    "hfref",
+    "gdmt",
+    "titration"
+  ],
   "source": {
     "citation": "Gauer RL, Rifaat A, Foulkrod AM. Heart Failure With Reduced Ejection Fraction: Medical Management. Am Fam Physician. 2025;112(2):131-145.",
     "facts": "docs/facts/hfref.md (topic A)"
   },
   "questions": [
     {
-      "id": "hf-gd-01", "type": "single", "difficulty": 2, "order": "fixed",
+      "id": "hf-gd-01",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "By about how much does the combination of all four GDMT classes reduce all-cause mortality compared with placebo?",
       "a": "About 61%",
-      "d": ["About 25%", "About 40%", "About 80%"],
-      "options": ["About 25%", "About 40%", "About 61%", "About 80%"],
+      "d": [
+        "About 25%",
+        "About 40%",
+        "About 80%"
+      ],
+      "options": [
+        "About 25%",
+        "About 40%",
+        "About 61%",
+        "About 80%"
+      ],
       "why": "For a 50-year-old that works out to about 7.9 extra years of life, from a network meta-analysis of the individual trials.",
-      "tags": ["gdmt", "mortality"]
+      "tags": [
+        "gdmt",
+        "mortality"
+      ]
     },
     {
-      "id": "hf-gd-02", "type": "single", "difficulty": 2, "order": "fixed",
+      "id": "hf-gd-02",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "Within what window after diagnosis should GDMT be titrated to target doses?",
       "a": "Within 6 to 12 weeks",
-      "d": ["Within 2 weeks", "Within 6 months", "Within a year"],
-      "options": ["Within 2 weeks", "Within 6 to 12 weeks", "Within 6 months", "Within a year"],
+      "d": [
+        "Within 2 weeks",
+        "Within 6 months",
+        "Within a year"
+      ],
+      "options": [
+        "Within 2 weeks",
+        "Within 6 to 12 weeks",
+        "Within 6 months",
+        "Within a year"
+      ],
       "why": "Reaching targets within 6 weeks lowers 180-day mortality or readmission, but a 12-week schedule is acceptable (SORT A).",
-      "tags": ["titration", "sort"]
+      "tags": [
+        "titration",
+        "sort"
+      ]
     },
     {
-      "id": "hf-gd-03", "type": "single", "difficulty": 3,
+      "id": "hf-gd-03",
+      "type": "single",
+      "difficulty": 3,
       "q": "A patient on lisinopril is being switched to sacubitril-valsartan. What must happen first?",
       "a": "A 36-hour washout after the last ACE inhibitor dose",
-      "d": ["A 7-day washout", "Nothing; start it the next day", "A week at half the lisinopril dose"],
+      "d": [
+        "A 7-day washout",
+        "Nothing; start it the next day",
+        "A week at half the lisinopril dose"
+      ],
       "why": "The washout prevents angioedema. Switching from an ARB needs no washout at all.",
-      "tags": ["arni", "safety"]
+      "tags": [
+        "arni",
+        "safety"
+      ]
     },
     {
-      "id": "hf-gd-04", "type": "single", "difficulty": 2,
+      "id": "hf-gd-04",
+      "type": "single",
+      "difficulty": 2,
       "q": "Which is the preferred first-line renin-angiotensin agent in HFrEF?",
       "a": "Sacubitril-valsartan",
-      "d": ["An ACE inhibitor", "An ARB", "Isosorbide dinitrate with hydralazine"],
+      "d": [
+        "An ACE inhibitor",
+        "An ARB",
+        "Isosorbide dinitrate with hydralazine"
+      ],
       "why": "Against enalapril it cut cardiovascular death with an NNT of 32 and heart failure readmissions by 21% over 27 months.",
-      "tags": ["arni"]
+      "tags": [
+        "arni"
+      ]
     },
     {
-      "id": "hf-gd-05", "type": "single", "difficulty": 2,
+      "id": "hf-gd-05",
+      "type": "single",
+      "difficulty": 2,
       "q": "When is sacubitril-valsartan best tolerated at initiation?",
       "a": "While the patient is still congested, often during an admission",
-      "d": ["Only after full decongestion", "Only in the outpatient setting", "Only after beta blockers reach target"],
+      "d": [
+        "Only after full decongestion",
+        "Only in the outpatient setting",
+        "Only after beta blockers reach target"
+      ],
       "why": "Patients who cannot tolerate any agent in this class because of adverse effects or hyperkalemia are started on isosorbide dinitrate and hydralazine instead.",
-      "tags": ["arni"]
+      "tags": [
+        "arni"
+      ]
     },
     {
-      "id": "hf-gd-06", "type": "multi", "difficulty": 2,
+      "id": "hf-gd-06",
+      "type": "multi",
+      "difficulty": 2,
       "q": "Which beta blockers have proven mortality benefit in HFrEF?",
-      "a": ["Bisoprolol", "Carvedilol", "Metoprolol succinate"],
-      "d": ["Atenolol", "Propranolol", "Metoprolol tartrate"],
+      "a": [
+        "Bisoprolol",
+        "Carvedilol",
+        "Metoprolol succinate"
+      ],
+      "d": [
+        "Atenolol",
+        "Propranolol",
+        "Metoprolol tartrate"
+      ],
       "why": "Benefit is dose dependent, so titration continues toward target even through transient worsening of symptoms.",
-      "tags": ["beta-blocker"]
+      "tags": [
+        "beta-blocker"
+      ]
     },
     {
-      "id": "hf-gd-07", "type": "single", "difficulty": 3,
+      "id": "hf-gd-07",
+      "type": "single",
+      "difficulty": 3,
       "q": "A patient on long-term carvedilol is admitted with decompensated heart failure. What should happen to the beta blocker?",
       "a": "Continue it through the admission",
-      "d": ["Stop it until euvolemic", "Halve the dose until discharge", "Switch to metoprolol tartrate"],
+      "d": [
+        "Stop it until euvolemic",
+        "Halve the dose until discharge",
+        "Switch to metoprolol tartrate"
+      ],
       "why": "If a beta blocker is held during an admission, it is restarted at discharge; leaving it off raises death and readmission rates.",
-      "tags": ["beta-blocker", "decompensation"]
+      "tags": [
+        "beta-blocker",
+        "decompensation"
+      ]
     },
     {
-      "id": "hf-gd-08", "type": "single", "difficulty": 2,
+      "id": "hf-gd-08",
+      "type": "single",
+      "difficulty": 2,
       "q": "When should a beta blocker be started in newly diagnosed HFrEF?",
       "a": "Once the patient has been adequately diuresed",
-      "d": ["Before any diuretic", "Only after ejection fraction is rechecked", "Only if heart rate is above 100"],
+      "d": [
+        "Before any diuretic",
+        "Only after ejection fraction is rechecked",
+        "Only if heart rate is above 100"
+      ],
       "why": "In new-onset heart failure with NYHA class IV symptoms it is withheld until the patient is stabilised.",
-      "tags": ["beta-blocker"]
+      "tags": [
+        "beta-blocker"
+      ]
     },
     {
-      "id": "hf-gd-09", "type": "single", "difficulty": 2,
+      "id": "hf-gd-09",
+      "type": "single",
+      "difficulty": 2,
       "q": "Why might eplerenone be chosen over spironolactone?",
       "a": "Fewer endocrine adverse effects such as gynecomastia",
-      "d": ["Greater mortality benefit", "No potassium monitoring needed", "Safe at any level of kidney function"],
+      "d": [
+        "Greater mortality benefit",
+        "No potassium monitoring needed",
+        "Safe at any level of kidney function"
+      ],
       "why": "Both cut mortality by 15% to 30% and hospitalisation by 15% to 40%; the difference is receptor selectivity, not efficacy.",
-      "tags": ["mra"]
+      "tags": [
+        "mra"
+      ]
     },
     {
-      "id": "hf-gd-10", "type": "single", "difficulty": 1,
+      "id": "hf-gd-10",
+      "type": "single",
+      "difficulty": 1,
       "q": "In which HFrEF patients do SGLT-2 inhibitors reduce morbidity and mortality?",
       "a": "All patients, regardless of diabetes status",
-      "d": ["Only patients with type 2 diabetes", "Only patients with an eGFR above 60", "Only patients not taking a diuretic"],
+      "d": [
+        "Only patients with type 2 diabetes",
+        "Only patients with an eGFR above 60",
+        "Only patients not taking a diuretic"
+      ],
       "why": "Dapagliflozin and empagliflozin each cut their primary outcome by about a quarter on top of optimal therapy (SORT A).",
-      "tags": ["sglt2", "sort"]
+      "tags": [
+        "sglt2",
+        "sort"
+      ]
     },
     {
-      "id": "hf-gd-11", "type": "single", "difficulty": 3, "order": "fixed",
+      "id": "hf-gd-11",
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
       "q": "What is the NNT for empagliflozin to prevent one cardiovascular death or heart failure hospitalisation?",
       "a": "19",
-      "d": ["9", "45", "90"],
-      "options": ["9", "19", "45", "90"],
+      "d": [
+        "9",
+        "45",
+        "90"
+      ],
+      "options": [
+        "9",
+        "19",
+        "45",
+        "90"
+      ],
       "why": "Dapagliflozin's NNT for death or worsening heart failure was 21. Both trials added the drug to optimal medical therapy.",
-      "tags": ["sglt2", "nnt"]
+      "tags": [
+        "sglt2",
+        "nnt"
+      ]
     },
     {
-      "id": "hf-gd-12", "type": "multi", "difficulty": 3,
+      "id": "hf-gd-12",
+      "type": "multi",
+      "difficulty": 3,
       "q": "A newly diagnosed patient has a systolic blood pressure of 95 mm Hg. Which classes are started first?",
-      "a": ["A beta blocker", "An SGLT-2 inhibitor"],
-      "d": ["Sacubitril-valsartan", "A mineralocorticoid receptor antagonist", "A high-dose loop diuretic"],
+      "a": [
+        "A beta blocker",
+        "An SGLT-2 inhibitor"
+      ],
+      "d": [
+        "Sacubitril-valsartan",
+        "A mineralocorticoid receptor antagonist",
+        "A high-dose loop diuretic"
+      ],
       "why": "They cut sudden death and readmission with little effect on blood pressure; the RAS/neprilysin inhibitor follows in 1 to 2 weeks and the mineralocorticoid receptor antagonist 1 to 2 weeks after that.",
-      "tags": ["sequencing", "hypotension"]
+      "tags": [
+        "sequencing",
+        "hypotension"
+      ]
     },
     {
-      "id": "hf-gd-13", "type": "single", "difficulty": 2,
+      "id": "hf-gd-13",
+      "type": "single",
+      "difficulty": 2,
       "q": "A patient's ejection fraction has recovered from 30% to 50% on GDMT. What happens to the medications?",
       "a": "Continue all of them indefinitely",
-      "d": ["Stop them one class at a time", "Stop only the mineralocorticoid receptor antagonist", "Halve every dose"],
+      "d": [
+        "Stop them one class at a time",
+        "Stop only the mineralocorticoid receptor antagonist",
+        "Halve every dose"
+      ],
       "why": "Stopping GDMT after recovery leads to recurrence of symptoms and a fall in ejection fraction; this is improved ejection fraction, not cure.",
-      "tags": ["improved-ef", "gdmt"]
+      "tags": [
+        "improved-ef",
+        "gdmt"
+      ]
     },
     {
-      "id": "hf-gd-14", "type": "single", "difficulty": 2,
+      "id": "hf-gd-14",
+      "type": "single",
+      "difficulty": 2,
       "q": "A patient on sacubitril-valsartan has a rising BNP. How should this be interpreted?",
       "a": "Expected; follow NT-proBNP instead",
-      "d": ["Treatment failure; switch to an ACE inhibitor", "Impending decompensation; increase the diuretic", "Laboratory error; repeat the test"],
+      "d": [
+        "Treatment failure; switch to an ACE inhibitor",
+        "Impending decompensation; increase the diuretic",
+        "Laboratory error; repeat the test"
+      ],
       "why": "Neprilysin inhibition raises BNP, whereas increases in NT-proBNP during treatment are rare, so NT-proBNP is the peptide that tracks response.",
-      "tags": ["arni", "monitoring"]
+      "tags": [
+        "arni",
+        "monitoring"
+      ]
     },
     {
-      "id": "hf-gd-15", "type": "single", "difficulty": 2, "order": "fixed",
+      "id": "hf-gd-15",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "How often are RAS/neprilysin inhibitors and beta blockers stepped up during titration?",
       "a": "Every 1 to 2 weeks",
-      "d": ["Every 1 to 2 days", "Every 4 weeks", "Every 3 months"],
-      "options": ["Every 1 to 2 days", "Every 1 to 2 weeks", "Every 4 weeks", "Every 3 months"],
+      "d": [
+        "Every 1 to 2 days",
+        "Every 4 weeks",
+        "Every 3 months"
+      ],
+      "options": [
+        "Every 1 to 2 days",
+        "Every 1 to 2 weeks",
+        "Every 4 weeks",
+        "Every 3 months"
+      ],
       "why": "Mineralocorticoid receptor antagonists step up every 4 weeks, and SGLT-2 inhibitors have no titration at all.",
-      "tags": ["titration"]
+      "tags": [
+        "titration"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "generic": "sacubitril-valsartan",
+      "brand": "Entresto"
+    },
+    {
+      "generic": "dapagliflozin",
+      "brand": "Farxiga"
+    },
+    {
+      "generic": "empagliflozin",
+      "brand": "Jardiance"
+    },
+    {
+      "generic": "carvedilol",
+      "brand": "Coreg"
+    },
+    {
+      "generic": "sotagliflozin",
+      "brand": "Inpefa"
+    },
+    {
+      "generic": "ramipril",
+      "brand": "Altace"
     }
   ]
 }

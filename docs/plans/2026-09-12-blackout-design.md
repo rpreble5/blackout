@@ -125,6 +125,23 @@ each question's streak, what has been seen, and per-topic accuracy.
   topic accuracy once a topic has three or more planet or boss attempts.
 - Planet draws prefer least-seen questions, now derived from the log.
 
+## Bonus levels and credits
+
+Decided 2026-09-13. Bonus levels are extra kinds of node on the map, drawn
+as a ring rather than a sphere. They never cost a light. They pay credits,
+a balance shown in the map header and derived from the log like everything
+else, and a clean clear relights a light. Credits have no spend yet.
+
+Built: **Names**, brand and generic matching. Six pairs drawn from the
+`pairs` lists in the topic files, two columns, tap one from each. A wrong
+pair shakes and resets; a right pair fills and locks. Two credits per pair
+matched first time, one otherwise. One Names node appears per run on one of
+the five middle-tier nodes whenever at least four pairs exist.
+
+Ideas agreed for later, in rough order: put it in order (tap items in
+sequence), yes or no fast cards, spot the error in a chart entry, case
+chains, which number is bigger.
+
 ## Notes on questions
 
 Swipe left on any question, before or after answering, to write a note. The
