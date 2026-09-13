@@ -1,0 +1,243 @@
+{
+  "id": "fd-gerd",
+  "title": "Reflux: the empirical trial, alarm features, and when to scope",
+  "short": "GERD",
+  "specialty": "Primary care",
+  "tags": [
+    "gerd",
+    "ppi",
+    "endoscopy",
+    "barrett"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-09-13. Based on the 2022 ACG guideline on gastro-oesophageal reflux disease. Not tied to an article; review before trusting.",
+    "facts": "none"
+  },
+  "questions": [
+    {
+      "id": "fd-gerd-01",
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "For typical heartburn and regurgitation with no alarm features, how long is the empirical proton pump inhibitor trial?",
+      "a": "8 weeks",
+      "d": [
+        "2 weeks",
+        "4 weeks",
+        "6 months"
+      ],
+      "options": [
+        "2 weeks",
+        "4 weeks",
+        "8 weeks",
+        "6 months"
+      ],
+      "why": "Once daily, 30 to 60 minutes before the first meal. Response supports the diagnosis; lack of response is a reason to look, not to double the dose indefinitely.",
+      "tags": [
+        "ppi",
+        "trial"
+      ]
+    },
+    {
+      "id": "fd-gerd-02",
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which alarm features mean endoscopy before, or instead of, an empirical trial?",
+      "a": [
+        "Difficulty swallowing",
+        "Unintended weight loss",
+        "Gastrointestinal bleeding or iron deficiency anaemia",
+        "Persistent vomiting"
+      ],
+      "d": [
+        "Symptoms after large meals",
+        "Symptoms at night",
+        "A family member with reflux"
+      ],
+      "why": "New symptoms after 60 are also on the list in many guidelines. Dysphagia in particular needs endoscopy to exclude a stricture, eosinophilic oesophagitis or cancer.",
+      "tags": [
+        "alarm-features",
+        "endoscopy"
+      ]
+    },
+    {
+      "id": "fd-gerd-03",
+      "type": "single",
+      "difficulty": 2,
+      "q": "When should a proton pump inhibitor be taken?",
+      "a": "30 to 60 minutes before a meal",
+      "d": [
+        "With the meal",
+        "At bedtime on an empty stomach",
+        "Any time; timing does not matter"
+      ],
+      "why": "The drug works on actively secreting pumps, which the meal switches on. Taking it at bedtime without food is the commonest reason for apparent failure.",
+      "tags": [
+        "ppi",
+        "administration"
+      ]
+    },
+    {
+      "id": "fd-gerd-04",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Symptoms have not improved after 8 weeks of a proton pump inhibitor taken correctly. What is next?",
+      "a": "Endoscopy, ideally off the drug for 2 to 4 weeks, with reflux monitoring if it is normal",
+      "d": [
+        "Double the dose indefinitely",
+        "Add an H2 blocker for a year",
+        "Diagnose functional heartburn and stop investigating"
+      ],
+      "why": "Half of refractory patients do not have reflux at all. Objective evidence of reflux is required before any surgery or long-term escalation.",
+      "tags": [
+        "refractory"
+      ]
+    },
+    {
+      "id": "fd-gerd-05",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Symptoms are controlled after the initial course. What happens to the proton pump inhibitor?",
+      "a": "Step down to the lowest effective dose, on-demand dosing, or an H2 blocker",
+      "d": [
+        "Continue the full dose for life",
+        "Stop abruptly and never restart",
+        "Switch to a different PPI"
+      ],
+      "why": "Rebound acid hypersecretion for a couple of weeks after stopping is expected and does not mean the drug is needed for ever. Erosive oesophagitis and Barrett's are the exceptions that stay on maintenance.",
+      "tags": [
+        "step-down"
+      ]
+    },
+    {
+      "id": "fd-gerd-06",
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which associations with long-term proton pump inhibitor use have some evidence, enough to justify using the lowest effective dose?",
+      "a": [
+        "Clostridioides difficile infection",
+        "Hypomagnesaemia",
+        "Vitamin B12 deficiency",
+        "Fractures"
+      ],
+      "d": [
+        "Lung cancer",
+        "Hearing loss",
+        "Diabetes"
+      ],
+      "why": "The associations are modest and mostly observational, and the guideline is clear that a needed drug is not stopped for them. It is the unneeded prescription that is the problem.",
+      "tags": [
+        "ppi",
+        "long-term"
+      ]
+    },
+    {
+      "id": "fd-gerd-07",
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which risk factors, three or more of them with chronic reflux, prompt screening endoscopy for Barrett's oesophagus?",
+      "a": [
+        "Male sex",
+        "Age over 50",
+        "White ethnicity",
+        "Central obesity",
+        "Smoking",
+        "A first-degree relative with Barrett's or oesophageal adenocarcinoma"
+      ],
+      "d": [
+        "Alcohol use",
+        "Helicobacter pylori infection"
+      ],
+      "why": "Helicobacter pylori is, if anything, protective against Barrett's. Screening is a one-time endoscopy; if negative, it is not repeated.",
+      "tags": [
+        "barrett",
+        "screening"
+      ]
+    },
+    {
+      "id": "fd-gerd-08",
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which lifestyle measures have evidence in reflux?",
+      "a": [
+        "Weight loss in overweight patients",
+        "Raising the head of the bed",
+        "Avoiding meals within 2 to 3 hours of lying down"
+      ],
+      "d": [
+        "Avoiding all spicy food",
+        "Drinking milk at bedtime",
+        "Sleeping on the right side"
+      ],
+      "why": "Left-side sleeping helps; the right side worsens reflux. Blanket food avoidance has little evidence; patients avoid what they notice triggers them.",
+      "tags": [
+        "lifestyle"
+      ]
+    },
+    {
+      "id": "fd-gerd-09",
+      "type": "single",
+      "difficulty": 3,
+      "q": "Chronic cough and hoarseness with no heartburn. What does the guideline advise about a proton pump inhibitor?",
+      "a": "Do not treat empirically long term; get objective reflux testing first",
+      "d": [
+        "A high-dose PPI for a year",
+        "A PPI plus an H2 blocker",
+        "Surgery"
+      ],
+      "why": "Extra-oesophageal symptoms without typical reflux rarely respond to acid suppression. A short trial is reasonable only when typical symptoms are also present.",
+      "tags": [
+        "extra-oesophageal"
+      ]
+    },
+    {
+      "id": "fd-gerd-10",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 30-year-old with intermittent food impaction and dysphagia. Which diagnosis must the endoscopist biopsy for?",
+      "a": "Eosinophilic oesophagitis",
+      "d": [
+        "Barrett's oesophagus",
+        "Achalasia",
+        "Oesophageal varices"
+      ],
+      "why": "It is now the commonest cause of food bolus obstruction in young adults. Biopsies from several levels are needed because the changes are patchy.",
+      "tags": [
+        "eosinophilic-oesophagitis",
+        "dysphagia"
+      ]
+    },
+    {
+      "id": "fd-gerd-11",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Chest pain that might be reflux in a 58-year-old with risk factors. What comes first?",
+      "a": "Exclude a cardiac cause",
+      "d": [
+        "An 8-week PPI trial",
+        "An endoscopy",
+        "A barium swallow"
+      ],
+      "why": "Reflux and coronary pain overlap, and both respond to nothing in particular in the moment. Only once the heart is cleared does the reflux pathway start.",
+      "tags": [
+        "chest-pain"
+      ]
+    },
+    {
+      "id": "fd-gerd-12",
+      "type": "single",
+      "difficulty": 3,
+      "q": "Who is a candidate for anti-reflux surgery?",
+      "a": "Proven reflux that responds to a PPI, in a patient who cannot or will not take it long term",
+      "d": [
+        "Anyone with heartburn for more than a year",
+        "A patient whose symptoms did not respond to a PPI and whose testing was normal",
+        "Anyone with a hiatus hernia"
+      ],
+      "why": "Non-response to a PPI with normal testing predicts a poor surgical result. Fundoplication and magnetic sphincter augmentation are the usual options.",
+      "tags": [
+        "surgery"
+      ]
+    }
+  ]
+}

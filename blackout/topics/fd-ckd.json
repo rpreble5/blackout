@@ -1,0 +1,261 @@
+{
+  "id": "fd-ckd",
+  "title": "Chronic kidney disease: staging, slowing it, and when to refer",
+  "short": "Chronic kidney disease",
+  "specialty": "Primary care",
+  "tags": [
+    "ckd",
+    "kidney",
+    "albuminuria",
+    "sglt2",
+    "referral"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-09-13. Based on the 2024 KDIGO chronic kidney disease guideline. Not tied to an article; review before trusting.",
+    "facts": "none"
+  },
+  "questions": [
+    {
+      "id": "fd-ckd-01",
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "For how long must reduced eGFR or kidney damage persist before chronic kidney disease is diagnosed?",
+      "a": "3 months",
+      "d": [
+        "2 weeks",
+        "6 weeks",
+        "12 months"
+      ],
+      "options": [
+        "2 weeks",
+        "6 weeks",
+        "3 months",
+        "12 months"
+      ],
+      "why": "Either an eGFR under 60 or a marker of damage such as albuminuria, for more than three months. A single low value after an illness is not chronic kidney disease.",
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "fd-ckd-02",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Albuminuria category A3 begins at what urine albumin-to-creatinine ratio?",
+      "a": "300 mg/g",
+      "d": [
+        "30 mg/g",
+        "100 mg/g",
+        "1000 mg/g"
+      ],
+      "options": [
+        "30 mg/g",
+        "100 mg/g",
+        "300 mg/g",
+        "1000 mg/g"
+      ],
+      "why": "A2 is 30 to 300. The albuminuria category predicts progression and cardiovascular risk independently of the eGFR, which is why both are reported.",
+      "tags": [
+        "albuminuria",
+        "staging"
+      ]
+    },
+    {
+      "id": "fd-ckd-03",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Chronic kidney disease with albuminuria. Which drug class is titrated to the highest tolerated dose?",
+      "a": "An ACE inhibitor or ARB",
+      "d": [
+        "A calcium channel blocker",
+        "A beta blocker",
+        "A thiazide"
+      ],
+      "why": "The benefit is on progression, not just blood pressure. A creatinine rise of up to 30% after starting is accepted; a bigger rise prompts a look for renal artery stenosis.",
+      "tags": [
+        "ace-inhibitor",
+        "albuminuria"
+      ]
+    },
+    {
+      "id": "fd-ckd-04",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Down to what eGFR is an SGLT-2 inhibitor recommended to be started for kidney protection in chronic kidney disease?",
+      "a": "20 mL/min per 1.73 m²",
+      "d": [
+        "15 mL/min per 1.73 m²",
+        "30 mL/min per 1.73 m²",
+        "45 mL/min per 1.73 m²"
+      ],
+      "options": [
+        "15 mL/min per 1.73 m²",
+        "20 mL/min per 1.73 m²",
+        "30 mL/min per 1.73 m²",
+        "45 mL/min per 1.73 m²"
+      ],
+      "why": "It is recommended with diabetes, or with an albumin-to-creatinine ratio of 200 or more without diabetes, and can be continued below 20 once started.",
+      "tags": [
+        "sglt2"
+      ]
+    },
+    {
+      "id": "fd-ckd-05",
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which findings are indications for referral to nephrology?",
+      "a": [
+        "eGFR under 30",
+        "Albumin-to-creatinine ratio over 300 mg/g",
+        "A fall in eGFR of more than 5 mL/min a year",
+        "Persistent unexplained haematuria"
+      ],
+      "d": [
+        "eGFR of 55 with normal albuminuria",
+        "A single abnormal creatinine",
+        "Age over 75 alone"
+      ],
+      "why": "Refractory hypertension, recurrent potassium problems, and a five-year kidney failure risk over 5% are the others. Referral at eGFR 30 leaves time to plan dialysis access.",
+      "tags": [
+        "referral"
+      ]
+    },
+    {
+      "id": "fd-ckd-06",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A patient with type 2 diabetes, chronic kidney disease and persistent albuminuria despite an ACE inhibitor and an SGLT-2 inhibitor. Which drug is added?",
+      "a": "Finerenone",
+      "d": [
+        "Spironolactone at high dose",
+        "A thiazolidinedione",
+        "A sulfonylurea"
+      ],
+      "why": "The nonsteroidal mineralocorticoid antagonist reduced kidney and cardiovascular events with less hyperkalemia than spironolactone; potassium must be under 5.0 to start.",
+      "tags": [
+        "finerenone"
+      ]
+    },
+    {
+      "id": "fd-ckd-07",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Below what serum bicarbonate is oral sodium bicarbonate started in chronic kidney disease?",
+      "a": "22 mEq/L",
+      "d": [
+        "15 mEq/L",
+        "18 mEq/L",
+        "26 mEq/L"
+      ],
+      "options": [
+        "15 mEq/L",
+        "18 mEq/L",
+        "22 mEq/L",
+        "26 mEq/L"
+      ],
+      "why": "Correcting the acidosis slows progression and protects muscle and bone. Fruit and vegetables have a similar alkalising effect.",
+      "tags": [
+        "acidosis"
+      ]
+    },
+    {
+      "id": "fd-ckd-08",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which imaging contrast is avoided at an eGFR under 30?",
+      "a": "Older, group I gadolinium agents",
+      "d": [
+        "All iodinated contrast, always",
+        "Ultrasound gel",
+        "Oral barium"
+      ],
+      "why": "Nephrogenic systemic fibrosis. Newer group II gadolinium agents are considered safe at any eGFR. Iodinated contrast is used with hydration when the scan is needed.",
+      "tags": [
+        "contrast",
+        "gadolinium"
+      ]
+    },
+    {
+      "id": "fd-ckd-09",
+      "type": "single",
+      "difficulty": 2,
+      "q": "From what age does a patient with chronic kidney disease qualify for a statin regardless of calculated risk?",
+      "a": "50",
+      "d": [
+        "30",
+        "40",
+        "65"
+      ],
+      "why": "Chronic kidney disease is a coronary risk equivalent. Under 50, the statin follows the usual risk calculation with kidney disease as a risk enhancer.",
+      "tags": [
+        "statin"
+      ],
+      "order": "fixed",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "65"
+      ]
+    },
+    {
+      "id": "fd-ckd-10",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "What daily protein intake is advised for adults with chronic kidney disease not on dialysis?",
+      "a": "0.8 g per kg",
+      "d": [
+        "0.4 g per kg",
+        "1.2 g per kg",
+        "2 g per kg"
+      ],
+      "options": [
+        "0.4 g per kg",
+        "0.8 g per kg",
+        "1.2 g per kg",
+        "2 g per kg"
+      ],
+      "why": "Sodium is kept under 2 g a day. Very low protein diets are not recommended outside specialist supervision because of malnutrition.",
+      "tags": [
+        "diet"
+      ]
+    },
+    {
+      "id": "fd-ckd-11",
+      "type": "single",
+      "difficulty": 3,
+      "q": "A creatinine-based eGFR is borderline in a muscular young man. Which test confirms it?",
+      "a": "Cystatin C, combined with creatinine",
+      "d": [
+        "A repeat creatinine",
+        "A 24-hour urine collection for protein",
+        "Kidney ultrasound"
+      ],
+      "why": "Cystatin C is independent of muscle mass. The combined equation is recommended whenever the creatinine-based estimate is likely to be wrong or a decision hangs on it.",
+      "tags": [
+        "cystatin-c"
+      ]
+    },
+    {
+      "id": "fd-ckd-12",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which vaccine is specifically recommended for adults with chronic kidney disease who may reach dialysis?",
+      "a": "Hepatitis B",
+      "d": [
+        "Hepatitis A",
+        "Meningococcal",
+        "Yellow fever"
+      ],
+      "why": "Response falls as kidney function falls, so it is given early with antibody checks. Influenza, pneumococcal and COVID-19 vaccines follow the standard schedule.",
+      "tags": [
+        "vaccines"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "fd-cdiff",
+  "title": "Clostridioides difficile: who to test, how to treat, and the recurrence",
+  "short": "C. difficile",
+  "specialty": "Hospital medicine",
+  "tags": [
+    "c-difficile",
+    "diarrhoea",
+    "antibiotics",
+    "infection-control"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-09-13. Based on the 2021 IDSA/SHEA Clostridioides difficile guideline update. Not tied to an article; review before trusting.",
+    "facts": "none"
+  },
+  "questions": [
+    {
+      "id": "fd-cd-01",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Testing for C. difficile is appropriate after at least how many unformed stools in 24 hours, in a patient not on laxatives?",
+      "a": "3",
+      "d": [
+        "1",
+        "5",
+        "10"
+      ],
+      "options": [
+        "1",
+        "3",
+        "5",
+        "10"
+      ],
+      "why": "Testing formed stool or a patient on laxatives detects colonisation, which is common and is not treated. Laboratories increasingly reject formed samples.",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "id": "fd-cd-02",
+      "type": "single",
+      "difficulty": 2,
+      "q": "After treatment, should a stool test be repeated to confirm cure?",
+      "a": "No; the test stays positive for weeks after recovery",
+      "d": [
+        "Yes, at one week",
+        "Yes, before discharge",
+        "Yes, if the patient works in healthcare"
+      ],
+      "why": "Cure is clinical. A repeat test within a week of a positive is also discouraged, since it rarely changes management.",
+      "tags": [
+        "testing",
+        "test-of-cure"
+      ]
+    },
+    {
+      "id": "fd-cd-03",
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the preferred treatment for an initial, non-fulminant episode?",
+      "a": "Fidaxomicin for 10 days",
+      "d": [
+        "Metronidazole for 10 days",
+        "Ciprofloxacin",
+        "Intravenous vancomycin"
+      ],
+      "why": "Oral vancomycin 125 mg four times daily is the acceptable alternative. Metronidazole is used only if neither is available, and only for non-severe disease. Intravenous vancomycin does not reach the colon.",
+      "tags": [
+        "treatment",
+        "initial"
+      ]
+    },
+    {
+      "id": "fd-cd-04",
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which findings define a severe episode?",
+      "a": [
+        "White cell count of 15,000 or more",
+        "Creatinine above 1.5 mg/dL"
+      ],
+      "d": [
+        "Fever alone",
+        "More than ten stools a day",
+        "Age over 65",
+        "A positive toxin test"
+      ],
+      "why": "Fulminant disease is hypotension, ileus or megacolon. Severity changes the drug in the fulminant case, and the urgency of surgical review.",
+      "tags": [
+        "severity"
+      ]
+    },
+    {
+      "id": "fd-cd-05",
+      "type": "single",
+      "difficulty": 3,
+      "q": "What is the treatment of fulminant C. difficile with ileus?",
+      "a": "High-dose oral and rectal vancomycin, intravenous metronidazole, and surgical review",
+      "d": [
+        "Fidaxomicin alone",
+        "Oral metronidazole alone",
+        "Loperamide and fluids"
+      ],
+      "why": "Oral vancomycin 500 mg four times daily; the rectal route is for when the ileus stops it reaching the colon. Subtotal colectomy or a diverting loop ileostomy can be life-saving.",
+      "tags": [
+        "fulminant"
+      ]
+    },
+    {
+      "id": "fd-cd-06",
+      "type": "single",
+      "difficulty": 3,
+      "q": "A first recurrence after a course of vancomycin. Which regimen is recommended?",
+      "a": "Fidaxomicin, standard or extended-pulsed, or a tapered and pulsed vancomycin course",
+      "d": [
+        "The same 10 days of vancomycin again",
+        "Metronidazole",
+        "Watchful waiting"
+      ],
+      "why": "Bezlotoxumab, a monoclonal antibody against toxin B, can be added to reduce further recurrence, with caution in heart failure.",
+      "tags": [
+        "recurrence"
+      ]
+    },
+    {
+      "id": "fd-cd-07",
+      "type": "single",
+      "difficulty": 2,
+      "q": "After multiple recurrences despite appropriate antibiotics, what is recommended?",
+      "a": "Faecal microbiota transplantation",
+      "d": [
+        "Lifelong oral vancomycin",
+        "Probiotics",
+        "Colectomy"
+      ],
+      "why": "It succeeds in most patients with recurrent disease. Probiotics are not recommended for prevention or treatment.",
+      "tags": [
+        "fmt"
+      ]
+    },
+    {
+      "id": "fd-cd-08",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Which hand hygiene method removes C. difficile spores?",
+      "a": "Soap and water",
+      "d": [
+        "Alcohol gel",
+        "Either works equally",
+        "Neither; gloves alone suffice"
+      ],
+      "why": "Alcohol does not kill spores. Contact precautions, gloves and gowns, and bleach-based cleaning of the room are the other measures.",
+      "tags": [
+        "infection-control"
+      ]
+    },
+    {
+      "id": "fd-cd-09",
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which antibiotics carry the highest risk of causing C. difficile infection?",
+      "a": [
+        "Clindamycin",
+        "Fluoroquinolones",
+        "Third-generation cephalosporins"
+      ],
+      "d": [
+        "Doxycycline",
+        "Nitrofurantoin",
+        "Trimethoprim-sulfamethoxazole"
+      ],
+      "why": "Any antibiotic can, and the risk persists for weeks after the course. Stopping the inciting antibiotic, when possible, is part of the treatment.",
+      "tags": [
+        "risk",
+        "antibiotics"
+      ]
+    },
+    {
+      "id": "fd-cd-10",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A patient with C. difficile diarrhoea asks for loperamide. What is the answer?",
+      "a": "Avoid antimotility drugs until the infection is treated",
+      "d": [
+        "Yes, as needed",
+        "Yes, with the antibiotic",
+        "Yes, once the fever has settled"
+      ],
+      "why": "Slowing the gut in active infection has been associated with megacolon. Fluids and electrolyte replacement are the supportive care.",
+      "tags": [
+        "antimotility"
+      ]
+    },
+    {
+      "id": "fd-cd-11",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which acid-suppressing drug class is associated with C. difficile infection and is reviewed at diagnosis?",
+      "a": "Proton pump inhibitors",
+      "d": [
+        "Antacids",
+        "Sucralfate",
+        "Bismuth"
+      ],
+      "why": "Stopping an unnecessary proton pump inhibitor is reasonable; stopping a necessary one is not. The association is modest but consistent.",
+      "tags": [
+        "ppi",
+        "risk"
+      ]
+    },
+    {
+      "id": "fd-cd-12",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A formed-stool sample from an asymptomatic patient is positive on a screening test. What is done?",
+      "a": "Nothing; asymptomatic carriage is not treated",
+      "d": [
+        "Ten days of vancomycin",
+        "Fidaxomicin",
+        "Isolation and treatment"
+      ],
+      "why": "Carriage is common in hospitals and treatment does not clear it durably. The test should not have been sent.",
+      "tags": [
+        "colonisation"
+      ]
+    }
+  ]
+}

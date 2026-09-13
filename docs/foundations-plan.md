@@ -16,10 +16,10 @@ Status: done, next, later. Source: the guideline it should rest on.
 | Hypertension: diagnosis, drug choice, targets | done | ACC/AHA 2017 |
 | Anticoagulation in atrial fibrillation: CHA2DS2-VASc, agent choice, bleeding | done | ACC/AHA/HRS |
 | Lipids: who gets a statin, intensity, LDL goals | done | ACC/AHA 2018 |
-| Chest pain in clinic: who goes to the emergency department | later | |
-| Syncope: red flags and first tests | later | |
-| Heart failure with preserved ejection fraction | later | AHA/ACC 2022 |
-| Peripheral artery disease and claudication | later | |
+| Chest pain in clinic: who goes to the emergency department | done | |
+| Syncope: red flags and first tests | done | |
+| Heart failure with preserved ejection fraction | done | AHA/ACC 2022 |
+| Peripheral artery disease and claudication | done | |
 
 ## Endocrine
 
@@ -28,8 +28,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 | Type 2 diabetes: diagnosis, targets, drug choice | done | ADA Standards |
 | Insulin in hospital and at discharge: basal, correction, sliding scale | done | ADA |
 | Hypothyroidism and the abnormal TSH | done | ATA |
-| Hyperglycaemic emergencies: DKA and HHS basics | later | ADA |
-| Osteoporosis: who to screen, who to treat | later | |
+| Hyperglycaemic emergencies: DKA and HHS basics | done | ADA |
+| Osteoporosis: who to screen, who to treat | done | |
 
 ## Respiratory
 
@@ -37,8 +37,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 |---|---|---|
 | Asthma: stepwise therapy and the exacerbation | done | GINA |
 | COPD: staging, inhalers, exacerbations | done | GOLD |
-| Community-acquired pneumonia: severity, antibiotics, follow-up | next | ATS/IDSA 2019 |
-| Pulmonary embolism: Wells, D-dimer, when to image | later | |
+| Community-acquired pneumonia: severity, antibiotics, follow-up | done | ATS/IDSA 2019 |
+| Pulmonary embolism: Wells, D-dimer, when to image | done | |
 
 ## Kidney and electrolytes
 
@@ -46,8 +46,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 |---|---|---|
 | Hyperkalemia: thresholds and the order of treatment | done | |
 | Hyponatremia: rate of correction and the common causes | done | |
-| Acute kidney injury: staging and the drugs to hold | later | KDIGO |
-| Chronic kidney disease: staging and what slows it | later | KDIGO |
+| Acute kidney injury: staging and the drugs to hold | done | KDIGO |
+| Chronic kidney disease: staging and what slows it | done | KDIGO |
 
 ## Infection
 
@@ -55,8 +55,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 |---|---|---|
 | Urinary tract infection: cystitis, pyelonephritis, the catheter | done | IDSA |
 | Cellulitis and abscess: when to cover MRSA | done | IDSA |
-| Sepsis: recognition and the first hour | later | Surviving Sepsis |
-| Clostridioides difficile: testing and treatment | later | IDSA |
+| Sepsis: recognition and the first hour | done | Surviving Sepsis |
+| Clostridioides difficile: testing and treatment | done | IDSA |
 
 ## Gastrointestinal
 
@@ -64,15 +64,15 @@ Status: done, next, later. Source: the guideline it should rest on.
 |---|---|---|
 | Upper GI bleeding: risk scores, PPI, when to scope | done | |
 | Cirrhosis: ascites, SBP prophylaxis, encephalopathy | done | AASLD |
-| GERD and when to scope | later | ACG |
+| GERD and when to scope | done | ACG |
 
 ## Neurology and psychiatry
 
 | Topic | Status | Source |
 |---|---|---|
 | Depression: screening, first-line drugs, when to switch | done | |
-| Stroke and TIA in clinic: antiplatelets, targets, driving | later | AHA/ASA |
-| Headache red flags | later | |
+| Stroke and TIA in clinic: antiplatelets, targets, driving | done | AHA/ASA |
+| Headache red flags | done | |
 | Delirium: recognising it, causes, what not to give | done | |
 
 ## Haematology and oncology
@@ -88,8 +88,8 @@ Status: done, next, later. Source: the guideline it should rest on.
 |---|---|---|
 | Perioperative medicine: which drugs to hold and when | done | |
 | Pain: opioid conversions and safe prescribing | done | CDC 2022 |
-| Preventive care: screening ages and intervals | later | USPSTF |
-| Vaccines for adults | later | ACIP |
+| Preventive care: screening ages and intervals | done | USPSTF |
+| Vaccines for adults | done | ACIP |
 
 ## How topics get written
 

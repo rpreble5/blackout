@@ -36,7 +36,24 @@
         "fd-anaemia.json",
         "fd-vte.json",
         "fd-perioperative.json",
-        "fd-opioids.json"
+        "fd-opioids.json",
+        "fd-chest-pain.json",
+        "fd-syncope.json",
+        "fd-hfpef.json",
+        "fd-pad.json",
+        "fd-dka.json",
+        "fd-osteoporosis.json",
+        "fd-pneumonia.json",
+        "fd-pe.json",
+        "fd-aki.json",
+        "fd-ckd.json",
+        "fd-sepsis.json",
+        "fd-cdiff.json",
+        "fd-gerd.json",
+        "fd-stroke.json",
+        "fd-headache.json",
+        "fd-preventive.json",
+        "fd-vaccines.json"
       ]
     }
   ]
