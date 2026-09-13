@@ -56,6 +56,7 @@ button{font-family:inherit}
 .btn{appearance:none;border:1px solid var(--hair);background:none;color:var(--ink);font:500 15px/1 var(--font);padding:15px 24px;border-radius:999px;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
 .btn:hover{border-color:rgba(236,235,230,.4)}
 .btn.is-primary{background:var(--ink);color:#000;border-color:var(--ink)}
+.btn[disabled]{opacity:.5;cursor:default}
 .btn.is-primary:hover{background:#fff}
 
 /* title */
@@ -215,74 +216,34 @@ button{font-family:inherit}
 <script>
 /* colours: c1 and c2 sit next to each other on the spectrum, c3 is the free accent, c4 is c2 deepened */
 const PLANETS=[
-  {name:'Sol',cat:'Music',c:['#FFE24A','#FF8A1F','#FF3D3D','#8A1C1C']},
-  {name:'Vesper',cat:'Astronomy',c:['#B49BFF','#7B5CFF','#4FA3FF','#2A1A6E']},
-  {name:'Halide',cat:'Science',c:['#7FF0D8','#1FB5A3','#2E7BFF','#0B4A48']},
-  {name:'Meridian',cat:'Geography',c:['#C9FF5E','#3ED47A','#FFD84A','#146B3A']},
-  {name:'Cinder',cat:'History',c:['#FFB061','#FF5A2E','#C1123A','#4A0F14']},
-  {name:'Umbra',cat:'Film and art',c:['#8F7BFF','#4B3FCC','#FF9A4A','#1B1650']},
-  {name:'Opal',cat:'Words',c:['#FFFFFF','#C6CFDC','#8FA4C4','#4E6282']},
+  {name:'Sol',c:['#FFE24A','#FF8A1F','#FF3D3D','#8A1C1C']},
+  {name:'Vesper',c:['#B49BFF','#7B5CFF','#4FA3FF','#2A1A6E']},
+  {name:'Halide',c:['#7FF0D8','#1FB5A3','#2E7BFF','#0B4A48']},
+  {name:'Meridian',c:['#C9FF5E','#3ED47A','#FFD84A','#146B3A']},
+  {name:'Cinder',c:['#FFB061','#FF5A2E','#C1123A','#4A0F14']},
+  {name:'Umbra',c:['#8F7BFF','#4B3FCC','#FF9A4A','#1B1650']},
+  {name:'Opal',c:['#FFFFFF','#C6CFDC','#8FA4C4','#4E6282']},
 ];
-const BOSS={name:'Eclipse',cat:'Everything',c:['#C9A2FF','#7C3FB5','#FF8A5B','#0A0510'],boss:true};
+const BOSS={name:'Eclipse',c:['#C9A2FF','#7C3FB5','#FF8A5B','#0A0510'],boss:true};
 
-const BANK={
-  Astronomy:[
-    ['Which of these are gas giants?',['Jupiter','Saturn'],['Mars','Venus','Mercury'],'Jupiter and Saturn are the gas giants. Uranus and Neptune are usually called ice giants, and the rest are rocky.'],
-    ['Which planet has the most known moons?','Saturn','Jupiter','Uranus','Neptune','Saturn passed Jupiter in 2023 and now has well over a hundred confirmed moons.'],
-    ['After the Sun, which star is closest to Earth?','Proxima Centauri','Sirius','Betelgeuse','Vega','Proxima Centauri is about 4.2 light years away, a faint red dwarf in the Alpha Centauri system.'],
-    ['About how long does sunlight take to reach Earth?','Eight minutes, give or take twenty seconds','Eight seconds, which is why sunsets look instant','Eight hours, roughly one working day','Eight days, about the same as a lunar phase','Light covers the 150 million kilometres from the Sun in about 8 minutes and 20 seconds.'],
-    ['Which planet rotates on its side?','Uranus','Venus','Mars','Mercury','Uranus is tilted about 98 degrees, so it rolls around the Sun rather than spinning upright.'],
-    ["What is Jupiter's largest moon?",'Ganymede','Europa','Titan','Io','Ganymede is bigger than Mercury and is the only moon known to have its own magnetic field.'],
-  ],
-  Science:[
-    ['Which of these are noble gases?',['Helium','Neon','Argon'],['Nitrogen','Hydrogen','Chlorine'],'Noble gases fill the last column of the periodic table and rarely react because their outer electron shells are full.'],
-    ['Which element has atomic number 6?','Carbon','Nitrogen','Oxygen','Helium','Carbon has six protons. Its ability to bond four ways is why it forms the backbone of life.'],
-    ['What is the hardest natural substance?','Diamond','Quartz','Tungsten','Graphite','Diamond and graphite are both pure carbon. Only the arrangement of the atoms is different.'],
-    ['What gas do plants take in from the air?','Carbon dioxide','Oxygen','Nitrogen','Hydrogen','Plants combine carbon dioxide and water using sunlight, and release oxygen as a by-product.'],
-    ['At sea level, water boils at what temperature?','100 °C','90 °C','110 °C','120 °C','At higher altitudes the air pressure drops, so water boils at a lower temperature.'],
-    ['What is the smallest particle of an element?','An atom','A molecule','A cell','A quark','Quarks are smaller, but an atom is the smallest piece that still behaves like that element.'],
-  ],
-  Geography:[
-    ['Which of these countries border Germany?',['France','Poland','Austria','Denmark'],['Italy','Spain','Portugal','Norway'],'Germany borders nine countries, more than any other in Europe except Russia.'],
-    ['Which is the longest river in Africa?','The Nile','The Congo','The Niger','The Zambezi','The Nile runs about 6,650 kilometres through eleven countries before reaching the Mediterranean.'],
-    ['Which country spans the most time zones?','France, counting its overseas territories','Russia, from Kaliningrad to Kamchatka','The United States, including its islands','China, which officially keeps just one','France covers twelve time zones because of territories from French Polynesia to Réunion.'],
-    ['What is the capital of Canada?','Ottawa','Toronto','Vancouver','Montreal','Ottawa was chosen in 1857 partly because it sat safely between English and French Canada.'],
-    ['Which is the largest hot desert?','The Sahara','The Gobi','The Kalahari','The Arabian','The Sahara is about the size of the United States. Antarctica is larger, but it is a cold desert.'],
-    ['Which ocean is the deepest?','Pacific','Atlantic','Indian','Arctic','The Challenger Deep in the Pacific reaches almost 11 kilometres, deeper than Everest is tall.'],
-  ],
-  History:[
-    ['Which of these happened in the 1960s?',['The Cuban missile crisis','The first Moon landing','The Berlin Wall went up'],['The fall of the Berlin Wall','The sinking of the Titanic'],'The wall went up in 1961 and came down in 1989. The missile crisis was 1962 and the Moon landing 1969.'],
-    ['In which year did the Berlin Wall fall?','1989','1985','1991','1979','The wall opened on 9 November 1989. Germany formally reunited less than a year later.'],
-    ['Who was first to walk on the Moon?','Neil Armstrong','Buzz Aldrin','Yuri Gagarin','John Glenn','Armstrong stepped out on 20 July 1969. Aldrin followed about nineteen minutes later.'],
-    ['Which empire built Machu Picchu?','The Inca, high in the Andes of Peru','The Aztec, in the Valley of Mexico','The Maya, across the Yucatán','The Olmec, along the Gulf coast','Machu Picchu was built around 1450 and abandoned about a century later, never found by the Spanish.'],
-    ['Which Roman city was buried by Vesuvius in 79 AD?','Pompeii','Ravenna','Ostia','Naples','Ash preserved Pompeii so well that loaves of bread were found still in their ovens.'],
-    ['The Magna Carta was sealed in which century?','13th','11th','15th','17th','King John sealed it at Runnymede in 1215, which falls in the thirteenth century.'],
-  ],
-  Music:[
-    ['Which of these are woodwind instruments?',['Clarinet','Oboe','Flute','Bassoon'],['Trumpet','French horn','Trombone','Tuba'],'Flutes count as woodwind even though modern ones are metal. The brass family is defined by how the lips buzz into a mouthpiece.'],
-    ['How many strings does a standard violin have?','Four','Five','Six','Three','The four strings are tuned in fifths: G, D, A and E.'],
-    ['Who wrote the Moonlight Sonata?','Beethoven','Mozart','Chopin','Bach','Beethoven never called it that. A critic compared the first movement to moonlight on a lake years after his death.'],
-    ['In sheet music, what does forte mean?','Loud','Soft','Fast','Slow','Forte is Italian for strong. Its opposite, piano, gave the pianoforte its name.'],
-    ['Which instrument has 88 keys?','Piano','Organ','Harpsichord','Accordion','A full-size piano has 52 white keys and 36 black keys, spanning just over seven octaves.'],
-    ['Which band released Abbey Road?','The Beatles','The Rolling Stones','The Kinks','The Who','Abbey Road came out in 1969 and was the last album the Beatles recorded together.'],
-  ],
-  'Film and art':[
-    ['Which of these films did Stanley Kubrick direct?',['The Shining','Dr. Strangelove','Barry Lyndon'],['Blade Runner','Taxi Driver'],'Kubrick made thirteen features in forty-six years and never won an Oscar for directing.'],
-    ['Who painted The Starry Night?','Vincent van Gogh','Claude Monet','Paul Cézanne','Edvard Munch','Van Gogh painted it in 1889 from memory, looking out of his asylum window in Saint-Rémy.'],
-    ['Which museum holds the Mona Lisa?','The Louvre','The Prado','The Uffizi','The Met','It has hung in the Louvre since 1797, apart from a two-year absence after it was stolen in 1911.'],
-    ['What is the Japanese art of paper folding called?','Origami','Ikebana','Kirigami','Sumi-e','Origami joins ori, to fold, and kami, paper. Kirigami is the version where cutting is allowed.'],
-    ['Who directed 2001: A Space Odyssey?','Stanley Kubrick','Ridley Scott','Steven Spielberg','George Lucas','Kubrick made it in 1968, a year before anyone had actually landed on the Moon.'],
-    ['Which film won the first Best Picture Oscar?','Wings','Sunrise','The Jazz Singer','Metropolis','Wings, a silent film about First World War pilots, won at the first ceremony in 1929.'],
-  ],
-  Words:[
-    ['Which of these words come from Arabic?',['Algebra','Coffee','Sofa','Zero'],['Piano','Kindergarten','Robot','Tsunami'],'Many Arabic loanwords arrived through Spanish and Italian trade. Robot is Czech, tsunami Japanese, piano Italian.'],
-    ['A word that reads the same backwards is called what?','A palindrome, like level or racecar','An anagram, like listen and silent','A homonym, like bat and bat','A pangram, a sentence using every letter','Palindrome comes from Greek: palin, again, and dromos, a running.'],
-    ['Which language has the most native speakers?','Mandarin Chinese','English','Spanish','Hindi','Around 940 million people speak Mandarin as a first language. English leads once second-language speakers are counted.'],
-    ['Which letter appears most often in English text?','E','T','A','S','E appears in about one in eight letters of ordinary English, which is why it is the first guess in codebreaking.'],
-    ['What does the prefix hydro mean?','Water','Fire','Air','Earth','From the Greek hydor, water. It gives us hydrant, hydrate and hydroelectric.'],
-    ['How many letters are in the Greek alphabet?','24','26','22','28','From alpha to omega there are 24. It is the ancestor of both the Latin and Cyrillic alphabets.'],
-  ],
+/* topics: one json file each, listed in topics/index.json. A planet is one visit to a topic. */
+let TOPICS=[];
+const PER_VISIT=7,BOSS_VISIT=8;
+async function loadTopics(){
+  const idx=await fetch('topics/index.json').then(r=>r.json());
+  TOPICS=await Promise.all(idx.topics.map(f=>fetch('topics/'+f).then(r=>r.json())));
+  TOPICS.forEach(t=>t.questions.forEach(q=>q.topic=t));
+}
+/* how often each question has been shown on this device, so revisits prefer what you haven't seen */
+const seen={
+  get(){try{return JSON.parse(localStorage.getItem('blackout.seen')||'{}')}catch(e){return {}}},
+  bump(ids){const m=seen.get();ids.forEach(id=>m[id]=(m[id]||0)+1);try{localStorage.setItem('blackout.seen',JSON.stringify(m))}catch(e){}},
 };
+function draw(pool,n){
+  const m=seen.get();
+  const ranked=shuffle(pool).sort((x,y)=>(m[x.id]||0)-(m[y.id]||0));
+  return shuffle(ranked.slice(0,Math.min(n,pool.length)));
+}
 
 const NODES=[{x:32,y:89},{x:68,y:89},{x:22,y:64},{x:50,y:64},{x:78,y:64},{x:36,y:39},{x:64,y:39},{x:50,y:12}];
 const SIZES=[50,46,44,54,48,52,46,78];
@@ -294,7 +255,6 @@ const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const fit=(el,text,min,max,short,long)=>{const t=Math.min(1,Math.max(0,(text.length-short)/(long-short)));el.style.fontSize=(max-(max-min)*t).toFixed(1)+'px'};
-const qid=t=>{let h=0;for(const ch of t)h=(h*31+ch.charCodeAt(0))>>>0;return h.toString(36).padStart(7,'0').slice(0,7)};
 const store={
   get(){try{return JSON.parse(localStorage.getItem('blackout.notes')||'[]')}catch(e){return []}},
   set(v){try{localStorage.setItem('blackout.notes',JSON.stringify(v))}catch(e){}},
@@ -364,7 +324,9 @@ paint($('horizon'),PLANETS[Math.random()*PLANETS.length|0].c,null,Math.random()*
 
 function newRun(){
   const order=shuffle(PLANETS);
-  run={planets:[...order,BOSS],lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
+  const cycle=shuffle(TOPICS);
+  const topics=NODES.map((n,i)=>i===NODES.length-1?null:cycle[i%cycle.length]);
+  run={planets:[...order,BOSS],topics,lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
   $('map-note').textContent='Choose a planet';
   buildMap();syncLights();
   show('s-map');
@@ -401,7 +363,7 @@ function buildMap(){
     const b=document.createElement('button');
     b.className='node';b.style.left=n.x+'%';b.style.top=n.y+'%';b.dataset.i=i;
     const pl=document.createElement('div');pl.className='planet';paint(pl,p.c,SIZES[i],i);pl.style.setProperty('--d',(-i*3)+'s');
-    const nm=document.createElement('span');nm.textContent=p.name;
+    const nm=document.createElement('span');nm.textContent=run.topics[i]?run.topics[i].short:'Everything so far';
     b.append(pl,nm);b.addEventListener('click',()=>{if(run.open.includes(i))travel(i)});
     field.appendChild(b);
   });
@@ -413,7 +375,7 @@ function syncMap(){
     const open=run.open.includes(i),done=run.done.includes(i)&&i!==run.here,here=i===run.here;
     b.classList.toggle('is-open',open);b.classList.toggle('is-done',done);b.classList.toggle('is-here',here);
     b.classList.toggle('is-locked',!open&&!done&&!here);
-    b.disabled=!open;b.setAttribute('aria-label',run.planets[i].name+(open?', reachable':''));
+    b.disabled=!open;b.setAttribute('aria-label',(run.topics[i]?run.topics[i].short:'Everything so far')+(open?', reachable':''));
   });
   document.querySelectorAll('.map-lines path').forEach(l=>{
     l.classList.toggle('is-lit',run.route.includes(l.dataset.edge));
@@ -429,7 +391,8 @@ async function travel(i){
     await sleep(reduced?0:750);
   }
   paintBand($('q-band'),p.c);
-  $('q-name').textContent=p.name;$('q-cat').textContent=p.cat+(p.boss?' at once':'');
+  const t=run.topics[i];
+  $('q-name').textContent=t?t.short:'Everything so far';$('q-cat').textContent=t?t.specialty:'Every topic on the map';
   $('q-body').classList.add('is-swapping');
   syncLights();
   show('s-quiz');
@@ -438,19 +401,20 @@ async function travel(i){
 }
 
 async function quiz(i){
-  const p=run.planets[i];
-  const count=p.boss?4:3;
-  let pool=p.boss?shuffle(Object.values(BANK).flat()):shuffle(BANK[p.cat]);
-  const qs=pool.slice(0,count);
+  const p=run.planets[i],t=run.topics[i];
+  const pool=t?t.questions:TOPICS.flatMap(x=>x.questions);
+  const qs=draw(pool,p.boss?BOSS_VISIT:PER_VISIT);
+  const count=qs.length;
+  seen.bump(qs.map(q=>q.id));
   let misses=0;
   const prompt=$('q-prompt'),dim=$('q-dim'),screen=$('s-quiz');
   dim.style.setProperty('--p','0%');
   for(let k=0;k<qs.length;k++){
-    const item=qs[k],multi=Array.isArray(item[1]);
-    let text,why,options,correct;
-    if(multi){[text,correct,,why]=item;options=shuffle([...item[1],...item[2]]);correct=new Set(item[1])}
-    else{text=item[0];why=item[item.length-1];options=shuffle(item.slice(1,-1));correct=new Set([item[1]])}
-    current={id:qid(text),planet:p.name,cat:p.cat,q:text,picked:[],right:null};
+    const item=qs[k],multi=item.type==='multi';
+    const text=item.q,why=item.why;
+    const correct=new Set(multi?item.a:[item.a]);
+    const options=shuffle([...(multi?item.a:[item.a]),...item.d]);
+    current={id:item.id,planet:p.name,cat:item.topic.short,q:text,picked:[],right:null};
     $('q-text').textContent=text;fit($('q-text'),text,20,27,50,110);
     $('q-why').textContent=why;fit($('q-why'),why,16,21,60,150);
     prompt.classList.remove('is-why');
@@ -561,6 +525,9 @@ function clear(){
   syncLights();show('s-end');
 }
 
+$('begin').disabled=true;$('begin').textContent='Loading';
+loadTopics().then(()=>{$('begin').disabled=false;$('begin').textContent='Begin a run'})
+  .catch(()=>{$('begin').textContent='Questions failed to load';document.querySelector('.title p').textContent='Check the connection and reload.'});
 $('begin').addEventListener('click',()=>{goFull();newRun()});
 $('again').addEventListener('click',newRun);
 addEventListener('resize',()=>{if(run)buildMap()});
