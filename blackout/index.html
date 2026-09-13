@@ -142,7 +142,18 @@ button{font-family:inherit}
 .note-actions{display:flex;gap:10px;margin-top:22px}
 .notes{display:flex;gap:10px;margin-top:14px;position:relative;z-index:1}
 .title .notes{margin-top:14px}
+.title .modes{display:flex;gap:10px;align-items:center;margin-top:36px;position:relative;z-index:1}
+.title .modes .btn{margin-top:0}
 .title .void-line{margin:18px 0 0;font-size:13px;color:var(--dust);position:relative;z-index:1}
+.dev .head{display:flex;align-items:flex-start;gap:14px}
+.dev .head .where{flex:1;line-height:1.25}
+.dev .head .where b{display:block;font-weight:500;font-size:15px}
+.dev .head .where span{display:block;font-size:12.5px;color:var(--dust)}
+.dev .body{flex:1;overflow-y:auto;margin:18px -24px 0;padding:0 24px;scrollbar-width:none}
+.dev .body::-webkit-scrollbar{display:none}
+.dev .group{margin:0 0 22px}
+.dev .group p{margin:0 0 8px;font-size:12.5px;color:var(--dust)}
+.dev .group .btn{display:block;width:100%;text-align:left;margin-bottom:6px;padding:12px 16px}
 .auth{display:flex;gap:10px;align-items:center;margin-top:14px;font-size:13px;color:var(--dust);position:relative;z-index:1}
 .node .pct{display:block;font-size:11px;color:var(--dust);padding-top:2px}
 .magic{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
@@ -197,7 +208,7 @@ button{font-family:inherit}
       <h1>Blackout</h1>
       <p>A quiz run across the planets. Four lights. Every wrong answer puts one out.</p>
     </div>
-    <button class="btn is-primary" id="begin">Begin a run</button>
+    <div class="modes"><button class="btn is-primary" id="begin">Begin a run</button><button class="btn" id="dev-open">Dev</button></div>
     <p class="void-line" id="void-line" hidden></p>
     <div class="notes" id="notes-title" hidden><button class="btn copy">Copy notes</button><button class="btn clear">Clear</button></div>
     <div class="auth" id="auth" hidden></div>
@@ -250,6 +261,14 @@ button{font-family:inherit}
       </div>
       <p class="result" id="b-result"></p>
     </div>
+  </section>
+
+  <section class="screen dev" id="s-dev">
+    <div class="head">
+      <div class="where"><b>Dev mode</b><span>Nothing here is recorded, synced or scored.</span></div>
+      <button class="btn" id="dev-back">Back</button>
+    </div>
+    <div class="body" id="dev-list"></div>
   </section>
 
   <section class="screen end" id="s-end">
@@ -353,7 +372,11 @@ function voidQuestions(){
   const {q}=derive();
   return TOPICS.flatMap(t=>t.questions).filter(x=>q[x.id]?.inVoid);
 }
+let mode='run';
+/* where a feature returns when it ends: the map in a run, the menu in dev mode */
+function back(){show(mode==='dev'?'s-dev':'s-map')}
 function record(item,ok,ctx){
+  if(mode==='dev')return;
   log.add({id:uuid(),qid:item.id,topic:item.topic.id,ok,ctx,at:new Date().toISOString(),device:deviceId});
   sync();
 }
@@ -563,13 +586,13 @@ async function quiz(i){
   if(misses===0&&run.lights<MAX_LIGHTS){run.lights++;note=`No misses at ${t.short}. A light comes back.`}
   $('map-note').textContent=note;
   syncMap();syncLights();
-  show('s-map');
+  back();
 }
 const BONUS_NAMES={id:'bonus-names',short:'Names',specialty:'Brand and generic',bonus:'names'};
 /* the void: up to ten questions you have missed, answered before the map. No lights at stake. */
 const VOID={name:'The void',c:['#ECEBE6','#8C8C94','#5A5A63','#232328']};
 async function voidSession(){
-  const pool=voidQuestions();
+  const pool=mode==='dev'?shuffle(TOPICS.flatMap(t=>t.questions)).slice(0,VOID_SESSION):voidQuestions();
   if(!pool.length)return;
   const qs=shuffle(pool).slice(0,VOID_SESSION);
   paintBand($('q-band'),VOID.c);
@@ -581,7 +604,7 @@ async function voidSession(){
   await ask(VOID,qs,{ctx:'void'});
   $('s-quiz').classList.remove('is-void');
   current=null;
-  show('s-map');
+  back();
 }
 async function ask(p,qs,opts){
   const count=qs.length;
@@ -787,7 +810,7 @@ async function matching(i){
   });
   const relit=misses===0&&run.lights<MAX_LIGHTS;
   if(relit)run.lights++;
-  log.add({id:uuid(),qid:'bonus-names',topic:'bonus-names',ok:misses===0,ctx:'bonus',credits:earned,at:new Date().toISOString(),device:deviceId});sync();
+  if(mode!=='dev'){log.add({id:uuid(),qid:'bonus-names',topic:'bonus-names',ok:misses===0,ctx:'bonus',credits:earned,at:new Date().toISOString(),device:deviceId});sync()}
   syncLights();renderCredits();
   const r=$('b-result');
   r.textContent=(misses===0?'All six matched first time.':misses===1?'One miss.':misses+' misses.')+(relit?' A light comes back.':'')+' '+earned+' credits earned.';
@@ -798,7 +821,7 @@ async function matching(i){
   run.open=EDGES.filter(e=>e[0]===i).map(e=>e[1]);
   $('map-note').textContent='Choose the next planet';
   syncMap();syncLights();
-  show('s-map');
+  back();
 }
 function blackout(p){
   const n=run.visited;
@@ -815,8 +838,50 @@ function clear(){
 $('begin').disabled=true;$('begin').textContent='Loading';
 loadTopics().then(()=>{$('begin').disabled=false;$('begin').textContent='Begin a run';renderVoid();initSync()})
   .catch(()=>{$('begin').textContent='Questions failed to load';document.querySelector('.title p').textContent='Check the connection and reload.'});
-$('begin').addEventListener('click',()=>{goFull();newRun()});
-$('again').addEventListener('click',()=>{renderVoid();newRun()});
+$('begin').addEventListener('click',()=>{mode='run';goFull();newRun()});
+
+/* dev mode: launch any feature directly, on a throwaway run, with nothing recorded */
+function devRun(){
+  const hues=spreadHues(NODES.length);
+  const order=shuffle(PLANETS).map((p,i)=>({...p,c:palette(hues[i])}));
+  run={planets:[...order,{...BOSS,c:palette(hues[NODES.length-1],false)}],topics:NODES.map(()=>null),lights:MAX_LIGHTS,here:-1,open:[],done:[],visited:0,route:[]};
+  syncLights();
+}
+async function devAsk(qs,ctx='planet'){
+  devRun();const p=run.planets[0];
+  paintBand($('q-band'),p.c);$('q-name').textContent=qs[0].topic.short;$('q-cat').textContent=qs[0].topic.specialty;
+  $('s-quiz').classList.remove('is-void');$('q-body').classList.add('is-swapping');
+  show('s-quiz');await sleep(reduced?0:450);
+  const {out}=await ask(p,qs,{ctx});
+  current=null;
+  if(out)return blackout(p);
+  back();
+}
+function buildDev(){
+  const list=$('dev-list');list.innerHTML='';
+  const group=(title,items)=>{const g=document.createElement('div');g.className='group';const h=document.createElement('p');h.textContent=title;g.appendChild(h);
+    items.forEach(([label,fn])=>{const b=document.createElement('button');b.className='btn';b.textContent=label;b.onclick=fn;g.appendChild(b)});list.appendChild(g)};
+  const all=TOPICS.flatMap(t=>t.questions);
+  group('Bonus levels',[
+    ['Names: brand and generic matching',()=>{devRun();run.topics[0]=BONUS_NAMES;matching(0)}],
+  ]);
+  group('Question formats',[
+    ['A single-answer question',()=>devAsk([shuffle(all.filter(q=>q.type==='single'&&q.order!=='fixed'))[0]])],
+    ['A fixed-order numeric question',()=>devAsk([shuffle(all.filter(q=>q.order==='fixed'))[0]])],
+    ['A multi-select question',()=>devAsk([shuffle(all.filter(q=>q.type==='multi'))[0]])],
+    ['A dense multi-select (6 or more options)',()=>devAsk([shuffle(all.filter(q=>q.type==='multi'&&q.a.length+q.d.length>=6))[0]])],
+    ['A void session (ten random questions)',()=>{devRun();voidSession()}],
+  ]);
+  group('Planets',TOPICS.map(t=>['Planet: '+t.short,()=>{devRun();run.topics[0]=t;quiz(0)}]));
+  group('Screens',[
+    ['The map',()=>{devRun();run.topics=NODES.map((n,i)=>i===NODES.length-1?null:TOPICS[i%TOPICS.length]);run.topics[3]=BONUS_NAMES;run.open=[0,1];$('map-note').textContent='Choose a planet';buildMap();renderCredits();show('s-map');requestAnimationFrame(()=>{$('map-body').scrollTop=$('map-body').scrollHeight})}],
+    ['Blackout screen',()=>{devRun();run.lights=0;run.visited=2;blackout(run.planets[0])}],
+    ['Cleared the system screen',()=>{devRun();run.lights=3;clear()}],
+  ]);
+}
+$('dev-open').addEventListener('click',()=>{mode='dev';buildDev();show('s-dev')});
+$('dev-back').addEventListener('click',()=>{mode='run';show('s-title')});
+$('again').addEventListener('click',()=>{if(mode==='dev'){show('s-dev');return}renderVoid();newRun()});
 addEventListener('resize',()=>{if(run)buildMap()});
 </script>
 </body>

@@ -125,6 +125,16 @@ each question's streak, what has been seen, and per-topic accuracy.
   topic accuracy once a topic has three or more planet or boss attempts.
 - Planet draws prefer least-seen questions, now derived from the log.
 
+## Game modes
+
+Two modes since 2026-09-13. **Run** is the game. **Dev** is a menu on the
+title screen that launches any feature directly on a throwaway run: the
+Names bonus, each question format (single, fixed-order, multi-select, dense
+multi-select), a void session of ten random questions, any topic as a
+planet, the map with a bonus node, and the blackout and cleared screens.
+Nothing in dev mode is recorded, synced or scored; every feature returns
+to the dev menu when it ends, and Back restores run mode.
+
 ## Bonus levels and credits
 
 Decided 2026-09-13. Bonus levels are extra kinds of node on the map, drawn
