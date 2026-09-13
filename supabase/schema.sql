@@ -48,3 +48,6 @@ create or replace view public.topic_accuracy as
          count(*) filter (where ctx <> 'void' and ok) as correct
   from public.attempts
   group by user_id, topic;
+
+-- Without this the view would run as its owner and bypass row-level security.
+alter view public.topic_accuracy set (security_invoker = on);
