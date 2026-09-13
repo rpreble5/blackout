@@ -309,35 +309,5 @@
         "worsening-hf"
       ]
     }
-  ],
-  "pairs": [
-    {
-      "generic": "finerenone",
-      "brand": "Kerendia"
-    },
-    {
-      "generic": "ivabradine",
-      "brand": "Corlanor"
-    },
-    {
-      "generic": "vericiguat",
-      "brand": "Verquvo"
-    },
-    {
-      "generic": "isosorbide dinitrate-hydralazine",
-      "brand": "BiDil"
-    },
-    {
-      "generic": "ferric carboxymaltose",
-      "brand": "Injectafer"
-    },
-    {
-      "generic": "ferric derisomaltose",
-      "brand": "Monoferric"
-    },
-    {
-      "generic": "ethacrynic acid",
-      "brand": "Edecrin"
-    }
   ]
 }

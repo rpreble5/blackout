@@ -142,11 +142,15 @@ as a ring rather than a sphere. They never cost a light. They pay credits,
 a balance shown in the map header and derived from the log like everything
 else, and a clean clear relights a light. Credits have no spend yet.
 
-Built: **Names**, brand and generic matching. Six pairs drawn from the
-`pairs` lists in the topic files, two columns, tap one from each. A wrong
-pair shakes and resets; a right pair fills and locks. Two credits per pair
-matched first time, one otherwise. One Names node appears per run on one of
-the five middle-tier nodes whenever at least four pairs exist.
+Built: **Names**, brand and generic matching. Six pairs drawn from one drug
+class in `blackout/drugs.json` (18 classes, 202 pairs on 2026-09-13), so
+confusable class-mates sit together: beta blockers with beta blockers,
+SSRIs with SNRIs. Two vertical lists, generics then brands, rows styled as
+answer rows with hollow dots; a tap fills the dot, a match colours both rows
+from the planet ramp, a wrong pair shakes. Two credits per pair matched first
+time, one otherwise. One Names node appears per run on one of the five
+middle-tier nodes. The dev menu lists every class. A two-column grid of
+boxed cells was tried first and rejected.
 
 Ideas agreed for later, in rough order: put it in order (tap items in
 sequence), yes or no fast cards, spot the error in a chart entry, case

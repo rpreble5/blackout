@@ -1,0 +1,297 @@
+{
+  "note": "Generic and US brand names grouped by class, for the Names bonus. A round draws six pairs from one class so the confusable names sit together. Brand shown is the most recognised one; where a generic has several brands, one was chosen.",
+  "classes": [
+    {
+      "name": "Anticoagulants and antiplatelets",
+      "pairs": [
+        {"generic": "warfarin", "brand": "Coumadin"},
+        {"generic": "apixaban", "brand": "Eliquis"},
+        {"generic": "rivaroxaban", "brand": "Xarelto"},
+        {"generic": "dabigatran", "brand": "Pradaxa"},
+        {"generic": "edoxaban", "brand": "Savaysa"},
+        {"generic": "enoxaparin", "brand": "Lovenox"},
+        {"generic": "dalteparin", "brand": "Fragmin"},
+        {"generic": "fondaparinux", "brand": "Arixtra"},
+        {"generic": "clopidogrel", "brand": "Plavix"},
+        {"generic": "prasugrel", "brand": "Effient"},
+        {"generic": "ticagrelor", "brand": "Brilinta"},
+        {"generic": "cilostazol", "brand": "Pletal"},
+        {"generic": "aspirin-dipyridamole", "brand": "Aggrenox"}
+      ]
+    },
+    {
+      "name": "Antidepressants",
+      "pairs": [
+        {"generic": "sertraline", "brand": "Zoloft"},
+        {"generic": "fluoxetine", "brand": "Prozac"},
+        {"generic": "paroxetine", "brand": "Paxil"},
+        {"generic": "citalopram", "brand": "Celexa"},
+        {"generic": "escitalopram", "brand": "Lexapro"},
+        {"generic": "fluvoxamine", "brand": "Luvox"},
+        {"generic": "venlafaxine", "brand": "Effexor"},
+        {"generic": "desvenlafaxine", "brand": "Pristiq"},
+        {"generic": "duloxetine", "brand": "Cymbalta"},
+        {"generic": "vilazodone", "brand": "Viibryd"},
+        {"generic": "vortioxetine", "brand": "Trintellix"},
+        {"generic": "bupropion", "brand": "Wellbutrin"},
+        {"generic": "mirtazapine", "brand": "Remeron"},
+        {"generic": "trazodone", "brand": "Desyrel"}
+      ]
+    },
+    {
+      "name": "Beta blockers",
+      "pairs": [
+        {"generic": "metoprolol succinate", "brand": "Toprol-XL"},
+        {"generic": "metoprolol tartrate", "brand": "Lopressor"},
+        {"generic": "carvedilol", "brand": "Coreg"},
+        {"generic": "bisoprolol", "brand": "Zebeta"},
+        {"generic": "atenolol", "brand": "Tenormin"},
+        {"generic": "propranolol", "brand": "Inderal"},
+        {"generic": "nebivolol", "brand": "Bystolic"},
+        {"generic": "labetalol", "brand": "Trandate"},
+        {"generic": "nadolol", "brand": "Corgard"}
+      ]
+    },
+    {
+      "name": "Cholesterol",
+      "pairs": [
+        {"generic": "atorvastatin", "brand": "Lipitor"},
+        {"generic": "rosuvastatin", "brand": "Crestor"},
+        {"generic": "simvastatin", "brand": "Zocor"},
+        {"generic": "pravastatin", "brand": "Pravachol"},
+        {"generic": "lovastatin", "brand": "Mevacor"},
+        {"generic": "pitavastatin", "brand": "Livalo"},
+        {"generic": "ezetimibe", "brand": "Zetia"},
+        {"generic": "evolocumab", "brand": "Repatha"},
+        {"generic": "alirocumab", "brand": "Praluent"},
+        {"generic": "inclisiran", "brand": "Leqvio"},
+        {"generic": "bempedoic acid", "brand": "Nexletol"},
+        {"generic": "icosapent ethyl", "brand": "Vascepa"},
+        {"generic": "fenofibrate", "brand": "Tricor"}
+      ]
+    },
+    {
+      "name": "ACE inhibitors and ARBs",
+      "pairs": [
+        {"generic": "lisinopril", "brand": "Zestril"},
+        {"generic": "enalapril", "brand": "Vasotec"},
+        {"generic": "ramipril", "brand": "Altace"},
+        {"generic": "benazepril", "brand": "Lotensin"},
+        {"generic": "quinapril", "brand": "Accupril"},
+        {"generic": "losartan", "brand": "Cozaar"},
+        {"generic": "valsartan", "brand": "Diovan"},
+        {"generic": "olmesartan", "brand": "Benicar"},
+        {"generic": "irbesartan", "brand": "Avapro"},
+        {"generic": "candesartan", "brand": "Atacand"},
+        {"generic": "telmisartan", "brand": "Micardis"},
+        {"generic": "sacubitril-valsartan", "brand": "Entresto"}
+      ]
+    },
+    {
+      "name": "Calcium channel blockers and other antihypertensives",
+      "pairs": [
+        {"generic": "amlodipine", "brand": "Norvasc"},
+        {"generic": "nifedipine", "brand": "Procardia"},
+        {"generic": "diltiazem", "brand": "Cardizem"},
+        {"generic": "verapamil", "brand": "Calan"},
+        {"generic": "felodipine", "brand": "Plendil"},
+        {"generic": "clonidine", "brand": "Catapres"},
+        {"generic": "doxazosin", "brand": "Cardura"},
+        {"generic": "hydralazine", "brand": "Apresoline"}
+      ]
+    },
+    {
+      "name": "Diuretics",
+      "pairs": [
+        {"generic": "hydrochlorothiazide", "brand": "Microzide"},
+        {"generic": "chlorthalidone", "brand": "Thalitone"},
+        {"generic": "furosemide", "brand": "Lasix"},
+        {"generic": "torsemide", "brand": "Demadex"},
+        {"generic": "bumetanide", "brand": "Bumex"},
+        {"generic": "spironolactone", "brand": "Aldactone"},
+        {"generic": "eplerenone", "brand": "Inspra"},
+        {"generic": "finerenone", "brand": "Kerendia"},
+        {"generic": "metolazone", "brand": "Zaroxolyn"}
+      ]
+    },
+    {
+      "name": "Other cardiac",
+      "pairs": [
+        {"generic": "ivabradine", "brand": "Corlanor"},
+        {"generic": "vericiguat", "brand": "Verquvo"},
+        {"generic": "isosorbide dinitrate-hydralazine", "brand": "BiDil"},
+        {"generic": "digoxin", "brand": "Lanoxin"},
+        {"generic": "amiodarone", "brand": "Pacerone"},
+        {"generic": "dronedarone", "brand": "Multaq"},
+        {"generic": "flecainide", "brand": "Tambocor"},
+        {"generic": "sotalol", "brand": "Betapace"},
+        {"generic": "ranolazine", "brand": "Ranexa"},
+        {"generic": "isosorbide mononitrate", "brand": "Imdur"},
+        {"generic": "nitroglycerin", "brand": "Nitrostat"}
+      ]
+    },
+    {
+      "name": "Diabetes",
+      "pairs": [
+        {"generic": "metformin", "brand": "Glucophage"},
+        {"generic": "glipizide", "brand": "Glucotrol"},
+        {"generic": "glimepiride", "brand": "Amaryl"},
+        {"generic": "sitagliptin", "brand": "Januvia"},
+        {"generic": "linagliptin", "brand": "Tradjenta"},
+        {"generic": "empagliflozin", "brand": "Jardiance"},
+        {"generic": "dapagliflozin", "brand": "Farxiga"},
+        {"generic": "canagliflozin", "brand": "Invokana"},
+        {"generic": "semaglutide", "brand": "Ozempic"},
+        {"generic": "liraglutide", "brand": "Victoza"},
+        {"generic": "dulaglutide", "brand": "Trulicity"},
+        {"generic": "tirzepatide", "brand": "Mounjaro"},
+        {"generic": "pioglitazone", "brand": "Actos"}
+      ]
+    },
+    {
+      "name": "Insulins",
+      "pairs": [
+        {"generic": "insulin glargine", "brand": "Lantus"},
+        {"generic": "insulin detemir", "brand": "Levemir"},
+        {"generic": "insulin degludec", "brand": "Tresiba"},
+        {"generic": "insulin lispro", "brand": "Humalog"},
+        {"generic": "insulin aspart", "brand": "Novolog"},
+        {"generic": "insulin glulisine", "brand": "Apidra"},
+        {"generic": "insulin NPH", "brand": "Humulin N"},
+        {"generic": "insulin regular", "brand": "Humulin R"}
+      ]
+    },
+    {
+      "name": "Antiepileptics and nerve pain",
+      "pairs": [
+        {"generic": "levetiracetam", "brand": "Keppra"},
+        {"generic": "lamotrigine", "brand": "Lamictal"},
+        {"generic": "topiramate", "brand": "Topamax"},
+        {"generic": "divalproex", "brand": "Depakote"},
+        {"generic": "carbamazepine", "brand": "Tegretol"},
+        {"generic": "oxcarbazepine", "brand": "Trileptal"},
+        {"generic": "gabapentin", "brand": "Neurontin"},
+        {"generic": "pregabalin", "brand": "Lyrica"},
+        {"generic": "phenytoin", "brand": "Dilantin"},
+        {"generic": "lacosamide", "brand": "Vimpat"}
+      ]
+    },
+    {
+      "name": "Antipsychotics and mood stabilisers",
+      "pairs": [
+        {"generic": "quetiapine", "brand": "Seroquel"},
+        {"generic": "olanzapine", "brand": "Zyprexa"},
+        {"generic": "risperidone", "brand": "Risperdal"},
+        {"generic": "aripiprazole", "brand": "Abilify"},
+        {"generic": "ziprasidone", "brand": "Geodon"},
+        {"generic": "lurasidone", "brand": "Latuda"},
+        {"generic": "paliperidone", "brand": "Invega"},
+        {"generic": "haloperidol", "brand": "Haldol"},
+        {"generic": "clozapine", "brand": "Clozaril"},
+        {"generic": "lithium", "brand": "Lithobid"}
+      ]
+    },
+    {
+      "name": "Anxiety, sleep and attention",
+      "pairs": [
+        {"generic": "alprazolam", "brand": "Xanax"},
+        {"generic": "lorazepam", "brand": "Ativan"},
+        {"generic": "clonazepam", "brand": "Klonopin"},
+        {"generic": "diazepam", "brand": "Valium"},
+        {"generic": "zolpidem", "brand": "Ambien"},
+        {"generic": "eszopiclone", "brand": "Lunesta"},
+        {"generic": "buspirone", "brand": "Buspar"},
+        {"generic": "hydroxyzine", "brand": "Vistaril"},
+        {"generic": "methylphenidate", "brand": "Ritalin"},
+        {"generic": "amphetamine-dextroamphetamine", "brand": "Adderall"},
+        {"generic": "lisdexamfetamine", "brand": "Vyvanse"},
+        {"generic": "atomoxetine", "brand": "Strattera"}
+      ]
+    },
+    {
+      "name": "Gastrointestinal",
+      "pairs": [
+        {"generic": "omeprazole", "brand": "Prilosec"},
+        {"generic": "esomeprazole", "brand": "Nexium"},
+        {"generic": "pantoprazole", "brand": "Protonix"},
+        {"generic": "lansoprazole", "brand": "Prevacid"},
+        {"generic": "famotidine", "brand": "Pepcid"},
+        {"generic": "ondansetron", "brand": "Zofran"},
+        {"generic": "metoclopramide", "brand": "Reglan"},
+        {"generic": "sucralfate", "brand": "Carafate"},
+        {"generic": "linaclotide", "brand": "Linzess"},
+        {"generic": "mesalamine", "brand": "Lialda"},
+        {"generic": "ursodiol", "brand": "Actigall"}
+      ]
+    },
+    {
+      "name": "Antibiotics",
+      "pairs": [
+        {"generic": "amoxicillin-clavulanate", "brand": "Augmentin"},
+        {"generic": "azithromycin", "brand": "Zithromax"},
+        {"generic": "ciprofloxacin", "brand": "Cipro"},
+        {"generic": "levofloxacin", "brand": "Levaquin"},
+        {"generic": "doxycycline", "brand": "Vibramycin"},
+        {"generic": "trimethoprim-sulfamethoxazole", "brand": "Bactrim"},
+        {"generic": "nitrofurantoin", "brand": "Macrobid"},
+        {"generic": "cephalexin", "brand": "Keflex"},
+        {"generic": "cefdinir", "brand": "Omnicef"},
+        {"generic": "clindamycin", "brand": "Cleocin"},
+        {"generic": "metronidazole", "brand": "Flagyl"},
+        {"generic": "linezolid", "brand": "Zyvox"},
+        {"generic": "vancomycin", "brand": "Vancocin"}
+      ]
+    },
+    {
+      "name": "Respiratory and allergy",
+      "pairs": [
+        {"generic": "albuterol", "brand": "ProAir"},
+        {"generic": "fluticasone-salmeterol", "brand": "Advair"},
+        {"generic": "budesonide-formoterol", "brand": "Symbicort"},
+        {"generic": "tiotropium", "brand": "Spiriva"},
+        {"generic": "umeclidinium-vilanterol", "brand": "Anoro"},
+        {"generic": "fluticasone-umeclidinium-vilanterol", "brand": "Trelegy"},
+        {"generic": "ipratropium", "brand": "Atrovent"},
+        {"generic": "montelukast", "brand": "Singulair"},
+        {"generic": "fluticasone nasal", "brand": "Flonase"},
+        {"generic": "benralizumab", "brand": "Fasenra"},
+        {"generic": "dupilumab", "brand": "Dupixent"}
+      ]
+    },
+    {
+      "name": "Pain, gout and rheumatology",
+      "pairs": [
+        {"generic": "ibuprofen", "brand": "Advil"},
+        {"generic": "naproxen", "brand": "Aleve"},
+        {"generic": "celecoxib", "brand": "Celebrex"},
+        {"generic": "meloxicam", "brand": "Mobic"},
+        {"generic": "tramadol", "brand": "Ultram"},
+        {"generic": "oxycodone-acetaminophen", "brand": "Percocet"},
+        {"generic": "hydrocodone-acetaminophen", "brand": "Norco"},
+        {"generic": "cyclobenzaprine", "brand": "Flexeril"},
+        {"generic": "allopurinol", "brand": "Zyloprim"},
+        {"generic": "febuxostat", "brand": "Uloric"},
+        {"generic": "colchicine", "brand": "Colcrys"},
+        {"generic": "methotrexate", "brand": "Trexall"},
+        {"generic": "adalimumab", "brand": "Humira"},
+        {"generic": "etanercept", "brand": "Enbrel"}
+      ]
+    },
+    {
+      "name": "Endocrine, bone and urology",
+      "pairs": [
+        {"generic": "levothyroxine", "brand": "Synthroid"},
+        {"generic": "methimazole", "brand": "Tapazole"},
+        {"generic": "alendronate", "brand": "Fosamax"},
+        {"generic": "denosumab", "brand": "Prolia"},
+        {"generic": "tamsulosin", "brand": "Flomax"},
+        {"generic": "finasteride", "brand": "Proscar"},
+        {"generic": "oxybutynin", "brand": "Ditropan"},
+        {"generic": "sildenafil", "brand": "Viagra"},
+        {"generic": "tadalafil", "brand": "Cialis"},
+        {"generic": "estradiol", "brand": "Estrace"},
+        {"generic": "medroxyprogesterone", "brand": "Provera"}
+      ]
+    }
+  ]
+}

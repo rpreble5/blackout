@@ -250,7 +250,7 @@ button{font-family:inherit}
 
   <section class="screen bonus" id="s-bonus">
     <div class="head">
-      <div class="where"><b id="b-name">Names</b><span id="b-cat">Match generic to brand</span></div>
+      <div class="where"><b id="b-name">Names</b><span id="b-cat"></span></div>
       <div class="status"><span class="credits" id="b-credits" hidden></span><div class="lights" id="b-lights"></div></div>
     </div>
     <div class="band" id="b-band"><span class="dim" id="b-dim"></span></div>
@@ -330,13 +330,15 @@ function palette(h,pale=Math.random()<.12){
 const spreadHues=n=>shuffle([...Array(n)].map((_,i)=>{const h=(i*300/n+rnd(-12,12)+360)%300;return h<80?h:h+60}));
 
 /* topics: one json file each, listed in topics/index.json. A planet is one visit to a topic. */
-let TOPICS=[];
+let TOPICS=[],DRUGS=[];
+const PAIRS_PER_ROUND=6;
 const PER_VISIT=7,BOSS_VISIT=8;
 async function loadTopics(){
   /* no-cache means revalidate with the server, so a new topic file shows up on the next load */
   const idx=await fetch('topics/index.json',{cache:'no-cache'}).then(r=>r.json());
   TOPICS=await Promise.all(idx.topics.map(f=>fetch('topics/'+f,{cache:'no-cache'}).then(r=>r.json())));
   TOPICS.forEach(t=>t.questions.forEach(q=>q.topic=t));
+  DRUGS=(await fetch('drugs.json',{cache:'no-cache'}).then(r=>r.json())).classes.filter(c=>c.pairs.length>=PAIRS_PER_ROUND);
 }
 /* memory. Every answer is one entry in an append-only log kept on the device and, when signed in, mirrored
    to the server. Everything else (the void, streaks, what you've seen, topic accuracy) is derived from the log,
@@ -367,7 +369,6 @@ function derive(){
 }
 function credits(){return log.get().reduce((n,e)=>n+(e.credits||0),0)}
 function renderCredits(){const n=credits();document.querySelectorAll('.credits').forEach(el=>{el.hidden=n===0;el.textContent=n===1?'1 credit':n+' credits'})}
-function pairsPool(){return TOPICS.flatMap(t=>(t.pairs||[]).map(x=>({...x,topic:t})))}
 function voidQuestions(){
   const {q}=derive();
   return TOPICS.flatMap(t=>t.questions).filter(x=>q[x.id]?.inVoid);
@@ -485,7 +486,7 @@ async function newRun(){
   const boss={...BOSS,c:palette(hues[NODES.length-1],false)};
   const cycle=shuffle(TOPICS);
   const topics=NODES.map((n,i)=>i===NODES.length-1?null:cycle[i%cycle.length]);
-  const bonusAt=pairsPool().length>=4?[2,3,4,5,6][Math.random()*5|0]:-1;
+  const bonusAt=DRUGS.length?[2,3,4,5,6][Math.random()*5|0]:-1;
   if(bonusAt>=0)topics[bonusAt]=BONUS_NAMES;
   run={planets:[...order,boss],topics,lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
   $('map-note').textContent='Choose a planet';
@@ -768,10 +769,11 @@ function goFull(){
 }
 /* bonus: brand and generic matching. Six pairs, two columns, tap one from each. Two credits per pair matched
    first time, one if it took more than one try; a clean clear relights a light. Never costs a light. */
-const PAIRS_PER_ROUND=6;
-async function matching(i){
+async function matching(i,cls){
   const p=run.planets[i];
-  const pairs=shuffle(pairsPool()).slice(0,PAIRS_PER_ROUND);
+  cls=cls||DRUGS[Math.random()*DRUGS.length|0];
+  const pairs=shuffle(cls.pairs).slice(0,PAIRS_PER_ROUND);
+  $('b-cat').textContent=cls.name;
   paintBand($('b-band'),p.c);
   const dim=$('b-dim');dim.style.setProperty('--p','0%');
   syncLights();renderCredits();
@@ -862,9 +864,7 @@ function buildDev(){
   const group=(title,items)=>{const g=document.createElement('div');g.className='group';const h=document.createElement('p');h.textContent=title;g.appendChild(h);
     items.forEach(([label,fn])=>{const b=document.createElement('button');b.className='btn';b.textContent=label;b.onclick=fn;g.appendChild(b)});list.appendChild(g)};
   const all=TOPICS.flatMap(t=>t.questions);
-  group('Bonus levels',[
-    ['Names: brand and generic matching',()=>{devRun();run.topics[0]=BONUS_NAMES;matching(0)}],
-  ]);
+  group('Names: brand and generic, by class',DRUGS.map(c=>[c.name+' ('+c.pairs.length+')',()=>{devRun();run.topics[0]=BONUS_NAMES;matching(0,c)}]));
   group('Question formats',[
     ['A single-answer question',()=>devAsk([shuffle(all.filter(q=>q.type==='single'&&q.order!=='fixed'))[0]])],
     ['A fixed-order numeric question',()=>devAsk([shuffle(all.filter(q=>q.order==='fixed'))[0]])],

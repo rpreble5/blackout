@@ -298,31 +298,5 @@
         "titration"
       ]
     }
-  ],
-  "pairs": [
-    {
-      "generic": "sacubitril-valsartan",
-      "brand": "Entresto"
-    },
-    {
-      "generic": "dapagliflozin",
-      "brand": "Farxiga"
-    },
-    {
-      "generic": "empagliflozin",
-      "brand": "Jardiance"
-    },
-    {
-      "generic": "carvedilol",
-      "brand": "Coreg"
-    },
-    {
-      "generic": "sotagliflozin",
-      "brand": "Inpefa"
-    },
-    {
-      "generic": "ramipril",
-      "brand": "Altace"
-    }
   ]
 }
