@@ -72,7 +72,7 @@ button{font-family:inherit}
 .map-body::-webkit-scrollbar{display:none}
 .map-field{position:relative;height:740px;min-height:100%}
 .map-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-.map-lines path{fill:none;stroke-width:1.5;stroke-linecap:round;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .7s var(--ease)}
+.map-lines path{fill:none;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:var(--len);stroke-dashoffset:var(--len);transition:stroke-dashoffset .7s var(--ease)}
 .map-lines path.is-lit{stroke-dashoffset:0}
 .node{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:9px;padding:6px;background:none;border:0;color:var(--dust);font:400 12px var(--font);cursor:default;transition:opacity .6s}
 .node .planet{transition:filter .6s}
@@ -95,7 +95,8 @@ button{font-family:inherit}
 @keyframes slide{from{transform:translateX(-3%)}to{transform:translateX(3%)}}
 /* the band doubles as progress: the part not yet earned sits under a dark scrim that slides right */
 .band .dim{position:absolute;top:0;bottom:0;right:0;left:var(--p,0%);z-index:1;background:rgba(0,0,0,.72);transition:left .9s var(--ease)}
-.quiz .body{flex:1;display:flex;flex-direction:column;justify-content:center;padding-bottom:6vh;transition:opacity .35s var(--ease)}
+.quiz .body{flex:1;display:flex;flex-direction:column;justify-content:safe center;padding-bottom:6vh;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;margin:0 -24px;padding-left:24px;padding-right:24px;transition:opacity .35s var(--ease)}
+.quiz .body::-webkit-scrollbar{display:none}
 .quiz .body.is-swapping{opacity:0}
 /* while the body is hidden, state changes inside it snap instead of animating */
 .quiz .body.is-swapping *{transition:none!important}
@@ -117,6 +118,14 @@ button{font-family:inherit}
 .answer.is-correct{color:var(--fill-ink)}
 .answer.is-correct .planet{opacity:0;transform:scale(.6)}
 .answer.is-wrong{opacity:.22}
+/* multi-select: a held row shows a faint wash of the fill; a wrong pick stays visible with its circle greyed */
+.answer.is-pick::before{opacity:.16;transform:scale(1)}
+.answer.is-miss{opacity:.6}
+.answer.is-miss .planet{filter:grayscale(1) brightness(.45)}
+/* dense lists for six or more options */
+.answers.is-dense .answer{min-height:46px;padding:6px 16px;font-size:16px;gap:14px}
+.answers.is-dense .answer .planet{--s:24px}
+.answers.is-dense .answer::before{transform-origin:28px 50%}
 .answer[disabled]{cursor:default}
 
 /* end */
@@ -196,6 +205,7 @@ const BOSS={name:'Eclipse',cat:'Everything',c:['#C9A2FF','#7C3FB5','#FF8A5B','#0
 
 const BANK={
   Astronomy:[
+    ['Which of these are gas giants?',['Jupiter','Saturn'],['Mars','Venus','Mercury'],'Jupiter and Saturn are the gas giants. Uranus and Neptune are usually called ice giants, and the rest are rocky.'],
     ['Which planet has the most known moons?','Saturn','Jupiter','Uranus','Neptune','Saturn passed Jupiter in 2023 and now has well over a hundred confirmed moons.'],
     ['After the Sun, which star is closest to Earth?','Proxima Centauri','Sirius','Betelgeuse','Vega','Proxima Centauri is about 4.2 light years away, a faint red dwarf in the Alpha Centauri system.'],
     ['About how long does sunlight take to reach Earth?','Eight minutes, give or take twenty seconds','Eight seconds, which is why sunsets look instant','Eight hours, roughly one working day','Eight days, about the same as a lunar phase','Light covers the 150 million kilometres from the Sun in about 8 minutes and 20 seconds.'],
@@ -203,6 +213,7 @@ const BANK={
     ["What is Jupiter's largest moon?",'Ganymede','Europa','Titan','Io','Ganymede is bigger than Mercury and is the only moon known to have its own magnetic field.'],
   ],
   Science:[
+    ['Which of these are noble gases?',['Helium','Neon','Argon'],['Nitrogen','Hydrogen','Chlorine'],'Noble gases fill the last column of the periodic table and rarely react because their outer electron shells are full.'],
     ['Which element has atomic number 6?','Carbon','Nitrogen','Oxygen','Helium','Carbon has six protons. Its ability to bond four ways is why it forms the backbone of life.'],
     ['What is the hardest natural substance?','Diamond','Quartz','Tungsten','Graphite','Diamond and graphite are both pure carbon. Only the arrangement of the atoms is different.'],
     ['What gas do plants take in from the air?','Carbon dioxide','Oxygen','Nitrogen','Hydrogen','Plants combine carbon dioxide and water using sunlight, and release oxygen as a by-product.'],
@@ -210,6 +221,7 @@ const BANK={
     ['What is the smallest particle of an element?','An atom','A molecule','A cell','A quark','Quarks are smaller, but an atom is the smallest piece that still behaves like that element.'],
   ],
   Geography:[
+    ['Which of these countries border Germany?',['France','Poland','Austria','Denmark'],['Italy','Spain','Portugal','Norway'],'Germany borders nine countries, more than any other in Europe except Russia.'],
     ['Which is the longest river in Africa?','The Nile','The Congo','The Niger','The Zambezi','The Nile runs about 6,650 kilometres through eleven countries before reaching the Mediterranean.'],
     ['Which country spans the most time zones?','France, counting its overseas territories','Russia, from Kaliningrad to Kamchatka','The United States, including its islands','China, which officially keeps just one','France covers twelve time zones because of territories from French Polynesia to Réunion.'],
     ['What is the capital of Canada?','Ottawa','Toronto','Vancouver','Montreal','Ottawa was chosen in 1857 partly because it sat safely between English and French Canada.'],
@@ -217,6 +229,7 @@ const BANK={
     ['Which ocean is the deepest?','Pacific','Atlantic','Indian','Arctic','The Challenger Deep in the Pacific reaches almost 11 kilometres, deeper than Everest is tall.'],
   ],
   History:[
+    ['Which of these happened in the 1960s?',['The Cuban missile crisis','The first Moon landing','The Berlin Wall went up'],['The fall of the Berlin Wall','The sinking of the Titanic'],'The wall went up in 1961 and came down in 1989. The missile crisis was 1962 and the Moon landing 1969.'],
     ['In which year did the Berlin Wall fall?','1989','1985','1991','1979','The wall opened on 9 November 1989. Germany formally reunited less than a year later.'],
     ['Who was first to walk on the Moon?','Neil Armstrong','Buzz Aldrin','Yuri Gagarin','John Glenn','Armstrong stepped out on 20 July 1969. Aldrin followed about nineteen minutes later.'],
     ['Which empire built Machu Picchu?','The Inca, high in the Andes of Peru','The Aztec, in the Valley of Mexico','The Maya, across the Yucatán','The Olmec, along the Gulf coast','Machu Picchu was built around 1450 and abandoned about a century later, never found by the Spanish.'],
@@ -224,6 +237,7 @@ const BANK={
     ['The Magna Carta was sealed in which century?','13th','11th','15th','17th','King John sealed it at Runnymede in 1215, which falls in the thirteenth century.'],
   ],
   Music:[
+    ['Which of these are woodwind instruments?',['Clarinet','Oboe','Flute','Bassoon'],['Trumpet','French horn','Trombone','Tuba'],'Flutes count as woodwind even though modern ones are metal. The brass family is defined by how the lips buzz into a mouthpiece.'],
     ['How many strings does a standard violin have?','Four','Five','Six','Three','The four strings are tuned in fifths: G, D, A and E.'],
     ['Who wrote the Moonlight Sonata?','Beethoven','Mozart','Chopin','Bach','Beethoven never called it that. A critic compared the first movement to moonlight on a lake years after his death.'],
     ['In sheet music, what does forte mean?','Loud','Soft','Fast','Slow','Forte is Italian for strong. Its opposite, piano, gave the pianoforte its name.'],
@@ -231,6 +245,7 @@ const BANK={
     ['Which band released Abbey Road?','The Beatles','The Rolling Stones','The Kinks','The Who','Abbey Road came out in 1969 and was the last album the Beatles recorded together.'],
   ],
   'Film and art':[
+    ['Which of these films did Stanley Kubrick direct?',['The Shining','Dr. Strangelove','Barry Lyndon'],['Blade Runner','Taxi Driver'],'Kubrick made thirteen features in forty-six years and never won an Oscar for directing.'],
     ['Who painted The Starry Night?','Vincent van Gogh','Claude Monet','Paul Cézanne','Edvard Munch','Van Gogh painted it in 1889 from memory, looking out of his asylum window in Saint-Rémy.'],
     ['Which museum holds the Mona Lisa?','The Louvre','The Prado','The Uffizi','The Met','It has hung in the Louvre since 1797, apart from a two-year absence after it was stolen in 1911.'],
     ['What is the Japanese art of paper folding called?','Origami','Ikebana','Kirigami','Sumi-e','Origami joins ori, to fold, and kami, paper. Kirigami is the version where cutting is allowed.'],
@@ -238,6 +253,7 @@ const BANK={
     ['Which film won the first Best Picture Oscar?','Wings','Sunrise','The Jazz Singer','Metropolis','Wings, a silent film about First World War pilots, won at the first ceremony in 1929.'],
   ],
   Words:[
+    ['Which of these words come from Arabic?',['Algebra','Coffee','Sofa','Zero'],['Piano','Kindergarten','Robot','Tsunami'],'Many Arabic loanwords arrived through Spanish and Italian trade. Robot is Czech, tsunami Japanese, piano Italian.'],
     ['A word that reads the same backwards is called what?','A palindrome, like level or racecar','An anagram, like listen and silent','A homonym, like bat and bat','A pangram, a sentence using every letter','Palindrome comes from Greek: palin, again, and dromos, a running.'],
     ['Which language has the most native speakers?','Mandarin Chinese','English','Spanish','Hindi','Around 940 million people speak Mandarin as a first language. English leads once second-language speakers are counted.'],
     ['Which letter appears most often in English text?','E','T','A','S','E appears in about one in eight letters of ordinary English, which is why it is the first guess in codebreaking.'],
@@ -316,24 +332,27 @@ function newRun(){
 function buildMap(){
   const field=$('map-field'),svg=$('map-lines');
   field.querySelectorAll('.node').forEach(n=>n.remove());
-  svg.innerHTML='';svg.setAttribute('viewBox','0 0 100 100');svg.setAttribute('preserveAspectRatio','none');
+  /* the svg is built in real pixels so dash lengths (used to hide and draw paths) are exact */
+  const W=field.clientWidth||390,H=field.clientHeight||740,px=v=>v*W/100,py=v=>v*H/100;
+  svg.innerHTML='';svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
   const NS='http://www.w3.org/2000/svg';
   const defs=document.createElementNS(NS,'defs');svg.appendChild(defs);
   EDGES.forEach(([f,t],k)=>{
     const a=NODES[f],b=NODES[t];
     const g=document.createElementNS(NS,'linearGradient');
     g.id='g'+f+'-'+t;g.setAttribute('gradientUnits','userSpaceOnUse');
-    g.setAttribute('x1',a.x);g.setAttribute('y1',a.y);g.setAttribute('x2',b.x);g.setAttribute('y2',b.y);
+    g.setAttribute('x1',px(a.x));g.setAttribute('y1',py(a.y));g.setAttribute('x2',px(b.x));g.setAttribute('y2',py(b.y));
     [[0,avg(run.planets[f].c)],[1,avg(run.planets[t].c)]].forEach(([o,c])=>{
       const st=document.createElementNS(NS,'stop');st.setAttribute('offset',o);st.setAttribute('stop-color',c);g.appendChild(st);
     });
     defs.appendChild(g);
     /* an S-curve that leaves and arrives vertically, with a small sideways lean so no two feel identical */
-    const dy=a.y-b.y,lean=((k*7)%5-2)*2.2;
-    const d=`M${a.x} ${a.y} C${a.x+lean} ${a.y-dy*.5},${b.x-lean} ${b.y+dy*.5},${b.x} ${b.y}`;
+    const dy=py(a.y)-py(b.y),lean=px(((k*7)%5-2)*1.2);
+    const d=`M${px(a.x)} ${py(a.y)} C${px(a.x)+lean} ${py(a.y)-dy*.5},${px(b.x)-lean} ${py(b.y)+dy*.5},${px(b.x)} ${py(b.y)}`;
     const path=document.createElementNS(NS,'path');
-    path.setAttribute('d',d);path.setAttribute('pathLength','1');path.setAttribute('stroke','url(#g'+f+'-'+t+')');
+    path.setAttribute('d',d);path.setAttribute('stroke','url(#g'+f+'-'+t+')');
     path.dataset.edge=f+'-'+t;svg.appendChild(path);
+    path.style.setProperty('--len',path.getTotalLength().toFixed(1));
   });
   NODES.forEach((n,i)=>{
     const p=run.planets[i];
@@ -385,18 +404,20 @@ async function quiz(i){
   const prompt=$('q-prompt'),dim=$('q-dim'),screen=$('s-quiz');
   dim.style.setProperty('--p','0%');
   for(let k=0;k<qs.length;k++){
-    const [text,...rest]=qs[k];
-    const why=rest.pop(),ans=rest,correct=ans[0];
+    const item=qs[k],multi=Array.isArray(item[1]);
+    let text,why,options,correct;
+    if(multi){[text,correct,,why]=item;options=shuffle([...item[1],...item[2]]);correct=new Set(item[1])}
+    else{text=item[0];why=item[item.length-1];options=shuffle(item.slice(1,-1));correct=new Set([item[1]])}
     $('q-text').textContent=text;fit($('q-text'),text,20,27,50,110);
     $('q-why').textContent=why;fit($('q-why'),why,16,21,60,150);
     prompt.classList.remove('is-why');
-    const wrap=$('q-answers');wrap.innerHTML='';
+    const wrap=$('q-answers');wrap.innerHTML='';wrap.classList.toggle('is-dense',options.length>=6);
     const [c1,c2,c3,c4]=p.c;
     const orders=[[c1,c2,c3,c4],[c3,c1,c2,c4],[c2,c3,c1,c4],[c1,c3,c2,c4]];
     wrap.style.setProperty('--fill-a',c1);wrap.style.setProperty('--fill-b',c2);wrap.style.setProperty('--fill-ink',lum(c2)>.14?'#000':'#ECEBE6');
-    shuffle(ans).forEach((t,j)=>{
+    options.forEach((t,j)=>{
       const b=document.createElement('button');b.className='answer';
-      const orb=document.createElement('span');orb.className='planet';paint(orb,orders[j],null,j);orb.style.setProperty('--d',(-j*5)+'s');
+      const orb=document.createElement('span');orb.className='planet';paint(orb,orders[j%4],null,j);orb.style.setProperty('--d',(-j*5)+'s');
       const label=document.createElement('span');label.textContent=t;
       b.append(orb,label);b.dataset.t=t;wrap.appendChild(b);
     });
@@ -405,10 +426,23 @@ async function quiz(i){
     body.classList.add('is-entering');
     void body.offsetHeight;
     body.classList.remove('is-swapping');body.classList.remove('is-entering');
-    const pick=await new Promise(res=>wrap.querySelectorAll('.answer').forEach(b=>b.addEventListener('click',()=>res(b),{once:true})));
     const rows=[...wrap.querySelectorAll('.answer')];
-    rows.forEach(b=>{b.disabled=true;b.classList.add(b.dataset.t===correct?'is-correct':'is-wrong')});
-    if(pick.dataset.t!==correct){misses++;run.lights--;syncLights()}
+    let error=false;
+    if(multi){
+      rows.forEach(b=>b.addEventListener('click',()=>b.classList.toggle('is-pick')));
+      /* wait for a swipe up with at least one row held */
+      while(true){await swipeUp(screen,body);if(rows.some(b=>b.classList.contains('is-pick')))break}
+      rows.forEach(b=>{
+        b.disabled=true;const picked=b.classList.contains('is-pick'),right=correct.has(b.dataset.t);b.classList.remove('is-pick');
+        b.classList.add(right?'is-correct':picked?'is-miss':'is-wrong');
+        if(picked!==right)error=true;
+      });
+    }else{
+      const pick=await new Promise(res=>rows.forEach(b=>b.addEventListener('click',()=>res(b),{once:true})));
+      rows.forEach(b=>{b.disabled=true;b.classList.add(correct.has(b.dataset.t)?'is-correct':'is-wrong')});
+      error=!correct.has(pick.dataset.t);
+    }
+    if(error){misses++;run.lights--;syncLights()}
     dim.style.setProperty('--p',((k+1)/count*100).toFixed(1)+'%');
     const out=run.lights<=0;
     await sleep(reduced?0:300);
@@ -429,6 +463,22 @@ async function quiz(i){
   show('s-map');
 }
 
+/* resolves on a quick upward swipe (touch), upward drag (mouse) or a burst of downward wheel, but only if the
+   answer list was already scrolled to its end when the gesture began, so scrolling a long list never checks by accident */
+function swipeUp(el,scroller){
+  return new Promise(res=>{
+    const atEnd=()=>scroller.scrollHeight-scroller.clientHeight-scroller.scrollTop<4;
+    let y0=0,t0=0,ok=false,wheel=0,wt=0;
+    const start=y=>{y0=y;t0=performance.now();ok=atEnd()};
+    const end=y=>{if(ok&&y0-y>60&&performance.now()-t0<600)done()};
+    const onTs=e=>start(e.touches[0].clientY),onTe=e=>end(e.changedTouches[0].clientY);
+    const onPd=e=>{if(e.pointerType==='mouse')start(e.clientY)},onPu=e=>{if(e.pointerType==='mouse')end(e.clientY)};
+    const onWh=e=>{const now=performance.now();if(now-wt>300)wheel=0;wt=now;if(atEnd()){wheel+=e.deltaY;if(wheel>140)done()}};
+    const done=()=>{el.removeEventListener('touchstart',onTs);el.removeEventListener('touchend',onTe);el.removeEventListener('pointerdown',onPd);el.removeEventListener('pointerup',onPu);el.removeEventListener('wheel',onWh);res()};
+    el.addEventListener('touchstart',onTs,{passive:true});el.addEventListener('touchend',onTe,{passive:true});
+    el.addEventListener('pointerdown',onPd);el.addEventListener('pointerup',onPu);el.addEventListener('wheel',onWh,{passive:true});
+  });
+}
 function goFull(){
   const el=document.documentElement;
   if(document.fullscreenElement||!el.requestFullscreen)return;
@@ -448,6 +498,7 @@ function clear(){
 
 $('begin').addEventListener('click',()=>{goFull();newRun()});
 $('again').addEventListener('click',newRun);
+addEventListener('resize',()=>{if(run)buildMap()});
 </script>
 </body>
 </html>
