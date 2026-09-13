@@ -18,8 +18,9 @@ local to each phone.
 ### 1. Create the Supabase project
 
 1. Go to https://supabase.com, sign up or in, and create a new project.
-   Any name; pick the region nearest you; set a database password and keep
-   it somewhere (you will rarely need it).
+   Any name; pick the region nearest you; set a database password. Yours is
+   kept in `docs/local/secrets.md`, which git ignores, so it never reaches
+   the public repo. The game never uses it.
 2. When the project is ready, open **SQL Editor**, choose **New query**,
    paste the whole of `supabase/schema.sql` from this repo, and run it.
    It creates one table with row-level security so each player only ever
