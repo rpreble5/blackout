@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Blackout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#000;
+  --ink:#ECEBE6;
+  --dust:#6A6A72;
+  --hair:rgba(236,235,230,.14);
+  --font:'Sora',system-ui,-apple-system,sans-serif;
+  --ease:cubic-bezier(.4,0,.2,1);
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--black);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent}
+button{font-family:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:4px;border-radius:999px}
+
+.app{position:relative;width:100%;max-width:430px;height:100dvh;margin:0 auto;overflow:clip;background:var(--black)}
+
+/* screens */
+.screen{position:absolute;inset:0;overflow:clip;display:flex;flex-direction:column;padding:max(24px,env(safe-area-inset-top)) 24px max(28px,env(safe-area-inset-bottom));opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility 0s .5s}
+.screen.is-active{opacity:1;visibility:visible;transition:opacity .5s var(--ease)}
+
+/* planet: four coloured shapes on a square sheet, blurred together, cropped to a circle. Flat: no lighting layer, only grain. */
+.planet{
+  --s:64px;
+  position:relative;flex:none;width:var(--s);height:var(--s);font-size:var(--s);
+  border-radius:50%;overflow:hidden;isolation:isolate;background:#111;
+  transform:translateZ(0);
+}
+.planet .sheet{position:absolute;inset:-22%;filter:blur(calc(var(--s) * .13));will-change:transform;animation:turn 140s linear infinite;animation-delay:var(--d,0s)}
+.planet .sheet i{position:absolute;display:block}
+.planet::after{content:"";position:absolute;inset:0;z-index:2;border-radius:50%;background-image:var(--grain);background-size:110px;mix-blend-mode:soft-light;opacity:.7}
+@keyframes turn{to{transform:rotate(360deg)}}
+
+/* lights */
+.lights{display:flex;gap:10px;align-items:center;height:20px}
+.light{width:7px;height:7px;border-radius:50%;background:var(--ink);box-shadow:0 0 9px 2px rgba(236,235,230,.4);transition:background .7s var(--ease),box-shadow .7s var(--ease)}
+.light.is-out{background:#232326;box-shadow:none}
+
+/* buttons */
+.btn{appearance:none;border:1px solid var(--hair);background:none;color:var(--ink);font:500 15px/1 var(--font);padding:15px 24px;border-radius:999px;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.btn:hover{border-color:rgba(236,235,230,.4)}
+.btn.is-primary{background:var(--ink);color:#000;border-color:var(--ink)}
+.btn.is-primary:hover{background:#fff}
+
+/* title */
+.title .title-block{margin-top:14vh;position:relative;z-index:1}
+.title h1{margin:0;font-size:46px;font-weight:200;letter-spacing:-.02em;line-height:1}
+.title p{margin:14px 0 0;max-width:24ch;color:var(--dust);font-size:15px;line-height:1.5}
+.title .btn{align-self:flex-start;margin-top:36px;position:relative;z-index:1}
+.title .horizon{position:absolute;left:50%;bottom:-34%;transform:translateX(-50%);--s:min(118vw,520px)}
+
+/* map */
+.map .head{display:flex;justify-content:space-between;align-items:center;min-height:20px}
+.map .head p{margin:0;font-size:13px;color:var(--dust);transition:opacity .4s}
+.map-body{flex:1;position:relative;margin:8px -24px -28px;overflow-y:auto;overflow-x:hidden;scrollbar-width:none}
+.map-body::-webkit-scrollbar{display:none}
+.map-field{position:relative;height:740px;min-height:100%}
+.map-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.map-lines path{fill:none;stroke-width:1.5;stroke-linecap:round;vector-effect:non-scaling-stroke;opacity:.28;transition:opacity .7s var(--ease)}
+.map-lines path.is-lit{opacity:1}
+.node{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:9px;padding:6px;background:none;border:0;color:var(--dust);font:400 12px var(--font);cursor:default;transition:opacity .6s}
+.node .planet{transition:filter .6s}
+.node span{padding:1px 7px;border-radius:6px;background:#000}
+.node.is-locked .planet{filter:saturate(.45) brightness(.55)}
+.node.is-open{cursor:pointer;color:var(--ink)}
+.node.is-open .planet{transition:transform .5s var(--ease)}
+.node.is-open:hover .planet{transform:scale(1.06)}
+.node:focus-visible{outline:none}
+.node:focus-visible .planet{box-shadow:0 0 0 6px #000,0 0 0 8px var(--ink)}
+
+/* quiz */
+.quiz .head{display:flex;align-items:flex-start;gap:14px}
+.quiz .head .where{flex:1;line-height:1.25}
+.quiz .head .where b{display:block;font-weight:500;font-size:15px}
+.quiz .head .where span{display:block;font-size:12.5px;color:var(--dust)}
+.band{position:relative;height:3px;margin-top:16px;border-radius:2px;overflow:hidden;background:#111;transform:translateZ(0)}
+.band .sheet{position:absolute;inset:-500% -6%;filter:blur(7px);will-change:transform;animation:slide 40s ease-in-out infinite alternate}
+.band .sheet i{position:absolute;display:block}
+@keyframes slide{from{transform:translateX(-3%)}to{transform:translateX(3%)}}
+.quiz .count{margin:0;padding-top:14px;font-size:12.5px;color:var(--dust)}
+.quiz .body{flex:1;display:flex;flex-direction:column;justify-content:center;padding-bottom:6vh;transition:opacity .35s var(--ease)}
+.quiz .body.is-swapping{opacity:0}
+/* while the body is hidden, state changes inside it snap instead of animating */
+.quiz .body.is-swapping *{transition:none!important}
+/* the reveal: question rises in first, answers follow a beat later */
+.quiz .prompt,.quiz .answers{transition:opacity .55s var(--ease),transform .65s var(--ease)}
+.quiz .answers{transition-delay:.12s}
+.quiz .body.is-entering .prompt,.quiz .body.is-entering .answers{opacity:0;transform:translateY(12px)}
+.quiz .prompt{display:grid;margin-bottom:30px}
+.quiz .prompt>*{grid-area:1/1;margin:0;transition:opacity .45s var(--ease)}
+.quiz h2{font-size:27px;font-weight:300;line-height:1.3;letter-spacing:-.01em;max-width:24ch}
+.quiz .why{font-size:21px;font-weight:300;line-height:1.4;max-width:30ch;opacity:0}
+.quiz .prompt.is-why h2{opacity:0}
+.quiz .prompt.is-why .why{opacity:1}
+.quiz .tap{margin:26px 0 0;font-size:13px;color:var(--dust);opacity:0;transition:opacity .5s var(--ease)}
+.quiz .tap.is-in{opacity:1;transition-delay:.5s}
+.answers{display:flex;flex-direction:column;gap:4px;margin:0 -16px}
+.answer{position:relative;isolation:isolate;display:flex;align-items:center;gap:16px;width:100%;min-height:56px;padding:9px 16px;border:0;border-radius:18px;background:none;color:var(--ink);font:400 17px/1.35 var(--font);text-align:left;cursor:pointer;transition:color .45s var(--ease),opacity .45s var(--ease)}
+.answer::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:linear-gradient(120deg,var(--fill-a),var(--fill-b));opacity:0;transform:scale(.55,.7);transform-origin:31px 50%;transition:opacity .45s var(--ease),transform .55s cubic-bezier(.2,.8,.2,1)}
+.answer .planet{--s:30px;transition:opacity .45s var(--ease),transform .45s var(--ease)}
+.answer.is-correct::before{opacity:1;transform:scale(1)}
+.answer.is-correct{color:var(--fill-ink)}
+.answer.is-correct .planet{opacity:0;transform:scale(.6)}
+.answer.is-wrong{opacity:.22}
+.answer[disabled]{cursor:default}
+
+/* end */
+.end{justify-content:center}
+.end h2{margin:0;font-size:40px;font-weight:200;letter-spacing:-.02em;line-height:1.05}
+.end p{margin:16px 0 0;max-width:26ch;color:var(--dust);font-size:15px;line-height:1.55}
+.end .btn{align-self:flex-start;margin-top:36px}
+.end .lights{margin-top:28px}
+
+@media (prefers-reduced-motion:reduce){
+  .planet .sheet,.band .sheet{animation:none}
+  .screen,.answer,.answer::before,.light,.node{transition-duration:.01ms}
+}
+</style>
+</head>
+<body>
+<div class="app" id="app">
+
+  <section class="screen title is-active" id="s-title">
+    <div class="title-block">
+      <h1>Blackout</h1>
+      <p>A quiz run across the planets. Four lights. Every wrong answer puts one out.</p>
+    </div>
+    <button class="btn is-primary" id="begin">Begin a run</button>
+    <div class="planet horizon" id="horizon"></div>
+  </section>
+
+  <section class="screen map" id="s-map">
+    <div class="head">
+      <p id="map-note">Choose a planet</p>
+      <div class="lights" id="map-lights"></div>
+    </div>
+    <div class="map-body" id="map-body">
+      <div class="map-field" id="map-field">
+        <svg class="map-lines" id="map-lines"></svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="screen quiz" id="s-quiz">
+    <div class="head">
+      <div class="where"><b id="q-name"></b><span id="q-cat"></span></div>
+      <div class="lights" id="q-lights"></div>
+    </div>
+    <div class="band" id="q-band"></div>
+    <p class="count" id="q-count"></p>
+    <div class="body" id="q-body">
+      <div class="prompt" id="q-prompt">
+        <h2 id="q-text"></h2>
+        <p class="why" id="q-why"></p>
+      </div>
+      <div class="answers" id="q-answers"></div>
+      <p class="tap" id="q-tap">Tap anywhere to continue</p>
+    </div>
+  </section>
+
+  <section class="screen end" id="s-end">
+    <h2 id="end-title"></h2>
+    <p id="end-text"></p>
+    <div class="lights" id="end-lights"></div>
+    <button class="btn is-primary" id="again">Run again</button>
+  </section>
+
+</div>
+
+<script>
+/* colours: c1 and c2 sit next to each other on the spectrum, c3 is the free accent, c4 is c2 deepened */
+const PLANETS=[
+  {name:'Sol',cat:'Music',c:['#FFE24A','#FF8A1F','#FF3D3D','#8A1C1C']},
+  {name:'Vesper',cat:'Astronomy',c:['#B49BFF','#7B5CFF','#4FA3FF','#2A1A6E']},
+  {name:'Halide',cat:'Science',c:['#7FF0D8','#1FB5A3','#2E7BFF','#0B4A48']},
+  {name:'Meridian',cat:'Geography',c:['#C9FF5E','#3ED47A','#FFD84A','#146B3A']},
+  {name:'Cinder',cat:'History',c:['#FFB061','#FF5A2E','#C1123A','#4A0F14']},
+  {name:'Umbra',cat:'Film and art',c:['#8F7BFF','#4B3FCC','#FF9A4A','#1B1650']},
+  {name:'Opal',cat:'Words',c:['#FFFFFF','#C6CFDC','#8FA4C4','#4E6282']},
+];
+const BOSS={name:'Eclipse',cat:'Everything',c:['#C9A2FF','#7C3FB5','#FF8A5B','#0A0510'],boss:true};
+
+const BANK={
+  Astronomy:[
+    ['Which planet has the most known moons?','Saturn','Jupiter','Uranus','Neptune','Saturn passed Jupiter in 2023 and now has well over a hundred confirmed moons.'],
+    ['After the Sun, which star is closest to Earth?','Proxima Centauri','Sirius','Betelgeuse','Vega','Proxima Centauri is about 4.2 light years away, a faint red dwarf in the Alpha Centauri system.'],
+    ['About how long does sunlight take to reach Earth?','Eight minutes, give or take twenty seconds','Eight seconds, which is why sunsets look instant','Eight hours, roughly one working day','Eight days, about the same as a lunar phase','Light covers the 150 million kilometres from the Sun in about 8 minutes and 20 seconds.'],
+    ['Which planet rotates on its side?','Uranus','Venus','Mars','Mercury','Uranus is tilted about 98 degrees, so it rolls around the Sun rather than spinning upright.'],
+    ["What is Jupiter's largest moon?",'Ganymede','Europa','Titan','Io','Ganymede is bigger than Mercury and is the only moon known to have its own magnetic field.'],
+  ],
+  Science:[
+    ['Which element has atomic number 6?','Carbon','Nitrogen','Oxygen','Helium','Carbon has six protons. Its ability to bond four ways is why it forms the backbone of life.'],
+    ['What is the hardest natural substance?','Diamond','Quartz','Tungsten','Graphite','Diamond and graphite are both pure carbon. Only the arrangement of the atoms is different.'],
+    ['What gas do plants take in from the air?','Carbon dioxide','Oxygen','Nitrogen','Hydrogen','Plants combine carbon dioxide and water using sunlight, and release oxygen as a by-product.'],
+    ['At sea level, water boils at what temperature?','100 °C','90 °C','110 °C','120 °C','At higher altitudes the air pressure drops, so water boils at a lower temperature.'],
+    ['What is the smallest particle of an element?','An atom','A molecule','A cell','A quark','Quarks are smaller, but an atom is the smallest piece that still behaves like that element.'],
+  ],
+  Geography:[
+    ['Which is the longest river in Africa?','The Nile','The Congo','The Niger','The Zambezi','The Nile runs about 6,650 kilometres through eleven countries before reaching the Mediterranean.'],
+    ['Which country spans the most time zones?','France, counting its overseas territories','Russia, from Kaliningrad to Kamchatka','The United States, including its islands','China, which officially keeps just one','France covers twelve time zones because of territories from French Polynesia to Réunion.'],
+    ['What is the capital of Canada?','Ottawa','Toronto','Vancouver','Montreal','Ottawa was chosen in 1857 partly because it sat safely between English and French Canada.'],
+    ['Which is the largest hot desert?','The Sahara','The Gobi','The Kalahari','The Arabian','The Sahara is about the size of the United States. Antarctica is larger, but it is a cold desert.'],
+    ['Which ocean is the deepest?','Pacific','Atlantic','Indian','Arctic','The Challenger Deep in the Pacific reaches almost 11 kilometres, deeper than Everest is tall.'],
+  ],
+  History:[
+    ['In which year did the Berlin Wall fall?','1989','1985','1991','1979','The wall opened on 9 November 1989. Germany formally reunited less than a year later.'],
+    ['Who was first to walk on the Moon?','Neil Armstrong','Buzz Aldrin','Yuri Gagarin','John Glenn','Armstrong stepped out on 20 July 1969. Aldrin followed about nineteen minutes later.'],
+    ['Which empire built Machu Picchu?','The Inca, high in the Andes of Peru','The Aztec, in the Valley of Mexico','The Maya, across the Yucatán','The Olmec, along the Gulf coast','Machu Picchu was built around 1450 and abandoned about a century later, never found by the Spanish.'],
+    ['Which Roman city was buried by Vesuvius in 79 AD?','Pompeii','Ravenna','Ostia','Naples','Ash preserved Pompeii so well that loaves of bread were found still in their ovens.'],
+    ['The Magna Carta was sealed in which century?','13th','11th','15th','17th','King John sealed it at Runnymede in 1215, which falls in the thirteenth century.'],
+  ],
+  Music:[
+    ['How many strings does a standard violin have?','Four','Five','Six','Three','The four strings are tuned in fifths: G, D, A and E.'],
+    ['Who wrote the Moonlight Sonata?','Beethoven','Mozart','Chopin','Bach','Beethoven never called it that. A critic compared the first movement to moonlight on a lake years after his death.'],
+    ['In sheet music, what does forte mean?','Loud','Soft','Fast','Slow','Forte is Italian for strong. Its opposite, piano, gave the pianoforte its name.'],
+    ['Which instrument has 88 keys?','Piano','Organ','Harpsichord','Accordion','A full-size piano has 52 white keys and 36 black keys, spanning just over seven octaves.'],
+    ['Which band released Abbey Road?','The Beatles','The Rolling Stones','The Kinks','The Who','Abbey Road came out in 1969 and was the last album the Beatles recorded together.'],
+  ],
+  'Film and art':[
+    ['Who painted The Starry Night?','Vincent van Gogh','Claude Monet','Paul Cézanne','Edvard Munch','Van Gogh painted it in 1889 from memory, looking out of his asylum window in Saint-Rémy.'],
+    ['Which museum holds the Mona Lisa?','The Louvre','The Prado','The Uffizi','The Met','It has hung in the Louvre since 1797, apart from a two-year absence after it was stolen in 1911.'],
+    ['What is the Japanese art of paper folding called?','Origami','Ikebana','Kirigami','Sumi-e','Origami joins ori, to fold, and kami, paper. Kirigami is the version where cutting is allowed.'],
+    ['Who directed 2001: A Space Odyssey?','Stanley Kubrick','Ridley Scott','Steven Spielberg','George Lucas','Kubrick made it in 1968, a year before anyone had actually landed on the Moon.'],
+    ['Which film won the first Best Picture Oscar?','Wings','Sunrise','The Jazz Singer','Metropolis','Wings, a silent film about First World War pilots, won at the first ceremony in 1929.'],
+  ],
+  Words:[
+    ['A word that reads the same backwards is called what?','A palindrome, like level or racecar','An anagram, like listen and silent','A homonym, like bat and bat','A pangram, a sentence using every letter','Palindrome comes from Greek: palin, again, and dromos, a running.'],
+    ['Which language has the most native speakers?','Mandarin Chinese','English','Spanish','Hindi','Around 940 million people speak Mandarin as a first language. English leads once second-language speakers are counted.'],
+    ['Which letter appears most often in English text?','E','T','A','S','E appears in about one in eight letters of ordinary English, which is why it is the first guess in codebreaking.'],
+    ['What does the prefix hydro mean?','Water','Fire','Air','Earth','From the Greek hydor, water. It gives us hydrant, hydrate and hydroelectric.'],
+    ['How many letters are in the Greek alphabet?','24','26','22','28','From alpha to omega there are 24. It is the ancestor of both the Latin and Cyrillic alphabets.'],
+  ],
+};
+
+const NODES=[{x:32,y:89},{x:68,y:89},{x:22,y:64},{x:50,y:64},{x:78,y:64},{x:36,y:39},{x:64,y:39},{x:50,y:12}];
+const SIZES=[50,46,44,54,48,52,46,78];
+const EDGES=[[0,2],[0,3],[1,3],[1,4],[2,5],[3,5],[3,6],[4,6],[5,7],[6,7]];
+const MAX_LIGHTS=4;
+
+const $=id=>document.getElementById(id);
+const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const fit=(el,text,min,max,short,long)=>{const t=Math.min(1,Math.max(0,(text.length-short)/(long-short)));el.style.fontSize=(max-(max-min)*t).toFixed(1)+'px'};
+const avg=cols=>{const n=cols.map(h=>parseInt(h.slice(1),16));const ch=sh=>Math.round(n.reduce((a,v)=>a+(v>>sh&255),0)/n.length);return '#'+[16,8,0].map(sh=>ch(sh).toString(16).padStart(2,'0')).join('')};
+const lum=h=>{const n=parseInt(h.slice(1),16);const f=v=>{v/=255;return v<=.03928?v/12.92:((v+.055)/1.055)**2.4};return .2126*f(n>>16)+.7152*f(n>>8&255)+.0722*f(n&255)};
+
+let run=null;
+
+/* four shape layouts: [left,top,width,height,rotate,border-radius] per colour, in % of the sheet */
+const LAYOUTS=[
+  [[-12,-14,74,66,-22,'46% 54% 62% 38%'],[6,14,96,96,0,'50%'],[60,4,52,46,28,'58% 42% 50% 50%'],[-8,62,124,74,-6,'48% 52% 0 0']],
+  [[-6,-18,70,72,18,'52% 48% 40% 60%'],[0,10,100,100,0,'50%'],[50,-8,62,42,-30,'64% 36% 52% 48%'],[24,58,112,80,10,'40% 60% 0 0']],
+  [[-16,-2,64,80,-38,'40% 60% 56% 44%'],[8,8,92,98,0,'50%'],[64,22,50,54,12,'50% 50% 42% 58%'],[-14,70,120,64,4,'60% 40% 0 0']],
+  [[-4,-16,84,54,8,'56% 44% 48% 52%'],[4,12,96,96,0,'50%'],[68,-2,46,68,40,'44% 56% 60% 40%'],[-10,64,116,78,-14,'52% 48% 0 0']],
+];
+/* the same idea as a sphere, sliced into a bar: shapes across a wide sheet, blurred, cropped to a strip */
+function paintBand(el,cols){
+  el.querySelector('.sheet')?.remove();
+  const sheet=document.createElement('span');sheet.className='sheet';sheet.style.background=cols[1];
+  [[-10,0,46,100,cols[0]],[54,0,34,100,cols[2]],[84,0,30,100,cols[3]]].forEach(([x,y,w,h,c])=>{
+    const sh=document.createElement('i');
+    sh.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%;border-radius:50%;background:${c}`;
+    sheet.appendChild(sh);
+  });
+  el.appendChild(sheet);
+}
+function paint(el,cols,size,layout=0){
+  if(size)el.style.setProperty('--s',size+'px');
+  el.querySelector('.sheet')?.remove();
+  const sheet=document.createElement('span');sheet.className='sheet';sheet.style.background=cols[1];
+  LAYOUTS[layout%LAYOUTS.length].forEach(([x,y,w,h,r,br],i)=>{
+    const sh=document.createElement('i');
+    sh.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%;transform:rotate(${r}deg);border-radius:${br};background:${cols[i]};z-index:${[3,1,4,2][i]}`;
+    sheet.appendChild(sh);
+  });
+  el.appendChild(sheet);
+}
+function show(id){document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('is-active',s.id===id))}
+function renderLights(el,n){
+  el.innerHTML='';
+  for(let i=0;i<MAX_LIGHTS;i++){const d=document.createElement('span');d.className='light'+(i<n?'':' is-out');el.appendChild(d)}
+}
+function syncLights(){['map-lights','q-lights','end-lights'].forEach(id=>{
+  const el=$(id);
+  if(el.children.length!==MAX_LIGHTS)renderLights(el,run.lights);
+  [...el.children].forEach((d,i)=>d.classList.toggle('is-out',i>=run.lights));
+})}
+
+/* title */
+paint($('horizon'),PLANETS[Math.random()*PLANETS.length|0].c,null,Math.random()*4|0);
+
+function newRun(){
+  const order=shuffle(PLANETS);
+  run={planets:[...order,BOSS],lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0};
+  $('map-note').textContent='Choose a planet';
+  buildMap();syncLights();
+  show('s-map');
+  requestAnimationFrame(()=>{$('map-body').scrollTop=$('map-body').scrollHeight});
+}
+
+function buildMap(){
+  const field=$('map-field'),svg=$('map-lines');
+  field.querySelectorAll('.node').forEach(n=>n.remove());
+  svg.innerHTML='';svg.setAttribute('viewBox','0 0 100 100');svg.setAttribute('preserveAspectRatio','none');
+  const NS='http://www.w3.org/2000/svg';
+  const defs=document.createElementNS(NS,'defs');svg.appendChild(defs);
+  EDGES.forEach(([f,t],k)=>{
+    const a=NODES[f],b=NODES[t];
+    const g=document.createElementNS(NS,'linearGradient');
+    g.id='g'+f+'-'+t;g.setAttribute('gradientUnits','userSpaceOnUse');
+    g.setAttribute('x1',a.x);g.setAttribute('y1',a.y);g.setAttribute('x2',b.x);g.setAttribute('y2',b.y);
+    [[0,avg(run.planets[f].c)],[1,avg(run.planets[t].c)]].forEach(([o,c])=>{
+      const st=document.createElementNS(NS,'stop');st.setAttribute('offset',o);st.setAttribute('stop-color',c);g.appendChild(st);
+    });
+    defs.appendChild(g);
+    /* an S-curve that leaves and arrives vertically, with a small sideways lean so no two feel identical */
+    const dy=a.y-b.y,lean=((k*7)%5-2)*2.2;
+    const d=`M${a.x} ${a.y} C${a.x+lean} ${a.y-dy*.5},${b.x-lean} ${b.y+dy*.5},${b.x} ${b.y}`;
+    const path=document.createElementNS(NS,'path');
+    path.setAttribute('d',d);path.setAttribute('stroke','url(#g'+f+'-'+t+')');
+    path.dataset.edge=f+'-'+t;svg.appendChild(path);
+  });
+  NODES.forEach((n,i)=>{
+    const p=run.planets[i];
+    const b=document.createElement('button');
+    b.className='node';b.style.left=n.x+'%';b.style.top=n.y+'%';b.dataset.i=i;
+    const pl=document.createElement('div');pl.className='planet';paint(pl,p.c,SIZES[i],i);pl.style.setProperty('--d',(-i*3)+'s');
+    const nm=document.createElement('span');nm.textContent=p.name;
+    b.append(pl,nm);b.addEventListener('click',()=>{if(run.open.includes(i))travel(i)});
+    field.appendChild(b);
+  });
+  syncMap();
+}
+function syncMap(){
+  document.querySelectorAll('.node').forEach(b=>{
+    const i=+b.dataset.i;
+    const open=run.open.includes(i),done=run.done.includes(i)&&i!==run.here,here=i===run.here;
+    b.classList.toggle('is-open',open);b.classList.toggle('is-done',done);b.classList.toggle('is-here',here);
+    b.classList.toggle('is-locked',!open&&!done&&!here);
+    b.disabled=!open;b.setAttribute('aria-label',run.planets[i].name+(open?', reachable':''));
+  });
+  document.querySelectorAll('.map-lines path').forEach(l=>{
+    const [f,t]=l.dataset.edge.split('-').map(Number);
+    l.classList.toggle('is-lit',f===run.here&&run.open.includes(t));
+  });
+}
+
+async function travel(i){
+  const p=run.planets[i];
+  paintBand($('q-band'),p.c);
+  $('q-name').textContent=p.name;$('q-cat').textContent=p.cat+(p.boss?' at once':'');
+  $('q-body').classList.add('is-swapping');
+  syncLights();
+  show('s-quiz');
+  await sleep(reduced?0:450);
+  await quiz(i);
+}
+
+async function quiz(i){
+  const p=run.planets[i];
+  const count=p.boss?4:3;
+  let pool=p.boss?shuffle(Object.values(BANK).flat()):shuffle(BANK[p.cat]);
+  const qs=pool.slice(0,count);
+  let misses=0;
+  const prompt=$('q-prompt'),tap=$('q-tap'),screen=$('s-quiz');
+  for(let k=0;k<qs.length;k++){
+    const [text,...rest]=qs[k];
+    const why=rest.pop(),ans=rest,correct=ans[0];
+    $('q-count').textContent=`Question ${k+1} of ${count}`;
+    $('q-text').textContent=text;fit($('q-text'),text,20,27,50,110);
+    $('q-why').textContent=why;fit($('q-why'),why,16,21,60,150);
+    prompt.classList.remove('is-why');tap.classList.remove('is-in');
+    const wrap=$('q-answers');wrap.innerHTML='';
+    const [c1,c2,c3,c4]=p.c;
+    const orders=[[c1,c2,c3,c4],[c3,c1,c2,c4],[c2,c3,c1,c4],[c1,c3,c2,c4]];
+    wrap.style.setProperty('--fill-a',c1);wrap.style.setProperty('--fill-b',c2);wrap.style.setProperty('--fill-ink',lum(c2)>.14?'#000':'#ECEBE6');
+    shuffle(ans).forEach((t,j)=>{
+      const b=document.createElement('button');b.className='answer';
+      const orb=document.createElement('span');orb.className='planet';paint(orb,orders[j],null,j);orb.style.setProperty('--d',(-j*5)+'s');
+      const label=document.createElement('span');label.textContent=t;
+      b.append(orb,label);b.dataset.t=t;wrap.appendChild(b);
+    });
+    /* body is still hidden here: stage the reveal, then release it in one frame */
+    const body=$('q-body');
+    body.classList.add('is-entering');
+    void body.offsetHeight;
+    body.classList.remove('is-swapping');body.classList.remove('is-entering');
+    const pick=await new Promise(res=>wrap.querySelectorAll('.answer').forEach(b=>b.addEventListener('click',()=>res(b),{once:true})));
+    const rows=[...wrap.querySelectorAll('.answer')];
+    rows.forEach(b=>{b.disabled=true;b.classList.add(b.dataset.t===correct?'is-correct':'is-wrong')});
+    if(pick.dataset.t!==correct){misses++;run.lights--;syncLights()}
+    const out=run.lights<=0;
+    await sleep(reduced?0:300);
+    prompt.classList.add('is-why');tap.classList.add('is-in');
+    await new Promise(res=>screen.addEventListener('click',res,{once:true}));
+    if(out)return blackout(p);
+    $('q-body').classList.add('is-swapping');
+    await sleep(380);
+  }
+  /* planet cleared */
+  run.visited++;run.done.push(i);run.here=i;
+  run.open=EDGES.filter(e=>e[0]===i).map(e=>e[1]);
+  if(p.boss)return clear();
+  let note='Choose the next planet';
+  if(misses===0&&run.lights<MAX_LIGHTS){run.lights++;note=`No misses at ${p.name}. A light comes back.`}
+  $('map-note').textContent=note;
+  syncMap();syncLights();
+  show('s-map');
+}
+
+function blackout(p){
+  const n=run.visited;
+  $('end-title').textContent='Blackout.';
+  $('end-text').textContent=`The last light went out at ${p.name}, ${n===0?'on the first planet':n===1?'one planet in':n+' planets in'}.`;
+  syncLights();show('s-end');
+}
+function clear(){
+  $('end-title').textContent='Past the eclipse.';
+  $('end-text').textContent=`You crossed the whole system with ${run.lights===1?'one light':run.lights+' lights'} still on.`;
+  syncLights();show('s-end');
+}
+
+$('begin').addEventListener('click',newRun);
+$('again').addEventListener('click',newRun);
+</script>
+</body>
+</html>
