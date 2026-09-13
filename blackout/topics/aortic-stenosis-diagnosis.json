@@ -3,123 +3,319 @@
   "title": "Aortic stenosis: recognising and grading it",
   "short": "Aortic stenosis, diagnosis",
   "specialty": "Cardiology",
-  "tags": ["aortic-stenosis", "valvular", "examination", "echocardiography", "staging"],
+  "tags": [
+    "aortic-stenosis",
+    "valvular",
+    "examination",
+    "echocardiography",
+    "staging"
+  ],
   "source": {
     "citation": "Patel H, Lewis BW, Paulus R. Aortic Stenosis: Diagnosis and Treatment. Am Fam Physician. 2026;114(2):148-155.",
     "facts": "docs/facts/aortic-stenosis.md (topics A, B, C)"
   },
   "questions": [
     {
-      "id": "as-dx-01", "type": "single", "difficulty": 1,
+      "id": "as-dx-01",
+      "type": "single",
+      "difficulty": 1,
       "q": "Which examination finding most raises the likelihood of aortic stenosis?",
       "a": "An inaudible second heart sound",
-      "d": ["A loud first heart sound", "A holosystolic murmur at the apex", "A bounding carotid upstroke"],
+      "d": [
+        "A loud first heart sound",
+        "A holosystolic murmur at the apex",
+        "A bounding carotid upstroke"
+      ],
       "why": "Its positive likelihood ratio is 15.7. The next strongest signs are a murmur radiating to both carotids (12) and a delayed carotid upstroke (6.3).",
-      "tags": ["examination", "likelihood-ratio"]
+      "tags": [
+        "examination",
+        "likelihood-ratio"
+      ]
     },
     {
-      "id": "as-dx-02", "type": "multi", "difficulty": 2,
-      "q": "Which of these are classic symptoms of aortic stenosis?",
-      "a": ["Exertional angina", "Exertional syncope", "Dyspnea on exertion", "Symptoms of heart failure"],
-      "d": ["Pleuritic chest pain", "Palpitations at rest", "Calf pain on walking"],
-      "why": "Aortic stenosis stays silent through a long latent period, and these symptoms usually appear only once the valve is severely narrowed.",
-      "tags": ["symptoms"]
+      "id": "as-dx-02",
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which coexisting conditions make it hard to tell whether symptoms come from the aortic stenosis?",
+      "a": [
+        "Atrial fibrillation",
+        "Coronary artery disease"
+      ],
+      "d": [
+        "Hypertension",
+        "Type 2 diabetes",
+        "Chronic kidney disease"
+      ],
+      "why": "Coronary disease coexists in 24% to 68% of patients. When attribution is unclear, a multidisciplinary review is recommended rather than waiting.",
+      "tags": [
+        "symptoms",
+        "atrial-fibrillation",
+        "cad"
+      ]
     },
     {
-      "id": "as-dx-03", "type": "single", "difficulty": 2,
+      "id": "as-dx-03",
+      "type": "single",
+      "difficulty": 2,
       "q": "A 74-year-old has a new systolic murmur and fatigue. What is the preferred first test?",
       "a": "Transthoracic echocardiography",
-      "d": ["Cardiac CT with calcium scoring", "Exercise stress test", "Cardiac catheterization"],
+      "d": [
+        "Cardiac CT with calcium scoring",
+        "Exercise stress test",
+        "Cardiac catheterization"
+      ],
       "why": "Echo is noninvasive, relatively cheap, and grades severity in the same study. Calcium scoring and stress testing come in only when symptoms remain unexplained after echo.",
-      "tags": ["echo", "workup"]
+      "tags": [
+        "echo",
+        "workup"
+      ]
     },
     {
-      "id": "as-dx-04", "type": "single", "difficulty": 2,
-      "q": "Which set of echo findings defines severe aortic stenosis?",
-      "a": "Valve area under 1 cm², Vmax over 4 m/s, mean gradient 40 mm Hg or more",
-      "d": ["Valve area 1.0 to 1.5 cm², Vmax 3.0 to 3.9 m/s, gradient 20 to 39 mm Hg", "Valve area over 1.5 cm², Vmax 2.0 to 2.9 m/s, gradient under 20 mm Hg", "Valve area under 1.5 cm², Vmax over 3 m/s, gradient over 30 mm Hg"],
-      "why": "Patients are often asymptomatic until Vmax passes 4 m/s, which is why severe stenosis can be a surprise on a routine echo.",
-      "tags": ["thresholds", "echo"]
+      "id": "as-dx-04",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Above which maximum transaortic velocity is aortic stenosis graded severe?",
+      "a": "4 m/s",
+      "d": [
+        "2 m/s",
+        "3 m/s",
+        "5 m/s"
+      ],
+      "why": "Patients are often asymptomatic until Vmax passes this point, which is why severe stenosis can be a surprise on a routine echo.",
+      "tags": [
+        "thresholds",
+        "echo"
+      ],
+      "options": [
+        "2 m/s",
+        "3 m/s",
+        "4 m/s",
+        "5 m/s"
+      ]
     },
     {
-      "id": "as-dx-05", "type": "single", "difficulty": 3,
+      "id": "as-dx-05",
+      "type": "single",
+      "difficulty": 3,
       "q": "An echo shows valve area 0.8 cm², Vmax 3.4 m/s and mean gradient 28 mm Hg. How is this classified?",
       "a": "Low-flow, low-gradient severe stenosis",
-      "d": ["Moderate stenosis", "Mild stenosis", "Aortic sclerosis"],
+      "d": [
+        "Moderate stenosis",
+        "Mild stenosis",
+        "Aortic sclerosis"
+      ],
       "why": "A reduced stroke volume underestimates both velocity and gradient, but the small valve area and the physiology are those of severe disease, so it is managed as severe.",
-      "tags": ["low-flow", "thresholds"]
+      "tags": [
+        "low-flow",
+        "thresholds"
+      ]
     },
     {
-      "id": "as-dx-06", "type": "single", "difficulty": 1,
-      "q": "How reliable is auscultation alone for detecting significant valvular disease?",
-      "a": "Sensitivity about 44%, specificity about 69%",
-      "d": ["Sensitivity about 90%, specificity about 90%", "Sensitivity about 69%, specificity about 44%", "Sensitivity about 15%, specificity about 99%"],
-      "why": "The absence of a murmur is more useful than its presence: it has a negative predictive value of 88% for significant valvular disease.",
-      "tags": ["examination", "accuracy"]
+      "id": "as-dx-06",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Compared with echocardiography, what is the sensitivity of auscultation for significant valvular disease?",
+      "a": "About 44%",
+      "d": [
+        "About 15%",
+        "About 69%",
+        "About 90%"
+      ],
+      "why": "Specificity is 69%. The absence of a murmur is more useful than its presence: it has a negative predictive value of 88%.",
+      "tags": [
+        "examination",
+        "accuracy"
+      ],
+      "options": [
+        "About 15%",
+        "About 44%",
+        "About 69%",
+        "About 90%"
+      ]
     },
     {
-      "id": "as-dx-07", "type": "multi", "difficulty": 2,
-      "q": "Which risk factors for aortic stenosis are nonmodifiable?",
-      "a": ["Age over 65", "Bicuspid aortic valve", "Male sex", "Elevated lipoprotein(a)"],
-      "d": ["Hypertension", "Diabetes", "Tobacco use", "Prior thoracic radiation"],
-      "why": "More than half of people with a bicuspid valve eventually need it replaced, often a decade or more earlier than those with three leaflets.",
-      "tags": ["risk-factors", "bicuspid"]
+      "id": "as-dx-07",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "A patient with a bicuspid aortic valve asks about the long-term outlook. What proportion eventually need valve replacement?",
+      "a": "More than half",
+      "d": [
+        "About one in ten",
+        "About one in four",
+        "Nearly all"
+      ],
+      "why": "Bicuspid valves can calcify in a patient's 40s, so replacement often comes a decade or more earlier than with a three-leaflet valve.",
+      "tags": [
+        "bicuspid",
+        "natural-history"
+      ],
+      "options": [
+        "About one in ten",
+        "About one in four",
+        "More than half",
+        "Nearly all"
+      ]
     },
     {
-      "id": "as-dx-08", "type": "single", "difficulty": 2,
+      "id": "as-dx-08",
+      "type": "single",
+      "difficulty": 2,
       "q": "A patient with aortic stenosis has gastrointestinal bleeding with no obvious source. Which syndrome should be considered?",
       "a": "Heyde syndrome",
-      "d": ["Dressler syndrome", "Eisenmenger syndrome", "Marfan syndrome"],
+      "d": [
+        "Dressler syndrome",
+        "Eisenmenger syndrome",
+        "Marfan syndrome"
+      ],
       "why": "Heyde syndrome is acquired von Willebrand disease caused by the stenotic valve; replacing the valve improves the bleeding tendency.",
-      "tags": ["heyde", "presentation"]
+      "tags": [
+        "heyde",
+        "presentation"
+      ]
     },
     {
-      "id": "as-dx-09", "type": "single", "difficulty": 2,
-      "q": "About what share of patients with aortic stenosis also have atrial fibrillation, and how does that affect valve replacement?",
-      "a": "About 16%, and they are less likely to get valve replacement",
-      "d": ["About 16%, and they are more likely to get valve replacement", "About 50%, and they are less likely to get valve replacement", "About 2%, and there is no difference"],
-      "why": "The problem is attribution: dyspnea and fatigue get blamed on the arrhythmia, so the stenosis goes unreferred. The hazard ratio for replacement at one year was 0.73.",
-      "tags": ["atrial-fibrillation"]
+      "id": "as-dx-09",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do patients who have both aortic stenosis and atrial fibrillation get valve replacement less often?",
+      "a": "Their symptoms are attributed to the arrhythmia",
+      "d": [
+        "Anticoagulation makes surgery too risky",
+        "The arrhythmia lowers the transaortic gradient",
+        "Guidelines exclude them from replacement"
+      ],
+      "why": "About 16% of patients with aortic stenosis have atrial fibrillation, and their rate of replacement at one year was lower, with a hazard ratio of 0.73.",
+      "tags": [
+        "atrial-fibrillation"
+      ]
     },
     {
-      "id": "as-dx-10", "type": "single", "difficulty": 1,
+      "id": "as-dx-10",
+      "type": "single",
+      "difficulty": 1,
       "q": "What is the characteristic murmur of aortic stenosis?",
       "a": "Loud, late-peaking systolic murmur at the right upper sternal border, radiating to the carotids",
-      "d": ["Blowing holosystolic murmur at the apex, radiating to the axilla", "Early diastolic decrescendo murmur at the left sternal border", "Continuous machinery murmur below the left clavicle"],
+      "d": [
+        "Blowing holosystolic murmur at the apex, radiating to the axilla",
+        "Early diastolic decrescendo murmur at the left sternal border",
+        "Continuous machinery murmur below the left clavicle"
+      ],
       "why": "The peak of the murmur moves later as stenosis worsens, which is why a later-peaking murmur is a trigger for repeat echo.",
-      "tags": ["examination"]
+      "tags": [
+        "examination"
+      ]
     },
     {
-      "id": "as-dx-11", "type": "single", "difficulty": 2,
-      "q": "How does aortic sclerosis differ from stenosis, and how often does it progress?",
-      "a": "Calcification without restricted leaflet movement; about 2% progress to stenosis each year",
-      "d": ["Calcification with restricted leaflets; about 20% progress each year", "Leaflet thickening without calcification; it almost never progresses", "A congenital two-leaflet valve; half eventually need replacement"],
-      "why": "Sclerosis puts a patient in stage A, where the only management is modifying cardiovascular risk factors.",
-      "tags": ["sclerosis", "staging"]
+      "id": "as-dx-11",
+      "type": "single",
+      "difficulty": 2,
+      "q": "What distinguishes aortic sclerosis from aortic stenosis on echo?",
+      "a": "Calcification without restricted leaflet movement",
+      "d": [
+        "Calcification of the annulus rather than the leaflets",
+        "Leaflet thickening without any calcification",
+        "A valve with two leaflets instead of three"
+      ],
+      "why": "About 2% of people with sclerosis progress to stenosis each year. Sclerosis is stage A, where the only management is cardiovascular risk factor modification.",
+      "tags": [
+        "sclerosis",
+        "staging"
+      ]
     },
     {
-      "id": "as-dx-12", "type": "single", "difficulty": 3,
-      "q": "Asymptomatic severe aortic stenosis, ejection fraction 60%, Vmax 4.3 m/s, no other surgery planned. What stage is this, and what does it call for?",
-      "a": "Stage C: refer to cardiology; repeat echo in 6 to 12 months if replacement is not indicated",
-      "d": ["Stage B: repeat echo in 1 to 2 years", "Stage D: prompt valve replacement", "Stage A: risk factor modification"],
-      "why": "Stage C becomes an indication for replacement if the ejection fraction drops under 50%, Vmax passes 5 m/s, a stress test is positive, or Vmax rises more than 0.3 m/s in a year.",
-      "tags": ["staging", "indication"]
+      "id": "as-dx-12",
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "Asymptomatic severe aortic stenosis, ejection fraction 60%, Vmax 4.3 m/s, no surgery planned. How soon should the echo be repeated?",
+      "a": "In 6 to 12 months",
+      "d": [
+        "In 1 to 2 years",
+        "In 3 to 5 years",
+        "No repeat is needed"
+      ],
+      "why": "This is stage C, which also means referral to cardiology. Replacement becomes indicated if the ejection fraction drops under 50%, Vmax passes 5 m/s, a stress test is positive, or Vmax rises more than 0.3 m/s in a year.",
+      "tags": [
+        "staging",
+        "monitoring"
+      ],
+      "options": [
+        "In 6 to 12 months",
+        "In 1 to 2 years",
+        "In 3 to 5 years",
+        "No repeat is needed"
+      ]
     },
     {
-      "id": "as-dx-13", "type": "single", "difficulty": 2,
+      "id": "as-dx-13",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "What is the estimated two-year mortality of untreated symptomatic severe aortic stenosis?",
       "a": "About 50%",
-      "d": ["About 10%", "About 25%", "About 90%"],
+      "d": [
+        "About 10%",
+        "About 25%",
+        "About 90%"
+      ],
       "why": "Valve replacement is the only treatment that changes that number, which is why symptoms in severe stenosis mean prompt referral rather than watchful waiting.",
-      "tags": ["prognosis"]
+      "tags": [
+        "prognosis"
+      ],
+      "options": [
+        "About 10%",
+        "About 25%",
+        "About 50%",
+        "About 90%"
+      ]
     },
     {
-      "id": "as-dx-14", "type": "multi", "difficulty": 3,
+      "id": "as-dx-14",
+      "type": "multi",
+      "difficulty": 3,
       "q": "Which early or atypical symptoms of aortic stenosis are commonly attributed to aging instead?",
-      "a": ["Fatigue", "Exercise intolerance", "Lightheadedness"],
-      "d": ["Hemoptysis", "Fever", "Palpitations"],
+      "a": [
+        "Fatigue",
+        "Exercise intolerance",
+        "Lightheadedness"
+      ],
+      "d": [
+        "Hemoptysis",
+        "Fever",
+        "Palpitations"
+      ],
       "why": "Older patients blame these on age, and so do clinicians, which is why the guideline puts a careful history at the centre of diagnosis.",
-      "tags": ["symptoms", "atypical"]
+      "tags": [
+        "symptoms",
+        "atypical"
+      ]
+    },
+    {
+      "id": "as-dx-15",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Below which aortic valve area is stenosis graded severe?",
+      "a": "1.0 cm²",
+      "d": [
+        "0.5 cm²",
+        "1.5 cm²",
+        "2.0 cm²"
+      ],
+      "why": "Mean gradient is the third measure: severe means 40 mm Hg or more.",
+      "tags": [
+        "thresholds",
+        "echo"
+      ],
+      "options": [
+        "0.5 cm²",
+        "1.0 cm²",
+        "1.5 cm²",
+        "2.0 cm²"
+      ]
     }
   ]
 }

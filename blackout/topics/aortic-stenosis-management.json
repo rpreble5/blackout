@@ -3,131 +3,310 @@
   "title": "Aortic stenosis: managing it and replacing the valve",
   "short": "Aortic stenosis, management",
   "specialty": "Cardiology",
-  "tags": ["aortic-stenosis", "valvular", "monitoring", "valve-replacement", "anticoagulation"],
+  "tags": [
+    "aortic-stenosis",
+    "valvular",
+    "monitoring",
+    "valve-replacement",
+    "anticoagulation"
+  ],
   "source": {
     "citation": "Patel H, Lewis BW, Paulus R. Aortic Stenosis: Diagnosis and Treatment. Am Fam Physician. 2026;114(2):148-155.",
     "facts": "docs/facts/aortic-stenosis.md (topics D, E)"
   },
   "questions": [
     {
-      "id": "as-mx-01", "type": "single", "difficulty": 1,
-      "q": "Which treatment slows or reverses aortic stenosis?",
-      "a": "None; management targets the comorbid conditions",
-      "d": ["A high-intensity statin", "An ACE inhibitor", "A bisphosphonate"],
-      "why": "Optimising comorbidities reduces cardiovascular mortality even though it leaves the valve unchanged, so that is where the family physician's effort goes.",
-      "tags": ["management"]
-    },
-    {
-      "id": "as-mx-02", "type": "single", "difficulty": 2,
+      "id": "as-mx-02",
+      "type": "single",
+      "difficulty": 2,
       "q": "Why is a statin still recommended for many patients with aortic stenosis?",
       "a": "To reduce cardiovascular events by ten-year atherosclerotic risk, not to slow the stenosis",
-      "d": ["Because it slows valve calcification", "Because it reduces the need for valve replacement", "Because it lowers the transaortic gradient"],
+      "d": [
+        "Because it slows valve calcification",
+        "Because it reduces the need for valve replacement",
+        "Because it lowers the transaortic gradient"
+      ],
       "why": "The valve calcifies through an atherosclerosis-like pathway, which is why the statin trials were run. Atorvastatin 80 mg daily changed nothing on the valve.",
-      "tags": ["statin"]
+      "tags": [
+        "statin"
+      ]
     },
     {
-      "id": "as-mx-03", "type": "single", "difficulty": 2,
+      "id": "as-mx-03",
+      "type": "single",
+      "difficulty": 2,
       "q": "How should antihypertensive treatment be started in a patient with aortic stenosis?",
       "a": "Start low and titrate slowly, to avoid vasodilation causing presyncope or syncope",
-      "d": ["Start at full dose to reach target quickly", "Avoid antihypertensives entirely", "Use only beta blockers"],
+      "d": [
+        "Start at full dose to reach target quickly",
+        "Avoid antihypertensives entirely",
+        "Use only beta blockers"
+      ],
       "why": "Uncontrolled blood pressure raises mortality in aortic stenosis, so the answer is to treat, just carefully. No single class has proven superior.",
-      "tags": ["hypertension"]
+      "tags": [
+        "hypertension"
+      ]
     },
     {
-      "id": "as-mx-04", "type": "multi", "difficulty": 2,
-      "q": "In an asymptomatic patient, which echo surveillance intervals are correct?",
-      "a": ["Mild stenosis, every 3 to 5 years", "Moderate stenosis, every 1 to 2 years", "Severe stenosis, every 6 to 12 months"],
-      "d": ["Mild stenosis, every year", "Moderate stenosis, every 5 years", "Severe stenosis, every 2 years"],
-      "why": "The interval shortens as severity rises because progression accelerates and symptoms often appear only once the valve is severely narrowed.",
-      "tags": ["monitoring"]
+      "id": "as-mx-04",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "An asymptomatic patient has moderate aortic stenosis. How often should echo be repeated?",
+      "a": "Every 1 to 2 years",
+      "d": [
+        "Every 6 to 12 months",
+        "Every 3 to 5 years",
+        "Every 5 to 10 years"
+      ],
+      "why": "Moderate stenosis is stage B, and this is also the severity at which referral to cardiology should be considered rather than required.",
+      "tags": [
+        "monitoring",
+        "staging"
+      ],
+      "options": [
+        "Every 6 to 12 months",
+        "Every 1 to 2 years",
+        "Every 3 to 5 years",
+        "Every 5 to 10 years"
+      ]
     },
     {
-      "id": "as-mx-05", "type": "multi", "difficulty": 3,
+      "id": "as-mx-05",
+      "type": "multi",
+      "difficulty": 3,
       "q": "Which clinical changes should trigger a repeat echo before the scheduled interval?",
-      "a": ["New symptoms", "A louder murmur", "A later-peaking murmur", "A newly absent second heart sound"],
-      "d": ["A new statin prescription", "A rise in LDL cholesterol", "A resting heart rate over 90"],
+      "a": [
+        "New symptoms",
+        "A louder murmur",
+        "A later-peaking murmur",
+        "A newly absent second heart sound"
+      ],
+      "d": [
+        "A new statin prescription",
+        "A rise in LDL cholesterol",
+        "A resting heart rate over 90"
+      ],
       "why": "Each of these tracks the physiology: the murmur peaks later and the second heart sound fades as the valve stiffens.",
-      "tags": ["monitoring", "examination"]
+      "tags": [
+        "monitoring",
+        "examination"
+      ]
     },
     {
-      "id": "as-mx-06", "type": "single", "difficulty": 2,
+      "id": "as-mx-06",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
       "q": "What activity advice fits moderate aortic stenosis?",
       "a": "Low to moderate intensity activity",
-      "d": ["No restrictions", "Low intensity only", "Avoid all exertion"],
+      "d": [
+        "No restrictions",
+        "Low intensity only",
+        "Avoid all exertion"
+      ],
       "why": "Mild stenosis gets no limits and severe stenosis is held to low intensity. Wearable data even suggest activity may be protective, though that is unproven.",
-      "tags": ["activity"]
+      "tags": [
+        "activity"
+      ],
+      "options": [
+        "No restrictions",
+        "Low to moderate intensity activity",
+        "Low intensity only",
+        "Avoid all exertion"
+      ]
     },
     {
-      "id": "as-mx-07", "type": "single", "difficulty": 1,
+      "id": "as-mx-07",
+      "type": "single",
+      "difficulty": 1,
       "q": "Which patients with aortic stenosis should be referred to cardiology?",
       "a": "All with severe stenosis; consider referral for moderate",
-      "d": ["Only symptomatic patients", "Only those with a bicuspid valve", "Only those over 80"],
+      "d": [
+        "Only symptomatic patients",
+        "Only those with a bicuspid valve",
+        "Only those over 80"
+      ],
       "why": "Referral is what gets the patient in front of a heart team of interventional cardiology, cardiothoracic surgery and anesthesia, which decides the timing of valve replacement.",
-      "tags": ["referral", "heart-team"]
+      "tags": [
+        "referral",
+        "heart-team"
+      ]
     },
     {
-      "id": "as-mx-08", "type": "multi", "difficulty": 3,
+      "id": "as-mx-08",
+      "type": "multi",
+      "difficulty": 3,
       "q": "An asymptomatic patient has severe aortic stenosis. Which findings are indications for valve replacement?",
-      "a": ["Ejection fraction under 50%", "Vmax over 5 m/s", "A positive exercise stress test", "Upcoming other cardiac surgery"],
-      "d": ["Age over 75", "Hypertension", "A bicuspid valve", "Vmax of 4.2 m/s"],
-      "why": "A rise in Vmax of more than 0.3 m/s within a year is the other trigger. Otherwise the patient stays under echo surveillance every 6 to 12 months.",
-      "tags": ["indication"]
+      "a": [
+        "Ejection fraction under 50%",
+        "Vmax over 5 m/s",
+        "A positive exercise stress test",
+        "Upcoming other cardiac surgery"
+      ],
+      "d": [
+        "Age over 75",
+        "Hypertension",
+        "A bicuspid valve",
+        "Vmax of 4.2 m/s"
+      ],
+      "why": "A rise in Vmax of more than 0.3 m/s within a year is the other trigger. Otherwise the patient stays under echo surveillance.",
+      "tags": [
+        "indication"
+      ]
     },
     {
-      "id": "as-mx-09", "type": "single", "difficulty": 2,
+      "id": "as-mx-09",
+      "type": "single",
+      "difficulty": 2,
       "q": "When is a supervised exercise stress test appropriate in aortic stenosis?",
       "a": "In severe stenosis that appears asymptomatic, to unmask symptoms",
-      "d": ["In any symptomatic patient, to grade severity", "In mild stenosis, to set the monitoring interval", "Never, because of the risk of syncope"],
+      "d": [
+        "In any symptomatic patient, to grade severity",
+        "In mild stenosis, to set the monitoring interval",
+        "Never, because of the risk of syncope"
+      ],
       "why": "A positive test is either symptoms of stenosis or a fall in systolic blood pressure of 10 mm Hg or more, and either one is an indication for replacement.",
-      "tags": ["stress-test"]
+      "tags": [
+        "stress-test"
+      ]
     },
     {
-      "id": "as-mx-10", "type": "single", "difficulty": 2,
+      "id": "as-mx-10",
+      "type": "single",
+      "difficulty": 2,
       "q": "How do transcatheter and surgical valve replacement compare on mortality?",
       "a": "No difference in short- or long-term mortality, regardless of surgical risk",
-      "d": ["TAVR has lower mortality in high-risk patients only", "Surgery has lower long-term mortality", "TAVR has lower mortality at every risk level"],
+      "d": [
+        "TAVR has lower mortality in high-risk patients only",
+        "Surgery has lower long-term mortality",
+        "TAVR has lower mortality at every risk level"
+      ],
       "why": "The two routes differ in complications rather than survival, and the choice turns on age, life expectancy and tolerance of anticoagulation.",
-      "tags": ["outcomes", "tavr", "savr"]
+      "tags": [
+        "outcomes",
+        "tavr",
+        "savr"
+      ]
     },
     {
-      "id": "as-mx-11", "type": "multi", "difficulty": 3,
+      "id": "as-mx-11",
+      "type": "multi",
+      "difficulty": 3,
       "q": "Which complications are more common after TAVR than after surgical valve replacement?",
-      "a": ["Vascular complications", "Need for a pacemaker", "Reintervention"],
-      "d": ["New-onset atrial fibrillation", "Severe bleeding"],
+      "a": [
+        "Vascular complications",
+        "Need for a pacemaker",
+        "Reintervention"
+      ],
+      "d": [
+        "New-onset atrial fibrillation",
+        "Severe bleeding"
+      ],
       "why": "Surgery carries the opposite pair: more new atrial fibrillation and more severe bleeding.",
-      "tags": ["complications", "tavr", "savr"]
+      "tags": [
+        "complications",
+        "tavr",
+        "savr"
+      ]
     },
     {
-      "id": "as-mx-12", "type": "single", "difficulty": 2,
+      "id": "as-mx-12",
+      "type": "single",
+      "difficulty": 2,
       "q": "A 58-year-old has symptomatic severe stenosis and a life expectancy of 25 years. Which approach is first-line?",
-      "a": "Surgical valve replacement, because long-term TAVR durability is unproven",
-      "d": ["TAVR, because it avoids open surgery", "Either, because outcomes are identical", "Watchful waiting until age 65"],
-      "why": "The guideline's cutoffs are age 65 or younger, or a life expectancy over 20 years. Bicuspid valves do equally well by either route.",
-      "tags": ["choice", "tavr", "savr"]
+      "a": "Surgical valve replacement",
+      "d": [
+        "Transcatheter valve replacement",
+        "Either, at the patient's preference",
+        "Watchful waiting until age 65"
+      ],
+      "why": "Long-term durability of transcatheter valves is unproven, so surgery is first-line at 65 or younger or with a life expectancy over 20 years. Bicuspid valves do equally well by either route.",
+      "tags": [
+        "choice",
+        "tavr",
+        "savr"
+      ]
     },
     {
-      "id": "as-mx-13", "type": "single", "difficulty": 3,
+      "id": "as-mx-13",
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
       "q": "A patient with a mechanical aortic valve also has atrial fibrillation. What is the INR goal?",
       "a": "2.5 to 3.5",
-      "d": ["2.0 to 3.0", "1.5 to 2.5", "3.0 to 4.0"],
+      "d": [
+        "1.5 to 2.5",
+        "2.0 to 3.0",
+        "3.0 to 4.0"
+      ],
       "why": "Without a risk factor the goal is 2.0 to 3.0. The other factors that raise it are prior venous thromboembolism, a known hypercoagulable state and left ventricular systolic dysfunction.",
-      "tags": ["inr", "anticoagulation"]
+      "tags": [
+        "inr",
+        "anticoagulation"
+      ],
+      "options": [
+        "1.5 to 2.5",
+        "2.0 to 3.0",
+        "2.5 to 3.5",
+        "3.0 to 4.0"
+      ]
     },
     {
-      "id": "as-mx-14", "type": "single", "difficulty": 2,
+      "id": "as-mx-14",
+      "type": "single",
+      "difficulty": 2,
       "q": "After a surgical bioprosthetic aortic valve, what is the antithrombotic plan?",
       "a": "A vitamin K antagonist for 3 to 6 months, then lifelong aspirin 75 to 100 mg",
-      "d": ["A lifelong vitamin K antagonist", "Lifelong dual antiplatelet therapy", "No antithrombotic therapy"],
+      "d": [
+        "A lifelong vitamin K antagonist",
+        "Lifelong dual antiplatelet therapy",
+        "No antithrombotic therapy"
+      ],
       "why": "After TAVR the first 3 to 6 months can be either a vitamin K antagonist or dual antiplatelet therapy, followed by the same lifelong aspirin.",
-      "tags": ["anticoagulation"]
+      "tags": [
+        "anticoagulation"
+      ]
     },
     {
-      "id": "as-mx-15", "type": "single", "difficulty": 1,
+      "id": "as-mx-15",
+      "type": "single",
+      "difficulty": 1,
       "q": "What is the preferred endocarditis prophylaxis before a dental procedure after aortic valve replacement?",
       "a": "Amoxicillin 2 g as a single dose, 30 to 60 minutes before",
-      "d": ["Amoxicillin 500 mg three times daily for 5 days", "No prophylaxis is needed", "Clindamycin 600 mg as a single dose"],
+      "d": [
+        "Amoxicillin 500 mg three times daily for 5 days",
+        "No prophylaxis is needed",
+        "Clindamycin 600 mg as a single dose"
+      ],
       "why": "The recommendation is expert consensus (SORT C) and applies to any prosthetic aortic valve, transcatheter or surgical.",
-      "tags": ["prophylaxis"]
+      "tags": [
+        "prophylaxis"
+      ]
+    },
+    {
+      "id": "as-mx-16",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "An asymptomatic patient has severe aortic stenosis and no indication for replacement yet. How often should echo be repeated?",
+      "a": "Every 6 to 12 months",
+      "d": [
+        "Every 3 months",
+        "Every 1 to 2 years",
+        "Every 3 to 5 years"
+      ],
+      "why": "The interval shortens with severity because progression accelerates and symptoms tend to appear only once the valve is severely narrowed.",
+      "tags": [
+        "monitoring",
+        "staging"
+      ],
+      "options": [
+        "Every 3 months",
+        "Every 6 to 12 months",
+        "Every 1 to 2 years",
+        "Every 3 to 5 years"
+      ]
     }
   ]
 }

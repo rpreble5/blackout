@@ -413,7 +413,8 @@ async function quiz(i){
     const item=qs[k],multi=item.type==='multi';
     const text=item.q,why=item.why;
     const correct=new Set(multi?item.a:[item.a]);
-    const options=shuffle([...(multi?item.a:[item.a]),...item.d]);
+    /* numeric and ordered options are listed in the topic file and never shuffled */
+    const options=item.order==='fixed'&&item.options?item.options.slice():shuffle([...(multi?item.a:[item.a]),...item.d]);
     current={id:item.id,planet:p.name,cat:item.topic.short,q:text,picked:[],right:null};
     $('q-text').textContent=text;fit($('q-text'),text,20,27,50,110);
     $('q-why').textContent=why;fit($('q-why'),why,16,21,60,150);
