@@ -141,6 +141,10 @@ button{font-family:inherit}
 .note-actions{display:flex;gap:10px;margin-top:22px}
 .notes{display:flex;gap:10px;margin-top:14px;position:relative;z-index:1}
 .title .notes{margin-top:14px}
+.title .void-line{margin:18px 0 0;font-size:13px;color:var(--dust);position:relative;z-index:1}
+.auth{display:flex;gap:10px;align-items:center;margin-top:14px;font-size:13px;color:var(--dust);position:relative;z-index:1}
+.node .pct{display:block;font-size:11px;color:var(--dust);padding-top:2px}
+.quiz.is-void .lights{visibility:hidden}
 .end .notes{margin-top:14px}
 
 /* end */
@@ -166,7 +170,9 @@ button{font-family:inherit}
       <p>A quiz run across the planets. Four lights. Every wrong answer puts one out.</p>
     </div>
     <button class="btn is-primary" id="begin">Begin a run</button>
+    <p class="void-line" id="void-line" hidden></p>
     <div class="notes" id="notes-title" hidden><button class="btn copy">Copy notes</button><button class="btn clear">Clear</button></div>
+    <div class="auth" id="auth" hidden></div>
     <div class="planet horizon" id="horizon"></div>
   </section>
 
@@ -255,11 +261,41 @@ async function loadTopics(){
   TOPICS=await Promise.all(idx.topics.map(f=>fetch('topics/'+f,{cache:'no-cache'}).then(r=>r.json())));
   TOPICS.forEach(t=>t.questions.forEach(q=>q.topic=t));
 }
-/* how often each question has been shown on this device, so revisits prefer what you haven't seen */
-const seen={
-  get(){try{return JSON.parse(localStorage.getItem('blackout.seen')||'{}')}catch(e){return {}}},
-  bump(ids){const m=seen.get();ids.forEach(id=>m[id]=(m[id]||0)+1);try{localStorage.setItem('blackout.seen',JSON.stringify(m))}catch(e){}},
+/* memory. Every answer is one entry in an append-only log kept on the device and, when signed in, mirrored
+   to the server. Everything else (the void, streaks, what you've seen, topic accuracy) is derived from the log,
+   so two devices merge by simple union and nothing has to be reconciled by hand. */
+const uuid=()=>crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2);
+const deviceId=(()=>{try{let d=localStorage.getItem('blackout.device');if(!d){d=uuid();localStorage.setItem('blackout.device',d)}return d}catch(e){return 'unknown'}})();
+const log={
+  get(){try{return JSON.parse(localStorage.getItem('blackout.log')||'[]')}catch(e){return []}},
+  set(v){try{localStorage.setItem('blackout.log',JSON.stringify(v))}catch(e){};memo=null},
+  add(e){const v=log.get();v.push(e);log.set(v);return e},
 };
+let memo=null;
+const VOID_STREAK=3,VOID_SESSION=10;
+/* derive per-question and per-topic state from the log, in time order */
+function derive(){
+  if(memo)return memo;
+  const entries=log.get().slice().sort((a,b)=>a.at<b.at?-1:a.at>b.at?1:0);
+  const q={},topics={};
+  for(const e of entries){
+    const st=q[e.qid]||(q[e.qid]={streak:0,inVoid:false,seen:0,last:null});
+    st.seen++;st.last=e.at;
+    if(e.ok){st.streak++;if(st.inVoid&&st.streak>=VOID_STREAK)st.inVoid=false}
+    else{st.streak=0;st.inVoid=true}
+    if(e.ctx!=='void'){const t=topics[e.topic]||(topics[e.topic]={n:0,ok:0});t.n++;if(e.ok)t.ok++}
+  }
+  return memo={q,topics};
+}
+function voidQuestions(){
+  const {q}=derive();
+  return TOPICS.flatMap(t=>t.questions).filter(x=>q[x.id]?.inVoid);
+}
+function record(item,ok,ctx){
+  log.add({id:uuid(),qid:item.id,topic:item.topic.id,ok,ctx,at:new Date().toISOString(),device:deviceId});
+  sync();
+}
+const seen={get(){const {q}=derive();const m={};for(const id in q)m[id]=q[id].seen;return m}};
 function draw(pool,n){
   const m=seen.get();
   const ranked=shuffle(pool).sort((x,y)=>(m[x.id]||0)-(m[y.id]||0));
@@ -347,7 +383,7 @@ function syncLights(){['map-lights','q-lights','end-lights'].forEach(id=>{
 /* title */
 paint($('horizon'),palette(rnd(0,360)));
 
-function newRun(){
+async function newRun(){
   const hues=spreadHues(NODES.length);
   const order=shuffle(PLANETS).map((p,i)=>({...p,c:palette(hues[i])}));
   const boss={...BOSS,c:palette(hues[NODES.length-1],false)};
@@ -356,8 +392,9 @@ function newRun(){
   run={planets:[...order,boss],topics,lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
   $('map-note').textContent='Choose a planet';
   buildMap();syncLights();
-  show('s-map');
   requestAnimationFrame(()=>{$('map-body').scrollTop=$('map-body').scrollHeight});
+  await voidSession();
+  show('s-map');
 }
 
 function buildMap(){
@@ -391,6 +428,8 @@ function buildMap(){
     b.className='node';b.style.left=n.x+'%';b.style.top=n.y+'%';b.dataset.i=i;
     const pl=document.createElement('div');pl.className='planet';paint(pl,p.c,SIZES[i]);pl.style.setProperty('--d',(-i*3)+'s');
     const nm=document.createElement('span');nm.textContent=run.topics[i]?run.topics[i].short:'Everything so far';
+    const st=run.topics[i]&&derive().topics[run.topics[i].id];
+    if(st&&st.n>=3){const pct=document.createElement('span');pct.className='pct';pct.textContent=Math.round(st.ok/st.n*100)+'% over '+st.n;nm.appendChild(pct)}
     b.append(pl,nm);b.addEventListener('click',()=>{if(run.open.includes(i))travel(i)});
     field.appendChild(b);
   });
@@ -420,6 +459,7 @@ async function travel(i){
   paintBand($('q-band'),p.c);
   const t=run.topics[i];
   $('q-name').textContent=t?t.short:'Everything so far';$('q-cat').textContent=t?t.specialty:'Every topic on the map';
+  $('s-quiz').classList.remove('is-void');
   $('q-body').classList.add('is-swapping');
   syncLights();
   show('s-quiz');
@@ -431,8 +471,38 @@ async function quiz(i){
   const p=run.planets[i],t=run.topics[i];
   const pool=t?t.questions:TOPICS.flatMap(x=>x.questions);
   const qs=draw(pool,p.boss?BOSS_VISIT:PER_VISIT);
+  const {misses,out}=await ask(p,qs,{ctx:p.boss?'boss':'planet'});
+  if(out)return blackout(p);
+  current=null;
+  /* planet cleared */
+  run.visited++;run.done.push(i);run.here=i;
+  run.open=EDGES.filter(e=>e[0]===i).map(e=>e[1]);
+  if(p.boss)return clear();
+  let note='Choose the next planet';
+  if(misses===0&&run.lights<MAX_LIGHTS){run.lights++;note=`No misses at ${t.short}. A light comes back.`}
+  $('map-note').textContent=note;
+  syncMap();syncLights();
+  show('s-map');
+}
+/* the void: up to ten questions you have missed, answered before the map. No lights at stake. */
+const VOID={name:'The void',c:['#ECEBE6','#8C8C94','#5A5A63','#232328']};
+async function voidSession(){
+  const pool=voidQuestions();
+  if(!pool.length)return;
+  const qs=shuffle(pool).slice(0,VOID_SESSION);
+  paintBand($('q-band'),VOID.c);
+  $('q-name').textContent='The void';
+  $('s-quiz').classList.add('is-void');
+  $('q-body').classList.add('is-swapping');
+  show('s-quiz');
+  await sleep(reduced?0:450);
+  await ask(VOID,qs,{ctx:'void'});
+  $('s-quiz').classList.remove('is-void');
+  current=null;
+  show('s-map');
+}
+async function ask(p,qs,opts){
   const count=qs.length;
-  seen.bump(qs.map(q=>q.id));
   let misses=0;
   const prompt=$('q-prompt'),dim=$('q-dim'),screen=$('s-quiz');
   dim.style.setProperty('--p','0%');
@@ -443,6 +513,7 @@ async function quiz(i){
     /* numeric and ordered options are listed in the topic file and never shuffled */
     const options=item.order==='fixed'&&item.options?item.options.slice():shuffle([...(multi?item.a:[item.a]),...item.d]);
     current={id:item.id,planet:p.name,cat:item.topic.short,q:text,picked:[],right:null};
+    if(opts.ctx==='void')$('q-cat').textContent=item.topic.short;
     $('q-text').textContent=text;fit($('q-text'),text,20,27,50,110);
     $('q-why').textContent=why;fit($('q-why'),why,16,21,60,150);
     prompt.classList.remove('is-why');
@@ -479,27 +550,19 @@ async function quiz(i){
       error=!correct.has(pick.dataset.t);current.picked=[pick.dataset.t];
     }
     current.right=!error;
-    if(error){misses++;run.lights--;syncLights()}
+    record(item,!error,opts.ctx);
+    if(error){misses++;if(opts.ctx!=='void'){run.lights--;syncLights()}}
     dim.style.setProperty('--p',((k+1)/count*100).toFixed(1)+'%');
-    const out=run.lights<=0;
+    const out=opts.ctx!=='void'&&run.lights<=0;
     await sleep(reduced?0:300);
     prompt.classList.add('is-why');
     await tapToContinue(screen);
     current=null;$('q-body').classList.remove('is-noting');
-    if(out)return blackout(p);
+    if(out)return {misses,out};
     $('q-body').classList.add('is-swapping');
     await sleep(380);
   }
-  current=null;
-  /* planet cleared */
-  run.visited++;run.done.push(i);run.here=i;
-  run.open=EDGES.filter(e=>e[0]===i).map(e=>e[1]);
-  if(p.boss)return clear();
-  let note='Choose the next planet';
-  if(misses===0&&run.lights<MAX_LIGHTS){run.lights++;note=`No misses at ${p.name}. A light comes back.`}
-  $('map-note').textContent=note;
-  syncMap();syncLights();
-  show('s-map');
+  return {misses,out:false};
 }
 
 /* gestures on the quiz screen: swipe up (touch flick, mouse drag, or a burst of wheel) and swipe left.
@@ -536,6 +599,55 @@ $('note-save').addEventListener('click',()=>{
   $('q-body').classList.remove('is-noting');
 });
 renderNotes();
+function renderVoid(){const n=TOPICS.length?voidQuestions().length:0;const el=$('void-line');el.hidden=n===0;el.textContent=n===1?'The void holds one question.':`The void holds ${n} questions.`}
+/* server sync. Fill in the two constants from the Supabase project (Settings, API). Until then the game is
+   local-only and this whole block is inert. The anon key is public by design; row-level security on the server
+   is what keeps one player's rows away from another's. */
+const SUPABASE_URL='',SUPABASE_KEY='';
+let sb=null,user=null,syncing=false,syncAgain=false;
+function loadScript(src){return new Promise((res,rej)=>{const el=document.createElement('script');el.src=src;el.onload=res;el.onerror=rej;document.head.appendChild(el)})}
+async function initSync(){
+  if(!SUPABASE_URL||!SUPABASE_KEY)return;
+  try{await loadScript('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js')}catch(e){return}
+  sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
+  const {data:{session}}=await sb.auth.getSession();user=session?.user||null;
+  sb.auth.onAuthStateChange((_,sess)=>{user=sess?.user||null;renderAuth();if(user)sync()});
+  renderAuth();if(user)sync();
+}
+function renderAuth(){
+  const el=$('auth');if(!sb){el.hidden=true;return}
+  el.hidden=false;el.innerHTML='';
+  if(user){el.append(Object.assign(document.createElement('span'),{textContent:'Progress syncs to '+(user.email||'your account')}));
+    const b=document.createElement('button');b.className='btn';b.textContent='Sign out';b.onclick=()=>sb.auth.signOut();el.append(b)}
+  else{const b=document.createElement('button');b.className='btn';b.textContent='Sign in with Google';
+    b.onclick=()=>sb.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.origin+location.pathname}});el.append(b)}
+}
+const sent={get(){try{return new Set(JSON.parse(localStorage.getItem('blackout.sent')||'[]'))}catch(e){return new Set()}},set(v){try{localStorage.setItem('blackout.sent',JSON.stringify([...v]))}catch(e){}}};
+async function sync(){
+  if(!sb||!user)return;
+  if(syncing){syncAgain=true;return}
+  syncing=true;
+  try{
+    const entries=log.get(),done=sent.get();
+    const pending=entries.filter(e=>!done.has(e.id));
+    if(pending.length){
+      const rows=pending.map(e=>({id:e.id,user_id:user.id,qid:e.qid,topic:e.topic,ok:e.ok,ctx:e.ctx,at:e.at,device:e.device}));
+      const {error}=await sb.from('attempts').upsert(rows,{onConflict:'id'});
+      if(!error){pending.forEach(e=>done.add(e.id));sent.set(done)}
+    }
+    const since=localStorage.getItem('blackout.pulled')||'1970-01-01T00:00:00Z';
+    const {data}=await sb.from('attempts').select('id,qid,topic,ok,ctx,at,device,created_at').gt('created_at',since).order('created_at');
+    if(data&&data.length){
+      const have=new Set(entries.map(e=>e.id));
+      const add=data.filter(e=>!have.has(e.id)).map(({created_at,...e})=>e);
+      if(add.length){log.set([...log.get(),...add]);renderVoid()}
+      data.forEach(e=>done.add(e.id));sent.set(done);
+      localStorage.setItem('blackout.pulled',data[data.length-1].created_at);
+    }
+  }catch(e){}
+  syncing=false;
+  if(syncAgain){syncAgain=false;sync()}
+}
 function goFull(){
   const el=document.documentElement;
   if(document.fullscreenElement||!el.requestFullscreen)return;
@@ -554,10 +666,10 @@ function clear(){
 }
 
 $('begin').disabled=true;$('begin').textContent='Loading';
-loadTopics().then(()=>{$('begin').disabled=false;$('begin').textContent='Begin a run'})
+loadTopics().then(()=>{$('begin').disabled=false;$('begin').textContent='Begin a run';renderVoid();initSync()})
   .catch(()=>{$('begin').textContent='Questions failed to load';document.querySelector('.title p').textContent='Check the connection and reload.'});
 $('begin').addEventListener('click',()=>{goFull();newRun()});
-$('again').addEventListener('click',newRun);
+$('again').addEventListener('click',()=>{renderVoid();newRun()});
 addEventListener('resize',()=>{if(run)buildMap()});
 </script>
 </body>
