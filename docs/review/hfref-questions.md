@@ -4,6 +4,8 @@ One line per question: id, type, difficulty, the question, then the correct answ
 
 ## HFrEF: starting and titrating guideline-directed therapy (15 questions)
 
+Source: Gauer RL, Rifaat A, Foulkrod AM. Heart Failure With Reduced Ejection Fraction: Medical Management. Am Fam Physician. 2025;112(2):131-145.
+
 - **hf-gd-01** (single, d2, 4 options, fixed order) By about how much does the combination of all four GDMT classes reduce all-cause mortality compared with placebo?
   → About 61%
 - **hf-gd-02** (single, d2, 4 options, fixed order) Within what window after diagnosis should GDMT be titrated to target doses?
@@ -37,6 +39,8 @@ One line per question: id, type, difficulty, the question, then the correct answ
 
 ## HFrEF: judging volume and using diuretics (15 questions)
 
+Source: Gauer RL, Rifaat A, Foulkrod AM. Heart Failure With Reduced Ejection Fraction: Medical Management. Am Fam Physician. 2025;112(2):131-145.
+
 - **hf-cg-01** (single, d2, 4 options) Which bedside finding has the highest positive likelihood ratio for cardiogenic pulmonary oedema?
   → Jugular venous pressure over 8 cm
 - **hf-cg-02** (single, d2, 4 options, fixed order) What is the specificity of bilateral leg oedema for cardiogenic pulmonary oedema?
@@ -69,6 +73,8 @@ One line per question: id, type, difficulty, the question, then the correct answ
   → Adequate urinary sodium + A falling natriuretic peptide + Haemoconcentration
 
 ## HFrEF: add-on drugs, iron, devices, and trouble on therapy (15 questions)
+
+Source: Gauer RL, Rifaat A, Foulkrod AM. Heart Failure With Reduced Ejection Fraction: Medical Management. Am Fam Physician. 2025;112(2):131-145.
 
 - **hf-by-01** (single, d2, 4 options) A patient with HFrEF and atrial fibrillation still has a fast ventricular rate on a maximally tolerated beta blocker. Which drug is indicated next?
   → Digoxin

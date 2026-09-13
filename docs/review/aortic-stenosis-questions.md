@@ -4,6 +4,8 @@ One line per question: id, type, difficulty, the question, then the correct answ
 
 ## Aortic stenosis: recognising and grading it (15 questions)
 
+Source: Patel H, Lewis BW, Paulus R. Aortic Stenosis: Diagnosis and Treatment. Am Fam Physician. 2026;114(2):148-155.
+
 - **as-dx-01** (single, d1, 4 options) Which examination finding most raises the likelihood of aortic stenosis?
   → An inaudible second heart sound
 - **as-dx-02** (multi, d2, 5 options) Which coexisting conditions make it hard to tell whether symptoms come from the aortic stenosis?
@@ -36,6 +38,8 @@ One line per question: id, type, difficulty, the question, then the correct answ
   → 1.0 cm²
 
 ## Aortic stenosis: managing it and replacing the valve (15 questions)
+
+Source: Patel H, Lewis BW, Paulus R. Aortic Stenosis: Diagnosis and Treatment. Am Fam Physician. 2026;114(2):148-155.
 
 - **as-mx-02** (single, d2, 4 options) Why is a statin still recommended for many patients with aortic stenosis?
   → To reduce cardiovascular events by ten-year atherosclerotic risk, not to slow the stenosis

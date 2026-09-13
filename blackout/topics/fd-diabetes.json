@@ -1,0 +1,141 @@
+{
+  "id": "fd-diabetes",
+  "title": "Type 2 diabetes: diagnosis, targets, and choosing therapy",
+  "short": "Type 2 diabetes",
+  "specialty": "Primary care",
+  "tags": ["diabetes", "metformin", "sglt2", "glp1", "insulin"],
+  "source": {
+    "citation": "Written for Blackout, 2026-09-13. Based on the ADA Standards of Care and standard primary care practice. Not tied to an article; review before trusting.",
+    "facts": "none"
+  },
+  "questions": [
+    {
+      "id": "fd-dm-01", "type": "single", "difficulty": 1, "order": "fixed",
+      "q": "At what haemoglobin A1c is diabetes diagnosed?",
+      "a": "6.5% or higher",
+      "d": ["5.7% or higher", "6.0% or higher", "7.0% or higher"],
+      "options": ["5.7% or higher", "6.0% or higher", "6.5% or higher", "7.0% or higher"],
+      "why": "Prediabetes runs from 5.7% to 6.4%. In the absence of unequivocal hyperglycaemia the result is confirmed by repeating it or by a second test.",
+      "tags": ["diagnosis"]
+    },
+    {
+      "id": "fd-dm-02", "type": "single", "difficulty": 1, "order": "fixed",
+      "q": "At what fasting plasma glucose is diabetes diagnosed?",
+      "a": "126 mg/dL or higher",
+      "d": ["100 mg/dL or higher", "110 mg/dL or higher", "200 mg/dL or higher"],
+      "options": ["100 mg/dL or higher", "110 mg/dL or higher", "126 mg/dL or higher", "200 mg/dL or higher"],
+      "why": "Impaired fasting glucose is 100 to 125. A random glucose of 200 or more with classic symptoms is also diagnostic on its own.",
+      "tags": ["diagnosis"]
+    },
+    {
+      "id": "fd-dm-03", "type": "single", "difficulty": 1, "order": "fixed",
+      "q": "What is the A1c target for most nonpregnant adults with diabetes?",
+      "a": "Under 7%",
+      "d": ["Under 6%", "Under 6.5%", "Under 8%"],
+      "options": ["Under 6%", "Under 6.5%", "Under 7%", "Under 8%"],
+      "why": "Under 8% is reasonable for patients with limited life expectancy, frailty or a history of severe hypoglycaemia; tighter targets suit those who can reach them without hypoglycaemia.",
+      "tags": ["targets"]
+    },
+    {
+      "id": "fd-dm-04", "type": "single", "difficulty": 1,
+      "q": "Which drug is first-line for most adults with newly diagnosed type 2 diabetes and no heart or kidney disease?",
+      "a": "Metformin",
+      "d": ["A sulfonylurea", "Basal insulin", "A DPP-4 inhibitor"],
+      "why": "It is cheap, weight neutral, does not cause hypoglycaemia on its own, and has the longest safety record. Lifestyle change starts at the same time, not instead.",
+      "tags": ["first-line", "metformin"]
+    },
+    {
+      "id": "fd-dm-05", "type": "single", "difficulty": 2,
+      "q": "Type 2 diabetes with heart failure with reduced ejection fraction. Which class is recommended regardless of A1c?",
+      "a": "An SGLT-2 inhibitor",
+      "d": ["A GLP-1 receptor agonist", "A sulfonylurea", "A thiazolidinedione"],
+      "why": "The heart failure benefit is independent of glucose lowering, which is why the drug is indicated even when A1c is already at target.",
+      "tags": ["sglt2", "heart-failure"]
+    },
+    {
+      "id": "fd-dm-06", "type": "multi", "difficulty": 2,
+      "q": "Type 2 diabetes with established atherosclerotic cardiovascular disease. Which classes have proven cardiovascular benefit?",
+      "a": ["A GLP-1 receptor agonist", "An SGLT-2 inhibitor"],
+      "d": ["A sulfonylurea", "A DPP-4 inhibitor", "A thiazolidinedione"],
+      "why": "Either is recommended independent of A1c. The GLP-1 agonist has the stronger evidence for stroke, the SGLT-2 inhibitor for heart failure and kidney outcomes.",
+      "tags": ["ascvd", "glp1", "sglt2"]
+    },
+    {
+      "id": "fd-dm-07", "type": "single", "difficulty": 2,
+      "q": "Type 2 diabetes with chronic kidney disease and albuminuria. Which class slows kidney decline?",
+      "a": "An SGLT-2 inhibitor",
+      "d": ["A sulfonylurea", "A DPP-4 inhibitor", "Basal insulin"],
+      "why": "It is recommended down to an eGFR of about 20 for kidney protection even though its glucose-lowering effect fades as eGFR falls.",
+      "tags": ["sglt2", "ckd"]
+    },
+    {
+      "id": "fd-dm-08", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "Below what eGFR should metformin be stopped?",
+      "a": "30 mL/min per 1.73 m²",
+      "d": ["15 mL/min per 1.73 m²", "45 mL/min per 1.73 m²", "60 mL/min per 1.73 m²"],
+      "options": ["15 mL/min per 1.73 m²", "30 mL/min per 1.73 m²", "45 mL/min per 1.73 m²", "60 mL/min per 1.73 m²"],
+      "why": "It should not be started between 30 and 45, and an existing dose is usually halved there. The concern is lactic acidosis when the drug accumulates.",
+      "tags": ["metformin", "kidney"]
+    },
+    {
+      "id": "fd-dm-09", "type": "single", "difficulty": 2,
+      "q": "Which deficiency should be checked periodically in patients on long-term metformin?",
+      "a": "Vitamin B12",
+      "d": ["Folate", "Vitamin D", "Iron"],
+      "why": "Metformin reduces B12 absorption. A neuropathy in a diabetic patient on metformin is B12 deficiency until proven otherwise.",
+      "tags": ["metformin", "adverse-effects"]
+    },
+    {
+      "id": "fd-dm-10", "type": "multi", "difficulty": 2,
+      "q": "Which classes carry a meaningful risk of hypoglycaemia on their own?",
+      "a": ["Sulfonylureas", "Insulin"],
+      "d": ["Metformin", "SGLT-2 inhibitors", "GLP-1 receptor agonists", "DPP-4 inhibitors"],
+      "why": "The other four lower glucose in a glucose-dependent way. Combining any of them with a sulfonylurea or insulin inherits that partner's hypoglycaemia risk.",
+      "tags": ["hypoglycaemia", "safety"]
+    },
+    {
+      "id": "fd-dm-11", "type": "single", "difficulty": 2,
+      "q": "Which history is a contraindication to a GLP-1 receptor agonist?",
+      "a": "Personal or family history of medullary thyroid carcinoma or MEN2",
+      "d": ["Gallstones", "Heart failure", "Chronic kidney disease"],
+      "why": "The warning comes from thyroid C-cell tumours in rodents. Pancreatitis history is a caution rather than an absolute bar, and nausea is the common reason patients stop.",
+      "tags": ["glp1", "safety"]
+    },
+    {
+      "id": "fd-dm-12", "type": "single", "difficulty": 3, "order": "fixed",
+      "q": "For how long before major surgery should an SGLT-2 inhibitor be held?",
+      "a": "At least 3 days",
+      "d": ["1 day", "1 week", "2 weeks"],
+      "options": ["1 day", "At least 3 days", "1 week", "2 weeks"],
+      "why": "The risk is euglycaemic ketoacidosis, which can occur with a near-normal glucose during fasting, surgery or acute illness. Sick-day rules apply for the same reason.",
+      "tags": ["sglt2", "safety", "perioperative"]
+    },
+    {
+      "id": "fd-dm-13", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "At presentation, insulin is recommended from the start when A1c exceeds what?",
+      "a": "10%",
+      "d": ["8%", "9%", "12%"],
+      "options": ["8%", "9%", "10%", "12%"],
+      "why": "Also when glucose is 300 mg/dL or more, or when there are catabolic features such as weight loss or ketosis. Insulin can often be stepped back once glucotoxicity resolves.",
+      "tags": ["insulin", "initiation"]
+    },
+    {
+      "id": "fd-dm-14", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "What is the usual starting dose of basal insulin in type 2 diabetes?",
+      "a": "0.1 to 0.2 units per kg per day",
+      "d": ["0.5 units per kg per day", "1 unit per kg per day", "2 units per kg per day"],
+      "options": ["0.1 to 0.2 units per kg per day", "0.5 units per kg per day", "1 unit per kg per day", "2 units per kg per day"],
+      "why": "In practice that is about 10 units. It is titrated by 2 units every 3 days or so against fasting glucose, and overbasalisation is suspected above about 0.5 units per kg.",
+      "tags": ["insulin", "dose"]
+    },
+    {
+      "id": "fd-dm-15", "type": "single", "difficulty": 1, "order": "fixed",
+      "q": "How often should urine albumin and eGFR be checked in type 2 diabetes without known kidney disease?",
+      "a": "At least annually",
+      "d": ["Every 3 months", "Every 2 years", "Every 5 years"],
+      "options": ["Every 3 months", "At least annually", "Every 2 years", "Every 5 years"],
+      "why": "Once kidney disease is present the interval shortens to one to four times a year depending on stage, and it is the albuminuria that drives the SGLT-2 and ACE inhibitor decisions.",
+      "tags": ["monitoring", "kidney"]
+    }
+  ]
+}

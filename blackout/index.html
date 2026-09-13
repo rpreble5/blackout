@@ -142,7 +142,10 @@ button{font-family:inherit}
 .note-actions{display:flex;gap:10px;margin-top:22px}
 .notes{display:flex;gap:10px;margin-top:14px;position:relative;z-index:1}
 .title .notes{margin-top:14px}
-.title .modes{display:flex;gap:10px;align-items:center;margin-top:36px;position:relative;z-index:1}
+.title .sets{display:flex;gap:18px;margin-top:30px;position:relative;z-index:1}
+.title .sets button{appearance:none;border:0;background:none;padding:6px 0;color:var(--dust);font:500 15px var(--font);cursor:pointer;border-bottom:1px solid transparent;transition:color .3s,border-color .3s}
+.title .sets button[aria-checked="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.title .modes{display:flex;gap:10px;align-items:center;margin-top:18px;position:relative;z-index:1}
 .title .modes .btn{margin-top:0}
 .title .void-line{margin:18px 0 0;font-size:13px;color:var(--dust);position:relative;z-index:1}
 .dev .head{display:flex;align-items:flex-start;gap:14px}
@@ -219,6 +222,7 @@ button{font-family:inherit}
       <h1>Blackout</h1>
       <p>A quiz run across the planets. Four lights. Every wrong answer puts one out.</p>
     </div>
+    <div class="sets" id="sets" role="radiogroup" aria-label="Question set"></div>
     <div class="modes"><button class="btn is-primary" id="begin">Begin a run</button><button class="btn" id="dev-open">Dev</button></div>
     <p class="void-line" id="void-line" hidden></p>
     <div class="notes" id="notes-title" hidden><button class="btn copy">Copy notes</button><button class="btn clear">Clear</button></div>
@@ -341,15 +345,27 @@ function palette(h,pale=Math.random()<.12){
 const spreadHues=n=>shuffle([...Array(n)].map((_,i)=>{const h=(i*300/n+rnd(-12,12)+360)%300;return h<80?h:h+60}));
 
 /* topics: one json file each, listed in topics/index.json. A planet is one visit to a topic. */
-let TOPICS=[],DRUGS=[];
+let TOPICS=[],DRUGS=[],SETS=[],setId='';
 const PAIRS_PER_ROUND=6;
 const PER_VISIT=7,BOSS_VISIT=8;
 async function loadTopics(){
   /* no-cache means revalidate with the server, so a new topic file shows up on the next load */
   const idx=await fetch('topics/index.json',{cache:'no-cache'}).then(r=>r.json());
-  TOPICS=await Promise.all(idx.topics.map(f=>fetch('topics/'+f,{cache:'no-cache'}).then(r=>r.json())));
-  TOPICS.forEach(t=>t.questions.forEach(q=>q.topic=t));
+  SETS=await Promise.all(idx.sets.map(async st=>{
+    const topics=await Promise.all(st.topics.map(f=>fetch('topics/'+f,{cache:'no-cache'}).then(r=>r.json())));
+    topics.forEach(t=>{t.set=st.id;t.questions.forEach(q=>q.topic=t)});
+    return {...st,topics};
+  }));
+  let saved='';try{saved=localStorage.getItem('blackout.set')||''}catch(e){}
+  chooseSet(SETS.some(x=>x.id===saved)?saved:SETS[0].id);
   DRUGS=(await fetch('drugs.json',{cache:'no-cache'}).then(r=>r.json())).classes.filter(c=>c.pairs.length>=PAIRS_PER_ROUND);
+}
+/* a set is a family of topics: Articles (from reading) or Foundations (written by us). One set plays at a time. */
+function chooseSet(id){
+  setId=id;TOPICS=SETS.find(x=>x.id===id).topics;
+  try{localStorage.setItem('blackout.set',id)}catch(e){}
+  const row=$('sets');row.innerHTML='';
+  SETS.forEach(st=>{const b=document.createElement('button');b.type='button';b.setAttribute('role','radio');b.setAttribute('aria-checked',st.id===id);b.textContent=st.label;b.title=st.blurb||'';b.onclick=()=>{chooseSet(st.id);renderVoid()};row.appendChild(b)});
 }
 /* memory. Every answer is one entry in an append-only log kept on the device and, when signed in, mirrored
    to the server. Everything else (the void, streaks, what you've seen, topic accuracy) is derived from the log,

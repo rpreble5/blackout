@@ -125,6 +125,18 @@ each question's streak, what has been seen, and per-topic accuracy.
   topic accuracy once a topic has three or more planet or boss attempts.
 - Planet draws prefer least-seen questions, now derived from the log.
 
+## Question sets
+
+Since 2026-09-13 the topic index groups topics into sets, and the title
+screen has a switch between them. **Articles** holds topics derived from
+review articles the user has read. **Foundations** holds topics we write
+ourselves from standard guidelines, on what an intern meets every week;
+seeded with hypertension and type 2 diabetes (15 questions each). One set
+plays at a time; the void, map and dev menu follow the selected set. The
+choice is remembered on the device. Foundations topics cite their guideline
+source and are marked "review before trusting", since no article anchors
+them.
+
 ## Game modes
 
 Two modes since 2026-09-13. **Run** is the game. **Dev** is a menu on the

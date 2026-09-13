@@ -1,9 +1,25 @@
 {
-  "topics": [
-    "aortic-stenosis-diagnosis.json",
-    "aortic-stenosis-management.json",
-    "hfref-gdmt.json",
-    "hfref-congestion.json",
-    "hfref-beyond.json"
+  "sets": [
+    {
+      "id": "articles",
+      "label": "Articles",
+      "blurb": "Questions drawn from review articles you have read.",
+      "topics": [
+        "aortic-stenosis-diagnosis.json",
+        "aortic-stenosis-management.json",
+        "hfref-gdmt.json",
+        "hfref-congestion.json",
+        "hfref-beyond.json"
+      ]
+    },
+    {
+      "id": "foundations",
+      "label": "Foundations",
+      "blurb": "Questions we wrote ourselves on the things an intern meets every week.",
+      "topics": [
+        "fd-hypertension.json",
+        "fd-diabetes.json"
+      ]
+    }
   ]
 }

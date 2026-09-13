@@ -6,8 +6,12 @@ game. When a note changes a rule, the rule changes here and the note is cited.
 
 ## Source and grouping
 
-- Questions come from one source article at a time. Every question must be
-  answerable from that article alone.
+- Articles set: questions come from one source article at a time, and every
+  question must be answerable from that article alone.
+- Foundations set: questions are written from a named standard guideline
+  (ACC/AHA, ADA and the like) and the topic file cites it. Only settled,
+  guideline-level facts qualify; anything contested or edition-dependent is
+  left out. These need the user's review more than article questions do.
 - An article is first reduced to short, standalone, tagged facts. Facts are
   clustered into topics of 10 to 15 questions that share one frame: a
   mechanism, a decision, a patient situation. A cluster that can't reach 10

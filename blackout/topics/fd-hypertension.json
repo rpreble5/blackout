@@ -1,0 +1,312 @@
+{
+  "id": "fd-hypertension",
+  "title": "Hypertension: diagnosing, choosing drugs, and targets",
+  "short": "Hypertension",
+  "specialty": "Primary care",
+  "tags": [
+    "hypertension",
+    "antihypertensives",
+    "targets",
+    "pregnancy"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-09-13. Based on the 2017 ACC/AHA hypertension guideline and standard primary care practice. Not tied to an article; review before trusting.",
+    "facts": "none"
+  },
+  "questions": [
+    {
+      "id": "fd-htn-01",
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "Under the ACC/AHA definition, at what office blood pressure does stage 1 hypertension begin?",
+      "a": "130/80 mm Hg",
+      "d": [
+        "120/80 mm Hg",
+        "140/90 mm Hg",
+        "160/100 mm Hg"
+      ],
+      "options": [
+        "120/80 mm Hg",
+        "130/80 mm Hg",
+        "140/90 mm Hg",
+        "160/100 mm Hg"
+      ],
+      "why": "Stage 2 begins at 140/90. Elevated blood pressure is a systolic of 120 to 129 with a diastolic under 80.",
+      "tags": [
+        "definition",
+        "staging"
+      ]
+    },
+    {
+      "id": "fd-htn-02",
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which classes are first-line for uncomplicated hypertension?",
+      "a": [
+        "A thiazide-type diuretic",
+        "An ACE inhibitor",
+        "An ARB",
+        "A dihydropyridine calcium channel blocker"
+      ],
+      "d": [
+        "A beta blocker",
+        "An alpha blocker",
+        "A loop diuretic"
+      ],
+      "why": "Beta blockers are reserved for a compelling indication such as heart failure, prior infarction or rate control; on their own they protect less against stroke.",
+      "tags": [
+        "first-line"
+      ]
+    },
+    {
+      "id": "fd-htn-03",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A Black adult with hypertension and no heart failure or kidney disease. Which initial therapy is preferred?",
+      "a": "A thiazide-type diuretic or a calcium channel blocker",
+      "d": [
+        "An ACE inhibitor",
+        "An ARB",
+        "A beta blocker"
+      ],
+      "why": "Renin-angiotensin blockers lower blood pressure less on average in this group as monotherapy, though they are still used when there is albuminuria or heart failure.",
+      "tags": [
+        "first-line",
+        "population"
+      ]
+    },
+    {
+      "id": "fd-htn-04",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hypertension with chronic kidney disease and albuminuria. Which class should be part of the regimen?",
+      "a": "An ACE inhibitor or ARB",
+      "d": [
+        "A dihydropyridine calcium channel blocker",
+        "A beta blocker",
+        "A loop diuretic"
+      ],
+      "why": "The benefit is slowing progression of the kidney disease, which is why it applies with albuminuria even when blood pressure could be controlled another way.",
+      "tags": [
+        "ckd",
+        "compelling-indication"
+      ]
+    },
+    {
+      "id": "fd-htn-05",
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "What is the blood pressure target for most adults being treated for hypertension?",
+      "a": "Under 130/80 mm Hg",
+      "d": [
+        "Under 120/80 mm Hg",
+        "Under 140/90 mm Hg",
+        "Under 150/90 mm Hg"
+      ],
+      "options": [
+        "Under 120/80 mm Hg",
+        "Under 130/80 mm Hg",
+        "Under 140/90 mm Hg",
+        "Under 150/90 mm Hg"
+      ],
+      "why": "The same target applies in older adults who are living independently; it is relaxed only where the burden of treatment or a limited life expectancy argues for it.",
+      "tags": [
+        "targets"
+      ]
+    },
+    {
+      "id": "fd-htn-06",
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is starting two antihypertensives at once recommended rather than one?",
+      "a": "Stage 2 hypertension, with blood pressure 20/10 mm Hg or more above target",
+      "d": [
+        "Any newly diagnosed hypertension",
+        "Only when a single drug has failed at full dose",
+        "Only in patients under 40"
+      ],
+      "why": "Two drugs from different classes, ideally in one pill, get more patients to target and improve adherence. Single-drug starts are for stage 1.",
+      "tags": [
+        "initiation"
+      ]
+    },
+    {
+      "id": "fd-htn-07",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which combination should be avoided?",
+      "a": "An ACE inhibitor with an ARB",
+      "d": [
+        "An ACE inhibitor with a thiazide",
+        "A calcium channel blocker with an ARB",
+        "A thiazide with a calcium channel blocker"
+      ],
+      "why": "Dual renin-angiotensin blockade adds hyperkalemia and acute kidney injury without extra cardiovascular benefit. The other three are standard pairings.",
+      "tags": [
+        "combinations",
+        "safety"
+      ]
+    },
+    {
+      "id": "fd-htn-08",
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "After starting an ACE inhibitor, up to what rise in creatinine is acceptable without stopping the drug?",
+      "a": "About 30%",
+      "d": [
+        "About 10%",
+        "About 50%",
+        "About 100%"
+      ],
+      "options": [
+        "About 10%",
+        "About 30%",
+        "About 50%",
+        "About 100%"
+      ],
+      "why": "A modest early rise reflects the drop in glomerular pressure that protects the kidney long term. A larger rise should prompt a look for renal artery stenosis or volume depletion.",
+      "tags": [
+        "ace-inhibitor",
+        "kidney"
+      ]
+    },
+    {
+      "id": "fd-htn-09",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A patient on losartan becomes pregnant. What should happen to the losartan?",
+      "a": "Stop it now and switch to a pregnancy-safe agent",
+      "d": [
+        "Continue it through the first trimester",
+        "Halve the dose",
+        "Continue it; only ACE inhibitors are a problem"
+      ],
+      "why": "ACE inhibitors and ARBs both cause fetal kidney injury and oligohydramnios, worst in the second and third trimesters, so the switch happens at the first knowledge of pregnancy.",
+      "tags": [
+        "pregnancy",
+        "safety"
+      ]
+    },
+    {
+      "id": "fd-htn-10",
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which antihypertensives are preferred in pregnancy?",
+      "a": [
+        "Labetalol",
+        "Nifedipine",
+        "Methyldopa"
+      ],
+      "d": [
+        "Lisinopril",
+        "Losartan",
+        "Aliskiren"
+      ],
+      "why": "Labetalol and long-acting nifedipine are the usual first choices; methyldopa is older and safe but weaker. All three renin-angiotensin agents listed are contraindicated.",
+      "tags": [
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "fd-htn-12",
+      "type": "single",
+      "difficulty": 2,
+      "q": "A patient started on amlodipine three weeks ago has new bilateral ankle swelling with no other findings. What is the most likely cause?",
+      "a": "The amlodipine",
+      "d": [
+        "Heart failure",
+        "Deep vein thrombosis",
+        "Nephrotic syndrome"
+      ],
+      "why": "Dihydropyridine oedema comes from arteriolar dilation, is dose related, and does not respond to diuretics. Lowering the dose or adding an ACE inhibitor or ARB helps.",
+      "tags": [
+        "ccb",
+        "adverse-effects"
+      ]
+    },
+    {
+      "id": "fd-htn-13",
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Resistant hypertension means blood pressure above goal despite how many drugs at optimal doses, one of them a diuretic?",
+      "a": "3",
+      "d": [
+        "2",
+        "4",
+        "5"
+      ],
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "why": "Before calling it resistant, confirm adherence, technique and out-of-office readings, and look for interfering drugs such as NSAIDs and decongestants.",
+      "tags": [
+        "resistant",
+        "definition"
+      ]
+    },
+    {
+      "id": "fd-htn-14",
+      "type": "single",
+      "difficulty": 3,
+      "q": "Which drug is the usual fourth agent in resistant hypertension?",
+      "a": "Spironolactone",
+      "d": [
+        "Clonidine",
+        "Hydralazine",
+        "Doxazosin"
+      ],
+      "why": "In the PATHWAY-2 trial spironolactone outperformed bisoprolol and doxazosin as the add-on, which fits the excess aldosterone found in many resistant patients.",
+      "tags": [
+        "resistant",
+        "spironolactone"
+      ]
+    },
+    {
+      "id": "fd-htn-15",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Office readings are consistently high but the patient says home readings are normal. What confirms or refutes hypertension?",
+      "a": "Out-of-office measurement, by home or ambulatory monitoring",
+      "d": [
+        "A repeat office reading the same day",
+        "A single reading taken by a nurse",
+        "An ECG"
+      ],
+      "why": "White-coat hypertension is common and carries less risk than sustained hypertension, so treatment decisions rest on out-of-office numbers.",
+      "tags": [
+        "diagnosis",
+        "white-coat"
+      ]
+    },
+    {
+      "id": "fd-htn-16",
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "After starting or changing an antihypertensive, when should blood pressure be reassessed?",
+      "a": "In about a month",
+      "d": [
+        "In about a week",
+        "In about 3 months",
+        "In about 6 months"
+      ],
+      "options": [
+        "In about a week",
+        "In about a month",
+        "In about 3 months",
+        "In about 6 months"
+      ],
+      "why": "A month is long enough to see the full effect of most agents. Once at target, reassessment stretches to every 3 to 6 months.",
+      "tags": [
+        "follow-up"
+      ]
+    }
+  ]
+}
