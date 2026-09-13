@@ -250,8 +250,9 @@ const spreadHues=n=>shuffle([...Array(n)].map((_,i)=>{const h=(i*300/n+rnd(-12,1
 let TOPICS=[];
 const PER_VISIT=7,BOSS_VISIT=8;
 async function loadTopics(){
-  const idx=await fetch('topics/index.json').then(r=>r.json());
-  TOPICS=await Promise.all(idx.topics.map(f=>fetch('topics/'+f).then(r=>r.json())));
+  /* no-cache means revalidate with the server, so a new topic file shows up on the next load */
+  const idx=await fetch('topics/index.json',{cache:'no-cache'}).then(r=>r.json());
+  TOPICS=await Promise.all(idx.topics.map(f=>fetch('topics/'+f,{cache:'no-cache'}).then(r=>r.json())));
   TOPICS.forEach(t=>t.questions.forEach(q=>q.topic=t));
 }
 /* how often each question has been shown on this device, so revisits prefer what you haven't seen */
@@ -309,6 +310,17 @@ function shapes(){
     [rnd(54,70),rnd(-10,24),rnd(44,56),rnd(40,70),rnd(-30,40),br()],
     [rnd(-14,-2),rnd(58,72),rnd(112,124),rnd(64,82),rnd(-14,14),`${rnd(40,60)|0}% ${rnd(40,60)|0}% 0 0`],
   ];
+}
+/* the same idea as a sphere, sliced into a bar: shapes across a wide sheet, blurred, cropped to a strip */
+function paintBand(el,cols){
+  el.querySelector('.sheet')?.remove();
+  const sheet=document.createElement('span');sheet.className='sheet';sheet.style.background=cols[1];
+  [[-10,0,46,100,cols[0]],[54,0,34,100,cols[2]],[84,0,30,100,cols[3]]].forEach(([x,y,w,h,c])=>{
+    const sh=document.createElement('i');
+    sh.style.cssText=`left:${x}%;top:${y}%;width:${w}%;height:${h}%;border-radius:50%;background:${c}`;
+    sheet.appendChild(sh);
+  });
+  el.appendChild(sheet);
 }
 function paint(el,cols,size){
   if(size)el.style.setProperty('--s',size+'px');

@@ -1,6 +1,9 @@
 {
   "topics": [
     "aortic-stenosis-diagnosis.json",
-    "aortic-stenosis-management.json"
+    "aortic-stenosis-management.json",
+    "hfref-gdmt.json",
+    "hfref-congestion.json",
+    "hfref-beyond.json"
   ]
 }

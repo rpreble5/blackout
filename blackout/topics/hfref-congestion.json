@@ -1,0 +1,139 @@
+{
+  "id": "hfref-congestion",
+  "title": "HFrEF: judging volume and using diuretics",
+  "short": "HFrEF, congestion",
+  "specialty": "Cardiology",
+  "tags": ["heart-failure", "hfref", "congestion", "diuretics", "pocus"],
+  "source": {
+    "citation": "Gauer RL, Rifaat A, Foulkrod AM. Heart Failure With Reduced Ejection Fraction: Medical Management. Am Fam Physician. 2025;112(2):131-145.",
+    "facts": "docs/facts/hfref.md (topic B)"
+  },
+  "questions": [
+    {
+      "id": "hf-cg-01", "type": "single", "difficulty": 2,
+      "q": "Which bedside finding has the highest positive likelihood ratio for cardiogenic pulmonary oedema?",
+      "a": "Jugular venous pressure over 8 cm",
+      "d": ["Bilateral leg oedema", "Rales", "A third heart sound"],
+      "why": "Its LR+ is only 2.18, which is why the article calls clinical assessment of volume unreliable, and it is hard to judge in obese patients.",
+      "tags": ["volume-assessment", "likelihood-ratio"]
+    },
+    {
+      "id": "hf-cg-02", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "What is the specificity of bilateral leg oedema for cardiogenic pulmonary oedema?",
+      "a": "About 10%",
+      "d": ["About 40%", "About 70%", "About 90%"],
+      "options": ["About 10%", "About 40%", "About 70%", "About 90%"],
+      "why": "Its sensitivity is 94%, so its absence is somewhat reassuring, but its presence has too many other causes to mean much.",
+      "tags": ["volume-assessment", "accuracy"]
+    },
+    {
+      "id": "hf-cg-03", "type": "single", "difficulty": 2,
+      "q": "Which sign is highly specific but very insensitive for pulmonary oedema?",
+      "a": "Rales",
+      "d": ["Orthopnea", "Dyspnea on exertion", "Hepatomegaly"],
+      "why": "Rales are 90% specific but 13% sensitive, and can be absent altogether in chronic heart failure.",
+      "tags": ["volume-assessment", "accuracy"]
+    },
+    {
+      "id": "hf-cg-04", "type": "single", "difficulty": 2,
+      "q": "Which bedside test is more accurate than chest radiography or natriuretic peptides for acute heart failure?",
+      "a": "Point-of-care ultrasound of the inferior vena cava and lungs",
+      "d": ["A 12-lead ECG", "Orthostatic blood pressures", "Bedside spirometry"],
+      "why": "In a meta-analysis, lung ultrasound identified 15 more cases of cardiogenic pulmonary oedema per 100 dyspnoeic patients than chest radiography.",
+      "tags": ["pocus"]
+    },
+    {
+      "id": "hf-cg-05", "type": "single", "difficulty": 3,
+      "q": "On point-of-care ultrasound the inferior vena cava measures 2.5 cm and collapses less than 50% on sniff. What does this indicate?",
+      "a": "Elevated right atrial pressure",
+      "d": ["Normal right atrial pressure", "Hypovolemia", "Tamponade"],
+      "why": "The normal pattern is under 2.1 cm with more than 50% collapse; the measurement is unreliable when intrathoracic pressure is raised, as with ascites, ileus or mechanical ventilation.",
+      "tags": ["pocus"]
+    },
+    {
+      "id": "hf-cg-06", "type": "single", "difficulty": 3,
+      "q": "How many B-lines on lung ultrasound define interstitial oedema?",
+      "a": "More than three in more than two bilateral intercostal spaces",
+      "d": ["Any single B-line", "More than one in a single space", "More than ten in total"],
+      "why": "B-lines are vertical comet tails from oedematous interlobular septa; they also appear in noncardiac lung disease, so pairing them with a natriuretic peptide raises specificity to 90%.",
+      "tags": ["pocus"]
+    },
+    {
+      "id": "hf-cg-07", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "Below what BNP level is heart failure effectively excluded?",
+      "a": "100 pg/mL",
+      "d": ["50 pg/mL", "300 pg/mL", "900 pg/mL"],
+      "options": ["50 pg/mL", "100 pg/mL", "300 pg/mL", "900 pg/mL"],
+      "why": "Its negative likelihood ratio is 0.08; NT-proBNP under 300 pg/mL does the same job with a negative likelihood ratio of 0.02.",
+      "tags": ["natriuretic-peptide"]
+    },
+    {
+      "id": "hf-cg-08", "type": "multi", "difficulty": 3,
+      "q": "Which conditions raise natriuretic peptides in the absence of heart failure?",
+      "a": ["Pulmonary embolism", "Kidney dysfunction", "Tachyarrhythmias", "Cirrhosis"],
+      "d": ["Obesity", "Well-controlled hypertension", "Statin therapy"],
+      "why": "Obesity does the opposite: levels run disproportionately low, so a normal value in an obese patient is less reassuring.",
+      "tags": ["natriuretic-peptide"]
+    },
+    {
+      "id": "hf-cg-09", "type": "single", "difficulty": 1,
+      "q": "Which loop diuretic is preferred first line for congestion in HFrEF?",
+      "a": "Furosemide",
+      "d": ["Torsemide", "Bumetanide", "Ethacrynic acid"],
+      "why": "Torsemide and bumetanide have better oral bioavailability and are the usual alternatives when furosemide fails; ethacrynic acid is kept for sulfonamide hypersensitivity.",
+      "tags": ["loop-diuretic"]
+    },
+    {
+      "id": "hf-cg-10", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "What is the usual starting dose of oral furosemide for new outpatient heart failure?",
+      "a": "20 to 40 mg daily",
+      "d": ["10 mg daily", "80 mg daily", "160 mg daily"],
+      "options": ["10 mg daily", "20 to 40 mg daily", "80 mg daily", "160 mg daily"],
+      "why": "Higher doses are needed in advanced heart failure and kidney disease; the usual ceiling beyond which extra diuresis is minimal is 80 mg twice daily.",
+      "tags": ["furosemide", "dose"]
+    },
+    {
+      "id": "hf-cg-11", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "For a patient already on oral furosemide who is admitted with decompensation, how does the initial intravenous dose relate to the oral dose?",
+      "a": "Up to twice the oral dose",
+      "d": ["A quarter of the oral dose", "Half the oral dose", "The same as the oral dose"],
+      "options": ["A quarter of the oral dose", "Half the oral dose", "The same as the oral dose", "Up to twice the oral dose"],
+      "why": "Diuretic-naive patients start at 20 to 40 mg intravenously. Furosemide's intravenous to oral ratio is 1:2, unlike torsemide and bumetanide at 1:1.",
+      "tags": ["furosemide", "dose"]
+    },
+    {
+      "id": "hf-cg-12", "type": "multi", "difficulty": 2,
+      "q": "High-dose loop diuretic is failing to decongest a patient. Which agents are appropriate to add?",
+      "a": ["Metolazone", "Hydrochlorothiazide", "Acetazolamide"],
+      "d": ["Mannitol", "Desmopressin", "Sodium bicarbonate"],
+      "why": "Kidney function and electrolytes need close monitoring on combined diuretics; this is also the point to consider changing the loop diuretic itself.",
+      "tags": ["diuretic-resistance"]
+    },
+    {
+      "id": "hf-cg-13", "type": "single", "difficulty": 3, "order": "fixed",
+      "q": "During effective diuresis, what creatinine rise is associated with better outcomes rather than harm?",
+      "a": "0.3 to 0.5 mg/dL",
+      "d": ["None at all", "About 1.0 mg/dL", "A doubling"],
+      "options": ["None at all", "0.3 to 0.5 mg/dL", "About 1.0 mg/dL", "A doubling"],
+      "why": "A doubling, or a rise over 1 mg/dL, should prompt a search for another cause of kidney dysfunction, especially if the patient stays congested with poor urine output.",
+      "tags": ["creatinine"]
+    },
+    {
+      "id": "hf-cg-14", "type": "single", "difficulty": 2, "order": "fixed",
+      "q": "What weight gain should prompt a patient to take an extra dose of furosemide?",
+      "a": "3 lb in a day or 5 lb in a week",
+      "d": ["1 lb in a day", "10 lb in a week", "Any gain at all"],
+      "options": ["Any gain at all", "1 lb in a day", "3 lb in a day or 5 lb in a week", "10 lb in a week"],
+      "why": "The extra dose is 20 to 40 mg, and the underlying principle is the lowest diuretic dose that holds the dry weight.",
+      "tags": ["self-titration", "dry-weight"]
+    },
+    {
+      "id": "hf-cg-15", "type": "multi", "difficulty": 3,
+      "q": "Which findings indicate that diuresis is working?",
+      "a": ["Adequate urinary sodium", "A falling natriuretic peptide", "Haemoconcentration"],
+      "d": ["A falling haematocrit", "A rising BNP", "An unchanged daily weight"],
+      "why": "None of them alone predicts that pulmonary decongestion is complete, which is where bedside ultrasound earns its place.",
+      "tags": ["monitoring-diuresis"]
+    }
+  ]
+}
