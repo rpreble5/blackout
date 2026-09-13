@@ -103,6 +103,19 @@ A "Check" button and tap-outside-to-check were considered and rejected.
 Bank entry shapes: `[q, correct, wrong, wrong, wrong, why]` for single;
 `[q, [correct...], [wrong...], why]` for multiple.
 
+## Notes on questions
+
+Swipe left on any question, before or after answering, to write a note. The
+answers slide aside and a single text field takes their place with the
+question still visible; "Save note" or "Cancel" slides them back. Notes are
+stored in the browser (local storage) with the question id, planet, category,
+what was answered, whether it was right, and a timestamp. The title and end
+screens show "Copy N notes" and "Clear" whenever notes exist; copy puts a
+markdown list on the clipboard to paste into chat. Delivery by GitHub issue
+and by share sheet were considered and rejected in favour of clipboard.
+Pasted notes are logged in `docs/question-feedback.md` and distilled into
+`docs/question-guidelines.md`.
+
 ## Motion
 
 - Screens crossfade in 500 ms. No flying elements.

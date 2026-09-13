@@ -128,6 +128,20 @@ button{font-family:inherit}
 .answers.is-dense .answer::before{transform-origin:28px 50%}
 .answer[disabled]{cursor:default}
 
+/* notes: swipe left on a question to write one */
+.stack{display:grid}
+.stack>*{grid-area:1/1;transition:opacity .4s var(--ease),transform .45s var(--ease),visibility 0s .45s}
+.note{opacity:0;visibility:hidden;transform:translateX(28px)}
+.body.is-noting .answers{opacity:0;visibility:hidden;transform:translateX(-28px);pointer-events:none}
+.body.is-noting .note{opacity:1;visibility:visible;transform:none;transition:opacity .4s var(--ease) .1s,transform .45s var(--ease) .1s}
+.note textarea{display:block;width:100%;padding:8px 0 10px;border:0;border-bottom:1px solid var(--hair);border-radius:0;background:none;color:var(--ink);font:300 19px/1.4 var(--font);resize:none;outline:none;transition:border-color .3s}
+.note textarea:focus{border-color:rgba(236,235,230,.5)}
+.note textarea::placeholder{color:var(--dust)}
+.note-actions{display:flex;gap:10px;margin-top:22px}
+.notes{display:flex;gap:10px;margin-top:14px;position:relative;z-index:1}
+.title .notes{margin-top:14px}
+.end .notes{margin-top:14px}
+
 /* end */
 .end{justify-content:center}
 .end h2{margin:0;font-size:40px;font-weight:200;letter-spacing:-.02em;line-height:1.05}
@@ -151,6 +165,7 @@ button{font-family:inherit}
       <p>A quiz run across the planets. Four lights. Every wrong answer puts one out.</p>
     </div>
     <button class="btn is-primary" id="begin">Begin a run</button>
+    <div class="notes" id="notes-title" hidden><button class="btn copy">Copy notes</button><button class="btn clear">Clear</button></div>
     <div class="planet horizon" id="horizon"></div>
   </section>
 
@@ -177,7 +192,13 @@ button{font-family:inherit}
         <h2 id="q-text"></h2>
         <p class="why" id="q-why"></p>
       </div>
-      <div class="answers" id="q-answers"></div>
+      <div class="stack">
+        <div class="answers" id="q-answers"></div>
+        <div class="note" id="q-note">
+          <textarea id="note-text" rows="3" placeholder="What should change about this question?" aria-label="Note about this question"></textarea>
+          <div class="note-actions"><button class="btn is-primary" id="note-save">Save note</button><button class="btn" id="note-cancel">Cancel</button></div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -186,6 +207,7 @@ button{font-family:inherit}
     <p id="end-text"></p>
     <div class="lights" id="end-lights"></div>
     <button class="btn is-primary" id="again">Run again</button>
+    <div class="notes" id="notes-end" hidden><button class="btn copy">Copy notes</button><button class="btn clear">Clear</button></div>
   </section>
 
 </div>
@@ -272,6 +294,26 @@ const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const fit=(el,text,min,max,short,long)=>{const t=Math.min(1,Math.max(0,(text.length-short)/(long-short)));el.style.fontSize=(max-(max-min)*t).toFixed(1)+'px'};
+const qid=t=>{let h=0;for(const ch of t)h=(h*31+ch.charCodeAt(0))>>>0;return h.toString(36).padStart(7,'0').slice(0,7)};
+const store={
+  get(){try{return JSON.parse(localStorage.getItem('blackout.notes')||'[]')}catch(e){return []}},
+  set(v){try{localStorage.setItem('blackout.notes',JSON.stringify(v))}catch(e){}},
+};
+let current=null; /* the question on screen, for notes */
+const noting=()=>$('q-body').classList.contains('is-noting');
+function renderNotes(){
+  const n=store.get().length;
+  document.querySelectorAll('.notes').forEach(row=>{row.hidden=n===0;row.querySelector('.copy').textContent=n===1?'Copy 1 note':`Copy ${n} notes`});
+}
+function notesText(){
+  const lines=store.get().map(x=>`- [${x.id}] ${x.planet} / ${x.cat}: "${x.q}" | answered: ${x.picked.length?x.picked.join('; '):'nothing yet'} (${x.right===null?'unanswered':x.right?'right':'wrong'}) | note: ${x.note}`);
+  return `## Blackout notes (${lines.length})\n${lines.join('\n')}`;
+}
+document.querySelectorAll('.notes .copy').forEach(b=>b.addEventListener('click',async()=>{
+  try{await navigator.clipboard.writeText(notesText());b.textContent='Copied';setTimeout(renderNotes,1500)}
+  catch(e){prompt('Copy these notes:',notesText())}
+}));
+document.querySelectorAll('.notes .clear').forEach(b=>b.addEventListener('click',()=>{store.set([]);renderNotes()}));
 const avg=cols=>{const n=cols.map(h=>parseInt(h.slice(1),16));const ch=sh=>Math.round(n.reduce((a,v)=>a+(v>>sh&255),0)/n.length);return '#'+[16,8,0].map(sh=>ch(sh).toString(16).padStart(2,'0')).join('')};
 const lum=h=>{const n=parseInt(h.slice(1),16);const f=v=>{v/=255;return v<=.03928?v/12.92:((v+.055)/1.055)**2.4};return .2126*f(n>>16)+.7152*f(n>>8&255)+.0722*f(n&255)};
 
@@ -408,6 +450,7 @@ async function quiz(i){
     let text,why,options,correct;
     if(multi){[text,correct,,why]=item;options=shuffle([...item[1],...item[2]]);correct=new Set(item[1])}
     else{text=item[0];why=item[item.length-1];options=shuffle(item.slice(1,-1));correct=new Set([item[1]])}
+    current={id:qid(text),planet:p.name,cat:p.cat,q:text,picked:[],right:null};
     $('q-text').textContent=text;fit($('q-text'),text,20,27,50,110);
     $('q-why').textContent=why;fit($('q-why'),why,16,21,60,150);
     prompt.classList.remove('is-why');
@@ -431,7 +474,8 @@ async function quiz(i){
     if(multi){
       rows.forEach(b=>b.addEventListener('click',()=>b.classList.toggle('is-pick')));
       /* wait for a swipe up with at least one row held */
-      while(true){await swipeUp(screen,body);if(rows.some(b=>b.classList.contains('is-pick')))break}
+      while(true){await swipeUp(screen);if(rows.some(b=>b.classList.contains('is-pick')))break}
+      current.picked=rows.filter(b=>b.classList.contains('is-pick')).map(b=>b.dataset.t);
       rows.forEach(b=>{
         b.disabled=true;const picked=b.classList.contains('is-pick'),right=correct.has(b.dataset.t);b.classList.remove('is-pick');
         b.classList.add(right?'is-correct':picked?'is-miss':'is-wrong');
@@ -440,18 +484,21 @@ async function quiz(i){
     }else{
       const pick=await new Promise(res=>rows.forEach(b=>b.addEventListener('click',()=>res(b),{once:true})));
       rows.forEach(b=>{b.disabled=true;b.classList.add(correct.has(b.dataset.t)?'is-correct':'is-wrong')});
-      error=!correct.has(pick.dataset.t);
+      error=!correct.has(pick.dataset.t);current.picked=[pick.dataset.t];
     }
+    current.right=!error;
     if(error){misses++;run.lights--;syncLights()}
     dim.style.setProperty('--p',((k+1)/count*100).toFixed(1)+'%');
     const out=run.lights<=0;
     await sleep(reduced?0:300);
     prompt.classList.add('is-why');
-    await new Promise(res=>screen.addEventListener('click',res,{once:true}));
+    await tapToContinue(screen);
+    current=null;$('q-body').classList.remove('is-noting');
     if(out)return blackout(p);
     $('q-body').classList.add('is-swapping');
     await sleep(380);
   }
+  current=null;
   /* planet cleared */
   run.visited++;run.done.push(i);run.here=i;
   run.open=EDGES.filter(e=>e[0]===i).map(e=>e[1]);
@@ -463,22 +510,40 @@ async function quiz(i){
   show('s-map');
 }
 
-/* resolves on a quick upward swipe (touch), upward drag (mouse) or a burst of downward wheel, but only if the
-   answer list was already scrolled to its end when the gesture began, so scrolling a long list never checks by accident */
-function swipeUp(el,scroller){
-  return new Promise(res=>{
-    const atEnd=()=>scroller.scrollHeight-scroller.clientHeight-scroller.scrollTop<4;
-    let y0=0,t0=0,ok=false,wheel=0,wt=0;
-    const start=y=>{y0=y;t0=performance.now();ok=atEnd()};
-    const end=y=>{if(ok&&y0-y>60&&performance.now()-t0<600)done()};
-    const onTs=e=>start(e.touches[0].clientY),onTe=e=>end(e.changedTouches[0].clientY);
-    const onPd=e=>{if(e.pointerType==='mouse')start(e.clientY)},onPu=e=>{if(e.pointerType==='mouse')end(e.clientY)};
-    const onWh=e=>{const now=performance.now();if(now-wt>300)wheel=0;wt=now;if(atEnd()){wheel+=e.deltaY;if(wheel>140)done()}};
-    const done=()=>{el.removeEventListener('touchstart',onTs);el.removeEventListener('touchend',onTe);el.removeEventListener('pointerdown',onPd);el.removeEventListener('pointerup',onPu);el.removeEventListener('wheel',onWh);res()};
-    el.addEventListener('touchstart',onTs,{passive:true});el.addEventListener('touchend',onTe,{passive:true});
-    el.addEventListener('pointerdown',onPd);el.addEventListener('pointerup',onPu);el.addEventListener('wheel',onWh,{passive:true});
-  });
+/* gestures on the quiz screen: swipe up (touch flick, mouse drag, or a burst of wheel) and swipe left.
+   swipeup carries whether the answer list was already scrolled to its end when the gesture began,
+   so scrolling a long list never checks an answer by accident */
+function installSwipes(el,scroller){
+  const atEnd=()=>scroller.scrollHeight-scroller.clientHeight-scroller.scrollTop<4;
+  let x0=0,y0=0,t0=0,end0=false,active=false,wheel=0,wt=0;
+  const start=(x,y)=>{x0=x;y0=y;t0=performance.now();end0=atEnd();active=true};
+  const end=(x,y)=>{
+    if(!active)return;active=false;
+    const dx=x-x0,dy=y-y0;if(performance.now()-t0>700)return;
+    if(dy<-60&&Math.abs(dx)<50)el.dispatchEvent(new CustomEvent('swipeup',{detail:{atEnd:end0}}));
+    else if(dx<-70&&Math.abs(dy)<50)el.dispatchEvent(new CustomEvent('swipeleft'));
+  };
+  el.addEventListener('touchstart',e=>start(e.touches[0].clientX,e.touches[0].clientY),{passive:true});
+  el.addEventListener('touchend',e=>end(e.changedTouches[0].clientX,e.changedTouches[0].clientY),{passive:true});
+  el.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse')start(e.clientX,e.clientY)});
+  el.addEventListener('pointerup',e=>{if(e.pointerType==='mouse')end(e.clientX,e.clientY)});
+  el.addEventListener('wheel',e=>{const now=performance.now();if(now-wt>300)wheel=0;wt=now;wheel+=e.deltaY;
+    if(wheel>140){wheel=0;el.dispatchEvent(new CustomEvent('swipeup',{detail:{atEnd:atEnd()}}))}},{passive:true});
 }
+const swipeUp=el=>new Promise(res=>{const h=e=>{if(e.detail.atEnd&&!noting()){el.removeEventListener('swipeup',h);res()}};el.addEventListener('swipeup',h)});
+const tapToContinue=el=>new Promise(res=>{const h=e=>{if(!noting()&&!e.target.closest('.note')){el.removeEventListener('click',h);res()}};el.addEventListener('click',h)});
+installSwipes($('s-quiz'),$('q-body'));
+$('s-quiz').addEventListener('swipeleft',()=>{if(current&&!noting()){$('q-body').classList.add('is-noting');$('note-text').value='';setTimeout(()=>$('note-text').focus(),450)}});
+$('note-cancel').addEventListener('click',()=>$('q-body').classList.remove('is-noting'));
+$('note-save').addEventListener('click',()=>{
+  const text=$('note-text').value.trim();
+  if(text&&current){
+    const held=[...document.querySelectorAll('.answer.is-pick')].map(b=>b.dataset.t);
+    store.set([...store.get(),{id:current.id,planet:current.planet,cat:current.cat,q:current.q,picked:current.picked.length?current.picked:held,right:current.right,note:text,at:new Date().toISOString()}]);
+    renderNotes()}
+  $('q-body').classList.remove('is-noting');
+});
+renderNotes();
 function goFull(){
   const el=document.documentElement;
   if(document.fullscreenElement||!el.requestFullscreen)return;
