@@ -358,7 +358,7 @@
         "Any patient intolerant of doxycycline",
         "Disease acquired in pregnancy"
       ],
-      "why": "Early disease, rash or no rash, is treated orally. Chloramphenicol, the other distractor in the exam item, is the doxycycline alternative for Rocky Mountain spotted fever.",
+      "why": "Early disease, rash or no rash, is treated orally. Chloramphenicol belongs to a different tick disease: it is the doxycycline alternative for Rocky Mountain spotted fever.",
       "tags": [
         "lyme"
       ]
@@ -387,11 +387,11 @@
       "type": "single",
       "difficulty": 2,
       "q": "Shingles two months ago, rash gone, mild neuralgia persists. What must resolve before the recombinant vaccine?",
-      "a": "The rash only, which it has",
+      "a": "The rash alone, already gone",
       "d": [
         "The rash and the neuralgia",
         "Twelve months since the episode",
-        "Nothing; it is given during the rash"
+        "Nothing; it can be given during the rash"
       ],
       "why": "A prior live zoster vaccine is no bar either. Evidence after a recent episode is indirect, but recurrence is real and the vaccine is safe and immunogenic.",
       "tags": [
@@ -500,7 +500,7 @@
         "21 days",
         "28 days"
       ],
-      "why": "Then 20 mg once daily. The exam item offered a 14-day load as a distractor, which was wrong on two counts: the duration, and the kidney.",
+      "why": "Then 20 mg once daily. A shorter load under-treats the acute phase, and none of it applies once the GFR is under 30, where low molecular weight heparin takes over.",
       "tags": [
         "dvt",
         "anticoagulation"

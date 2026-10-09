@@ -178,7 +178,7 @@
         "Whenever the INR is above 2",
         "After packing has been placed"
       ],
-      "why": "A stable patient keeps the anticoagulant through the local measures. A mechanical valve, as in the exam case, raises the cost of reversal further.",
+      "why": "A stable patient keeps the anticoagulant through the local measures. A mechanical valve raises the cost of reversal further, so the threshold is instability, not the INR.",
       "tags": [
         "epistaxis",
         "anticoagulation"

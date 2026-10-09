@@ -178,7 +178,7 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
 - **ite25-33c** (single, d1, 4 options) Fever and body aches a week after a tick bite, no rash. How is Lyme disease diagnosed?
   → Two-tier serology, immunoassay then blot
 - **ite25-34a** (single, d2, 4 options) Shingles two months ago, rash gone, mild neuralgia persists. What must resolve before the recombinant vaccine?
-  → The rash only, which it has
+  → The rash alone, already gone
 - **ite25-35a** (multi, d2, 5 options) A red, swollen eyelid. Which findings point to orbital rather than preseptal cellulitis?
   → Pain with eye movements + Reduced visual acuity
 - **ite25-35b** (single, d2, 4 options) Which imaging is used for suspected orbital cellulitis?
@@ -242,8 +242,8 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Cholestatic liver enzymes + Antimitochondrial antibodies + Nonsuppurative destructive cholangitis on biopsy
 - **ite25-49a** (single, d2, 4 options) Months of irritability, overspending and infidelity, now depressed, with similar past episodes. What is started?
   → Quetiapine
-- **ite25-49b** (single, d2, 4 options) What is the problem with antidepressant monotherapy in a patient with mixed features?
-  → Contraindicated with mixed or manic features
+- **ite25-49b** (single, d2, 4 options) A depressive episode in someone with a history of manic features. Why is an SSRI alone avoided?
+  → Monotherapy is contraindicated in bipolar disorder
 - **ite25-49c** (multi, d3, 8 options) For which presentations is electroconvulsive therapy an effective treatment?
   → Psychotic depression + Mania + Catatonia + Refractory illness + Suicidal behaviour
 - **ite25-50a** (single, d2, 4 options) A 23-year-old with a BMI of 33 planning her first pregnancy. What is advised about aspirin for preeclampsia?

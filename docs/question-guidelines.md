@@ -43,6 +43,10 @@ game. When a note changes a rule, the rule changes here and the note is cited.
   the self-review of the first ITE batch, 2026-10-09.)
 - Distractors avoid absolute words (always, never, everyone, only); they
   read as tells.
+- **Every question and explanation stands alone.** Never refer to the exam,
+  the item, the other options, a sibling question, or what was or was not
+  "the answer". The player sees one card at a time with no context. (From
+  the user's note on the second ITE batch, 2026-10-09.)
 - No negatives ("which is not"), no "all of the above", no trick wording.
 - Questions fit the size range (about 50 to 110 characters reads best).
   Options fit two lines at 17px; about 45 characters, 95 at the outside.

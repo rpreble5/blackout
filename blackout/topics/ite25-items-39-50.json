@@ -94,7 +94,7 @@
         "Alcohol reduction alone prevents attacks",
         "Each is supported by trial evidence"
       ],
-      "why": "Which is why a reduction in the one glass of wine a night was not the answer in the exam item, and audiometry was.",
+      "why": "Salt restriction, less alcohol and less caffeine are reasonable to offer, but none of them is a treatment, and the work-up starts with audiometry.",
       "tags": [
         "meniere"
       ]
@@ -396,11 +396,11 @@
       "item": 49,
       "type": "single",
       "difficulty": 2,
-      "q": "What is the problem with antidepressant monotherapy in a patient with mixed features?",
-      "a": "Contraindicated with mixed or manic features",
+      "q": "A depressive episode in someone with a history of manic features. Why is an SSRI alone avoided?",
+      "a": "Monotherapy is contraindicated in bipolar disorder",
       "d": [
         "It takes too long to work in a crisis",
-        "It interacts with the antipsychotics",
+        "It interacts with the mood stabilisers",
         "It lowers the seizure threshold"
       ],
       "why": "The same holds for bipolar I. Omega-3, light therapy, ketamine and probiotics have insufficient evidence as add-ons; CBT, exercise and nutrition do help.",
