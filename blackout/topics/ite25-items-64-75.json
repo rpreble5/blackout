@@ -1,0 +1,536 @@
+{
+  "id": "ite25-items-64-75",
+  "title": "ITE 2025, items 64 to 75",
+  "short": "Items 64 to 75",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 64 to 75. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-64a",
+      "item": 64,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Irregular periods, a year of infertility, BMI 29. Which raised hormone most supports polycystic ovary syndrome?",
+      "a": "Testosterone",
+      "d": [
+        "17-Hydroxyprogesterone",
+        "Cortisol",
+        "Insulin"
+      ],
+      "why": "Hyperandrogenism can also be clinical: hirsutism, androgenic alopecia, acne. Insulin resistance is part of the pathophysiology but not of the criteria.",
+      "tags": [
+        "pcos"
+      ]
+    },
+    {
+      "id": "ite25-64b",
+      "item": 64,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Two of which three findings make the Rotterdam diagnosis of polycystic ovary syndrome?",
+      "a": [
+        "Oligo-ovulation or anovulation",
+        "Clinical or biochemical hyperandrogenism",
+        "Polycystic ovaries on ultrasound"
+      ],
+      "d": [
+        "Insulin resistance",
+        "A BMI over 25",
+        "A raised LH to FSH ratio"
+      ],
+      "why": "Only after the mimics are excluded: androgen-secreting tumours, Cushing syndrome, congenital adrenal hyperplasia, thyroid and prolactin disorders among them.",
+      "tags": [
+        "pcos"
+      ]
+    },
+    {
+      "id": "ite25-64c",
+      "item": 64,
+      "type": "single",
+      "difficulty": 3,
+      "q": "In a woman being evaluated for polycystic ovary syndrome, what does a raised 17-hydroxyprogesterone suggest?",
+      "a": "Nonclassical adrenal hyperplasia",
+      "d": [
+        "Polycystic ovary syndrome itself",
+        "Cushing syndrome or adrenal tumour",
+        "Primary ovarian insufficiency"
+      ],
+      "why": "A raised cortisol points the other way, to Cushing syndrome or an adrenal tumour. Both mimic the syndrome and both must be excluded before it is diagnosed.",
+      "tags": [
+        "pcos",
+        "cah"
+      ]
+    },
+    {
+      "id": "ite25-65a",
+      "item": 65,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Thirty-six hours of continuous vertigo, veering left, no hearing loss, a saccade on head impulse. What is next?",
+      "a": "Reassurance and antiemetics",
+      "d": [
+        "Home Epley manoeuvres",
+        "A five-day course of prednisone",
+        "MRI of the brain"
+      ],
+      "why": "Vestibular neuritis, probably viral, settling in days. Antiemetics for up to three days; vestibular rehabilitation if it lingers. Steroids and antivirals have not shown benefit.",
+      "tags": [
+        "vertigo",
+        "vestibular-neuritis"
+      ]
+    },
+    {
+      "id": "ite25-65b",
+      "item": 65,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features point to vestibular neuritis rather than positional vertigo?",
+      "a": [
+        "Continuous vertigo for more than a day",
+        "Listing to one side when walking",
+        "Spontaneous onset without a trigger"
+      ],
+      "d": [
+        "Brief spells brought on by head movement",
+        "Hearing loss in one ear",
+        "Tinnitus"
+      ],
+      "why": "Positional vertigo is brief and triggered, and it gets the Epley manoeuvre. Hearing loss and tinnitus belong to neither; they are reasons to image.",
+      "tags": [
+        "vertigo"
+      ]
+    },
+    {
+      "id": "ite25-65c",
+      "item": 65,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is MRI of the brain indicated for vertigo?",
+      "a": "Central signs or hearing loss",
+      "d": [
+        "Any vertigo lasting over a day",
+        "Any vertigo with vomiting",
+        "Any first episode after 30"
+      ],
+      "why": "Vestibular neuritis peaks between 30 and 50 and is a bedside diagnosis: nystagmus towards the affected side and a corrective saccade on head impulse.",
+      "tags": [
+        "vertigo",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-66a",
+      "item": 66,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Melasma persisting six months after delivery. Which topical treatment is most effective?",
+      "a": "Fluocinolone, hydroquinone and tretinoin",
+      "d": [
+        "Hydroquinone alone, twice daily",
+        "Azelaic acid as used for acne",
+        "Imiquimod cream three times a week"
+      ],
+      "why": "The three can be prescribed as one formulation, which is expensive, or separately. Azelaic acid and benzoyl peroxide are acne drugs; imiquimod is for warts.",
+      "tags": [
+        "melasma",
+        "dermatology"
+      ]
+    },
+    {
+      "id": "ite25-66b",
+      "item": 66,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "What proportion of melasma of pregnancy resolves after delivery?",
+      "a": "90%",
+      "d": [
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "90%"
+      ],
+      "why": "It affects up to three quarters of pregnancies, driven by oestrogen, progesterone and melanocyte-stimulating hormone, and can return with later pregnancies or the pill.",
+      "tags": [
+        "melasma",
+        "dermatology"
+      ]
+    },
+    {
+      "id": "ite25-67a",
+      "item": 67,
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "Parents with egg and peanut allergies in the family ask when to introduce those foods. What is advised?",
+      "a": "4 to 6 months",
+      "d": [
+        "9 to 12 months",
+        "1 to 2 years",
+        "After 3 years"
+      ],
+      "options": [
+        "4 to 6 months",
+        "9 to 12 months",
+        "1 to 2 years",
+        "After 3 years"
+      ],
+      "why": "Early exposure gives the lowest risk of later allergy. Eggs are cooked well.",
+      "tags": [
+        "food-allergy",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-67b",
+      "item": 67,
+      "type": "single",
+      "difficulty": 2,
+      "q": "How is peanut introduced to an infant?",
+      "a": "Peanut butter thinned with water or milk",
+      "d": [
+        "Whole peanuts broken into pieces",
+        "A skin-prick test first, for every infant",
+        "Peanut flour after the first birthday"
+      ],
+      "why": "Breast milk, formula or cow's milk all serve to thin it. Whole peanuts are a choking hazard at any age in infancy.",
+      "tags": [
+        "food-allergy",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-68a",
+      "item": 68,
+      "type": "single",
+      "difficulty": 1,
+      "q": "The day after a sexual assault, pregnancy test negative, STI tests sent. What is given empirically?",
+      "a": "Ceftriaxone, azithromycin and metronidazole",
+      "d": [
+        "Emtricitabine with tenofovir alafenamide",
+        "Sofosbuvir with velpatasvir",
+        "An etonogestrel implant"
+      ],
+      "why": "Cover for gonorrhoea, chlamydia and trichomonas, with tinidazole as the alternative to metronidazole. Hepatitis C prophylaxis is not recommended.",
+      "tags": [
+        "sexual-assault",
+        "sti"
+      ]
+    },
+    {
+      "id": "ite25-68b",
+      "item": 68,
+      "type": "single",
+      "difficulty": 2,
+      "q": "HIV post-exposure prophylaxis after a sexual assault is what regimen?",
+      "a": "Three drugs for 28 days",
+      "d": [
+        "Two drugs for 28 days",
+        "Three drugs for 7 days",
+        "A single dose of two drugs"
+      ],
+      "why": "The two-drug combinations are pre-exposure regimens and do not serve after an exposure.",
+      "tags": [
+        "sexual-assault",
+        "hiv"
+      ]
+    },
+    {
+      "id": "ite25-68c",
+      "item": 68,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which are options for emergency contraception after an assault?",
+      "a": [
+        "Ulipristal",
+        "Levonorgestrel",
+        "A copper IUD"
+      ],
+      "d": [
+        "An etonogestrel implant",
+        "A combined pill started today",
+        "Depot medroxyprogesterone"
+      ],
+      "why": "Long-term contraception can be offered afterwards, but emergency contraception comes first, along with the forensic examination if she wants it.",
+      "tags": [
+        "sexual-assault",
+        "contraception"
+      ]
+    },
+    {
+      "id": "ite25-69a",
+      "item": 69,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Premenstrual low mood and irritability on fluoxetine 60 mg; the combined pill made it worse. What is added?",
+      "a": "Calcium carbonate 1000 to 1200 mg daily",
+      "d": [
+        "Extended-release bupropion 150 mg daily",
+        "Cholecalciferol 1000 IU daily",
+        "Low-dose dutasteride 0.5 mg daily"
+      ],
+      "why": "Calcium levels cycle in premenstrual syndrome, though the mechanism is unknown. Bupropion has not shown benefit, vitamin D is not low in these patients, and low-dose dutasteride does nothing.",
+      "tags": [
+        "pms"
+      ]
+    },
+    {
+      "id": "ite25-69b",
+      "item": 69,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which are first-line treatments for premenstrual dysphoric disorder?",
+      "a": [
+        "Any SSRI",
+        "Continuous combined oral contraceptives"
+      ],
+      "d": [
+        "Bupropion",
+        "Low-dose dutasteride",
+        "Vitamin D supplements",
+        "Acupuncture"
+      ],
+      "why": "High-dose dutasteride does relieve symptoms but harms mood and is teratogenic. Acupuncture has insufficient evidence.",
+      "tags": [
+        "pms"
+      ]
+    },
+    {
+      "id": "ite25-70a",
+      "item": 70,
+      "type": "single",
+      "difficulty": 2,
+      "q": "T-score minus 2.8. Alendronate was stopped after four weeks for gastric symptoms. What now?",
+      "a": "Switch to an intravenous bisphosphonate",
+      "d": [
+        "Switch to raloxifene",
+        "Take the alendronate with food",
+        "Take the alendronate at bedtime"
+      ],
+      "why": "Provided it was taken correctly: empty stomach, a full glass of water, upright for thirty minutes. Raloxifene is not the preferred next step.",
+      "tags": [
+        "osteoporosis"
+      ]
+    },
+    {
+      "id": "ite25-71a",
+      "item": 71,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Bacterial meningitis confirmed on lumbar puncture. Besides antibiotics, which intravenous drug improves mortality?",
+      "a": "Dexamethasone",
+      "d": [
+        "Acyclovir",
+        "Glycerol",
+        "Immunoglobulin"
+      ],
+      "why": "It also reduces neurological sequelae. Acyclovir is for suspected herpes encephalitis, glycerol increased deaths in adult trials, and immunoglobulin is not a treatment.",
+      "tags": [
+        "meningitis"
+      ]
+    },
+    {
+      "id": "ite25-71b",
+      "item": 71,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is dexamethasone given in bacterial meningitis?",
+      "a": "Just before or with the first antibiotic dose",
+      "d": [
+        "Once the culture result is back",
+        "If the fever persists at 48 hours",
+        "After the lumbar puncture, on day 2"
+      ],
+      "why": "The benefit depends on the timing. A septic patient also needs fluid, which rules out a diuretic in the first hours.",
+      "tags": [
+        "meningitis"
+      ]
+    },
+    {
+      "id": "ite25-71c",
+      "item": 71,
+      "type": "single",
+      "difficulty": 1,
+      "q": "What is the empiric antibiotic regimen for bacterial meningitis in a 27-year-old?",
+      "a": "Vancomycin and ceftriaxone",
+      "d": [
+        "Ceftriaxone on its own",
+        "Ampicillin and gentamicin",
+        "Meropenem and acyclovir"
+      ],
+      "why": "Bactericidal drugs also reduce the inflammation. The vancomycin covers resistant pneumococci until the sensitivities are known.",
+      "tags": [
+        "meningitis"
+      ]
+    },
+    {
+      "id": "ite25-72a",
+      "item": 72,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Eosinophilic oesophagitis on biopsy, partial relief from a proton pump inhibitor. What is most likely to help?",
+      "a": "Budesonide oral suspension",
+      "d": [
+        "Oral famotidine",
+        "Oral montelukast",
+        "A clotrimazole lozenge"
+      ],
+      "why": "A swallowed inhaled steroid is the alternative. Famotidine suits erosive oesophagitis, montelukast is weaker here, and Candida oesophagitis would get fluconazole.",
+      "tags": [
+        "eosinophilic-oesophagitis"
+      ]
+    },
+    {
+      "id": "ite25-72b",
+      "item": 72,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Eosinophilic oesophagitis is confirmed above how many eosinophils per high-power field?",
+      "a": "15",
+      "d": [
+        "5",
+        "30",
+        "50"
+      ],
+      "options": [
+        "5",
+        "15",
+        "30",
+        "50"
+      ],
+      "why": "With other causes of eosinophilia excluded. Rings, grooves and white exudates at endoscopy suggest it; the biopsy makes it.",
+      "tags": [
+        "eosinophilic-oesophagitis"
+      ]
+    },
+    {
+      "id": "ite25-72c",
+      "item": 72,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "In what proportion of eosinophilic oesophagitis does a proton pump inhibitor alone give complete relief?",
+      "a": "About a third",
+      "d": [
+        "About a tenth",
+        "About two thirds",
+        "About nine in ten"
+      ],
+      "options": [
+        "About a tenth",
+        "About a third",
+        "About two thirds",
+        "About nine in ten"
+      ],
+      "why": "Think of it in an atopic man in his twenties or thirties with years of dysphagia; more than half have had a food impaction.",
+      "tags": [
+        "eosinophilic-oesophagitis"
+      ]
+    },
+    {
+      "id": "ite25-73a",
+      "item": 73,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Crohn disease on methotrexate and azathioprine, age 45, Tdap six years ago. Which vaccine is given today?",
+      "a": "Pneumococcal conjugate vaccine",
+      "d": [
+        "Measles, mumps and rubella vaccine",
+        "Tetanus, diphtheria, pertussis booster",
+        "Meningococcal conjugate vaccine"
+      ],
+      "why": "Inflammatory bowel disease is an indication at any adult age. MMR is live and contraindicated once immunosuppression has started, and the tetanus booster is not due for four years.",
+      "tags": [
+        "vaccines",
+        "ibd"
+      ]
+    },
+    {
+      "id": "ite25-74a",
+      "item": 74,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Adrenal insufficiency, an infection, days of vomiting, BP 97/58, sodium 133, potassium 5.8, glucose 60. First drug?",
+      "a": "Intravenous hydrocortisone 100 mg",
+      "d": [
+        "Intravenous dexamethasone 1 mg",
+        "Intramuscular glucagon 1 mg",
+        "Intravenous ondansetron 4 mg"
+      ],
+      "why": "Adrenal crisis, which kills untreated. Glucagon treats insulin hypoglycaemia and does nothing for the circulation; the antiemetic treats a symptom.",
+      "tags": [
+        "adrenal-crisis"
+      ]
+    },
+    {
+      "id": "ite25-74b",
+      "item": 74,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What is 1 mg of dexamethasone used for?",
+      "a": "A screening test for cortisol excess",
+      "d": [
+        "Treatment of an adrenal crisis",
+        "Adjunct treatment of thyroid storm",
+        "Steroid cover for minor surgery"
+      ],
+      "why": "Dexamethasone can treat adrenal crisis but is not the preferred drug, and at this dose it is far below treatment.",
+      "tags": [
+        "adrenal-crisis",
+        "dexamethasone"
+      ]
+    },
+    {
+      "id": "ite25-74c",
+      "item": 74,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which can precipitate an adrenal crisis in someone with known adrenal insufficiency?",
+      "a": [
+        "An acute infection",
+        "Dehydration",
+        "Severe physical stress",
+        "Missed doses of the steroid"
+      ],
+      "d": [
+        "An SSRI",
+        "A low-salt diet",
+        "A single missed meal"
+      ],
+      "why": "The picture is weakness, abdominal pain, tachycardia and hypotension, with low sodium, high potassium and sometimes low glucose.",
+      "tags": [
+        "adrenal-crisis"
+      ]
+    },
+    {
+      "id": "ite25-75a",
+      "item": 75,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which test is added to the syncope work-up when the episode occurred during exertion?",
+      "a": "An exercise stress test",
+      "d": [
+        "An EEG",
+        "Carotid ultrasonography",
+        "A head CT"
+      ],
+      "why": "With a normal examination, EEG, carotid imaging and head imaging are all not recommended. Fainting while standing in a queue is not exertion.",
+      "tags": [
+        "syncope"
+      ]
+    }
+  ]
+}

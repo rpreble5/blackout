@@ -250,3 +250,127 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Aspirin 81 mg daily from 12 weeks
 - **ite25-50b** (multi, d3, 8 options) Which are high-risk factors for preeclampsia, any one of which earns aspirin on its own?
   → A previous pregnancy with preeclampsia + A multifetal pregnancy + Chronic hypertension + Pre-existing diabetes + Kidney disease
+
+## ITE 2025, items 51 to 63 (30 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 51 to 63. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-51a** (single, d2, 4 options, fixed order) A small cardioembolic stroke with new atrial fibrillation. When is anticoagulation started?
+  → 2 to 14 days after the event
+- **ite25-51b** (single, d2, 4 options) What makes atrial fibrillation nonvalvular for the purpose of choosing an anticoagulant?
+  → No significant mitral stenosis or mechanical valve
+- **ite25-51c** (single, d3, 4 options) After a cardioembolic stroke, which patient waits the full 14 days before anticoagulation?
+  → One with a large infarct at risk of bleeding
+- **ite25-52a** (single, d2, 4 options) Four days after a STEMI: hypotension, a new systolic murmur, crackles, flat neck veins. What has happened?
+  → Papillary muscle rupture
+- **ite25-52b** (single, d2, 4 options, fixed order) How long after a transmural infarction does papillary muscle rupture typically occur?
+  → 3 to 5 days
+- **ite25-52c** (multi, d3, 6 options) Which findings point to tamponade rather than papillary muscle rupture after an infarction?
+  → Chest pain + Muffled heart sounds + Distended neck veins
+- **ite25-53a** (single, d2, 4 options) What is the rule for formoterol as an as-needed asthma reliever?
+  → Only with an inhaled corticosteroid
+- **ite25-53b** (single, d3, 4 options, fixed order) By about how much does as-needed ICS-formoterol cut severe exacerbations versus as-needed albuterol?
+  → 60%
+- **ite25-54a** (single, d1, 4 options) An intensely itchy, serpiginous red rash on the feet after a trip to Vietnam. What is it?
+  → Cutaneous larva migrans
+- **ite25-54b** (single, d2, 4 options) How is cutaneous larva migrans diagnosed and treated?
+  → Clinically; albendazole if treated
+- **ite25-55a** (single, d2, 4 options, fixed order) A child treated for Cryptosporidium is well again. When can he swim?
+  → 2 weeks after symptoms resolve
+- **ite25-55b** (single, d2, 4 options) What is the treatment for Cryptosporidium diarrhoea?
+  → Fluids; nitazoxanide if prolonged
+- **ite25-56a** (single, d1, 4 options) At 36 weeks: headache, right upper quadrant pain, BP 150/95, platelets 43,000, AST 112, proteinuria. What is done?
+  → Arrange urgent delivery
+- **ite25-56b** (single, d2, 4 options, fixed order) From what gestation is HELLP syndrome managed by prompt delivery?
+  → 34 weeks
+- **ite25-56c** (multi, d3, 8 options) Which complications drive the maternal mortality of HELLP syndrome?
+  → Cerebral haemorrhage + Disseminated intravascular coagulation + Acute respiratory distress syndrome + Renal failure + Hepatic haemorrhage
+- **ite25-57a** (multi, d2, 7 options) A first eGFR of 49. Besides a repeat under 60 at three months, what establishes chronic kidney disease?
+  → Albuminuria persisting for three months + Small kidneys on imaging + Multiple renal cysts on imaging + Earlier records showing impaired function
+- **ite25-58a** (single, d1, 4 options) Fever for six days, red lips, conjunctivitis, rash and a 2-cm neck node at age 4. The serious complication?
+  → Coronary artery aneurysm
+- **ite25-58b** (single, d3, 4 options, fixed order) Untreated, what proportion of children with Kawasaki disease develop cardiovascular abnormalities?
+  → 15% to 25%
+- **ite25-58c** (multi, d2, 8 options) With five days of fever, which features count towards classic Kawasaki disease?
+  → Changes of the oral mucous membranes + Bilateral conjunctivitis + A diffuse rash + Oedema of the hands and feet + A cervical node of 1.5 cm or more
+- **ite25-59a** (single, d2, 4 options) A 40-year-old with no breast or ovarian cancer in the family, anxious after a friend tested BRCA2 positive. Advice?
+  → Reassurance
+- **ite25-59b** (multi, d2, 8 options) Which histories call for a formal BRCA risk assessment tool?
+  → Breast cancer in a first-degree relative + Ovarian cancer in the family + Tubal or peritoneal cancer in the family + A personal history of breast cancer
+- **ite25-60a** (single, d2, 4 options, fixed order) A family history of neural tube defects, on 4 mg of folic acid, now at 12 weeks. What is the dose from here?
+  → 0.4 mg daily
+- **ite25-60b** (single, d3, 4 options) Why is high-dose folic acid reduced after the first trimester?
+  → Organogenesis is largely complete
+- **ite25-60c** (single, d1, 4 options) When should folic acid supplementation begin for a planned pregnancy?
+  → 1 to 3 months before conception
+- **ite25-61a** (single, d2, 4 options) Recurrent gout with stage 3 kidney disease and a urate of 8.6. What is started for prevention?
+  → Allopurinol with colchicine cover
+- **ite25-61b** (single, d1, 4 options, fixed order) To what serum urate is allopurinol titrated?
+  → Under 6 mg/dL
+- **ite25-61c** (multi, d1, 6 options) Which drugs treat an acute gout flare?
+  → Colchicine + An NSAID + A corticosteroid
+- **ite25-62a** (single, d2, 4 options) New angina in a patient with aortic stenosis. Besides referral for the valve, what is evaluated?
+  → Coronary artery disease
+- **ite25-63a** (single, d1, 4 options) A few days of sneezing, congestion and watery discharge each spring. What is first-line?
+  → An intranasal corticosteroid
+- **ite25-63b** (single, d2, 4 options) What is the place of nasal saline irrigation in allergic rhinitis?
+  → An adjunct with limited evidence
+
+## ITE 2025, items 64 to 75 (27 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 64 to 75. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-64a** (single, d1, 4 options) Irregular periods, a year of infertility, BMI 29. Which raised hormone most supports polycystic ovary syndrome?
+  → Testosterone
+- **ite25-64b** (multi, d2, 6 options) Two of which three findings make the Rotterdam diagnosis of polycystic ovary syndrome?
+  → Oligo-ovulation or anovulation + Clinical or biochemical hyperandrogenism + Polycystic ovaries on ultrasound
+- **ite25-64c** (single, d3, 4 options) In a woman being evaluated for polycystic ovary syndrome, what does a raised 17-hydroxyprogesterone suggest?
+  → Nonclassical adrenal hyperplasia
+- **ite25-65a** (single, d2, 4 options) Thirty-six hours of continuous vertigo, veering left, no hearing loss, a saccade on head impulse. What is next?
+  → Reassurance and antiemetics
+- **ite25-65b** (multi, d2, 6 options) Which features point to vestibular neuritis rather than positional vertigo?
+  → Continuous vertigo for more than a day + Listing to one side when walking + Spontaneous onset without a trigger
+- **ite25-65c** (single, d2, 4 options) When is MRI of the brain indicated for vertigo?
+  → Central signs or hearing loss
+- **ite25-66a** (single, d2, 4 options) Melasma persisting six months after delivery. Which topical treatment is most effective?
+  → Fluocinolone, hydroquinone and tretinoin
+- **ite25-66b** (single, d3, 4 options, fixed order) What proportion of melasma of pregnancy resolves after delivery?
+  → 90%
+- **ite25-67a** (single, d1, 4 options, fixed order) Parents with egg and peanut allergies in the family ask when to introduce those foods. What is advised?
+  → 4 to 6 months
+- **ite25-67b** (single, d2, 4 options) How is peanut introduced to an infant?
+  → Peanut butter thinned with water or milk
+- **ite25-68a** (single, d1, 4 options) The day after a sexual assault, pregnancy test negative, STI tests sent. What is given empirically?
+  → Ceftriaxone, azithromycin and metronidazole
+- **ite25-68b** (single, d2, 4 options) HIV post-exposure prophylaxis after a sexual assault is what regimen?
+  → Three drugs for 28 days
+- **ite25-68c** (multi, d2, 6 options) Which are options for emergency contraception after an assault?
+  → Ulipristal + Levonorgestrel + A copper IUD
+- **ite25-69a** (single, d2, 4 options) Premenstrual low mood and irritability on fluoxetine 60 mg; the combined pill made it worse. What is added?
+  → Calcium carbonate 1000 to 1200 mg daily
+- **ite25-69b** (multi, d2, 6 options) Which are first-line treatments for premenstrual dysphoric disorder?
+  → Any SSRI + Continuous combined oral contraceptives
+- **ite25-70a** (single, d2, 4 options) T-score minus 2.8. Alendronate was stopped after four weeks for gastric symptoms. What now?
+  → Switch to an intravenous bisphosphonate
+- **ite25-71a** (single, d1, 4 options) Bacterial meningitis confirmed on lumbar puncture. Besides antibiotics, which intravenous drug improves mortality?
+  → Dexamethasone
+- **ite25-71b** (single, d2, 4 options) When is dexamethasone given in bacterial meningitis?
+  → Just before or with the first antibiotic dose
+- **ite25-71c** (single, d1, 4 options) What is the empiric antibiotic regimen for bacterial meningitis in a 27-year-old?
+  → Vancomycin and ceftriaxone
+- **ite25-72a** (single, d1, 4 options) Eosinophilic oesophagitis on biopsy, partial relief from a proton pump inhibitor. What is most likely to help?
+  → Budesonide oral suspension
+- **ite25-72b** (single, d2, 4 options, fixed order) Eosinophilic oesophagitis is confirmed above how many eosinophils per high-power field?
+  → 15
+- **ite25-72c** (single, d3, 4 options, fixed order) In what proportion of eosinophilic oesophagitis does a proton pump inhibitor alone give complete relief?
+  → About a third
+- **ite25-73a** (single, d2, 4 options) Crohn disease on methotrexate and azathioprine, age 45, Tdap six years ago. Which vaccine is given today?
+  → Pneumococcal conjugate vaccine
+- **ite25-74a** (single, d1, 4 options) Adrenal insufficiency, an infection, days of vomiting, BP 97/58, sodium 133, potassium 5.8, glucose 60. First drug?
+  → Intravenous hydrocortisone 100 mg
+- **ite25-74b** (single, d3, 4 options) What is 1 mg of dexamethasone used for?
+  → A screening test for cortisol excess
+- **ite25-74c** (multi, d2, 7 options) Which can precipitate an adrenal crisis in someone with known adrenal insufficiency?
+  → An acute infection + Dehydration + Severe physical stress + Missed doses of the steroid
+- **ite25-75a** (single, d2, 4 options) Which test is added to the syncope work-up when the episode occurred during exertion?
+  → An exercise stress test

@@ -1,0 +1,634 @@
+{
+  "id": "ite25-items-51-63",
+  "title": "ITE 2025, items 51 to 63",
+  "short": "Items 51 to 63",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 51 to 63. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-51a",
+      "item": 51,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "A small cardioembolic stroke with new atrial fibrillation. When is anticoagulation started?",
+      "a": "2 to 14 days after the event",
+      "d": [
+        "Within 24 hours",
+        "After 4 weeks",
+        "After 3 months"
+      ],
+      "options": [
+        "Within 24 hours",
+        "2 to 14 days after the event",
+        "After 4 weeks",
+        "After 3 months"
+      ],
+      "why": "Without an antiplatelet alongside. A 2024 trial found starting within four days safe, and the small infarcts go first; large ones with a risk of haemorrhagic conversion wait towards the end of the window.",
+      "tags": [
+        "stroke",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-51b",
+      "item": 51,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What makes atrial fibrillation nonvalvular for the purpose of choosing an anticoagulant?",
+      "a": "No significant mitral stenosis or mechanical valve",
+      "d": [
+        "No mitral regurgitation of any grade on echo",
+        "No prior valve surgery or repair of any kind",
+        "A normal echocardiogram in every respect"
+      ],
+      "why": "Mild mitral regurgitation does not count. Nonvalvular fibrillation gets a direct oral anticoagulant in preference to warfarin.",
+      "tags": [
+        "atrial-fibrillation",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-51c",
+      "item": 51,
+      "type": "single",
+      "difficulty": 3,
+      "q": "After a cardioembolic stroke, which patient waits the full 14 days before anticoagulation?",
+      "a": "One with a large infarct at risk of bleeding",
+      "d": [
+        "One started on a direct oral anticoagulant",
+        "One with mitral regurgitation on echo",
+        "One whose weakness has fully resolved"
+      ],
+      "why": "Haemorrhagic conversion is the danger being traded against recurrence. A small infarct with resolving symptoms can start within days.",
+      "tags": [
+        "stroke",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-52a",
+      "item": 52,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Four days after a STEMI: hypotension, a new systolic murmur, crackles, flat neck veins. What has happened?",
+      "a": "Papillary muscle rupture",
+      "d": [
+        "Pericardial tamponade",
+        "Acute pulmonary embolism",
+        "Acute pericarditis"
+      ],
+      "why": "Acute mitral regurgitation with flash pulmonary oedema and shock. Mechanical complications are rarer than they were, but their in-hospital mortality stays high.",
+      "tags": [
+        "myocardial-infarction",
+        "complications"
+      ]
+    },
+    {
+      "id": "ite25-52b",
+      "item": 52,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "How long after a transmural infarction does papillary muscle rupture typically occur?",
+      "a": "3 to 5 days",
+      "d": [
+        "Within 24 hours",
+        "2 to 3 weeks",
+        "After 3 months"
+      ],
+      "options": [
+        "Within 24 hours",
+        "3 to 5 days",
+        "2 to 3 weeks",
+        "After 3 months"
+      ],
+      "why": "After an infarct in right coronary or circumflex territory, depending on the anatomy. Free wall rupture, which causes tamponade, is rarer still.",
+      "tags": [
+        "myocardial-infarction",
+        "complications"
+      ]
+    },
+    {
+      "id": "ite25-52c",
+      "item": 52,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which findings point to tamponade rather than papillary muscle rupture after an infarction?",
+      "a": [
+        "Chest pain",
+        "Muffled heart sounds",
+        "Distended neck veins"
+      ],
+      "d": [
+        "Crackles throughout both lungs",
+        "A new systolic murmur",
+        "Oxygen saturation of 89%"
+      ],
+      "why": "Both cause hypotension and tachycardia. The lungs fill with acute mitral regurgitation; the neck veins fill with tamponade.",
+      "tags": [
+        "myocardial-infarction",
+        "tamponade"
+      ]
+    },
+    {
+      "id": "ite25-53a",
+      "item": 53,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the rule for formoterol as an as-needed asthma reliever?",
+      "a": "Only with an inhaled corticosteroid",
+      "d": [
+        "Alone as a reliever, like albuterol",
+        "As maintenance in severe asthma",
+        "With albuterol for exercise symptoms"
+      ],
+      "why": "Its long action is what makes the combination work as a reliever, and its long action unprotected by a steroid is what makes it unsafe alone.",
+      "tags": [
+        "asthma",
+        "formoterol"
+      ]
+    },
+    {
+      "id": "ite25-53b",
+      "item": 53,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "By about how much does as-needed ICS-formoterol cut severe exacerbations versus as-needed albuterol?",
+      "a": "60%",
+      "d": [
+        "20%",
+        "40%",
+        "80%"
+      ],
+      "options": [
+        "20%",
+        "40%",
+        "60%",
+        "80%"
+      ],
+      "why": "And it beats every regimen that keeps a short-acting reliever, including a daily low-dose steroid with albuterol on top.",
+      "tags": [
+        "asthma"
+      ]
+    },
+    {
+      "id": "ite25-54a",
+      "item": 54,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An intensely itchy, serpiginous red rash on the feet after a trip to Vietnam. What is it?",
+      "a": "Cutaneous larva migrans",
+      "d": [
+        "Scabies",
+        "Cutaneous leishmaniasis",
+        "Herpes B virus infection"
+      ],
+      "why": "Scabies runs along skin folds in lines of small bumps. Leishmaniasis gives painless ulcers with raised borders. Herpes B gives vesicles at the bite site with flu-like illness.",
+      "tags": [
+        "travel",
+        "dermatology"
+      ]
+    },
+    {
+      "id": "ite25-54b",
+      "item": 54,
+      "type": "single",
+      "difficulty": 2,
+      "q": "How is cutaneous larva migrans diagnosed and treated?",
+      "a": "Clinically; albendazole if treated",
+      "d": [
+        "Skin scraping; permethrin cream",
+        "Biopsy; liposomal amphotericin",
+        "Serology; a course of acyclovir"
+      ],
+      "why": "There is no diagnostic test. Incubation is usually 1 to 5 days but can run to a month, and the infection is self-limited.",
+      "tags": [
+        "travel",
+        "dermatology"
+      ]
+    },
+    {
+      "id": "ite25-55a",
+      "item": 55,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "A child treated for Cryptosporidium is well again. When can he swim?",
+      "a": "2 weeks after symptoms resolve",
+      "d": [
+        "3 days after symptoms resolve",
+        "1 week after symptoms resolve",
+        "4 weeks after symptoms resolve"
+      ],
+      "options": [
+        "3 days after symptoms resolve",
+        "1 week after symptoms resolve",
+        "2 weeks after symptoms resolve",
+        "4 weeks after symptoms resolve"
+      ],
+      "why": "Oocysts keep shedding after recovery and survive up to ten days in treated water, which is how one child clears a pool.",
+      "tags": [
+        "cryptosporidium",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-55b",
+      "item": 55,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the treatment for Cryptosporidium diarrhoea?",
+      "a": "Fluids; nitazoxanide if prolonged",
+      "d": [
+        "Metronidazole for ten days",
+        "A single dose of albendazole",
+        "Azithromycin for three days"
+      ],
+      "why": "Diagnosis is on a stool sample. Severe or prolonged disease earns the antiparasitic; ordinary cases get supportive care.",
+      "tags": [
+        "cryptosporidium"
+      ]
+    },
+    {
+      "id": "ite25-56a",
+      "item": 56,
+      "type": "single",
+      "difficulty": 1,
+      "q": "At 36 weeks: headache, right upper quadrant pain, BP 150/95, platelets 43,000, AST 112, proteinuria. What is done?",
+      "a": "Arrange urgent delivery",
+      "d": [
+        "Start oral prednisone",
+        "Give N-acetylcysteine",
+        "Consult gastroenterology"
+      ],
+      "why": "HELLP syndrome. The liver failure belongs to the pregnancy, not the acetaminophen she took, and steroids raise the platelets without touching the liver.",
+      "tags": [
+        "hellp",
+        "obstetrics"
+      ]
+    },
+    {
+      "id": "ite25-56b",
+      "item": 56,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "From what gestation is HELLP syndrome managed by prompt delivery?",
+      "a": "34 weeks",
+      "d": [
+        "28 weeks",
+        "32 weeks",
+        "37 weeks"
+      ],
+      "options": [
+        "28 weeks",
+        "32 weeks",
+        "34 weeks",
+        "37 weeks"
+      ],
+      "why": "Maternal morbidity and mortality run at 10% to 15%, and the deaths come from delay.",
+      "tags": [
+        "hellp",
+        "obstetrics"
+      ]
+    },
+    {
+      "id": "ite25-56c",
+      "item": 56,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which complications drive the maternal mortality of HELLP syndrome?",
+      "a": [
+        "Cerebral haemorrhage",
+        "Disseminated intravascular coagulation",
+        "Acute respiratory distress syndrome",
+        "Renal failure",
+        "Hepatic haemorrhage"
+      ],
+      "d": [
+        "Gestational diabetes",
+        "Cholestasis of pregnancy",
+        "Polyhydramnios"
+      ],
+      "why": "Cardiopulmonary arrest and sepsis complete the list. Each is a reason the evaluation is quick and targeted rather than exhaustive.",
+      "tags": [
+        "hellp",
+        "obstetrics"
+      ]
+    },
+    {
+      "id": "ite25-57a",
+      "item": 57,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "A first eGFR of 49. Besides a repeat under 60 at three months, what establishes chronic kidney disease?",
+      "a": [
+        "Albuminuria persisting for three months",
+        "Small kidneys on imaging",
+        "Multiple renal cysts on imaging",
+        "Earlier records showing impaired function"
+      ],
+      "d": [
+        "A single eGFR of 49 today",
+        "An albumin-to-creatinine ratio of 20 mg/g",
+        "A creatinine rise during a hospital stay"
+      ],
+      "why": "Three months is what separates chronic disease from an acute injury, and it can be found in the past as easily as waited for.",
+      "tags": [
+        "ckd"
+      ]
+    },
+    {
+      "id": "ite25-58a",
+      "item": 58,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Fever for six days, red lips, conjunctivitis, rash and a 2-cm neck node at age 4. The serious complication?",
+      "a": "Coronary artery aneurysm",
+      "d": [
+        "Anaemia of inflammation",
+        "Hepatitis with raised enzymes",
+        "Pulmonary oedema on the film"
+      ],
+      "why": "Kawasaki disease. Echocardiography is done as soon as possible. Anaemia, raised liver enzymes, pyuria and pulmonary oedema occur but are the lesser complications.",
+      "tags": [
+        "kawasaki",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-58b",
+      "item": 58,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "Untreated, what proportion of children with Kawasaki disease develop cardiovascular abnormalities?",
+      "a": "15% to 25%",
+      "d": [
+        "1% to 5%",
+        "40% to 50%",
+        "70% to 80%"
+      ],
+      "options": [
+        "1% to 5%",
+        "15% to 25%",
+        "40% to 50%",
+        "70% to 80%"
+      ],
+      "why": "Coronary and aortic root dilation, aneurysm, tachycardia, hypotension and shock. Treatment is what brings the figure down.",
+      "tags": [
+        "kawasaki",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-58c",
+      "item": 58,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "With five days of fever, which features count towards classic Kawasaki disease?",
+      "a": [
+        "Changes of the oral mucous membranes",
+        "Bilateral conjunctivitis",
+        "A diffuse rash",
+        "Oedema of the hands and feet",
+        "A cervical node of 1.5 cm or more"
+      ],
+      "d": [
+        "Splenomegaly",
+        "Petechiae",
+        "Bilateral tender cervical nodes"
+      ],
+      "why": "Four of the five, and the node is unilateral. It is a disease of children under five.",
+      "tags": [
+        "kawasaki",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-59a",
+      "item": 59,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 40-year-old with no breast or ovarian cancer in the family, anxious after a friend tested BRCA2 positive. Advice?",
+      "a": "Reassurance",
+      "d": [
+        "A family history screening tool",
+        "Genetic counselling",
+        "BRCA testing"
+      ],
+      "why": "The task force recommends against routine assessment, counselling or testing. Colorectal, thyroid and endometrial cancers in relatives do not change that.",
+      "tags": [
+        "brca",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-59b",
+      "item": 59,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which histories call for a formal BRCA risk assessment tool?",
+      "a": [
+        "Breast cancer in a first-degree relative",
+        "Ovarian cancer in the family",
+        "Tubal or peritoneal cancer in the family",
+        "A personal history of breast cancer"
+      ],
+      "d": [
+        "Colorectal cancer in the father",
+        "Thyroid cancer in an aunt",
+        "Endometrial cancer in a grandmother",
+        "A close friend with a BRCA mutation"
+      ],
+      "why": "Ancestry linked to the mutations also qualifies. Testing comes only after a positive tool and genetic counselling, in that order.",
+      "tags": [
+        "brca",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-60a",
+      "item": 60,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "A family history of neural tube defects, on 4 mg of folic acid, now at 12 weeks. What is the dose from here?",
+      "a": "0.4 mg daily",
+      "d": [
+        "Stop it",
+        "1 mg daily",
+        "4 mg daily"
+      ],
+      "options": [
+        "Stop it",
+        "0.4 mg daily",
+        "1 mg daily",
+        "4 mg daily"
+      ],
+      "why": "The high dose runs until 12 weeks after conception. Supplementation is on top of dietary folate, not instead of it.",
+      "tags": [
+        "folic-acid",
+        "obstetrics"
+      ]
+    },
+    {
+      "id": "ite25-60b",
+      "item": 60,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why is high-dose folic acid reduced after the first trimester?",
+      "a": "Organogenesis is largely complete",
+      "d": [
+        "Folate is no longer absorbed well",
+        "It would mask a B12 deficiency",
+        "It raises the chance of twins"
+      ],
+      "why": "With a theoretical concern about fetal toxicity from the high dose once the neural tube has closed.",
+      "tags": [
+        "folic-acid",
+        "obstetrics"
+      ]
+    },
+    {
+      "id": "ite25-60c",
+      "item": 60,
+      "type": "single",
+      "difficulty": 1,
+      "q": "When should folic acid supplementation begin for a planned pregnancy?",
+      "a": "1 to 3 months before conception",
+      "d": [
+        "At the first prenatal visit",
+        "6 months before conception",
+        "At 12 weeks of gestation"
+      ],
+      "why": "The neural tube closes in the first weeks, often before the pregnancy is known. High-risk pregnancies get the 4 mg dose over that period.",
+      "tags": [
+        "folic-acid",
+        "obstetrics"
+      ]
+    },
+    {
+      "id": "ite25-61a",
+      "item": 61,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Recurrent gout with stage 3 kidney disease and a urate of 8.6. What is started for prevention?",
+      "a": "Allopurinol with colchicine cover",
+      "d": [
+        "Allopurinol without any cover",
+        "Colchicine on its own",
+        "Febuxostat with colchicine cover"
+      ],
+      "why": "Allopurinol stays first-line in kidney disease. The anti-inflammatory cover prevents the flare that starting urate-lowering therapy provokes. Febuxostat is for chronic gout but not first.",
+      "tags": [
+        "gout"
+      ]
+    },
+    {
+      "id": "ite25-61b",
+      "item": 61,
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "To what serum urate is allopurinol titrated?",
+      "a": "Under 6 mg/dL",
+      "d": [
+        "Under 4 mg/dL",
+        "Under 5 mg/dL",
+        "Under 7 mg/dL"
+      ],
+      "options": [
+        "Under 4 mg/dL",
+        "Under 5 mg/dL",
+        "Under 6 mg/dL",
+        "Under 7 mg/dL"
+      ],
+      "why": "Pegloticase is strongly recommended against as a first-line drug, for cost, uncertain safety, and the existence of better options.",
+      "tags": [
+        "gout"
+      ]
+    },
+    {
+      "id": "ite25-61c",
+      "item": 61,
+      "type": "multi",
+      "difficulty": 1,
+      "q": "Which drugs treat an acute gout flare?",
+      "a": [
+        "Colchicine",
+        "An NSAID",
+        "A corticosteroid"
+      ],
+      "d": [
+        "Allopurinol, started during the flare",
+        "Febuxostat",
+        "Pegloticase"
+      ],
+      "why": "Urate-lowering drugs prevent the next flare rather than treating this one, and starting one without cover tends to set a flare off.",
+      "tags": [
+        "gout"
+      ]
+    },
+    {
+      "id": "ite25-62a",
+      "item": 62,
+      "type": "single",
+      "difficulty": 2,
+      "q": "New angina in a patient with aortic stenosis. Besides referral for the valve, what is evaluated?",
+      "a": "Coronary artery disease",
+      "d": [
+        "Mitral regurgitation",
+        "Pulmonary hypertension",
+        "Carotid stenosis"
+      ],
+      "why": "Symptoms turn the prognosis: under half survive two years without replacement, and replacement restores survival to that of age-matched adults. A louder murmur or calcification on echo is not an indication on its own.",
+      "tags": [
+        "aortic-stenosis"
+      ]
+    },
+    {
+      "id": "ite25-63a",
+      "item": 63,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A few days of sneezing, congestion and watery discharge each spring. What is first-line?",
+      "a": "An intranasal corticosteroid",
+      "d": [
+        "An intranasal antihistamine",
+        "Intranasal cromolyn",
+        "A short course of oral steroid"
+      ],
+      "why": "Even for mild allergic rhinitis. Antihistamines by either route are less effective, cromolyn needs several doses a day, and there is no infection to treat.",
+      "tags": [
+        "allergic-rhinitis"
+      ]
+    },
+    {
+      "id": "ite25-63b",
+      "item": 63,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the place of nasal saline irrigation in allergic rhinitis?",
+      "a": "An adjunct with limited evidence",
+      "d": [
+        "A replacement for the steroid spray",
+        "First-line in mild disease",
+        "Advised against entirely"
+      ],
+      "why": "It rinses allergen from the nose and sits alongside drug treatment, never instead of it.",
+      "tags": [
+        "allergic-rhinitis"
+      ]
+    }
+  ]
+}

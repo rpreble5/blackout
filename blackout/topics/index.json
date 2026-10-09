@@ -67,7 +67,9 @@
         "ite-office-a.json",
         "ite-office-b.json",
         "ite25-items-26-38.json",
-        "ite25-items-39-50.json"
+        "ite25-items-39-50.json",
+        "ite25-items-51-63.json",
+        "ite25-items-64-75.json"
       ],
       "mode": "pool",
       "draw": 10
