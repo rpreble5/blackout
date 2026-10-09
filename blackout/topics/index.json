@@ -55,6 +55,18 @@
         "fd-preventive.json",
         "fd-vaccines.json"
       ]
+    },
+    {
+      "id": "ite",
+      "label": "ITE",
+      "blurb": "Short questions written from the ABFM in-training exam critiques: one lesson per item, and one per distractor worth knowing.",
+      "topics": [
+        "ite-acute.json",
+        "ite-endocrine.json",
+        "ite-followup.json",
+        "ite-office-a.json",
+        "ite-office-b.json"
+      ]
     }
   ]
 }

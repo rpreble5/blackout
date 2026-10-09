@@ -75,6 +75,22 @@ game. When a note changes a rule, the rule changes here and the note is cited.
 - Definitional questions ("which of these is X") are too easy for the
   audience. Ask what the definition changes about care instead.
 
+## ITE set
+
+- Source is the ABFM in-training exam critique books. The PDFs are
+  copyrighted and never enter the repo; `docs/facts/ite-<year>.md` holds
+  the lessons in our own words, one entry per exam item, and every
+  question carries an `item` field pointing at the item it came from.
+- Stems are rewritten, never copied: the two or three facts that drive the
+  decision, no vignette.
+- One exam item yields one question for the answer and one for each
+  distractor the critique gives a real reason for ("why not B"). A
+  distractor dismissed without a reason does not earn a question.
+- The pivot, when the critique names one (the finding that made A right and
+  B wrong), is the best question of the set and is written first.
+- Topics are grouped by clinical area, not by item number, and the grouping
+  is provisional until the whole exam is in.
+
 ## Rules added from feedback
 
 - 2026-09-13: one idea per option; numeric options ordered and fixed;
