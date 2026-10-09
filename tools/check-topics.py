@@ -3,7 +3,8 @@
 Run from the repo root:  python tools/check-topics.py
 
 Checks: unique ids across all sets, option counts, option length, fixed-order options match a + d,
-multi questions have 2 or more correct, single questions have exactly 4 options, 10 to 15 questions.
+multi questions have 2 or more correct, single questions have exactly 4 options, 10 to 15 questions
+(any count for a pool set, whose files are authoring batches rather than planets).
 Writes docs/review/<group>-questions.md, one sheet per fact-sheet (articles) or per topic (foundations).
 """
 import json, os, sys, re, io, collections
@@ -16,13 +17,13 @@ def load(name):
     with open(os.path.join(TOPICS, name), encoding='utf-8') as f:
         return json.load(f)
 
-def check(topic, problems, seen_ids):
+def check(topic, problems, seen_ids, pool=False):
     for q in topic['questions']:
         if q['id'] in seen_ids:
             problems.append(f"{q['id']}: duplicate question id (also in {seen_ids[q['id']]})")
         seen_ids[q['id']] = topic['id']
     n = len(topic['questions'])
-    if not 10 <= n <= 15:
+    if not pool and not 10 <= n <= 15:
         problems.append(f"{topic['id']}: {n} questions (want 10 to 15)")
     for q in topic['questions']:
         multi = q['type'] == 'multi'
@@ -71,7 +72,7 @@ def main():
     for st in index['sets']:
         for name in st['topics']:
             t = load(name)
-            check(t, problems, seen_ids)
+            check(t, problems, seen_ids, pool=st.get('mode') == 'pool')
             total += len(t['questions'])
             m = re.search(r'docs/facts/([\w-]+)\.md', t.get('source', {}).get('facts', '') or '')
             key = m.group(1) if m else f"{st['id']}-{t['id']}"

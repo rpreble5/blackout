@@ -240,3 +240,15 @@ agreed default for a single-entity review.
 - Persisted best run, more questions per category, sound, haptics.
 - Rewards between planets (relics, second chances). Kept out on purpose until
   the core loop feels right.
+
+## Pool sets (2026-10-09)
+
+A set can declare `"mode": "pool"` with a `"draw"` size in `topics/index.json`.
+The ITE set does. Its topic files are authoring batches, not planets: at the
+start of a run every non-boss planet is dealt a random hand of ten questions
+from the whole set, named Mix 1 to Mix 7, and the boss draws from everything
+as before. Decided because exam content is breadth by design and forcing it
+into 10-to-15-question themes produced odd planets. Random for now; ideas
+parked for later: keep an item's sibling questions adjacent on first
+encounter, label a planet by its dominant area tag, raise difficulty by map
+tier, five lights for pool sets, per-area accuracy instead of per-topic.

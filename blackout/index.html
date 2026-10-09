@@ -347,7 +347,7 @@ const spreadHues=n=>shuffle([...Array(n)].map((_,i)=>{const h=(i*300/n+rnd(-12,1
 /* topics: one json file each, listed in topics/index.json. A planet is one visit to a topic. */
 let TOPICS=[],DRUGS=[],SETS=[],setId='';
 const PAIRS_PER_ROUND=6;
-const PER_VISIT=7,BOSS_VISIT=8;
+const PER_VISIT=7,BOSS_VISIT=8,POOL_VISIT=10;
 async function loadTopics(){
   /* no-cache means revalidate with the server, so a new topic file shows up on the next load */
   const idx=await fetch('topics/index.json',{cache:'no-cache'}).then(r=>r.json());
@@ -511,8 +511,17 @@ async function newRun(){
   const hues=spreadHues(NODES.length);
   const order=shuffle(PLANETS).map((p,i)=>({...p,c:palette(hues[i])}));
   const boss={...BOSS,c:palette(hues[NODES.length-1],false)};
-  const cycle=shuffle(TOPICS);
-  const topics=NODES.map((n,i)=>i===NODES.length-1?null:cycle[i%cycle.length]);
+  const set=SETS.find(x=>x.id===setId);
+  let topics;
+  if(set.mode==='pool'){
+    /* a pool set (ITE) has no themes: every planet is a random hand of unrelated questions, dealt from the whole set */
+    const all=TOPICS.flatMap(t=>t.questions),size=set.draw||POOL_VISIT;
+    let deck=shuffle(all);while(deck.length<size*(NODES.length-1))deck=deck.concat(shuffle(all));
+    topics=NODES.map((n,i)=>i===NODES.length-1?null:{id:'pool-'+i,short:'Mix '+(i+1),specialty:set.label,draw:size,pool:true,questions:deck.slice(i*size,(i+1)*size)});
+  }else{
+    const cycle=shuffle(TOPICS);
+    topics=NODES.map((n,i)=>i===NODES.length-1?null:cycle[i%cycle.length]);
+  }
   const bonusAt=DRUGS.length?[2,3,4,5,6][Math.random()*5|0]:-1;
   if(bonusAt>=0)topics[bonusAt]=BONUS_NAMES;
   run={planets:[...order,boss],topics,lights:MAX_LIGHTS,here:-1,open:[0,1],done:[],visited:0,route:[]};
@@ -602,7 +611,7 @@ async function travel(i){
 async function quiz(i){
   const p=run.planets[i],t=run.topics[i];
   const pool=t?t.questions:TOPICS.flatMap(x=>x.questions);
-  const qs=draw(pool,p.boss?BOSS_VISIT:PER_VISIT);
+  const qs=draw(pool,p.boss?BOSS_VISIT:(t.draw||PER_VISIT));
   const {misses,out}=await ask(p,qs,{ctx:p.boss?'boss':'planet'});
   if(out)return blackout(p);
   current=null;
