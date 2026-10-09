@@ -606,3 +606,101 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Fluoxetine
 - **ite25-125b** (single, d2, 4 options) A 40-year-old has failed three antidepressants. Where does esketamine nasal spray fit?
   → An add-on to an oral drug in resistant cases
+
+## ITE 2025, items 126 to 138 (24 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 126 to 138. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-126a** (single, d1, 4 options) Two weeks of green sputum and a cough that stops sleep, afebrile, no wheeze. What reduces the cough most?
+  → Dextromethorphan
+- **ite25-126b** (single, d3, 4 options, fixed order) By about how much do antibiotics shorten the cough of acute bronchitis?
+  → Half a day
+- **ite25-126c** (single, d2, 4 options) When is an albuterol inhaler appropriate in acute bronchitis?
+  → When wheezing is present
+- **ite25-127a** (multi, d2, 8 options) After an ankle inversion injury, which findings call for a radiograph under the Ottawa rules?
+  → Bone tenderness at the posterior edge or tip of the lateral malleolus + Bone tenderness at the posterior edge or tip of the medial malleolus + Bone tenderness at the base of the fifth metatarsal + Bone tenderness over the navicular + Inability to bear weight for four steps
+- **ite25-127b** (single, d2, 4 options, fixed order) Under the Ottawa ankle rules, inability to bear weight for how many steps indicates a radiograph?
+  → 4
+- **ite25-128a** (single, d1, 4 options) A 13-year-old: under two stools a week, painful, large enough to clog the toilet; growth and labs normal. Next?
+  → Daily polyethylene glycol
+- **ite25-128b** (multi, d2, 7 options) Which features are Rome IV criteria for functional constipation in a child?
+  → Two or fewer stools a week + Painful or hard stools + Stools large enough to clog the toilet + Retentive posturing
+- **ite25-129a** (single, d2, 4 options) A 45-year-old smoker with diabetes, LDL 120, triglycerides 300, ten-year risk 8.2%. Which statin?
+  → Atorvastatin 40 mg
+- **ite25-130a** (single, d1, 4 options) Burning and numbness in the sole a year after an ankle sprain, pain behind the medial malleolus, Tinel positive. Why?
+  → Tarsal tunnel syndrome
+- **ite25-130b** (single, d2, 4 options) Which examination finding is most helpful for diagnosing tarsal tunnel syndrome?
+  → A positive Tinel sign at the ankle
+- **ite25-131a** (single, d2, 4 options) A patient shoots rifles competitively. Which safety advice is right?
+  → Electronic earmuffs that amplify quiet sounds
+- **ite25-132a** (multi, d2, 8 options) Two hours of resolving chest discomfort. Which ECG findings mean immediate transport to the emergency department?
+  → ST-segment changes + A new left bundle branch block + Q waves + New T-wave inversions
+- **ite25-133a** (single, d3, 4 options) A T-score of minus 1.9 and incidental thoracic compression fractures. What is the diagnosis?
+  → Osteoporosis
+- **ite25-133b** (single, d2, 4 options) What makes a fracture a fragility fracture?
+  → No trauma, or a fall from standing height or less
+- **ite25-134a** (single, d1, 4 options) Second-trimester bleeding with a small abruption, no prenatal labs in either pregnancy. Which test matters most now?
+  → Blood type and Rh factor
+- **ite25-134b** (multi, d2, 6 options) Which histories justify antiphospholipid antibody testing in pregnancy?
+  → A pregnancy loss after 10 weeks + Recurrent losses before 10 weeks + A venous thrombosis
+- **ite25-135a** (single, d1, 4 options) Needlestick from a hepatitis B patient; the nurse was vaccinated and has surface antibody over 10. What is given?
+  → No prophylaxis
+- **ite25-135b** (single, d2, 4 options) A needlestick from a hepatitis B source in someone with negative hepatitis B serology. What is given?
+  → Immune globulin and the vaccine series
+- **ite25-136a** (single, d2, 4 options) A fair-skinned 20-year-old at a wellness visit. What does the task force say about skin cancer?
+  → Sun-protection counselling, no examination
+- **ite25-136b** (single, d1, 4 options) What would make chlamydia screening due for a 20-year-old woman?
+  → Being sexually active
+- **ite25-137a** (single, d1, 4 options) Flashing lights and new floaters in one eye of a 65-year-old, no pain, baseline acuity, a field defect. Diagnosis?
+  → Retinal detachment
+- **ite25-137b** (single, d3, 4 options) Which features point to central retinal artery occlusion rather than detachment?
+  → Painless sudden loss with a pupillary defect
+- **ite25-138a** (single, d1, 4 options) Two weeks of severe mechanical low back pain, no neurological signs. Which added feature would justify an MRI?
+  → New urinary retention
+- **ite25-138b** (multi, d2, 8 options) What does early advanced imaging for low back pain lead to?
+  → More surgery + More opioid use + Higher cost of care + Higher pain scores + More time off work
+
+## ITE 2025, items 139 to 150 (20 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 139 to 150. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-139a** (single, d2, 4 options, fixed order) How long after intranasal naloxone is the peak plasma concentration reached?
+  → 15 to 30 minutes
+- **ite25-139b** (single, d3, 4 options) Breathing has recovered after naloxone. Why does monitoring continue?
+  → Its two-hour half-life is shorter than many opioids
+- **ite25-140a** (single, d1, 4 options) A groin bulge that appears on straining and limits lifting at work. What is next?
+  → Surgical referral
+- **ite25-140b** (single, d2, 4 options) For which inguinal hernia is watchful waiting a reasonable option?
+  → One that causes no symptoms
+- **ite25-141a** (single, d1, 4 options) Memory decline, urge incontinence, a slow wide-based gait, large ventricles, confirmed by high-volume tap. Treatment?
+  → A ventriculoperitoneal shunt
+- **ite25-141b** (single, d3, 4 options) Which finding supports shunting in suspected normal-pressure hydrocephalus?
+  → A better gait after a high-volume lumbar puncture
+- **ite25-142a** (single, d1, 4 options) Painless gross haematuria in a 65-year-old on lisinopril, no fever or trauma. What is next?
+  → Cystoscopy and imaging
+- **ite25-143a** (single, d1, 4 options) Open questions, affirmations, reflective listening and summaries with a smoker unsure about quitting. Technique?
+  → Motivational interviewing
+- **ite25-143b** (single, d2, 4 options) Which model identifies how ready a patient is to change a behaviour?
+  → The transtheoretical model
+- **ite25-144a** (single, d2, 4 options) Type 1 diabetes: a dusky red shin nodule that enlarges, flattens and develops a yellow-brown centre. Diagnosis?
+  → Necrobiosis lipoidica
+- **ite25-144b** (single, d2, 4 options) Crops of brown atrophic patches on the shins of a long-standing diabetic. What are they?
+  → Diabetic dermopathy
+- **ite25-145a** (single, d1, 4 options) Which deficiency does long-term metformin cause?
+  → Vitamin B12
+- **ite25-146a** (single, d1, 4 options) A well-looking 3-year-old with fever and left upper lobe consolidation. Which antibiotic?
+  → Amoxicillin
+- **ite25-146b** (single, d2, 4 options) When is azithromycin the right choice for pneumonia in a child?
+  → When an atypical pneumonia is suspected
+- **ite25-147a** (single, d2, 4 options) A dorsal PIP dislocation, neurovascularly intact, with a fracture under 20% of the joint surface. What is done?
+  → Reduce, splint in flexion, buddy tape
+- **ite25-147b** (multi, d3, 8 options) Which features of a finger fracture-dislocation mean immediate surgical referral?
+  → Irreducible in the office + Unstable after reduction + More than 30% of the articular surface involved + Angulation over 15 degrees + An open injury
+- **ite25-148a** (single, d1, 4 options) Greasy diarrhoea, cramps and nausea after backpacking in Nicaragua, stool positive for Giardia. Treatment?
+  → Metronidazole
+- **ite25-148b** (single, d2, 4 options) Which feature argues against Giardia as the cause of travellers' diarrhoea?
+  → High fever with bloody stools
+- **ite25-149a** (multi, d2, 7 options) Depression in a patient with epilepsy. Which antidepressants are avoided for seizure risk?
+  → Bupropion + Trazodone + Tricyclic antidepressants
+- **ite25-150a** (single, d2, 4 options) A healthy 20-year-old asks for cervical screening. What does the task force say?
+  → Not before 21; it is recommended against
