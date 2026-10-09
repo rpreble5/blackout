@@ -3,76 +3,229 @@
   "title": "Follow-up decisions: nodules, angina, counts and labs",
   "short": "Follow-up",
   "specialty": "Family medicine",
-  "tags": ["ite", "pulmonary-nodule", "chest-pain", "angina", "hiv", "itp"],
-  "source": {"citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 9, 10, 11, 14 and 22. Each question cites its item. Provisional grouping; review before trusting.", "facts": "docs/facts/ite-2025.md"},
+  "tags": [
+    "ite",
+    "pulmonary-nodule",
+    "chest-pain",
+    "angina",
+    "hiv",
+    "itp"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 9, 10, 11, 14 and 22. Each question cites its item. Provisional grouping; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
   "questions": [
-    {"id": "ite25-14a", "item": 14, "type": "single", "difficulty": 1,
-     "q": "An incidental 6-mm solid lung nodule in a 50-year-old who has never smoked. What is next?",
-     "a": "Repeat CT in 6 to 12 months",
-     "d": ["No further follow-up", "Repeat CT in 18 to 24 months", "Biopsy of the nodule"],
-     "why": "The interval flexes to 3 to 6 months for worrying features or patient preference. Biopsy is not for a small solid nodule in a non-smoker.",
-     "tags": ["pulmonary-nodule"]},
-    {"id": "ite25-14b", "item": 14, "type": "single", "difficulty": 2, "order": "fixed",
-     "q": "A solid lung nodule is called benign once unchanged for how long?",
-     "a": "2 years",
-     "d": ["6 months", "1 year", "5 years"],
-     "options": ["6 months", "1 year", "2 years", "5 years"],
-     "why": "Subsolid nodules are followed longer, since they grow slowly and carry a higher risk of being malignant.",
-     "tags": ["pulmonary-nodule"]},
-    {"id": "ite25-14c", "item": 14, "type": "single", "difficulty": 2,
-     "q": "Which incidental lung nodule warrants referral to a pulmonologist?",
-     "a": "A subsolid nodule",
-     "d": ["A 4-mm solid nodule", "A 6-mm solid nodule in a non-smoker", "A solid nodule unchanged for 3 years"],
-     "why": "Along with solid nodules of 8 to 30 mm. Subsolid nodules carry a higher probability of malignancy at any size.",
-     "tags": ["pulmonary-nodule", "referral"]},
-    {"id": "ite25-11a", "item": 11, "type": "single", "difficulty": 2,
-     "q": "Chest pain, normal troponins, intermediate risk, a negative stress test six months ago. What is the next test?",
-     "a": "Coronary CT angiography",
-     "d": ["Stress echocardiography", "CT fractional flow reserve", "Cardiac MRI"],
-     "why": "A stress test negative within the year is not repeated. The angiogram shows whether there is obstructive disease or plaque; MRI answers structural questions.",
-     "tags": ["chest-pain", "imaging"]},
-    {"id": "ite25-11b", "item": 11, "type": "single", "difficulty": 3,
-     "q": "Where does CT fractional flow reserve fit in the evaluation of chest pain?",
-     "a": "After CT angiography shows a stenosis, to guide revascularisation",
-     "d": ["As the first test in a low-risk patient", "Instead of troponin in the emergency department", "To assess ventricular structure"],
-     "why": "It estimates whether a stenosis seen on the angiogram limits flow, which is the question that decides on intervention.",
-     "tags": ["chest-pain", "imaging"]},
-    {"id": "ite25-22a", "item": 22, "type": "single", "difficulty": 2,
-     "q": "Angina on carvedilol with a heart rate of 52, normal ejection fraction, stage 4 CKD. What is added?",
-     "a": "Isosorbide mononitrate",
-     "d": ["A higher dose of carvedilol", "Ivabradine", "Clopidogrel"],
-     "why": "A second first-line class once the first is at its tolerated maximum. The bradycardia blocks the beta blocker increase; clopidogrel does nothing for symptoms. Watch the blood pressure after the nitrate.",
-     "tags": ["angina"]},
-    {"id": "ite25-22b", "item": 22, "type": "single", "difficulty": 3,
-     "q": "What is the guidance on ivabradine for angina in chronic coronary disease with a normal ejection fraction?",
-     "a": "Contraindicated and potentially harmful",
-     "d": ["First-line with a beta blocker", "Added when the heart rate stays over 70", "Reserved for failure of three other classes"],
-     "why": "Ranolazine is the drug kept for patients already on two other classes, and cost is its main drawback.",
-     "tags": ["angina", "ivabradine"]},
-    {"id": "ite25-10a", "item": 10, "type": "multi", "difficulty": 2,
-     "q": "Stable on antiretroviral therapy for ten years. Which tests are routine for everyone?",
-     "a": ["Urinalysis at least yearly", "A glomerular filtration rate at least twice yearly"],
-     "d": ["A DXA scan yearly", "Transient elastography yearly", "Neurocognitive screening yearly", "A Framingham risk score"],
-     "why": "The kidney tests catch drug nephrotoxicity. Bone density is for those at risk, neurocognitive testing is by indication, and Framingham is not validated in HIV.",
-     "tags": ["hiv", "monitoring"]},
-    {"id": "ite25-10b", "item": 10, "type": "single", "difficulty": 2,
-     "q": "In whom on antiretroviral therapy is liver fibrosis screening appropriate?",
-     "a": "Hepatitis B or C coinfection",
-     "d": ["Everyone, yearly", "Anyone on tenofovir", "Anyone with a raised ALT"],
-     "why": "The hepatitis viruses, not the antiretrovirals, drive fibrosis. A raised ALT prompts a work-up, not a screening programme.",
-     "tags": ["hiv", "liver"]},
-    {"id": "ite25-09a", "item": 9, "type": "single", "difficulty": 1,
-     "q": "Known immune thrombocytopenia, no bleeding, platelets 47,000. What treatment is given?",
-     "a": "None",
-     "d": ["Oral prednisone", "Intravenous methylprednisolone", "Rituximab"],
-     "why": "Steroids, intravenous immunoglobulin and rituximab are all used when treatment is needed. Hydroxychloroquine is not.",
-     "tags": ["itp"]},
-    {"id": "ite25-09b", "item": 9, "type": "single", "difficulty": 2, "order": "fixed",
-     "q": "Below what platelet count is immune thrombocytopenia treated even without bleeding?",
-     "a": "30,000",
-     "d": ["10,000", "20,000", "50,000"],
-     "options": ["10,000", "20,000", "30,000", "50,000"],
-     "why": "Active bleeding is the other trigger, at any count. The family physician decides whether to act today; the haematologist owns the long game.",
-     "tags": ["itp"]}
+    {
+      "id": "ite25-14a",
+      "item": 14,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An incidental 6-mm solid lung nodule in a 50-year-old who has never smoked. What is next?",
+      "a": "Repeat CT in 6 to 12 months",
+      "d": [
+        "No further follow-up",
+        "Repeat CT in 18 to 24 months",
+        "Biopsy of the nodule"
+      ],
+      "why": "The interval flexes to 3 to 6 months for worrying features or patient preference. Biopsy is not for a small solid nodule in a non-smoker.",
+      "tags": [
+        "pulmonary-nodule"
+      ]
+    },
+    {
+      "id": "ite25-14b",
+      "item": 14,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "A solid lung nodule is called benign once unchanged for how long?",
+      "a": "2 years",
+      "d": [
+        "6 months",
+        "1 year",
+        "5 years"
+      ],
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "5 years"
+      ],
+      "why": "Subsolid nodules are followed longer, since they grow slowly and carry a higher risk of being malignant.",
+      "tags": [
+        "pulmonary-nodule"
+      ]
+    },
+    {
+      "id": "ite25-14c",
+      "item": 14,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which incidental lung nodule warrants referral to a pulmonologist?",
+      "a": "A subsolid nodule",
+      "d": [
+        "A 4-mm solid nodule",
+        "A 6-mm solid nodule in a non-smoker",
+        "A solid nodule unchanged for 3 years"
+      ],
+      "why": "Along with solid nodules of 8 to 30 mm. Subsolid nodules carry a higher probability of malignancy at any size.",
+      "tags": [
+        "pulmonary-nodule",
+        "referral"
+      ]
+    },
+    {
+      "id": "ite25-11a",
+      "item": 11,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Chest pain, normal troponins, intermediate risk, a negative stress test six months ago. What is the next test?",
+      "a": "Coronary CT angiography",
+      "d": [
+        "Stress echocardiography",
+        "CT fractional flow reserve",
+        "Cardiac MRI"
+      ],
+      "why": "A stress test negative within the year is not repeated. The angiogram shows whether there is obstructive disease or plaque; MRI answers structural questions.",
+      "tags": [
+        "chest-pain",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-11b",
+      "item": 11,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Where does CT fractional flow reserve fit in the evaluation of chest pain?",
+      "a": "To decide on revascularisation once CT shows a stenosis",
+      "d": [
+        "As the first test in a patient at low risk",
+        "In place of serial troponins in the emergency room",
+        "To assess ventricular structure and scar"
+      ],
+      "why": "It estimates whether a stenosis seen on the angiogram limits flow, which is the question that decides on intervention.",
+      "tags": [
+        "chest-pain",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-22a",
+      "item": 22,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Angina on carvedilol with a heart rate of 52, normal ejection fraction, stage 4 CKD. What is added?",
+      "a": "Isosorbide mononitrate",
+      "d": [
+        "A higher dose of carvedilol",
+        "Ivabradine",
+        "Clopidogrel"
+      ],
+      "why": "A second first-line class once the first is at its tolerated maximum. The bradycardia blocks the beta blocker increase; clopidogrel does nothing for symptoms. Watch the blood pressure after the nitrate.",
+      "tags": [
+        "angina"
+      ]
+    },
+    {
+      "id": "ite25-22b",
+      "item": 22,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What is the guidance on ivabradine for angina in chronic coronary disease with a normal ejection fraction?",
+      "a": "Contraindicated and potentially harmful",
+      "d": [
+        "First-line with a beta blocker",
+        "Added when the heart rate stays over 70",
+        "Reserved for failure of three other classes"
+      ],
+      "why": "Ranolazine is the drug kept for patients already on two other classes, and cost is its main drawback.",
+      "tags": [
+        "angina",
+        "ivabradine"
+      ]
+    },
+    {
+      "id": "ite25-10a",
+      "item": 10,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Stable on antiretroviral therapy for ten years. Which tests are routine for everyone?",
+      "a": [
+        "Urinalysis at least yearly",
+        "A glomerular filtration rate at least twice yearly"
+      ],
+      "d": [
+        "A DXA scan yearly",
+        "Transient elastography yearly",
+        "Neurocognitive screening yearly",
+        "A Framingham risk score"
+      ],
+      "why": "The kidney tests catch drug nephrotoxicity. Bone density is for those at risk, neurocognitive testing is by indication, and Framingham is not validated in HIV.",
+      "tags": [
+        "hiv",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "ite25-10b",
+      "item": 10,
+      "type": "single",
+      "difficulty": 2,
+      "q": "In whom on antiretroviral therapy is liver fibrosis screening appropriate?",
+      "a": "Hepatitis B or C coinfection",
+      "d": [
+        "All patients, once a year",
+        "Patients on tenofovir",
+        "Patients with a raised ALT"
+      ],
+      "why": "The hepatitis viruses, not the antiretrovirals, drive fibrosis. A raised ALT prompts a work-up, not a screening programme.",
+      "tags": [
+        "hiv",
+        "liver"
+      ]
+    },
+    {
+      "id": "ite25-09a",
+      "item": 9,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Known immune thrombocytopenia, no bleeding, platelets 47,000. What treatment is given?",
+      "a": "No treatment",
+      "d": [
+        "Oral prednisone",
+        "Intravenous methylprednisolone",
+        "Rituximab"
+      ],
+      "why": "Steroids, intravenous immunoglobulin and rituximab are all used when treatment is needed. Hydroxychloroquine is not.",
+      "tags": [
+        "itp"
+      ]
+    },
+    {
+      "id": "ite25-09b",
+      "item": 9,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Below what platelet count is immune thrombocytopenia treated even without bleeding?",
+      "a": "30,000",
+      "d": [
+        "10,000",
+        "20,000",
+        "50,000"
+      ],
+      "options": [
+        "10,000",
+        "20,000",
+        "30,000",
+        "50,000"
+      ],
+      "why": "Active bleeding is the other trigger, at any count. The family physician decides whether to act today; the haematologist owns the long game.",
+      "tags": [
+        "itp"
+      ]
+    }
   ]
 }

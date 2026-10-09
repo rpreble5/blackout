@@ -3,69 +3,208 @@
   "title": "Office visits: bladder, sleep, drink and tremor",
   "short": "Office: mind and bladder",
   "specialty": "Family medicine",
-  "tags": ["ite", "incontinence", "insomnia", "alcohol", "parkinson"],
-  "source": {"citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 8, 12, 17 and 23. Each question cites its item. Provisional grouping; review before trusting.", "facts": "docs/facts/ite-2025.md"},
+  "tags": [
+    "ite",
+    "incontinence",
+    "insomnia",
+    "alcohol",
+    "parkinson"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 8, 12, 17 and 23. Each question cites its item. Provisional grouping; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
   "questions": [
-    {"id": "ite25-08a", "item": 8, "type": "multi", "difficulty": 2,
-     "q": "Uncomplicated urinary leakage in a 60-year-old. Which belong in the initial evaluation?",
-     "a": ["Urinalysis", "A cough stress test", "A post-void residual", "A 3-day voiding diary"],
-     "d": ["Renal and bladder ultrasound", "Urodynamic testing", "Cystoscopy"],
-     "why": "History decides whether it is transient or chronic and which subtype. The three imaging and instrumented tests wait for complicated or refractory cases.",
-     "tags": ["incontinence"]},
-    {"id": "ite25-08b", "item": 8, "type": "single", "difficulty": 2,
-     "q": "Which finding at the first visit for incontinence calls for specialist referral?",
-     "a": "Pelvic organ prolapse",
-     "d": ["Obesity", "A previous hysterectomy", "Three prior deliveries"],
-     "why": "Fistula is the other red flag. The three distractors are risk factors, and the first-line treatments are weight loss, pelvic floor training and fluid advice.",
-     "tags": ["incontinence", "referral"]},
-    {"id": "ite25-23a", "item": 23, "type": "single", "difficulty": 1,
-     "q": "Which is a component of sleep hygiene education within CBT for insomnia?",
-     "a": "Waking at the same time every day",
-     "d": ["Decreasing time spent in bed", "A short daytime nap", "A clock beside the bed"],
-     "why": "Cutting time in bed belongs to sleep restriction, a separate part of CBT-I. Stimulus control is the third part: bed only when sleepy, bedroom for sleep and sex.",
-     "tags": ["insomnia", "cbt-i"]},
-    {"id": "ite25-23b", "item": 23, "type": "single", "difficulty": 3, "order": "fixed",
-     "q": "In sleep restriction, time in bed is extended once sleep efficiency reaches what level?",
-     "a": "90%",
-     "d": ["70%", "80%", "95%"],
-     "options": ["70%", "80%", "90%", "95%"],
-     "why": "Then by 15 minutes a week. Sleep efficiency is time asleep over time in bed.",
-     "tags": ["insomnia", "cbt-i"]},
-    {"id": "ite25-23c", "item": 23, "type": "single", "difficulty": 2,
-     "q": "Four weeks of poor sleep after a bereavement. What is the first step in management?",
-     "a": "Identify and address the precipitant",
-     "d": ["A hypnotic for two weeks", "Sleep restriction", "Polysomnography"],
-     "why": "Acute insomnia runs at least 3 nights a week for 1 week to 3 months and usually has a cause. CBT-I is first-line when the patient wants to avoid drugs.",
-     "tags": ["insomnia"]},
-    {"id": "ite25-12a", "item": 12, "type": "single", "difficulty": 1,
-     "q": "Two weeks sober and asking for a drug to stay that way. Which is recommended?",
-     "a": "Acamprosate",
-     "d": ["Disulfiram", "Gabapentin", "Topiramate"],
-     "why": "Fewer than 2% of people with alcohol use disorder are prescribed anything. Acamprosate carries the strongest rating for maintaining abstinence already achieved.",
-     "tags": ["alcohol"]},
-    {"id": "ite25-12b", "item": 12, "type": "single", "difficulty": 2,
-     "q": "What is gabapentin's role in alcohol use disorder?",
-     "a": "Preventing withdrawal, including in people still drinking",
-     "d": ["Maintaining abstinence once achieved", "Making drinking aversive", "Reducing craving after detox only"],
-     "why": "Topiramate is the one that reduces heavy drinking in someone not yet abstinent. Acamprosate belongs to the abstinent.",
-     "tags": ["alcohol"]},
-    {"id": "ite25-12c", "item": 12, "type": "single", "difficulty": 3,
-     "q": "Which alcohol use disorder drug lacks sufficient evidence to recommend?",
-     "a": "Disulfiram",
-     "d": ["Acamprosate", "Gabapentin", "Topiramate"],
-     "why": "Acamprosate and gabapentin carry SOR A ratings for their roles, topiramate SOR B.",
-     "tags": ["alcohol"]},
-    {"id": "ite25-17a", "item": 17, "type": "multi", "difficulty": 1,
-     "q": "Shuffling gait, resting tremor, cogwheel rigidity at 75. Which are first-line drugs?",
-     "a": ["Carbidopa/levodopa", "An MAO-B inhibitor", "A non-ergot dopamine agonist"],
-     "d": ["Propranolol", "Amitriptyline", "Gabapentin", "Fluoxetine"],
-     "why": "Amitriptyline and fluoxetine are both on the Beers list for older adults, and the flat affect here is parkinsonism, not depression.",
-     "tags": ["parkinson"]},
-    {"id": "ite25-17b", "item": 17, "type": "single", "difficulty": 2,
-     "q": "Propranolol is the treatment for which tremor?",
-     "a": "Essential tremor",
-     "d": ["The resting tremor of Parkinson disease", "Cerebellar intention tremor", "Asterixis of liver failure"],
-     "why": "The resting, pill-rolling tremor with rigidity and a shuffling gait is Parkinson disease and gets dopamine replacement.",
-     "tags": ["parkinson", "tremor"]}
+    {
+      "id": "ite25-08a",
+      "item": 8,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Uncomplicated urinary leakage in a 60-year-old. Which belong in the initial evaluation?",
+      "a": [
+        "Urinalysis",
+        "A cough stress test",
+        "A post-void residual",
+        "A 3-day voiding diary"
+      ],
+      "d": [
+        "Renal and bladder ultrasound",
+        "Urodynamic testing",
+        "Cystoscopy"
+      ],
+      "why": "History decides whether it is transient or chronic and which subtype. The three imaging and instrumented tests wait for complicated or refractory cases.",
+      "tags": [
+        "incontinence"
+      ]
+    },
+    {
+      "id": "ite25-08b",
+      "item": 8,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which finding at the first visit for incontinence calls for specialist referral?",
+      "a": "Pelvic organ prolapse",
+      "d": [
+        "Obesity",
+        "A previous hysterectomy",
+        "Three prior deliveries"
+      ],
+      "why": "Fistula is the other red flag. The three distractors are risk factors, and the first-line treatments are weight loss, pelvic floor training and fluid advice.",
+      "tags": [
+        "incontinence",
+        "referral"
+      ]
+    },
+    {
+      "id": "ite25-23a",
+      "item": 23,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Which is a component of sleep hygiene education within CBT for insomnia?",
+      "a": "Waking at the same time every day",
+      "d": [
+        "Decreasing time spent in bed",
+        "A short daytime nap",
+        "A clock beside the bed"
+      ],
+      "why": "Cutting time in bed belongs to sleep restriction, a separate part of CBT-I. Stimulus control is the third part: bed only when sleepy, bedroom for sleep and sex.",
+      "tags": [
+        "insomnia",
+        "cbt-i"
+      ]
+    },
+    {
+      "id": "ite25-23b",
+      "item": 23,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "In sleep restriction, time in bed is extended once sleep efficiency reaches what level?",
+      "a": "90%",
+      "d": [
+        "70%",
+        "80%",
+        "95%"
+      ],
+      "options": [
+        "70%",
+        "80%",
+        "90%",
+        "95%"
+      ],
+      "why": "Then by 15 minutes a week. Sleep efficiency is time asleep over time in bed.",
+      "tags": [
+        "insomnia",
+        "cbt-i"
+      ]
+    },
+    {
+      "id": "ite25-23c",
+      "item": 23,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Four weeks of poor sleep after a bereavement. What is the first step in management?",
+      "a": "Identify and address the precipitant",
+      "d": [
+        "A two-week course of a hypnotic",
+        "A course of sleep restriction",
+        "An overnight sleep study"
+      ],
+      "why": "Acute insomnia runs at least 3 nights a week for 1 week to 3 months and usually has a cause. CBT-I is first-line when the patient wants to avoid drugs.",
+      "tags": [
+        "insomnia"
+      ]
+    },
+    {
+      "id": "ite25-12a",
+      "item": 12,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Two weeks sober and asking for a drug to stay that way. Which is recommended?",
+      "a": "Acamprosate",
+      "d": [
+        "Disulfiram",
+        "Gabapentin",
+        "Topiramate"
+      ],
+      "why": "Fewer than 2% of people with alcohol use disorder are prescribed anything. Acamprosate carries the strongest rating for maintaining abstinence already achieved.",
+      "tags": [
+        "alcohol"
+      ]
+    },
+    {
+      "id": "ite25-12b",
+      "item": 12,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is gabapentin's role in alcohol use disorder?",
+      "a": "Preventing withdrawal, even while still drinking",
+      "d": [
+        "Maintaining abstinence once it is achieved",
+        "Making drinking physically aversive",
+        "Reducing craving only after detox"
+      ],
+      "why": "Topiramate is the one that reduces heavy drinking in someone not yet abstinent. Acamprosate belongs to the abstinent.",
+      "tags": [
+        "alcohol"
+      ]
+    },
+    {
+      "id": "ite25-12c",
+      "item": 12,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What does the evidence say about disulfiram for alcohol use disorder?",
+      "a": "Insufficient to recommend it",
+      "d": [
+        "SOR A for maintaining abstinence",
+        "SOR A for preventing withdrawal",
+        "SOR B for reducing heavy drinking"
+      ],
+      "why": "It still has its users, but on the evidence it is the one of the four the guideline cannot endorse.",
+      "tags": [
+        "alcohol"
+      ]
+    },
+    {
+      "id": "ite25-17a",
+      "item": 17,
+      "type": "multi",
+      "difficulty": 1,
+      "q": "Shuffling gait, resting tremor, cogwheel rigidity at 75. Which are first-line drugs?",
+      "a": [
+        "Carbidopa/levodopa",
+        "Rasagiline",
+        "Pramipexole"
+      ],
+      "d": [
+        "Propranolol",
+        "Amitriptyline",
+        "Gabapentin",
+        "Fluoxetine"
+      ],
+      "why": "Rasagiline is an MAO-B inhibitor and pramipexole a non-ergot dopamine agonist, the other two first-line classes. Amitriptyline and fluoxetine are on the Beers list, and the flat affect here is parkinsonism, not depression.",
+      "tags": [
+        "parkinson"
+      ]
+    },
+    {
+      "id": "ite25-17b",
+      "item": 17,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which feature separates the tremor of Parkinson disease from essential tremor?",
+      "a": "It is present at rest",
+      "d": [
+        "It is worse during movement",
+        "It is symmetric from the start",
+        "It improves with alcohol"
+      ],
+      "why": "Essential tremor is an action tremor, often symmetric, often eased by alcohol, and propranolol treats it. The resting pill-rolling tremor gets dopamine replacement.",
+      "tags": [
+        "parkinson",
+        "tremor"
+      ]
+    }
   ]
 }

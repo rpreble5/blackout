@@ -3,70 +3,207 @@
   "title": "Office visits: gut, skin, feet and teeth",
   "short": "Office: gut and skin",
   "specialty": "Family medicine",
-  "tags": ["ite", "ibs", "poison-ivy", "foot-fracture", "fluoride", "quality-improvement"],
-  "source": {"citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 1, 3, 6, 13 and 16. Each question cites its item. Provisional grouping; review before trusting.", "facts": "docs/facts/ite-2025.md"},
+  "tags": [
+    "ite",
+    "ibs",
+    "poison-ivy",
+    "foot-fracture",
+    "fluoride",
+    "quality-improvement"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 1, 3, 6, 13 and 16. Each question cites its item. Provisional grouping; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
   "questions": [
-    {"id": "ite25-06a", "item": 6, "type": "single", "difficulty": 1,
-     "q": "Which drug has the best evidence for the typical symptoms of diarrhoea-predominant IBS?",
-     "a": "Rifaximin",
-     "d": ["Amitriptyline", "Dicyclomine", "Linaclotide"],
-     "why": "It covers diarrhoea, pain and bloating, with few adverse effects and a high price. Amitriptyline and dicyclomine often help but with weaker evidence.",
-     "tags": ["ibs"]},
-    {"id": "ite25-06b", "item": 6, "type": "single", "difficulty": 2, "order": "fixed",
-     "q": "How long is a course of rifaximin for diarrhoea-predominant IBS?",
-     "a": "14 days",
-     "d": ["3 days", "7 days", "28 days"],
-     "options": ["3 days", "7 days", "14 days", "28 days"],
-     "why": "Repeated for recurrence. Linaclotide and lubiprostone are constipation-predominant drugs, and the diarrhoea linaclotide causes is why many patients stop it.",
-     "tags": ["ibs", "rifaximin"]},
-    {"id": "ite25-13a", "item": 13, "type": "single", "difficulty": 2,
-     "q": "Vesicles and bullae on the hands, face and genitals two days after camping. What is prescribed?",
-     "a": "Prednisone 1 mg/kg tapered over 15 days",
-     "d": ["A 5-day methylprednisolone pack", "Topical clobetasol twice daily", "Subcutaneous triamcinolone"],
-     "why": "Face, genitals or bullae mean systemic treatment. Potent topicals do nothing for bullae and are contraindicated on the face and genitals; triamcinolone, if used, goes intramuscularly, since subcutaneous injection causes lipoatrophy.",
-     "tags": ["poison-ivy", "steroids"]},
-    {"id": "ite25-13b", "item": 13, "type": "single", "difficulty": 2,
-     "q": "What commonly follows a 5-day methylprednisolone pack for extensive poison ivy?",
-     "a": "Rebound of the rash",
-     "d": ["Adrenal suppression", "Secondary bacterial infection", "Lipoatrophy at the site"],
-     "why": "A type IV reaction needs enough dose for long enough, and rebound is the sign the course was too short, not that the diagnosis was wrong.",
-     "tags": ["poison-ivy", "steroids"]},
-    {"id": "ite25-13c", "item": 13, "type": "single", "difficulty": 1,
-     "q": "Why does a poison ivy rash seem to spread over several days?",
-     "a": "Different areas got different amounts of resin and react at different times",
-     "d": ["Blister fluid carries the allergen", "Scratching inoculates new skin", "It passes from person to person"],
-     "why": "Onset is 12 to 72 hours after contact and needs prior sensitisation. Blister fluid contains no urushiol, so draining bullae has no place.",
-     "tags": ["poison-ivy"]},
-    {"id": "ite25-03a", "item": 3, "type": "single", "difficulty": 2,
-     "q": "A fifth metatarsal shaft fracture in a healthy adult who can bear weight. What is the treatment?",
-     "a": "Weight-bearing in a boot for 3 to 6 weeks",
-     "d": ["Non-weight-bearing in a boot for 3 to 6 weeks", "A short leg cast for 6 weeks", "Orthopaedic referral"],
-     "why": "A hard-soled shoe serves as well as the boot. Orthopaedics is for a fracture that needs reduction, or for nonunion at six months.",
-     "tags": ["foot-fracture"]},
-    {"id": "ite25-03b", "item": 3, "type": "single", "difficulty": 3,
-     "q": "Which foot fractures are managed in a short leg cast rather than a boot?",
-     "a": "Proximal fifth metatarsal and tarsal fractures",
-     "d": ["Metatarsal shaft fractures", "Toe fractures", "All foot fractures in adults"],
-     "why": "Foot fractures are about a third of adult lower-limb fractures. Nonunion, malunion, arthritis and compartment syndrome are the complications to warn about.",
-     "tags": ["foot-fracture"]},
-    {"id": "ite25-16a", "item": 16, "type": "single", "difficulty": 1,
-     "q": "A teething 6-month-old in a town without fluoridated water. Besides a fluoride supplement, what is advised?",
-     "a": "Brushing with a rice-sized smear of fluoride toothpaste",
-     "d": ["Fluoride mouthwash until age 5", "Varnish once a year from age 1", "Varnish twice a year from age 3"],
-     "why": "Pea-sized from age 3. Mouthwash waits until 6, when a child can reliably spit, since swallowed fluoride causes fluorosis.",
-     "tags": ["fluoride", "paediatrics"]},
-    {"id": "ite25-16b", "item": 16, "type": "single", "difficulty": 2, "order": "fixed",
-     "q": "How often is fluoride varnish applied to a child at usual caries risk?",
-     "a": "Every 6 months",
-     "d": ["Every 3 months", "Every 12 months", "Every 24 months"],
-     "options": ["Every 3 months", "Every 6 months", "Every 12 months", "Every 24 months"],
-     "why": "Every 3 months at high risk, starting with the first tooth in both cases.",
-     "tags": ["fluoride", "paediatrics"]},
-    {"id": "ite25-01a", "item": 1, "type": "single", "difficulty": 1,
-     "q": "Cervical screening rates lag the other cancer screens. What is the first step of the improvement project?",
-     "a": "Find out what the barriers are",
-     "d": ["Set up chart review and outreach to overdue patients", "Put posters in the clinic", "Send general reminders to clinicians"],
-     "why": "Patient-specific reminders at the point of care are the intervention most likely to work later, but a fix chosen before the cause is known tends to miss it.",
-     "tags": ["quality-improvement"]}
+    {
+      "id": "ite25-06a",
+      "item": 6,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Which drug has the best evidence for the typical symptoms of diarrhoea-predominant IBS?",
+      "a": "Rifaximin",
+      "d": [
+        "Amitriptyline",
+        "Dicyclomine",
+        "Linaclotide"
+      ],
+      "why": "It covers diarrhoea, pain and bloating, with few adverse effects and a high price. Amitriptyline and dicyclomine often help but with weaker evidence.",
+      "tags": [
+        "ibs"
+      ]
+    },
+    {
+      "id": "ite25-06b",
+      "item": 6,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "How long is a course of rifaximin for diarrhoea-predominant IBS?",
+      "a": "14 days",
+      "d": [
+        "3 days",
+        "7 days",
+        "28 days"
+      ],
+      "options": [
+        "3 days",
+        "7 days",
+        "14 days",
+        "28 days"
+      ],
+      "why": "Repeated for recurrence. Linaclotide and lubiprostone are constipation-predominant drugs, and the diarrhoea linaclotide causes is why many patients stop it.",
+      "tags": [
+        "ibs",
+        "rifaximin"
+      ]
+    },
+    {
+      "id": "ite25-13a",
+      "item": 13,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Vesicles and bullae on the hands, face and genitals two days after camping. What is prescribed?",
+      "a": "Prednisone 1 mg/kg tapered over 15 days",
+      "d": [
+        "A 5-day methylprednisolone pack",
+        "Topical clobetasol twice daily",
+        "Subcutaneous triamcinolone"
+      ],
+      "why": "Face, genitals or bullae mean systemic treatment. Potent topicals do nothing for bullae and are contraindicated on the face and genitals; triamcinolone, if used, goes intramuscularly, since subcutaneous injection causes lipoatrophy.",
+      "tags": [
+        "poison-ivy",
+        "steroids"
+      ]
+    },
+    {
+      "id": "ite25-13b",
+      "item": 13,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What commonly follows a 5-day methylprednisolone pack for extensive poison ivy?",
+      "a": "Rebound of the rash",
+      "d": [
+        "Adrenal suppression",
+        "Secondary bacterial infection",
+        "Lipoatrophy at the site"
+      ],
+      "why": "A type IV reaction needs enough dose for long enough, and rebound is the sign the course was too short, not that the diagnosis was wrong.",
+      "tags": [
+        "poison-ivy",
+        "steroids"
+      ]
+    },
+    {
+      "id": "ite25-13c",
+      "item": 13,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Why does a poison ivy rash seem to spread over several days?",
+      "a": "Areas with less resin react later",
+      "d": [
+        "Fluid from the blisters carries the allergen",
+        "Scratching inoculates fresh skin",
+        "It passes from person to person"
+      ],
+      "why": "Onset is 12 to 72 hours after contact and needs prior sensitisation. Blister fluid contains no urushiol, so draining bullae has no place.",
+      "tags": [
+        "poison-ivy"
+      ]
+    },
+    {
+      "id": "ite25-03a",
+      "item": 3,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A fifth metatarsal shaft fracture in a healthy adult who can bear weight. What is the treatment?",
+      "a": "Weight-bearing in a boot for 3 to 6 weeks",
+      "d": [
+        "Non-weight-bearing in a boot for 3 to 6 weeks",
+        "A short leg cast for 6 weeks",
+        "Orthopaedic referral"
+      ],
+      "why": "A hard-soled shoe serves as well as the boot. Orthopaedics is for a fracture that needs reduction, or for nonunion at six months.",
+      "tags": [
+        "foot-fracture"
+      ]
+    },
+    {
+      "id": "ite25-03b",
+      "item": 3,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Which foot fractures are managed in a short leg cast rather than a boot?",
+      "a": "Proximal fifth metatarsal and tarsal fractures",
+      "d": [
+        "Fractures of the metatarsal shaft",
+        "Fractures of the toe phalanges",
+        "Fractures in anyone unable to bear weight"
+      ],
+      "why": "Foot fractures are about a third of adult lower-limb fractures. Nonunion, malunion, arthritis and compartment syndrome are the complications to warn about.",
+      "tags": [
+        "foot-fracture"
+      ]
+    },
+    {
+      "id": "ite25-16a",
+      "item": 16,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A teething 6-month-old in a town without fluoridated water. Besides a fluoride supplement, what is advised?",
+      "a": "A rice-sized smear of fluoride toothpaste",
+      "d": [
+        "Fluoride mouthwash as an adjunct until age 5",
+        "Fluoride varnish once a year from age 1",
+        "Fluoride varnish twice a year from age 3"
+      ],
+      "why": "Pea-sized from age 3. Mouthwash waits until 6, when a child can reliably spit, since swallowed fluoride causes fluorosis.",
+      "tags": [
+        "fluoride",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-16b",
+      "item": 16,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "How often is fluoride varnish applied to a child at usual caries risk?",
+      "a": "Every 6 months",
+      "d": [
+        "Every 3 months",
+        "Every 12 months",
+        "Every 24 months"
+      ],
+      "options": [
+        "Every 3 months",
+        "Every 6 months",
+        "Every 12 months",
+        "Every 24 months"
+      ],
+      "why": "Every 3 months at high risk, starting with the first tooth in both cases.",
+      "tags": [
+        "fluoride",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-01a",
+      "item": 1,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Cervical screening rates lag the other cancer screens. What is the first step of the improvement project?",
+      "a": "Find out what the barriers are",
+      "d": [
+        "Set up chart review and outreach to overdue patients",
+        "Put posters in the clinic",
+        "Send general reminders to clinicians"
+      ],
+      "why": "Patient-specific reminders at the point of care are the intervention most likely to work later, but a fix chosen before the cause is known tends to miss it.",
+      "tags": [
+        "quality-improvement"
+      ]
+    }
   ]
 }

@@ -6,10 +6,10 @@ One line per question: id, type, difficulty, the question, then the correct answ
 
 Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 4, 5, 15, 20, 21 and 25. Each question cites its item. Provisional grouping; review before trusting.
 
-- **ite25-04a** (single, d1, 4 options) Septic shock from pneumonia. MAP is 58 mm Hg after 30 mL/kg of crystalloid and antibiotics. What is next?
-  → Start a norepinephrine infusion
-- **ite25-04b** (single, d1, 4 options, fixed order) How much crystalloid does the sepsis bundle call for in the first three hours of septic shock?
-  → 30 mL/kg
+- **ite25-04a** (single, d1, 4 options) Septic shock, MAP 58 after the full bolus and antibiotics, no central access yet. How is the vasopressor started?
+  → Through a peripheral line now
+- **ite25-04b** (single, d2, 4 options) Septic shock on norepinephrine with the MAP still under 65 mm Hg. What is added?
+  → Vasopressin
 - **ite25-05a** (single, d1, 4 options) Thyroid storm after methimazole was stopped. Which drug is given first?
   → Propylthiouracil
 - **ite25-05b** (single, d2, 4 options, fixed order) In thyroid storm, when is iodine given relative to the thionamide?
@@ -18,8 +18,8 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → It blocks conversion of T4 to T3
 - **ite25-15a** (single, d2, 4 options) Epigastric pain on ibuprofen and nightly beer. BUN 37, haemoglobin 8.8, stable. What is next?
   → Start a proton pump inhibitor
-- **ite25-15b** (single, d2, 4 options, fixed order) Upper GI bleed in a patient with coronary disease. Below what haemoglobin is transfusion recommended?
-  → 8 g/dL
+- **ite25-15b** (single, d2, 4 options) Upper GI bleed. When is arterial embolisation used?
+  → After endoscopy fails to control the bleeding
 - **ite25-21a** (single, d1, 4 options) Forty-five minutes of nosebleed on warfarin, blood pressure 170/100, no orthostasis. What is the first step?
   → Pinch the soft lower nose
 - **ite25-21b** (single, d2, 4 options) When is reversal of anticoagulation considered in epistaxis?
@@ -31,7 +31,7 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
 - **ite25-20a** (single, d1, 4 options) A gunshot victim with capacity and a signed blood refusal directive is dying of haemorrhage. What is done?
   → His refusal is respected
 - **ite25-20b** (single, d2, 4 options) When may a Jehovah's Witness be transfused?
-  → Incapacitated, with no refusal directive and no surrogate
+  → Incapacitated, with no directive and no surrogate
 
 ## Endocrine: when to test and when to treat (10 questions)
 
@@ -50,7 +50,7 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
 - **ite25-24a** (single, d2, 4 options) TSH 6, free T4 normal, mild symptoms, not pregnant. Which finding would make levothyroxine indicated?
   → Raised thyroid peroxidase antibodies
 - **ite25-24b** (single, d3, 4 options) Which persistent symptom is an accepted indication for treating subclinical hypothyroidism?
-  → Depression resistant to treatment
+  → Treatment-resistant depression
 - **ite25-19a** (single, d1, 4 options) Disruptive hot flashes at 52, previous hysterectomy. What is the most effective treatment?
   → Oral or transdermal oestrogen
 - **ite25-19b** (single, d2, 4 options) Which non-hormonal drug is FDA-approved for menopausal hot flashes?
@@ -71,7 +71,7 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
 - **ite25-11a** (single, d2, 4 options) Chest pain, normal troponins, intermediate risk, a negative stress test six months ago. What is the next test?
   → Coronary CT angiography
 - **ite25-11b** (single, d3, 4 options) Where does CT fractional flow reserve fit in the evaluation of chest pain?
-  → After CT angiography shows a stenosis, to guide revascularisation
+  → To decide on revascularisation once CT shows a stenosis
 - **ite25-22a** (single, d2, 4 options) Angina on carvedilol with a heart rate of 52, normal ejection fraction, stage 4 CKD. What is added?
   → Isosorbide mononitrate
 - **ite25-22b** (single, d3, 4 options) What is the guidance on ivabradine for angina in chronic coronary disease with a normal ejection fraction?
@@ -81,7 +81,7 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
 - **ite25-10b** (single, d2, 4 options) In whom on antiretroviral therapy is liver fibrosis screening appropriate?
   → Hepatitis B or C coinfection
 - **ite25-09a** (single, d1, 4 options) Known immune thrombocytopenia, no bleeding, platelets 47,000. What treatment is given?
-  → None
+  → No treatment
 - **ite25-09b** (single, d2, 4 options, fixed order) Below what platelet count is immune thrombocytopenia treated even without bleeding?
   → 30,000
 
@@ -98,13 +98,13 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
 - **ite25-13b** (single, d2, 4 options) What commonly follows a 5-day methylprednisolone pack for extensive poison ivy?
   → Rebound of the rash
 - **ite25-13c** (single, d1, 4 options) Why does a poison ivy rash seem to spread over several days?
-  → Different areas got different amounts of resin and react at different times
+  → Areas with less resin react later
 - **ite25-03a** (single, d2, 4 options) A fifth metatarsal shaft fracture in a healthy adult who can bear weight. What is the treatment?
   → Weight-bearing in a boot for 3 to 6 weeks
 - **ite25-03b** (single, d3, 4 options) Which foot fractures are managed in a short leg cast rather than a boot?
   → Proximal fifth metatarsal and tarsal fractures
 - **ite25-16a** (single, d1, 4 options) A teething 6-month-old in a town without fluoridated water. Besides a fluoride supplement, what is advised?
-  → Brushing with a rice-sized smear of fluoride toothpaste
+  → A rice-sized smear of fluoride toothpaste
 - **ite25-16b** (single, d2, 4 options, fixed order) How often is fluoride varnish applied to a child at usual caries risk?
   → Every 6 months
 - **ite25-01a** (single, d1, 4 options) Cervical screening rates lag the other cancer screens. What is the first step of the improvement project?
@@ -127,10 +127,10 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
 - **ite25-12a** (single, d1, 4 options) Two weeks sober and asking for a drug to stay that way. Which is recommended?
   → Acamprosate
 - **ite25-12b** (single, d2, 4 options) What is gabapentin's role in alcohol use disorder?
-  → Preventing withdrawal, including in people still drinking
-- **ite25-12c** (single, d3, 4 options) Which alcohol use disorder drug lacks sufficient evidence to recommend?
-  → Disulfiram
+  → Preventing withdrawal, even while still drinking
+- **ite25-12c** (single, d3, 4 options) What does the evidence say about disulfiram for alcohol use disorder?
+  → Insufficient to recommend it
 - **ite25-17a** (multi, d1, 7 options) Shuffling gait, resting tremor, cogwheel rigidity at 75. Which are first-line drugs?
-  → Carbidopa/levodopa + An MAO-B inhibitor + A non-ergot dopamine agonist
-- **ite25-17b** (single, d2, 4 options) Propranolol is the treatment for which tremor?
-  → Essential tremor
+  → Carbidopa/levodopa + Rasagiline + Pramipexole
+- **ite25-17b** (single, d2, 4 options) Which feature separates the tremor of Parkinson disease from essential tremor?
+  → It is present at rest

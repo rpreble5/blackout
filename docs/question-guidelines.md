@@ -37,6 +37,12 @@ game. When a note changes a rule, the rule changes here and the note is cited.
 - Distractors match the correct answer in type, length and specificity. If
   the answer is a number with units, every option is a number with the same
   units in a plausible range.
+- **Options are matched in length.** The correct option is never the only
+  long one or the only short one; keep every option within about a third of
+  the others, and give distractors the same specificity as the answer. (From
+  the self-review of the first ITE batch, 2026-10-09.)
+- Distractors avoid absolute words (always, never, everyone, only); they
+  read as tells.
 - No negatives ("which is not"), no "all of the above", no trick wording.
 - Questions fit the size range (about 50 to 110 characters reads best).
   Options fit two lines at 17px; about 45 characters, 95 at the outside.
@@ -88,8 +94,12 @@ game. When a note changes a rule, the rule changes here and the note is cited.
   distractor dismissed without a reason does not earn a question.
 - The pivot, when the critique names one (the finding that made A right and
   B wrong), is the best question of the set and is written first.
-- Topics are grouped by clinical area, not by item number, and the grouping
-  is provisional until the whole exam is in.
+- The ITE set is a pool: its topic files are authoring batches of any size,
+  and every planet is a random hand of ten.
+- An ITE question does not re-test a fact Foundations already holds; take the
+  item's pivot or a why-not that Foundations lacks instead.
+- Aim for a third of each batch at difficulty 3 and at least a fifth
+  multi-select; the critiques' lists are the multi-select material.
 
 ## Rules added from feedback
 

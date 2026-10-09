@@ -3,69 +3,215 @@
   "title": "Endocrine: when to test and when to treat",
   "short": "Endocrine",
   "specialty": "Family medicine",
-  "tags": ["ite", "prediabetes", "pituitary", "hypothyroidism", "menopause", "neuropathy"],
-  "source": {"citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 2, 7, 18, 19 and 24. Each question cites its item. Provisional grouping; review before trusting.", "facts": "docs/facts/ite-2025.md"},
+  "tags": [
+    "ite",
+    "prediabetes",
+    "pituitary",
+    "hypothyroidism",
+    "menopause",
+    "neuropathy"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 2, 7, 18, 19 and 24. Each question cites its item. Provisional grouping; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
   "questions": [
-    {"id": "ite25-02a", "item": 2, "type": "single", "difficulty": 1,
-     "q": "A 32-year-old with an A1c of 6.1%. Which intervention best prevents progression to diabetes?",
-     "a": "An intensive lifestyle and behaviour programme",
-     "d": ["A low-carbohydrate diet", "Cutting 250 kcal a day", "Ninety minutes of strength training a week"],
-     "why": "The Diabetes Prevention Programme model cut new diabetes by 27% over 15 years in one cohort. Dietary pattern evidence, low-carbohydrate included, is weaker.",
-     "tags": ["prediabetes"]},
-    {"id": "ite25-02b", "item": 2, "type": "single", "difficulty": 2, "order": "fixed",
-     "q": "What weight loss do diabetes prevention programmes set as the goal?",
-     "a": "7%",
-     "d": ["3%", "5%", "10%"],
-     "options": ["3%", "5%", "7%", "10%"],
-     "why": "Reached through a 500 to 1000 kcal daily deficit and 150 minutes of activity a week, of which up to 75 can be strength training.",
-     "tags": ["prediabetes", "weight"]},
-    {"id": "ite25-18a", "item": 18, "type": "single", "difficulty": 1,
-     "q": "Headache, growing hands and feet, carpal tunnel symptoms, and a 7-mm pituitary adenoma. Which test is abnormal?",
-     "a": "Serum IGF-1",
-     "d": ["Serum prolactin", "Dexamethasone suppression test", "TSH"],
-     "why": "A somatotroph adenoma. Prolactin would be the test with galactorrhoea and amenorrhoea; a thyrotroph adenoma raises TSH and T4 together.",
-     "tags": ["pituitary", "acromegaly"]},
-    {"id": "ite25-18b", "item": 18, "type": "multi", "difficulty": 2,
-     "q": "Which features point to a growth hormone-secreting adenoma rather than another type?",
-     "a": ["Enlarging hands and feet", "Coarsening of the facial features", "Carpal tunnel symptoms", "Enlargement of the jaw"],
-     "d": ["Galactorrhoea", "Easy bruising with weight gain", "Heat intolerance and palpitations"],
-     "why": "Menstrual irregularity and proximal weakness occur with several adenoma types and do not discriminate. The three distractors belong to prolactin, cortisol and TSH excess in turn.",
-     "tags": ["pituitary", "acromegaly"]},
-    {"id": "ite25-18c", "item": 18, "type": "single", "difficulty": 2,
-     "q": "A pituitary adenoma with weight gain, easy bruising and proximal weakness. Which test confirms the diagnosis?",
-     "a": "A dexamethasone suppression test",
-     "d": ["Serum IGF-1", "Serum prolactin", "Free T4"],
-     "why": "Cushing disease from a corticotroph adenoma. Easy bruising is the feature that separates it from the other adenoma types.",
-     "tags": ["pituitary", "cushing"]},
-    {"id": "ite25-24a", "item": 24, "type": "single", "difficulty": 2,
-     "q": "TSH 6, free T4 normal, mild symptoms, not pregnant. Which finding would make levothyroxine indicated?",
-     "a": "Raised thyroid peroxidase antibodies",
-     "d": ["A repeat TSH of 6 in six weeks", "A repeat TSH of 8 in six weeks", "Constipation resistant to treatment"],
-     "why": "A TSH over 10 is the other accepted trigger. Repeating the TSH at 4 to 6 weeks is still right, to confirm the rise is not transient; T3 is not routinely measured.",
-     "tags": ["hypothyroidism", "subclinical"]},
-    {"id": "ite25-24b", "item": 24, "type": "single", "difficulty": 3,
-     "q": "Which persistent symptom is an accepted indication for treating subclinical hypothyroidism?",
-     "a": "Depression resistant to treatment",
-     "d": ["Constipation", "Cold intolerance", "Fatigue"],
-     "why": "Symptoms alone, however typical, do not earn treatment while the TSH is under 10 and the antibodies are negative.",
-     "tags": ["hypothyroidism", "subclinical"]},
-    {"id": "ite25-19a", "item": 19, "type": "single", "difficulty": 1,
-     "q": "Disruptive hot flashes at 52, previous hysterectomy. What is the most effective treatment?",
-     "a": "Oral or transdermal oestrogen",
-     "d": ["Vaginal oestradiol cream", "Transdermal testosterone", "Soy phytoestrogens"],
-     "why": "No progestogen is needed without a uterus. Vaginal oestrogen treats vaginal symptoms, not flashes; testosterone does nothing for them; soy evidence is inconsistent.",
-     "tags": ["menopause", "vasomotor"]},
-    {"id": "ite25-19b", "item": 19, "type": "single", "difficulty": 2,
-     "q": "Which non-hormonal drug is FDA-approved for menopausal hot flashes?",
-     "a": "Paroxetine",
-     "d": ["Sertraline", "Bupropion", "Trazodone"],
-     "why": "SSRIs and SNRIs as a class are effective alternatives to oestrogen, but paroxetine is the one that carries the label.",
-     "tags": ["menopause", "vasomotor"]},
-    {"id": "ite25-07a", "item": 7, "type": "multi", "difficulty": 1,
-     "q": "Which drugs are first-line for painful diabetic neuropathy?",
-     "a": ["Gabapentin", "Pregabalin", "Duloxetine", "Amitriptyline"],
-     "d": ["Topical lidocaine", "Topical capsaicin", "Hydrocodone", "Transcutaneous nerve stimulation"],
-     "why": "Lidocaine and capsaicin are second-line with less evidence, stimulation has modest benefit, and opioids are avoided in neuropathic pain altogether.",
-     "tags": ["neuropathy", "pain"]}
+    {
+      "id": "ite25-02a",
+      "item": 2,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 32-year-old with an A1c of 6.1%. Which intervention best prevents progression to diabetes?",
+      "a": "An intensive lifestyle and behaviour programme",
+      "d": [
+        "A low-carbohydrate diet",
+        "Cutting 250 kcal a day",
+        "Ninety minutes of strength training a week"
+      ],
+      "why": "The Diabetes Prevention Programme model cut new diabetes by 27% over 15 years in one cohort. Dietary pattern evidence, low-carbohydrate included, is weaker.",
+      "tags": [
+        "prediabetes"
+      ]
+    },
+    {
+      "id": "ite25-02b",
+      "item": 2,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "What weight loss do diabetes prevention programmes set as the goal?",
+      "a": "7%",
+      "d": [
+        "3%",
+        "5%",
+        "10%"
+      ],
+      "options": [
+        "3%",
+        "5%",
+        "7%",
+        "10%"
+      ],
+      "why": "Reached through a 500 to 1000 kcal daily deficit and 150 minutes of activity a week, of which up to 75 can be strength training.",
+      "tags": [
+        "prediabetes",
+        "weight"
+      ]
+    },
+    {
+      "id": "ite25-18a",
+      "item": 18,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Headache, growing hands and feet, carpal tunnel symptoms, and a 7-mm pituitary adenoma. Which test is abnormal?",
+      "a": "Serum IGF-1",
+      "d": [
+        "Serum prolactin",
+        "Dexamethasone suppression test",
+        "TSH"
+      ],
+      "why": "A somatotroph adenoma. Prolactin would be the test with galactorrhoea and amenorrhoea; a thyrotroph adenoma raises TSH and T4 together.",
+      "tags": [
+        "pituitary",
+        "acromegaly"
+      ]
+    },
+    {
+      "id": "ite25-18b",
+      "item": 18,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features point to a growth hormone-secreting adenoma rather than another type?",
+      "a": [
+        "Enlarging hands and feet",
+        "Coarsening of the facial features",
+        "Carpal tunnel symptoms",
+        "Enlargement of the jaw"
+      ],
+      "d": [
+        "Galactorrhoea",
+        "Easy bruising",
+        "Heat intolerance"
+      ],
+      "why": "Menstrual irregularity and proximal weakness occur with several adenoma types and do not discriminate. The three distractors belong to prolactin, cortisol and TSH excess in turn.",
+      "tags": [
+        "pituitary",
+        "acromegaly"
+      ]
+    },
+    {
+      "id": "ite25-18c",
+      "item": 18,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A pituitary adenoma with weight gain, easy bruising and proximal weakness. Which test confirms the diagnosis?",
+      "a": "A dexamethasone suppression test",
+      "d": [
+        "A serum IGF-1 level",
+        "A serum prolactin level",
+        "A free T4 and TSH level"
+      ],
+      "why": "Cushing disease from a corticotroph adenoma. Easy bruising is the feature that separates it from the other adenoma types.",
+      "tags": [
+        "pituitary",
+        "cushing"
+      ]
+    },
+    {
+      "id": "ite25-24a",
+      "item": 24,
+      "type": "single",
+      "difficulty": 2,
+      "q": "TSH 6, free T4 normal, mild symptoms, not pregnant. Which finding would make levothyroxine indicated?",
+      "a": "Raised thyroid peroxidase antibodies",
+      "d": [
+        "A repeat TSH of 6 in six weeks",
+        "A repeat TSH of 8 in six weeks",
+        "Constipation resistant to treatment"
+      ],
+      "why": "A TSH over 10 is the other accepted trigger. Repeating the TSH at 4 to 6 weeks is still right, to confirm the rise is not transient; T3 is not routinely measured.",
+      "tags": [
+        "hypothyroidism",
+        "subclinical"
+      ]
+    },
+    {
+      "id": "ite25-24b",
+      "item": 24,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Which persistent symptom is an accepted indication for treating subclinical hypothyroidism?",
+      "a": "Treatment-resistant depression",
+      "d": [
+        "Treatment-resistant constipation",
+        "Persistent cold intolerance",
+        "Persistent fatigue"
+      ],
+      "why": "Symptoms alone, however typical, do not earn treatment while the TSH is under 10 and the antibodies are negative.",
+      "tags": [
+        "hypothyroidism",
+        "subclinical"
+      ]
+    },
+    {
+      "id": "ite25-19a",
+      "item": 19,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Disruptive hot flashes at 52, previous hysterectomy. What is the most effective treatment?",
+      "a": "Oral or transdermal oestrogen",
+      "d": [
+        "Vaginal oestradiol cream",
+        "Transdermal testosterone",
+        "Soy phytoestrogens"
+      ],
+      "why": "No progestogen is needed without a uterus. Vaginal oestrogen treats vaginal symptoms, not flashes; testosterone does nothing for them; soy evidence is inconsistent.",
+      "tags": [
+        "menopause",
+        "vasomotor"
+      ]
+    },
+    {
+      "id": "ite25-19b",
+      "item": 19,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which non-hormonal drug is FDA-approved for menopausal hot flashes?",
+      "a": "Paroxetine",
+      "d": [
+        "Sertraline",
+        "Bupropion",
+        "Trazodone"
+      ],
+      "why": "SSRIs and SNRIs as a class are effective alternatives to oestrogen, but paroxetine is the one that carries the label.",
+      "tags": [
+        "menopause",
+        "vasomotor"
+      ]
+    },
+    {
+      "id": "ite25-07a",
+      "item": 7,
+      "type": "multi",
+      "difficulty": 1,
+      "q": "Which drugs are first-line for painful diabetic neuropathy?",
+      "a": [
+        "Gabapentin",
+        "Pregabalin",
+        "Duloxetine",
+        "Amitriptyline"
+      ],
+      "d": [
+        "Topical lidocaine",
+        "Topical capsaicin",
+        "Hydrocodone",
+        "Transcutaneous nerve stimulation"
+      ],
+      "why": "Lidocaine and capsaicin are second-line with less evidence, stimulation has modest benefit, and opioids are avoided in neuropathic pain altogether.",
+      "tags": [
+        "neuropathy",
+        "pain"
+      ]
+    }
   ]
 }
