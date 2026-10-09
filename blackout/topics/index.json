@@ -71,7 +71,9 @@
         "ite25-items-51-63.json",
         "ite25-items-64-75.json",
         "ite25-items-76-88.json",
-        "ite25-items-89-100.json"
+        "ite25-items-89-100.json",
+        "ite25-items-101-113.json",
+        "ite25-items-114-125.json"
       ],
       "mode": "pool",
       "draw": 10

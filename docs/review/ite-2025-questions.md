@@ -496,3 +496,113 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Unfractionated heparin
 - **ite25-100c** (multi, d1, 8 options) Which are among the six Ps of acute limb ischaemia?
   → Pain + Pallor + Poikilothermia + Pulselessness + Paraesthesia + Paralysis
+
+## ITE 2025, items 101 to 113 (25 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 101 to 113. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-101a** (single, d1, 4 options) Five days of midshaft tibial pain two months into marathon training, radiographs normal. What is the definitive test?
+  → MRI
+- **ite25-101b** (single, d2, 4 options) Radiographs are taken on day five of suspected tibial stress pain. What is their limitation?
+  → Often normal in the first two to three weeks
+- **ite25-102a** (single, d1, 4 options) A flare of chronic urticaria on cetirizine 10 mg daily. What is recommended?
+  → Doubling the cetirizine
+- **ite25-102b** (single, d2, 4 options) Chronic urticaria still uncontrolled on four times the usual antihistamine dose. What is next?
+  → Omalizumab
+- **ite25-103a** (single, d2, 4 options) Eight days of congestion, rhinorrhoea and cough. Which added feature means antibiotics now?
+  → Worsening after initial improvement
+- **ite25-103b** (single, d2, 4 options, fixed order) Fever above what, with purulent discharge or facial pain, makes sinusitis severe enough for antibiotics now?
+  → 39
+- **ite25-104a** (single, d3, 4 options, fixed order) A 44-year-old with 25 pack-years quit six years ago. Until what age is she eligible for lung cancer screening?
+  → 53
+- **ite25-105a** (single, d1, 4 options) Dysuria and mucopurulent discharge, leukocyte esterase positive, NAAT negative for gonorrhoea and chlamydia. Drug?
+  → Azithromycin 1 g once
+- **ite25-105b** (single, d2, 4 options) Urethritis with the gonorrhoea and chlamydia NAAT still pending. What is given empirically?
+  → Ceftriaxone IM plus a week of doxycycline
+- **ite25-105c** (multi, d3, 6 options) Which findings satisfy the laboratory criteria for urethritis?
+  → 10 or more white cells per high-power field on first-void urine + 2 or more white cells per oil-immersion field on a discharge Gram stain + Positive leukocyte esterase on first-void urine
+- **ite25-106a** (single, d2, 4 options) A sudden worst-ever headache with fluctuating consciousness. Why is CT chosen over MRI?
+  → It is faster, and MRI adds nothing here
+- **ite25-107a** (single, d1, 4 options) Two weeks of vomiting in a daily cannabis user, eased by hot showers, not by ondansetron. Which drug helps most?
+  → Haloperidol
+- **ite25-107b** (single, d2, 4 options) Which topical treatment relieves cannabinoid hyperemesis?
+  → Capsaicin cream on the upper abdomen
+- **ite25-108a** (single, d1, 4 options) Fibromyalgia with only partial benefit from exercise, CBT and massage. Which drug is most likely to help the pain?
+  → Duloxetine
+- **ite25-108b** (multi, d2, 8 options) Which drugs have level A evidence for fibromyalgia pain?
+  → Duloxetine + Milnacipran + Amitriptyline + Cyclobenzaprine + Pregabalin
+- **ite25-109a** (single, d1, 4 options) An 8-year-old wets the bed despite behavioural measures, camp is in a few weeks, parents want a drug. Which?
+  → Desmopressin
+- **ite25-109b** (single, d2, 4 options) What is first-line treatment for monosymptomatic nocturnal enuresis?
+  → An enuresis alarm with behavioural measures
+- **ite25-110a** (single, d1, 4 options) An adult with ADHD stopped a stimulant because of raised pulse and blood pressure. What is next?
+  → Atomoxetine
+- **ite25-110b** (single, d2, 4 options) An adult who cannot take stimulants asks about guanfacine for ADHD. What is the problem?
+  → Approved only for children and adolescents
+- **ite25-111a** (single, d2, 4 options) A 19-year-old athlete after a first anterior shoulder dislocation, now in a sling. What best prevents recurrence?
+  → Surgical repair
+- **ite25-111b** (single, d2, 4 options) A shoulder dislocation managed without surgery. When may the athlete return to play?
+  → Pain-free, full symmetric motion, sport moves
+- **ite25-112a** (single, d2, 4 options) Three weeks postpartum, hours of a tender red swollen segment of one breast, no fever. With NSAIDs, what is advised?
+  → Cold compresses
+- **ite25-112b** (single, d2, 4 options, fixed order) Inflammatory mastitis on conservative treatment. After how long without improvement are antibiotics started?
+  → 24 to 48 hours
+- **ite25-112c** (multi, d2, 7 options) Which measures are no longer recommended, or not helpful, in inflammatory mastitis?
+  → Warm compresses + Frequent pumping to empty the breast + A CBC and C-reactive protein + A breast milk culture
+- **ite25-113a** (single, d1, 4 options, fixed order) Both partners carry a cystic fibrosis mutation. What are the odds for each child?
+  → 25% affected, 50% carrier
+
+## ITE 2025, items 114 to 125 (25 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 114 to 125. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-114a** (single, d1, 4 options) Nine months of fatigue since COVID-19, unrefreshing sleep, crashes after showering, PHQ-9 of 3. Diagnosis?
+  → Chronic fatigue syndrome
+- **ite25-114b** (multi, d2, 6 options) Which are core criteria for myalgic encephalomyelitis / chronic fatigue syndrome?
+  → Unrefreshing sleep + New fatigue lasting six months or more + Post-exertional malaise
+- **ite25-114c** (single, d3, 4 options) Which feature separates chronic fatigue syndrome from the fatigue of fibromyalgia, lupus or depression?
+  → Exertion makes it worse
+- **ite25-115a** (single, d2, 4 options) Suspected acute heart failure with reduced ejection fraction. What does a normal chest radiograph mean?
+  → It does not exclude it; about one in five are normal
+- **ite25-116a** (single, d1, 4 options) A well 3-year-old with no parental concerns. Which screening does the task force recommend?
+  → Vision, for amblyopia
+- **ite25-116b** (multi, d3, 6 options) Which childhood screens does the AAP recommend but the task force rate as insufficient evidence?
+  → Anaemia at one year + Autism at 18 and 24 months
+- **ite25-117a** (single, d1, 4 options) Dermatomyositis diagnosed at 48. Which risk dominates her wellness visit two years on?
+  → Malignancy
+- **ite25-117b** (single, d2, 4 options) How is cancer screening handled after a dermatomyositis diagnosis at 50?
+  → Extra imaging such as CT or PET by her risk
+- **ite25-118a** (single, d1, 4 options) A physician keeps favouring the data that fits the first impression, even as it proves wrong. Which bias?
+  → Anchoring bias
+- **ite25-118b** (single, d2, 4 options) A diagnosis seems likely mainly because examples of it come easily to mind. Which bias?
+  → Availability bias
+- **ite25-119a** (single, d1, 4 options) A 15-year-old with 10-day periods, a tampon every two hours, clots and a haemoglobin of 10.2. What is evaluated first?
+  → A bleeding disorder
+- **ite25-119b** (multi, d2, 8 options) Which features of heavy menstrual bleeding in an adolescent call for a bleeding disorder work-up?
+  → A pad or tampon every one to two hours + Bleeding lasting more than seven days + Clots larger than an inch + Excessive bleeding after a tooth extraction + A family history of a bleeding disorder
+- **ite25-120a** (single, d1, 4 options) Six months of epigastric burning at 45, no alarm features, antacids useless. What is next?
+  → Stool antigen for Helicobacter pylori
+- **ite25-120b** (single, d2, 4 options) Which patient with new dyspepsia goes straight to endoscopy?
+  → A 62-year-old with no alarm features
+- **ite25-120c** (multi, d2, 7 options) Which alarm features send a patient under 60 with dyspepsia to endoscopy?
+  → Marked weight loss + Rapidly progressive dysphagia + An epigastric mass + Supraclavicular lymphadenopathy
+- **ite25-121a** (single, d1, 4 options) Calcium 12.1, confirmed by ionised calcium, in a 48-year-old with past kidney stones. What is the next test?
+  → Parathyroid hormone
+- **ite25-121b** (multi, d2, 7 options) Hypercalcaemia with a raised parathyroid hormone. Which tests follow?
+  → 25-hydroxyvitamin D + Creatinine + A 24-hour urine calcium + Bone density
+- **ite25-122a** (single, d2, 4 options) Three days of right facial weakness; the mouth droops but she can close the eye and raise the brow. What is next?
+  → MRI of the brain
+- **ite25-122b** (single, d2, 4 options) Which finding tells you facial weakness is central rather than Bell palsy?
+  → The forehead is spared
+- **ite25-123a** (single, d1, 4 options) A 70-year-old hit her head, was out for seconds, briefly confused, now GCS 15 with a forehead haematoma. Next?
+  → CT of the head now
+- **ite25-123b** (single, d2, 4 options) Why is ibuprofen avoided after a head injury in an older adult?
+  → It adds to the risk of intracranial bleeding
+- **ite25-124a** (single, d2, 4 options) A lethargic 3-day-old with dry skin and fewer wet nappies. Which sign most reliably indicates dehydration?
+  → Capillary refill time
+- **ite25-124b** (single, d1, 4 options, fixed order) Capillary refill longer than how many seconds indicates dehydration in an infant?
+  → 2 seconds
+- **ite25-125a** (single, d1, 4 options) A 16-year-old with a month of low mood, poor sleep and low energy. Which antidepressant is approved at her age?
+  → Fluoxetine
+- **ite25-125b** (single, d2, 4 options) A 40-year-old has failed three antidepressants. Where does esketamine nasal spray fit?
+  → An add-on to an oral drug in resistant cases

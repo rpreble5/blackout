@@ -1,0 +1,494 @@
+{
+  "id": "ite25-items-114-125",
+  "title": "ITE 2025, items 114 to 125",
+  "short": "Items 114 to 125",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 114 to 125. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-114a",
+      "item": 114,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Nine months of fatigue since COVID-19, unrefreshing sleep, crashes after showering, PHQ-9 of 3. Diagnosis?",
+      "a": "Chronic fatigue syndrome",
+      "d": [
+        "Major depression",
+        "Fibromyalgia",
+        "Obstructive sleep apnoea"
+      ],
+      "why": "Unrefreshing sleep, new fatigue and post-exertional malaise for over six months are the core criteria, and a PHQ-9 of 3 rules depression out as the explanation. Sleep apnoea gives unrefreshing sleep without the crashes after minor exertion.",
+      "tags": [
+        "me-cfs",
+        "fatigue"
+      ]
+    },
+    {
+      "id": "ite25-114b",
+      "item": 114,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which are core criteria for myalgic encephalomyelitis / chronic fatigue syndrome?",
+      "a": [
+        "Unrefreshing sleep",
+        "New fatigue lasting six months or more",
+        "Post-exertional malaise"
+      ],
+      "d": [
+        "A PHQ-9 of 10 or more",
+        "Widespread musculoskeletal pain",
+        "Loud snoring with witnessed apnoeas"
+      ],
+      "why": "Cognitive impairment or orthostatic intolerance completes the National Academy of Medicine criteria. Widespread pain is fibromyalgia, and snoring with apnoeas is sleep apnoea.",
+      "tags": [
+        "me-cfs",
+        "fatigue"
+      ]
+    },
+    {
+      "id": "ite25-114c",
+      "item": 114,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Which feature separates chronic fatigue syndrome from the fatigue of fibromyalgia, lupus or depression?",
+      "a": "Exertion makes it worse",
+      "d": [
+        "It lasts more than six months",
+        "It comes with brain fog",
+        "Sleep does not refresh"
+      ],
+      "why": "The other three improve with exercise; post-exertional malaise is the defining feature of this one. Duration, brain fog and unrefreshing sleep occur in several of them.",
+      "tags": [
+        "me-cfs",
+        "fatigue"
+      ]
+    },
+    {
+      "id": "ite25-115a",
+      "item": 115,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Suspected acute heart failure with reduced ejection fraction. What does a normal chest radiograph mean?",
+      "a": "It does not exclude it; about one in five are normal",
+      "d": [
+        "It excludes it in a patient with a prior MI",
+        "It makes pulmonary embolism more likely",
+        "It means the ejection fraction is preserved"
+      ],
+      "why": "Echocardiography makes the diagnosis, with an ejection fraction of 40 percent or less and a raised BNP. The film is quick and may show cardiomegaly or congestion, but its normal result changes nothing.",
+      "tags": [
+        "hfref",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "ite25-116a",
+      "item": 116,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A well 3-year-old with no parental concerns. Which screening does the task force recommend?",
+      "a": "Vision, for amblyopia",
+      "d": [
+        "Anaemia",
+        "Autism spectrum disorder",
+        "Hearing loss"
+      ],
+      "why": "Vision screening at least once between 3 and 5 carries a B recommendation because early treatment prevents permanent loss from amblyopia. Hearing is screened at birth, not at 3.",
+      "tags": [
+        "screening",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-116b",
+      "item": 116,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which childhood screens does the AAP recommend but the task force rate as insufficient evidence?",
+      "a": [
+        "Anaemia at one year",
+        "Autism at 18 and 24 months"
+      ],
+      "d": [
+        "Vision between 3 and 5",
+        "Newborn hearing",
+        "Fluoride varnish from the first tooth",
+        "Fluoride supplements where water lacks it"
+      ],
+      "why": "The task force found no proof that universal autism screening improves outcomes for families without concerns, and no proof of benefit from anaemia screening. Vision, newborn hearing, varnish and fluoride supplements all carry B recommendations.",
+      "tags": [
+        "screening",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-117a",
+      "item": 117,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Dermatomyositis diagnosed at 48. Which risk dominates her wellness visit two years on?",
+      "a": "Malignancy",
+      "d": [
+        "Chronic kidney disease",
+        "Diabetes",
+        "Obesity"
+      ],
+      "why": "Up to a quarter are diagnosed with cancer within three years of a dermatomyositis diagnosis made after 40, and cancer is a leading cause of death in this group. Kidney disease and obesity show no excess.",
+      "tags": [
+        "dermatomyositis",
+        "cancer"
+      ]
+    },
+    {
+      "id": "ite25-117b",
+      "item": 117,
+      "type": "single",
+      "difficulty": 2,
+      "q": "How is cancer screening handled after a dermatomyositis diagnosis at 50?",
+      "a": "Extra imaging such as CT or PET by her risk",
+      "d": [
+        "Standard age-based screening and nothing more",
+        "Annual mammography and nothing more",
+        "No extra screening after the second year"
+      ],
+      "why": "The cancers involved are adenocarcinomas of ovary, lung, pancreas, stomach and colon, and non-Hodgkin lymphoma, most of which routine screening does not look for.",
+      "tags": [
+        "dermatomyositis",
+        "cancer"
+      ]
+    },
+    {
+      "id": "ite25-118a",
+      "item": 118,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A physician keeps favouring the data that fits the first impression, even as it proves wrong. Which bias?",
+      "a": "Anchoring bias",
+      "d": [
+        "Availability bias",
+        "Implicit bias",
+        "Outcome bias"
+      ],
+      "why": "Anchoring is loyalty to the first impression. Availability is the pull of a diagnosis that comes easily to mind, and outcome bias judges a decision by how things turned out.",
+      "tags": [
+        "cognitive-bias"
+      ]
+    },
+    {
+      "id": "ite25-118b",
+      "item": 118,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A diagnosis seems likely mainly because examples of it come easily to mind. Which bias?",
+      "a": "Availability bias",
+      "d": [
+        "Anchoring bias",
+        "Implicit bias",
+        "Outcome bias"
+      ],
+      "why": "Implicit bias is different in kind: unconscious attitudes about race, age, gender or ability, measurable only indirectly.",
+      "tags": [
+        "cognitive-bias"
+      ]
+    },
+    {
+      "id": "ite25-119a",
+      "item": 119,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 15-year-old with 10-day periods, a tampon every two hours, clots and a haemoglobin of 10.2. What is evaluated first?",
+      "a": "A bleeding disorder",
+      "d": [
+        "FSH and LH levels",
+        "Oestrogen and progesterone levels",
+        "Pelvic ultrasound"
+      ],
+      "why": "One in five adolescents with heavy menstrual bleeding has a bleeding disorder, usually platelet dysfunction or von Willebrand disease. Gonadotrophin and sex hormone levels do not help, and imaging waits until initial treatment fails.",
+      "tags": [
+        "menorrhagia",
+        "bleeding-disorder"
+      ]
+    },
+    {
+      "id": "ite25-119b",
+      "item": 119,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features of heavy menstrual bleeding in an adolescent call for a bleeding disorder work-up?",
+      "a": [
+        "A pad or tampon every one to two hours",
+        "Bleeding lasting more than seven days",
+        "Clots larger than an inch",
+        "Excessive bleeding after a tooth extraction",
+        "A family history of a bleeding disorder"
+      ],
+      "d": [
+        "Painful periods",
+        "Irregular cycles in the first year",
+        "Acne with the periods"
+      ],
+      "why": "Treated anaemia and easy bruising count too. The work-up is a CBC, clotting times, a von Willebrand panel, ferritin, fibrinogen, TSH and a pregnancy test.",
+      "tags": [
+        "menorrhagia",
+        "bleeding-disorder"
+      ]
+    },
+    {
+      "id": "ite25-120a",
+      "item": 120,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Six months of epigastric burning at 45, no alarm features, antacids useless. What is next?",
+      "a": "Stool antigen for Helicobacter pylori",
+      "d": [
+        "Serology for Helicobacter pylori",
+        "Sucralfate",
+        "Referral for endoscopy"
+      ],
+      "why": "Test and treat is the recommendation for dyspepsia, with benefit still measurable a year later. Serology is the tempting shortcut but has lower sensitivity and specificity than the stool antigen or breath test.",
+      "tags": [
+        "dyspepsia",
+        "h-pylori"
+      ]
+    },
+    {
+      "id": "ite25-120b",
+      "item": 120,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which patient with new dyspepsia goes straight to endoscopy?",
+      "a": "A 62-year-old with no alarm features",
+      "d": [
+        "A 45-year-old with mild early satiety",
+        "A 30-year-old who failed antacids",
+        "A 50-year-old with heartburn as well"
+      ],
+      "why": "Age over 60 is an indication on its own. Under 60 it takes multiple or severe alarm features, and most dyspepsia at any age turns out to be functional.",
+      "tags": [
+        "dyspepsia",
+        "endoscopy"
+      ]
+    },
+    {
+      "id": "ite25-120c",
+      "item": 120,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which alarm features send a patient under 60 with dyspepsia to endoscopy?",
+      "a": [
+        "Marked weight loss",
+        "Rapidly progressive dysphagia",
+        "An epigastric mass",
+        "Supraclavicular lymphadenopathy"
+      ],
+      "d": [
+        "Early satiety",
+        "Epigastric burning several days a week",
+        "No response to calcium carbonate"
+      ],
+      "why": "Multiple or severe alarm features are required under 60. Early satiety and burning are the symptoms that define dyspepsia, not reasons to scope it.",
+      "tags": [
+        "dyspepsia",
+        "endoscopy"
+      ]
+    },
+    {
+      "id": "ite25-121a",
+      "item": 121,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Calcium 12.1, confirmed by ionised calcium, in a 48-year-old with past kidney stones. What is the next test?",
+      "a": "Parathyroid hormone",
+      "d": [
+        "A 24-hour urine calcium",
+        "A vitamin D level",
+        "CT of the chest, abdomen and pelvis"
+      ],
+      "why": "Primary hyperparathyroidism is the commonest cause and the PTH level sorts it from malignancy. The urine calcium and vitamin D come after a raised PTH, and CT is for the low PTH that points to cancer.",
+      "tags": [
+        "hypercalcaemia"
+      ]
+    },
+    {
+      "id": "ite25-121b",
+      "item": 121,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Hypercalcaemia with a raised parathyroid hormone. Which tests follow?",
+      "a": [
+        "25-hydroxyvitamin D",
+        "Creatinine",
+        "A 24-hour urine calcium",
+        "Bone density"
+      ],
+      "d": [
+        "CT of the chest, abdomen and pelvis",
+        "Parathyroid imaging before any surgical decision",
+        "Serum protein electrophoresis"
+      ],
+      "why": "These define the disease and its damage. Parathyroid imaging is for planning surgery once it is decided on, not for diagnosis, and CT belongs to the low-PTH pathway.",
+      "tags": [
+        "hypercalcaemia",
+        "hyperparathyroidism"
+      ]
+    },
+    {
+      "id": "ite25-122a",
+      "item": 122,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Three days of right facial weakness; the mouth droops but she can close the eye and raise the brow. What is next?",
+      "a": "MRI of the brain",
+      "d": [
+        "Reassurance",
+        "Prednisone with valacyclovir",
+        "Surgical decompression"
+      ],
+      "why": "A spared forehead means a central lesion, because the upper face has cortical input from both sides. Bell palsy, which the steroid and antiviral treat, takes the forehead with it.",
+      "tags": [
+        "facial-palsy",
+        "neurology"
+      ]
+    },
+    {
+      "id": "ite25-122b",
+      "item": 122,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which finding tells you facial weakness is central rather than Bell palsy?",
+      "a": "The forehead is spared",
+      "d": [
+        "Loss of taste on the front of the tongue",
+        "Inability to close the eye",
+        "Sensitivity to loud sound"
+      ],
+      "why": "Taste, eye closure and the stapedius all travel in the facial nerve itself, so losing them points to a peripheral lesion. Only the forehead has the bilateral cortical supply that survives a one-sided central lesion.",
+      "tags": [
+        "facial-palsy",
+        "neurology"
+      ]
+    },
+    {
+      "id": "ite25-123a",
+      "item": 123,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 70-year-old hit her head, was out for seconds, briefly confused, now GCS 15 with a forehead haematoma. Next?",
+      "a": "CT of the head now",
+      "d": [
+        "Discharge with concussion precautions",
+        "Observation with acetaminophen",
+        "Observation with ibuprofen"
+      ],
+      "why": "Over 65, any loss of consciousness, vomiting, amnesia or earlier head injury means a scan, because fragile vessels and vulnerable white matter let older patients bleed after minor mechanisms with a normal examination.",
+      "tags": [
+        "head-injury",
+        "geriatrics"
+      ]
+    },
+    {
+      "id": "ite25-123b",
+      "item": 123,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is ibuprofen avoided after a head injury in an older adult?",
+      "a": "It adds to the risk of intracranial bleeding",
+      "d": [
+        "It masks the signs of rising pressure",
+        "It precipitates delirium in older adults",
+        "It interferes with contrast on CT"
+      ],
+      "why": "NSAIDs impair platelets, and a subdural or epidural bleed is exactly what the scan is looking for. Acetaminophen is the analgesic of choice.",
+      "tags": [
+        "head-injury",
+        "geriatrics"
+      ]
+    },
+    {
+      "id": "ite25-124a",
+      "item": 124,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A lethargic 3-day-old with dry skin and fewer wet nappies. Which sign most reliably indicates dehydration?",
+      "a": "Capillary refill time",
+      "d": [
+        "Decreased urine output",
+        "Dry mucous membranes",
+        "Skin turgor"
+      ],
+      "why": "A refill over two seconds has the highest likelihood ratio for dehydration in children. Skin turgor is the tempting choice but neonatal skin is too elastic for it to mean much, and urine output is sensitive without being specific.",
+      "tags": [
+        "dehydration",
+        "neonate"
+      ]
+    },
+    {
+      "id": "ite25-124b",
+      "item": 124,
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "Capillary refill longer than how many seconds indicates dehydration in an infant?",
+      "a": "2 seconds",
+      "d": [
+        "1 second",
+        "3 seconds",
+        "5 seconds"
+      ],
+      "options": [
+        "1 second",
+        "2 seconds",
+        "3 seconds",
+        "5 seconds"
+      ],
+      "why": "Dry mucous membranes are useful but subjective, and a sunken fontanelle shifts with the position the infant is examined in.",
+      "tags": [
+        "dehydration",
+        "neonate"
+      ]
+    },
+    {
+      "id": "ite25-125a",
+      "item": 125,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 16-year-old with a month of low mood, poor sleep and low energy. Which antidepressant is approved at her age?",
+      "a": "Fluoxetine",
+      "d": [
+        "Bupropion",
+        "Venlafaxine",
+        "Esketamine nasal spray"
+      ],
+      "why": "Fluoxetine and escitalopram are the two with FDA approval in adolescents. Sertraline, bupropion and venlafaxine are used off-label in this age group.",
+      "tags": [
+        "depression",
+        "adolescent"
+      ]
+    },
+    {
+      "id": "ite25-125b",
+      "item": 125,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 40-year-old has failed three antidepressants. Where does esketamine nasal spray fit?",
+      "a": "An add-on to an oral drug in resistant cases",
+      "d": [
+        "First-line for severe depression at any age",
+        "Monotherapy, replacing the oral drug",
+        "Approved for adolescents who fail an SSRI"
+      ],
+      "why": "It is an adult treatment, used alongside an oral antidepressant rather than instead of one.",
+      "tags": [
+        "depression",
+        "esketamine"
+      ]
+    }
+  ]
+}

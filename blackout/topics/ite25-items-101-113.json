@@ -1,0 +1,496 @@
+{
+  "id": "ite25-items-101-113",
+  "title": "ITE 2025, items 101 to 113",
+  "short": "Items 101 to 113",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 101 to 113. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-101a",
+      "item": 101,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Five days of midshaft tibial pain two months into marathon training, radiographs normal. What is the definitive test?",
+      "a": "MRI",
+      "d": [
+        "CT",
+        "Bone scan",
+        "Ultrasound"
+      ],
+      "why": "MRI is the most sensitive and specific test for a bone stress injury and uses no radiation. Repeat radiographs are the tempting choice, but films are often normal for the first two to three weeks of symptoms.",
+      "tags": [
+        "stress-fracture",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-101b",
+      "item": 101,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Radiographs are taken on day five of suspected tibial stress pain. What is their limitation?",
+      "a": "Often normal in the first two to three weeks",
+      "d": [
+        "Too much radiation for repeated use",
+        "Unable to show cortical bone",
+        "Helpful after MRI, not before it"
+      ],
+      "why": "Radiography is specific but insensitive early, which is why it stays the first test and MRI the definitive one. Ultrasound in trained hands is an adjunct and no more.",
+      "tags": [
+        "stress-fracture",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-102a",
+      "item": 102,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A flare of chronic urticaria on cetirizine 10 mg daily. What is recommended?",
+      "a": "Doubling the cetirizine",
+      "d": [
+        "A pseudoallergen-free diet",
+        "A nasal corticosteroid",
+        "Omalizumab"
+      ],
+      "why": "A second-generation antihistamine can be pushed to four times the usual dose before anything else is added. Omalizumab is effective but belongs after aggressive antihistamine treatment has failed.",
+      "tags": [
+        "urticaria"
+      ]
+    },
+    {
+      "id": "ite25-102b",
+      "item": 102,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Chronic urticaria still uncontrolled on four times the usual antihistamine dose. What is next?",
+      "a": "Omalizumab",
+      "d": [
+        "Daily prednisone",
+        "A nasal steroid",
+        "A diet change"
+      ],
+      "why": "Omalizumab is the step after maximal antihistamines. Oral steroids can settle a flare for a few days but are not used for chronic control, and cyclosporine is kept for severe disease that has also failed an H2 blocker.",
+      "tags": [
+        "urticaria"
+      ]
+    },
+    {
+      "id": "ite25-103a",
+      "item": 103,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Eight days of congestion, rhinorrhoea and cough. Which added feature means antibiotics now?",
+      "a": "Worsening after initial improvement",
+      "d": [
+        "A temperature of up to 38 degrees",
+        "Halitosis with aching teeth",
+        "Thick purulent nasal discharge"
+      ],
+      "why": "Double sickening marks a bacterial infection on top of a viral one and is treated at once. Purulent discharge is a major symptom of sinusitis but on its own it still earns watchful waiting, since most bacterial cases settle without antibiotics.",
+      "tags": [
+        "sinusitis"
+      ]
+    },
+    {
+      "id": "ite25-103b",
+      "item": 103,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Fever above what, with purulent discharge or facial pain, makes sinusitis severe enough for antibiotics now?",
+      "a": "39",
+      "d": [
+        "38",
+        "38.5",
+        "40"
+      ],
+      "options": [
+        "38",
+        "38.5",
+        "39",
+        "40"
+      ],
+      "why": "Severe disease and double sickening are the two reasons to skip watchful waiting, which otherwise runs up to ten days with symptomatic treatment.",
+      "tags": [
+        "sinusitis"
+      ]
+    },
+    {
+      "id": "ite25-104a",
+      "item": 104,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "A 44-year-old with 25 pack-years quit six years ago. Until what age is she eligible for lung cancer screening?",
+      "a": "53",
+      "d": [
+        "50",
+        "65",
+        "80"
+      ],
+      "options": [
+        "50",
+        "53",
+        "65",
+        "80"
+      ],
+      "why": "Screening runs from 50 to 80 for 20 pack-years or more, but only while the person still smokes or quit within the past 15 years. She quit at 38, so her window closes at 53, three years after it opens.",
+      "tags": [
+        "lung-cancer",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-105a",
+      "item": 105,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Dysuria and mucopurulent discharge, leukocyte esterase positive, NAAT negative for gonorrhoea and chlamydia. Drug?",
+      "a": "Azithromycin 1 g once",
+      "d": [
+        "Ceftriaxone 500 mg intramuscularly",
+        "Gentamicin with azithromycin",
+        "Metronidazole with doxycycline"
+      ],
+      "why": "Nongonococcal urethritis, where Mycoplasma genitalium is the commonest identified cause. Ceftriaxone with doxycycline is the empiric regimen only while the NAAT is still pending.",
+      "tags": [
+        "urethritis",
+        "sti"
+      ]
+    },
+    {
+      "id": "ite25-105b",
+      "item": 105,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Urethritis with the gonorrhoea and chlamydia NAAT still pending. What is given empirically?",
+      "a": "Ceftriaxone IM plus a week of doxycycline",
+      "d": [
+        "Azithromycin 1 g as a single dose",
+        "Levofloxacin for a week on its own",
+        "Metronidazole 2 g as a single dose"
+      ],
+      "why": "The empiric regimen has to cover gonorrhoea and chlamydia until the test says otherwise. Metronidazole treats trichomonas, which causes only 1 to 8 percent of male cases and needs a molecular test of its own.",
+      "tags": [
+        "urethritis",
+        "sti"
+      ]
+    },
+    {
+      "id": "ite25-105c",
+      "item": 105,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which findings satisfy the laboratory criteria for urethritis?",
+      "a": [
+        "10 or more white cells per high-power field on first-void urine",
+        "2 or more white cells per oil-immersion field on a discharge Gram stain",
+        "Positive leukocyte esterase on first-void urine"
+      ],
+      "d": [
+        "A positive nitrite on midstream urine",
+        "Any visible discharge on its own",
+        "A raised C-reactive protein"
+      ],
+      "why": "Any one of the three, with typical symptoms or an exposure history, makes the diagnosis. Half of cases never get an organism identified.",
+      "tags": [
+        "urethritis",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "ite25-106a",
+      "item": 106,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A sudden worst-ever headache with fluctuating consciousness. Why is CT chosen over MRI?",
+      "a": "It is faster, and MRI adds nothing here",
+      "d": [
+        "MRI cannot show acute blood",
+        "MRI needs contrast in this setting",
+        "CT shows the aneurysm itself"
+      ],
+      "why": "Subarachnoid haemorrhage is time-critical and neurosurgery is called the moment CT confirms it, so the slower scan has no advantage. Analgesia and antiemetics are reasonable but wait behind the scan, and a lumbar puncture follows a negative CT when suspicion remains.",
+      "tags": [
+        "subarachnoid",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-107a",
+      "item": 107,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Two weeks of vomiting in a daily cannabis user, eased by hot showers, not by ondansetron. Which drug helps most?",
+      "a": "Haloperidol",
+      "d": [
+        "Metoclopramide",
+        "Prochlorperazine",
+        "Prednisone"
+      ],
+      "why": "Haloperidol outperforms the usual antiemetics in cannabinoid hyperemesis. Stopping the cannabis is what cures it, and benzodiazepines can help acutely while that happens.",
+      "tags": [
+        "cannabinoid-hyperemesis"
+      ]
+    },
+    {
+      "id": "ite25-107b",
+      "item": 107,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which topical treatment relieves cannabinoid hyperemesis?",
+      "a": "Capsaicin cream on the upper abdomen",
+      "d": [
+        "Diclofenac gel on the abdomen",
+        "A lidocaine patch over the epigastrium",
+        "A menthol rub on the chest"
+      ],
+      "why": "Capsaicin activates TRPV1 receptors and desensitises the sensory fibres, which is the same pathway a hot shower uses. Diclofenac gel has no role.",
+      "tags": [
+        "cannabinoid-hyperemesis"
+      ]
+    },
+    {
+      "id": "ite25-108a",
+      "item": 108,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Fibromyalgia with only partial benefit from exercise, CBT and massage. Which drug is most likely to help the pain?",
+      "a": "Duloxetine",
+      "d": [
+        "Acetaminophen",
+        "Gabapentin",
+        "Ibuprofen"
+      ],
+      "why": "Duloxetine carries level A evidence for fibromyalgia pain. Gabapentin is the tempting choice, but unlike pregabalin it has insufficient evidence, and NSAIDs do no better than placebo.",
+      "tags": [
+        "fibromyalgia"
+      ]
+    },
+    {
+      "id": "ite25-108b",
+      "item": 108,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which drugs have level A evidence for fibromyalgia pain?",
+      "a": [
+        "Duloxetine",
+        "Milnacipran",
+        "Amitriptyline",
+        "Cyclobenzaprine",
+        "Pregabalin"
+      ],
+      "d": [
+        "Gabapentin",
+        "Acetaminophen",
+        "Hydrocodone"
+      ],
+      "why": "Milnacipran also has evidence for fatigue and cognition. Opioids bring dependence and hyperalgesia without evidence of benefit.",
+      "tags": [
+        "fibromyalgia"
+      ]
+    },
+    {
+      "id": "ite25-109a",
+      "item": 109,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An 8-year-old wets the bed despite behavioural measures, camp is in a few weeks, parents want a drug. Which?",
+      "a": "Desmopressin",
+      "d": [
+        "Imipramine",
+        "Oxybutynin",
+        "Tamsulosin"
+      ],
+      "why": "Desmopressin is the first drug when one is wanted for monosymptomatic enuresis. Imipramine and oxybutynin are held for desmopressin failure.",
+      "tags": [
+        "enuresis",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-109b",
+      "item": 109,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is first-line treatment for monosymptomatic nocturnal enuresis?",
+      "a": "An enuresis alarm with behavioural measures",
+      "d": [
+        "Oral desmopressin at bedtime",
+        "Imipramine at bedtime",
+        "Fluid restriction after supper alone"
+      ],
+      "why": "The alarm and behavioural methods come before any drug. Desmopressin is the drug for when they fail or when a quick result is needed.",
+      "tags": [
+        "enuresis",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-110a",
+      "item": 110,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An adult with ADHD stopped a stimulant because of raised pulse and blood pressure. What is next?",
+      "a": "Atomoxetine",
+      "d": [
+        "Clonidine",
+        "Guanfacine",
+        "Nortriptyline"
+      ],
+      "why": "Atomoxetine or viloxazine is the second-line class in adults. Clonidine and guanfacine are approved only in children and adolescents, with little adult evidence.",
+      "tags": [
+        "adhd"
+      ]
+    },
+    {
+      "id": "ite25-110b",
+      "item": 110,
+      "type": "single",
+      "difficulty": 2,
+      "q": "An adult who cannot take stimulants asks about guanfacine for ADHD. What is the problem?",
+      "a": "Approved only for children and adolescents",
+      "d": [
+        "It raises blood pressure like a stimulant",
+        "It requires a weekly ECG",
+        "It cannot be combined with an SSRI"
+      ],
+      "why": "Off-label use in adults rests on limited evidence. Tricyclics are in the same position, and escitalopram simply does not work for ADHD.",
+      "tags": [
+        "adhd"
+      ]
+    },
+    {
+      "id": "ite25-111a",
+      "item": 111,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 19-year-old athlete after a first anterior shoulder dislocation, now in a sling. What best prevents recurrence?",
+      "a": "Surgical repair",
+      "d": [
+        "Four more weeks in the sling",
+        "A course of physiotherapy",
+        "An intra-articular corticosteroid injection"
+      ],
+      "why": "In active patients under 25, cohort studies consistently show fewer recurrences after surgery for a first dislocation, against a recurrence rate of up to 90 percent otherwise. Steroid injection is not advised after a dislocation.",
+      "tags": [
+        "shoulder",
+        "sports"
+      ]
+    },
+    {
+      "id": "ite25-111b",
+      "item": 111,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A shoulder dislocation managed without surgery. When may the athlete return to play?",
+      "a": "Pain-free, full symmetric motion, sport moves",
+      "d": [
+        "Six weeks in a sling, whatever the examination",
+        "Once MRI confirms the labrum has healed",
+        "After an intra-articular steroid injection"
+      ],
+      "why": "Those three criteria can be met as early as two to three weeks. The sling itself is worn for two to four weeks with graded range of motion.",
+      "tags": [
+        "shoulder",
+        "sports"
+      ]
+    },
+    {
+      "id": "ite25-112a",
+      "item": 112,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Three weeks postpartum, hours of a tender red swollen segment of one breast, no fever. With NSAIDs, what is advised?",
+      "a": "Cold compresses",
+      "d": [
+        "Warm compresses",
+        "Pumping to empty the breast",
+        "A CBC and C-reactive protein"
+      ],
+      "why": "Inflammatory mastitis is treated with anti-inflammatory measures and watchful waiting. Warm compresses and frequent pumping were the old advice and are no longer recommended.",
+      "tags": [
+        "mastitis"
+      ]
+    },
+    {
+      "id": "ite25-112b",
+      "item": 112,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Inflammatory mastitis on conservative treatment. After how long without improvement are antibiotics started?",
+      "a": "24 to 48 hours",
+      "d": [
+        "6 hours",
+        "12 hours",
+        "72 hours"
+      ],
+      "options": [
+        "6 hours",
+        "12 hours",
+        "24 to 48 hours",
+        "72 hours"
+      ],
+      "why": "A narrow-spectrum drug against staphylococci and streptococci. A milk culture rarely helps, because skin flora give false positives.",
+      "tags": [
+        "mastitis"
+      ]
+    },
+    {
+      "id": "ite25-112c",
+      "item": 112,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which measures are no longer recommended, or not helpful, in inflammatory mastitis?",
+      "a": [
+        "Warm compresses",
+        "Frequent pumping to empty the breast",
+        "A CBC and C-reactive protein",
+        "A breast milk culture"
+      ],
+      "d": [
+        "NSAIDs",
+        "Cold compresses",
+        "Watchful waiting"
+      ],
+      "why": "Emptying the breast was meant to prevent stasis but is now thought to drive the inflammation on. CBC and CRP rise in both inflammatory and bacterial mastitis, so they cannot separate the two.",
+      "tags": [
+        "mastitis"
+      ]
+    },
+    {
+      "id": "ite25-113a",
+      "item": 113,
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "Both partners carry a cystic fibrosis mutation. What are the odds for each child?",
+      "a": "25% affected, 50% carrier",
+      "d": [
+        "25% affected, 25% carrier",
+        "50% affected, 25% carrier",
+        "50% affected, 50% carrier"
+      ],
+      "options": [
+        "25% affected, 25% carrier",
+        "25% affected, 50% carrier",
+        "50% affected, 25% carrier",
+        "50% affected, 50% carrier"
+      ],
+      "why": "Autosomal recessive inheritance gives one in four affected, two in four unaffected carriers and one in four with neither copy.",
+      "tags": [
+        "genetics",
+        "cystic-fibrosis"
+      ]
+    }
+  ]
+}
