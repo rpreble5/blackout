@@ -1,0 +1,424 @@
+{
+  "id": "ite25-items-176-188",
+  "title": "ITE 2025, items 176 to 188",
+  "short": "Items 176 to 188",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 176 to 188. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-176a",
+      "item": 176,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An anal fissure. Beyond fibre, fluids and sitz baths, which treatment works with the fewest side effects?",
+      "a": "A topical calcium channel blocker",
+      "d": [
+        "Topical nitroglycerin",
+        "Topical capsaicin",
+        "An oral calcium channel blocker"
+      ],
+      "why": "Topical diltiazem relaxes the sphincter and is the best tolerated of the relaxants. Nitroglycerin works as well but its headaches drive one patient in five to stop, and the oral calcium channel blocker never reaches the sphincter.",
+      "tags": [
+        "anal-fissure"
+      ]
+    },
+    {
+      "id": "ite25-176b",
+      "item": 176,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What limits topical nitroglycerin for an anal fissure?",
+      "a": "Headache; one in five patients stop it",
+      "d": [
+        "It does not heal the fissure at all",
+        "It must be paired with an oral drug",
+        "It causes faecal incontinence"
+      ],
+      "why": "The vasodilator side effects are systemic even from a topical dose. Botulinum toxin is the other effective option when creams fail.",
+      "tags": [
+        "anal-fissure"
+      ]
+    },
+    {
+      "id": "ite25-177a",
+      "item": 177,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Which change lowers the risk of diverticulitis?",
+      "a": "A vegetarian diet",
+      "d": [
+        "Avoiding popcorn, nuts and seeds",
+        "Regular red meat",
+        "Long-term NSAID use"
+      ],
+      "why": "Fibre protects and red meat and NSAIDs are risk factors. After years of study, nuts, seeds and popcorn were cleared, which makes the old advice to avoid them the tempting wrong answer.",
+      "tags": [
+        "diverticulitis"
+      ]
+    },
+    {
+      "id": "ite25-177b",
+      "item": 177,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which are risk factors for diverticulitis?",
+      "a": [
+        "Constipation and a low-fibre diet",
+        "Red meat",
+        "Smoking",
+        "Obesity and inactivity",
+        "Aspirin or NSAID use"
+      ],
+      "d": [
+        "Nuts, seeds and popcorn",
+        "A vegetarian diet",
+        "Coffee"
+      ],
+      "why": "Age and genetics complete the list. Incidence is rising, but there is no screening for it.",
+      "tags": [
+        "diverticulitis"
+      ]
+    },
+    {
+      "id": "ite25-177c",
+      "item": 177,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which examination finding is most specific for diverticulitis?",
+      "a": "Left lower quadrant tenderness",
+      "d": [
+        "Diffuse abdominal tenderness",
+        "Rebound in the right lower quadrant",
+        "A palpable mass in the epigastrium"
+      ],
+      "why": "The sigmoid is where the diverticula live. CT with contrast is the imaging when the diagnosis is uncertain, and surgery is for abscess, peritonitis or recurrence.",
+      "tags": [
+        "diverticulitis"
+      ]
+    },
+    {
+      "id": "ite25-178a",
+      "item": 178,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Seconds of electric-shock pain in the cheek, lip and chin, set off by touch or eating. Which cranial nerve?",
+      "a": "Cranial nerve V",
+      "d": [
+        "Cranial nerve VII",
+        "Cranial nerve X",
+        "Cranial nerve XII"
+      ],
+      "why": "Trigeminal neuralgia follows one or more branches of the fifth nerve. The seventh moves the face, the tenth swallows and speaks, and the twelfth moves the tongue.",
+      "tags": [
+        "trigeminal-neuralgia"
+      ]
+    },
+    {
+      "id": "ite25-179a",
+      "item": 179,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Which social factor protects against Alzheimer disease and related dementias?",
+      "a": "Social engagement",
+      "d": [
+        "A falling BMI in older age",
+        "Early-life adversity",
+        "A low level of education"
+      ],
+      "why": "The other three raise risk, along with food insecurity, midlife obesity, manual labour and low socioeconomic status.",
+      "tags": [
+        "dementia",
+        "social-determinants"
+      ]
+    },
+    {
+      "id": "ite25-180a",
+      "item": 180,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Proximal aching and morning stiffness at 72 on a statin, CK 84, ESR 88, CRP raised, ANA negative. Diagnosis?",
+      "a": "Polymyalgia rheumatica",
+      "d": [
+        "Statin-induced myopathy",
+        "Polymyositis",
+        "Fibromyalgia"
+      ],
+      "why": "Inflammatory markers up and creatine kinase normal is the pattern, and glucocorticoids should bring rapid relief. The statin is the tempting culprit, but statin myopathy and polymyositis both raise the CK.",
+      "tags": [
+        "pmr",
+        "rheumatology"
+      ]
+    },
+    {
+      "id": "ite25-180b",
+      "item": 180,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Proximal weakness with raised inflammatory markers. Which result argues against polymyositis and statin myopathy?",
+      "a": "A normal creatine kinase",
+      "d": [
+        "A negative antinuclear antibody",
+        "A mild normocytic anaemia",
+        "A raised C-reactive protein"
+      ],
+      "why": "Both of those damage muscle fibres and leak enzyme; polymyalgia rheumatica inflames without doing so. The negative ANA is what rules out lupus, and the anaemia fits polymyalgia.",
+      "tags": [
+        "pmr",
+        "rheumatology"
+      ]
+    },
+    {
+      "id": "ite25-181a",
+      "item": 181,
+      "type": "single",
+      "difficulty": 1,
+      "q": "What does the task force recommend for herpes simplex screening in asymptomatic adolescents and adults?",
+      "a": "No testing at all",
+      "d": [
+        "HSV-2 antibody testing",
+        "Antibody testing for both types",
+        "Antigen testing for both types"
+      ],
+      "why": "A D recommendation, pregnant patients included. Serology gives frequent false positives in the asymptomatic, and a true positive is not treated anyway.",
+      "tags": [
+        "herpes",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-182a",
+      "item": 182,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 2-year-old with two days of intermittent pain, vomiting and now a jelly-like bloody stool. Diagnosis?",
+      "a": "Intussusception",
+      "d": [
+        "Necrotising enterocolitis",
+        "Pyloric stenosis",
+        "Volvulus"
+      ],
+      "why": "The triad of colicky pain, vomiting and red currant jelly stool is intussusception, usually at the ileocolic junction. Volvulus distends and vomits without the bloody stool, and pyloric stenosis vomits projectile in a younger infant.",
+      "tags": [
+        "intussusception",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-182b",
+      "item": 182,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Ultrasound confirms intussusception. What is done next?",
+      "a": "An air or contrast enema, which can also reduce it",
+      "d": [
+        "Laparotomy straight away",
+        "Nasogastric decompression and observation",
+        "CT of the abdomen with contrast"
+      ],
+      "why": "The enema is both the confirmation and the treatment. Surgery is for the intussusception the enema cannot reduce.",
+      "tags": [
+        "intussusception",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-183a",
+      "item": 183,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A pack-a-day smoker relapsed five months after quitting with nicotine gum. What gives the best chance now?",
+      "a": "Varenicline with nicotine replacement",
+      "d": [
+        "Nicotine gum on its own again",
+        "Bupropion on its own",
+        "Varenicline on its own"
+      ],
+      "why": "Combinations beat single drugs, and varenicline with nicotine replacement beats bupropion with nicotine replacement for sustained abstinence. Repeating the gum alone repeats the failure.",
+      "tags": [
+        "smoking-cessation"
+      ]
+    },
+    {
+      "id": "ite25-183b",
+      "item": 183,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which is the most effective single drug for smoking cessation?",
+      "a": "Varenicline",
+      "d": [
+        "Nicotine gum",
+        "The nicotine patch",
+        "Bupropion"
+      ],
+      "why": "Its number needed to treat is 7. All seven approved products, bupropion, varenicline and the five nicotine forms, beat placebo.",
+      "tags": [
+        "smoking-cessation"
+      ]
+    },
+    {
+      "id": "ite25-184a",
+      "item": 184,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A fourth calcium stone this year despite three litres of fluid and a low-protein, high-fibre diet. What is prescribed?",
+      "a": "Hydrochlorothiazide",
+      "d": [
+        "Furosemide",
+        "Magnesium oxide",
+        "Tamsulosin"
+      ],
+      "why": "A thiazide, allopurinol or potassium citrate are the preventive drugs once lifestyle has failed. Furosemide promotes stones, magnesium oxide does not prevent them, and tamsulosin helps a stone pass rather than preventing the next.",
+      "tags": [
+        "nephrolithiasis"
+      ]
+    },
+    {
+      "id": "ite25-184b",
+      "item": 184,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which lifestyle measures reduce recurrence of calcium stones?",
+      "a": [
+        "Fluid intake of 2.5 to 3 litres a day",
+        "A high-fibre, low animal protein diet",
+        "Sodium under 4 to 5 grams a day",
+        "Calcium kept moderate at about 1200 mg a day"
+      ],
+      "d": [
+        "Restricting dietary calcium",
+        "A high-protein diet",
+        "Limiting fluids in the evening"
+      ],
+      "why": "Restricting calcium is the classic error; it raises oxalate absorption and stone risk. Animal protein and sodium are what get cut.",
+      "tags": [
+        "nephrolithiasis"
+      ]
+    },
+    {
+      "id": "ite25-185a",
+      "item": 185,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Confused with a sodium of 118, given 3% saline boluses. By how much should the first boluses raise the sodium?",
+      "a": "4 to 6 mEq/L",
+      "d": [
+        "1 to 2 mEq/L",
+        "8 to 10 mEq/L",
+        "12 to 15 mEq/L"
+      ],
+      "options": [
+        "1 to 2 mEq/L",
+        "4 to 6 mEq/L",
+        "8 to 10 mEq/L",
+        "12 to 15 mEq/L"
+      ],
+      "why": "A 100 mL bolus, repeatable twice at ten-minute intervals, with sodium checked after each and then six-hourly. The 24-hour ceiling is 8 to 12 mEq/L, because osmotic demyelination follows faster correction.",
+      "tags": [
+        "hyponatraemia"
+      ]
+    },
+    {
+      "id": "ite25-185b",
+      "item": 185,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is normal saline the right treatment for hyponatraemia?",
+      "a": "Non-severe hypovolaemic hyponatraemia",
+      "d": [
+        "Symptomatic sodium under 125",
+        "Overcorrection of severe hyponatraemia",
+        "Hyponatraemia with diabetes insipidus"
+      ],
+      "why": "Sodium of 125 to 134 with volume depletion is replaced with isotonic fluid. Symptomatic severe hyponatraemia gets hypertonic saline, and overcorrection is reversed with desmopressin and 5% dextrose.",
+      "tags": [
+        "hyponatraemia"
+      ]
+    },
+    {
+      "id": "ite25-186a",
+      "item": 186,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Three days of burning pain down one leg, straight-leg raise positive, no deficit, no red flags. First step?",
+      "a": "Mobilisation and manipulation",
+      "d": [
+        "Three days of bed rest",
+        "A short course of corticosteroid",
+        "Cyclobenzaprine"
+      ],
+      "why": "Acute radiculopathy without red flags is managed conservatively and most patients improve within two weeks; mobilisation and manipulation have level B evidence. Bed rest was abandoned, and steroids and muscle relaxants lack evidence despite their popularity.",
+      "tags": [
+        "radiculopathy",
+        "back-pain"
+      ]
+    },
+    {
+      "id": "ite25-186b",
+      "item": 186,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Acute lumbar radiculopathy without red flags. After how long without improvement is MRI ordered?",
+      "a": "6 weeks",
+      "d": [
+        "2 weeks",
+        "12 weeks",
+        "Immediately"
+      ],
+      "options": [
+        "Immediately",
+        "2 weeks",
+        "6 weeks",
+        "12 weeks"
+      ],
+      "why": "In the subacute phase, neurodynamic mobilisation and strength training are added first. Fracture, malignancy, abscess and cauda equina are the red flags that bring imaging forward.",
+      "tags": [
+        "radiculopathy",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-187a",
+      "item": 187,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Two months off antihypertensives, now 162/100 on repeat and asymptomatic. What is started?",
+      "a": "A calcium channel blocker with an ACE inhibitor",
+      "d": [
+        "A calcium channel blocker as monotherapy",
+        "A thiazide-like diuretic as monotherapy",
+        "A thiazide-like diuretic with a beta-blocker"
+      ],
+      "why": "Stage 2 hypertension needs two drugs from the start, and a calcium channel blocker with an ACE inhibitor or ARB is the pairing of choice. Beta-blockers wait for a comorbidity, and aldosterone antagonists for resistance.",
+      "tags": [
+        "hypertension"
+      ]
+    },
+    {
+      "id": "ite25-188a",
+      "item": 188,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 14-year-old with anorexia nervosa. Which finding would mean inpatient care?",
+      "a": "A potassium of 2.6 mEq/L",
+      "d": [
+        "Hair loss",
+        "Parotid gland enlargement",
+        "A sodium of 146 mEq/L"
+      ],
+      "why": "Severe hypokalaemia threatens the heart and cannot be managed by an outpatient team. Hair loss, parotid swelling, muscle wasting and mild hypernatraemia are all seen in eating disorders without forcing admission.",
+      "tags": [
+        "anorexia",
+        "adolescent"
+      ]
+    }
+  ]
+}

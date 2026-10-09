@@ -1,0 +1,474 @@
+{
+  "id": "ite25-items-189-200",
+  "title": "ITE 2025, items 189 to 200",
+  "short": "Items 189 to 200",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 189 to 200. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-189a",
+      "item": 189,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 30-year-old has just tested positive for Lynch syndrome. What colon screening is advised?",
+      "a": "Colonoscopy now, every one to two years",
+      "d": [
+        "Annual faecal occult blood testing",
+        "Stool DNA testing every three years",
+        "Colonoscopy from the age of 45"
+      ],
+      "why": "Screening starts between 20 and 25 in Lynch syndrome, so at 30 she is already due. Stool tests and sigmoidoscopy miss too much in this group, and 45 is the start for average risk.",
+      "tags": [
+        "lynch",
+        "colorectal"
+      ]
+    },
+    {
+      "id": "ite25-189b",
+      "item": 189,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Besides colon cancer, which cancers are more common in Lynch syndrome?",
+      "a": [
+        "Endometrial",
+        "Ovarian",
+        "Stomach",
+        "Small bowel",
+        "Pancreatic"
+      ],
+      "d": [
+        "Breast",
+        "Thyroid",
+        "Lung"
+      ],
+      "why": "Endometrial cancer is the commonest after colon in women with the syndrome. Breast cancer belongs to the BRCA conversation, not this one.",
+      "tags": [
+        "lynch"
+      ]
+    },
+    {
+      "id": "ite25-190a",
+      "item": 190,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Admitted with acute pancreatitis, on fluids and improving, still tender. Which diet is ordered?",
+      "a": "A low-fat solid diet",
+      "d": [
+        "Nothing by mouth",
+        "Full liquids",
+        "A low-carbohydrate diet"
+      ],
+      "why": "Early enteral feeding within 24 hours improves gut perfusion and barrier function and lowers mortality, organ failure and infection compared with parenteral nutrition. Liquids have no advantage over solids, and low-carbohydrate diets are high in fat.",
+      "tags": [
+        "pancreatitis",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "ite25-190b",
+      "item": 190,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Acute pancreatitis and oral intake is not tolerated. After how long is tube feeding started?",
+      "a": "72 hours",
+      "d": [
+        "24 hours",
+        "48 hours",
+        "7 days"
+      ],
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "7 days"
+      ],
+      "why": "Nasogastric or nasojejunal feeding keeps the gut working. Parenteral nutrition is kept for the patient who cannot tolerate tube feeding either.",
+      "tags": [
+        "pancreatitis",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "ite25-191a",
+      "item": 191,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which factors bring osteoporosis screening forward before 65 in a postmenopausal woman?",
+      "a": [
+        "Smoking",
+        "Excessive alcohol",
+        "A parental hip fracture"
+      ],
+      "d": [
+        "A mother on alendronate without a fracture",
+        "A BMI of 23",
+        "Exercising five times a week"
+      ],
+      "why": "One risk factor is enough for an early DXA. A parent taking a bone drug is not the same as a parent who has fractured.",
+      "tags": [
+        "osteoporosis",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-191b",
+      "item": 191,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the FRAX tool for in osteoporosis screening?",
+      "a": "Counselling on future fracture risk",
+      "d": [
+        "Deciding who gets a DXA scan",
+        "Replacing DXA in women under 65",
+        "Choosing between the bone drugs"
+      ],
+      "why": "The task force uses age and risk factors to decide on DXA, not a FRAX score. A healthy 57-year-old with none of the risk factors is screened at 65.",
+      "tags": [
+        "osteoporosis",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-192a",
+      "item": 192,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Potassium 6.5 with peaked T waves. Which other ECG changes belong to hyperkalaemia?",
+      "a": [
+        "A prolonged PR interval",
+        "Loss of P waves",
+        "A widened QRS"
+      ],
+      "d": [
+        "U waves",
+        "ST depression",
+        "A prolonged QT",
+        "Delta waves"
+      ],
+      "why": "A wide QRS, bradycardia or a junctional rhythm predicts ventricular fibrillation and death within hours. U waves, ST depression and a long QT are hypokalaemia, and delta waves are pre-excitation.",
+      "tags": [
+        "hyperkalaemia",
+        "ecg"
+      ]
+    },
+    {
+      "id": "ite25-193a",
+      "item": 193,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A loose, displaced front tooth after a baseball, root visible, no bony tenderness, dentist called. First step?",
+      "a": "Reposition the tooth and have him bite on gauze",
+      "d": [
+        "Remove the tooth and carry it in milk",
+        "Ceftriaxone intramuscularly",
+        "Imaging of the facial bones"
+      ],
+      "why": "The socket is the best place for the tooth, and success falls sharply after an hour. A tooth that is fully out is held by the crown, rinsed with saline and put back, or carried in saline or milk only if that is impossible.",
+      "tags": [
+        "dental-trauma"
+      ]
+    },
+    {
+      "id": "ite25-193b",
+      "item": 193,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Within how long must an avulsed permanent tooth be reimplanted for a good chance of survival?",
+      "a": "1 hour",
+      "d": [
+        "15 minutes",
+        "6 hours",
+        "24 hours"
+      ],
+      "options": [
+        "15 minutes",
+        "1 hour",
+        "6 hours",
+        "24 hours"
+      ],
+      "why": "Antibiotics and imaging are not needed without a fracture and would only delay the reimplantation and the dentist.",
+      "tags": [
+        "dental-trauma"
+      ]
+    },
+    {
+      "id": "ite25-194a",
+      "item": 194,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Exophthalmos, low TSH, high free T4 and diffuse high uptake on a radioiodine scan. Which drug?",
+      "a": "Methimazole",
+      "d": [
+        "Propylthiouracil",
+        "Prednisone",
+        "Verapamil"
+      ],
+      "why": "Graves disease, and methimazole has the safer profile; propylthiouracil carries a risk of severe liver injury. Ablation and surgery are the alternatives, chosen with the patient.",
+      "tags": [
+        "graves",
+        "hyperthyroidism"
+      ]
+    },
+    {
+      "id": "ite25-194b",
+      "item": 194,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A thyrotoxic patient has low uptake on the radioiodine scan. What does that mean?",
+      "a": "Thyroiditis",
+      "d": [
+        "Graves disease",
+        "A toxic adenoma",
+        "A toxic multinodular goitre"
+      ],
+      "why": "Inflammation leaks stored hormone without making any, so the gland takes up nothing. Graves is diffuse high uptake, an adenoma is one hot spot, and a multinodular goitre is several.",
+      "tags": [
+        "hyperthyroidism",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-194c",
+      "item": 194,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is propylthiouracil chosen over methimazole?",
+      "a": "The first trimester of pregnancy",
+      "d": [
+        "Thyroid storm in a man",
+        "Any patient over 60",
+        "A toxic multinodular goitre"
+      ],
+      "why": "Methimazole is the more teratogenic of the two early in pregnancy, which outweighs the liver risk for those weeks. Verapamil is the stand-in for rate control when a beta-blocker cannot be used.",
+      "tags": [
+        "hyperthyroidism",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "ite25-195a",
+      "item": 195,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Day three of pneumonia in an 85-year-old, now agitated and confused, no drug cause, redirection failing. Which drug?",
+      "a": "Olanzapine",
+      "d": [
+        "Lorazepam",
+        "Lithium",
+        "Oxycodone"
+      ],
+      "why": "No drug is approved for delirium, but a second-generation antipsychotic is preferred once reversible causes are excluded and safety is at stake. Benzodiazepines deepen delirium in older adults, and haloperidol is less preferred for its QT and other effects.",
+      "tags": [
+        "delirium",
+        "geriatrics"
+      ]
+    },
+    {
+      "id": "ite25-196a",
+      "item": 196,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An 84-year-old with a hip fracture is confused and cannot explain the risks of surgery. How is capacity handled?",
+      "a": "Document lack of capacity; consult his power of attorney",
+      "d": [
+        "Administer the Aid to Capacity Evaluation tool",
+        "Administer the Montreal Cognitive Assessment",
+        "Ask psychiatry to assess his capacity"
+      ],
+      "why": "When the lack of capacity is obvious, structured tools add nothing and the surrogate steps in. Psychiatry is rarely needed for a capacity question.",
+      "tags": [
+        "capacity",
+        "ethics"
+      ]
+    },
+    {
+      "id": "ite25-196b",
+      "item": 196,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Who determines whether a patient has decision-making capacity?",
+      "a": "The treating clinician",
+      "d": [
+        "A psychiatrist",
+        "The court",
+        "The designated power of attorney"
+      ],
+      "why": "Capacity is a clinical judgement about this decision at this time. The surrogate acts once capacity is found lacking; they do not decide whether it is.",
+      "tags": [
+        "capacity",
+        "ethics"
+      ]
+    },
+    {
+      "id": "ite25-197a",
+      "item": 197,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A lost skier found conscious but confused, not shivering, not moving. What is the first step?",
+      "a": "Heat packs around the chest and a vapour barrier",
+      "d": [
+        "A core temperature reading before anything",
+        "A warm drink and a high-calorie snack",
+        "Removing wet clothes, then wrapping her"
+      ],
+      "why": "No shivering with reduced alertness is moderate hypothermia, treated horizontally with large warming packs in the axillae and around the chest, then transport. Warm drinks are for the mildly cold, and a core temperature is impractical in the field.",
+      "tags": [
+        "hypothermia",
+        "wilderness"
+      ]
+    },
+    {
+      "id": "ite25-197b",
+      "item": 197,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When are wet clothes removed from a hypothermic patient in the field?",
+      "a": "Only with shelter and rescue over 30 minutes away",
+      "d": [
+        "At once, before anything else is done",
+        "Not until she reaches the hospital",
+        "After warm fluids have been given to her"
+      ],
+      "why": "Stripping a patient in the open drops the core temperature further. Intubation is not needed in a conscious patient protecting her airway and would not warm her.",
+      "tags": [
+        "hypothermia",
+        "wilderness"
+      ]
+    },
+    {
+      "id": "ite25-198a",
+      "item": 198,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A healthy 63-year-old with a PSA of 4.6 after a normal result two years ago. What is next?",
+      "a": "Repeat the PSA in 4 to 8 weeks",
+      "d": [
+        "Empiric antibiotics",
+        "A digital rectal examination",
+        "Prostate biopsy"
+      ],
+      "why": "A newly raised PSA is repeated before any biomarker, imaging or biopsy, because many normalise. Empiric antibiotics for an asymptomatic raised PSA are a Choosing Wisely target, and the rectal examination is not a screening test.",
+      "tags": [
+        "psa",
+        "prostate"
+      ]
+    },
+    {
+      "id": "ite25-198b",
+      "item": 198,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "What proportion of newly raised PSA results normalise on repeat testing?",
+      "a": "Up to 40%",
+      "d": [
+        "Up to 10%",
+        "Up to 25%",
+        "Up to 60%"
+      ],
+      "options": [
+        "Up to 10%",
+        "Up to 25%",
+        "Up to 40%",
+        "Up to 60%"
+      ],
+      "why": "Which is the argument for the repeat. The age-adjusted upper limit for a man in his sixties is 4.5 ng/mL, so 4.6 was barely abnormal to begin with.",
+      "tags": [
+        "psa",
+        "prostate"
+      ]
+    },
+    {
+      "id": "ite25-199a",
+      "item": 199,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Four days of watery diarrhoea in a healthy 37-year-old, afebrile, mildly dry, son had the same. What testing?",
+      "a": "No stool testing",
+      "d": [
+        "Faecal calprotectin",
+        "Faecal lactoferrin",
+        "Faecal leukocytes"
+      ],
+      "why": "In a non-toxic patient the stool markers have little value: calprotectin is inconsistent, lactoferrin is nonspecific, and leukocytes disintegrate in the sample. Occult blood and C. difficile testing are not recommended either.",
+      "tags": [
+        "diarrhoea"
+      ]
+    },
+    {
+      "id": "ite25-199b",
+      "item": 199,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features of acute diarrhoea call for stool testing?",
+      "a": [
+        "Immunocompromise",
+        "Recent hospitalisation",
+        "Recent antibiotics",
+        "Diarrhoea lasting more than seven days",
+        "Fever of 38.3 or more"
+      ],
+      "d": [
+        "Dry mucous membranes",
+        "A household contact with the same illness",
+        "Age over 35"
+      ],
+      "why": "Severe pain, blood or mucus and signs of sepsis complete the list. Dehydration is treated, not investigated, and a shared household illness points to a self-limited virus.",
+      "tags": [
+        "diarrhoea"
+      ]
+    },
+    {
+      "id": "ite25-200a",
+      "item": 200,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Which dog bite may be closed primarily rather than left to heal by secondary intention?",
+      "a": "A linear wound on the face",
+      "d": [
+        "A crush injury of the arm",
+        "A gaping wound on the hand",
+        "A puncture wound on the leg"
+      ],
+      "why": "The face is closed for cosmesis and heals well. Hand wounds, punctures and crush injuries carry the highest infection risk and are left open.",
+      "tags": [
+        "bites",
+        "wounds"
+      ]
+    },
+    {
+      "id": "ite25-200b",
+      "item": 200,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Beyond how many hours is a dog bite to the leg considered a delayed presentation?",
+      "a": "6 to 12 hours",
+      "d": [
+        "2 hours",
+        "24 hours",
+        "48 hours"
+      ],
+      "options": [
+        "2 hours",
+        "6 to 12 hours",
+        "24 hours",
+        "48 hours"
+      ],
+      "why": "The face tolerates longer, 12 to 24 hours. Immunosuppression, diabetes included, raises the infection risk at any interval.",
+      "tags": [
+        "bites",
+        "wounds"
+      ]
+    }
+  ]
+}

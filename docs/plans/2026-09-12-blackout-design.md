@@ -252,3 +252,15 @@ into 10-to-15-question themes produced odd planets. Random for now; ideas
 parked for later: keep an item's sibling questions adjacent on first
 encounter, label a planet by its dominant area tag, raise difficulty by map
 tier, five lights for pool sets, per-area accuracy instead of per-topic.
+
+## ITE 2025 complete (2026-10-09)
+
+All 200 items of the 2025 exam are in the ITE pool as 401 questions across
+sixteen batch files, with docs/facts/ite-2025.md as the traceable record.
+tools/ite-batch.py gates each batch: stem length, answer-length tells,
+absolute words, references to the exam, and explanations that are not
+sentences. Batches 5 to 8 were written to the explanation template (why the
+answer is right, why the tempting wrong option is wrong, one fact to carry
+forward); batches 1 to 4 await the rewrite. Known critique conflicts with
+Foundations: zoster vaccine age in immunosuppression (item 73) and
+race-based antihypertensive choice (item 187, fd-htn-03).

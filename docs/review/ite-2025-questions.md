@@ -798,3 +798,103 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Weakness with a positive empty-can test
 - **ite25-175a** (single, d1, 4 options) An adult screens positive for unhealthy alcohol use. What does the task force recommend next?
   → A brief counselling intervention
+
+## ITE 2025, items 176 to 188 (22 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 176 to 188. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-176a** (single, d1, 4 options) An anal fissure. Beyond fibre, fluids and sitz baths, which treatment works with the fewest side effects?
+  → A topical calcium channel blocker
+- **ite25-176b** (single, d2, 4 options) What limits topical nitroglycerin for an anal fissure?
+  → Headache; one in five patients stop it
+- **ite25-177a** (single, d1, 4 options) Which change lowers the risk of diverticulitis?
+  → A vegetarian diet
+- **ite25-177b** (multi, d2, 8 options) Which are risk factors for diverticulitis?
+  → Constipation and a low-fibre diet + Red meat + Smoking + Obesity and inactivity + Aspirin or NSAID use
+- **ite25-177c** (single, d2, 4 options) Which examination finding is most specific for diverticulitis?
+  → Left lower quadrant tenderness
+- **ite25-178a** (single, d1, 4 options) Seconds of electric-shock pain in the cheek, lip and chin, set off by touch or eating. Which cranial nerve?
+  → Cranial nerve V
+- **ite25-179a** (single, d1, 4 options) Which social factor protects against Alzheimer disease and related dementias?
+  → Social engagement
+- **ite25-180a** (single, d2, 4 options) Proximal aching and morning stiffness at 72 on a statin, CK 84, ESR 88, CRP raised, ANA negative. Diagnosis?
+  → Polymyalgia rheumatica
+- **ite25-180b** (single, d3, 4 options) Proximal weakness with raised inflammatory markers. Which result argues against polymyositis and statin myopathy?
+  → A normal creatine kinase
+- **ite25-181a** (single, d1, 4 options) What does the task force recommend for herpes simplex screening in asymptomatic adolescents and adults?
+  → No testing at all
+- **ite25-182a** (single, d1, 4 options) A 2-year-old with two days of intermittent pain, vomiting and now a jelly-like bloody stool. Diagnosis?
+  → Intussusception
+- **ite25-182b** (single, d2, 4 options) Ultrasound confirms intussusception. What is done next?
+  → An air or contrast enema, which can also reduce it
+- **ite25-183a** (single, d2, 4 options) A pack-a-day smoker relapsed five months after quitting with nicotine gum. What gives the best chance now?
+  → Varenicline with nicotine replacement
+- **ite25-183b** (single, d2, 4 options) Which is the most effective single drug for smoking cessation?
+  → Varenicline
+- **ite25-184a** (single, d1, 4 options) A fourth calcium stone this year despite three litres of fluid and a low-protein, high-fibre diet. What is prescribed?
+  → Hydrochlorothiazide
+- **ite25-184b** (multi, d2, 7 options) Which lifestyle measures reduce recurrence of calcium stones?
+  → Fluid intake of 2.5 to 3 litres a day + A high-fibre, low animal protein diet + Sodium under 4 to 5 grams a day + Calcium kept moderate at about 1200 mg a day
+- **ite25-185a** (single, d2, 4 options, fixed order) Confused with a sodium of 118, given 3% saline boluses. By how much should the first boluses raise the sodium?
+  → 4 to 6 mEq/L
+- **ite25-185b** (single, d2, 4 options) When is normal saline the right treatment for hyponatraemia?
+  → Non-severe hypovolaemic hyponatraemia
+- **ite25-186a** (single, d2, 4 options) Three days of burning pain down one leg, straight-leg raise positive, no deficit, no red flags. First step?
+  → Mobilisation and manipulation
+- **ite25-186b** (single, d2, 4 options, fixed order) Acute lumbar radiculopathy without red flags. After how long without improvement is MRI ordered?
+  → 6 weeks
+- **ite25-187a** (single, d1, 4 options) Two months off antihypertensives, now 162/100 on repeat and asymptomatic. What is started?
+  → A calcium channel blocker with an ACE inhibitor
+- **ite25-188a** (single, d1, 4 options) A 14-year-old with anorexia nervosa. Which finding would mean inpatient care?
+  → A potassium of 2.6 mEq/L
+
+## ITE 2025, items 189 to 200 (23 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 189 to 200. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-189a** (single, d1, 4 options) A 30-year-old has just tested positive for Lynch syndrome. What colon screening is advised?
+  → Colonoscopy now, every one to two years
+- **ite25-189b** (multi, d3, 8 options) Besides colon cancer, which cancers are more common in Lynch syndrome?
+  → Endometrial + Ovarian + Stomach + Small bowel + Pancreatic
+- **ite25-190a** (single, d2, 4 options) Admitted with acute pancreatitis, on fluids and improving, still tender. Which diet is ordered?
+  → A low-fat solid diet
+- **ite25-190b** (single, d2, 4 options, fixed order) Acute pancreatitis and oral intake is not tolerated. After how long is tube feeding started?
+  → 72 hours
+- **ite25-191a** (multi, d2, 6 options) Which factors bring osteoporosis screening forward before 65 in a postmenopausal woman?
+  → Smoking + Excessive alcohol + A parental hip fracture
+- **ite25-191b** (single, d2, 4 options) What is the FRAX tool for in osteoporosis screening?
+  → Counselling on future fracture risk
+- **ite25-192a** (multi, d2, 7 options) Potassium 6.5 with peaked T waves. Which other ECG changes belong to hyperkalaemia?
+  → A prolonged PR interval + Loss of P waves + A widened QRS
+- **ite25-193a** (single, d1, 4 options) A loose, displaced front tooth after a baseball, root visible, no bony tenderness, dentist called. First step?
+  → Reposition the tooth and have him bite on gauze
+- **ite25-193b** (single, d2, 4 options, fixed order) Within how long must an avulsed permanent tooth be reimplanted for a good chance of survival?
+  → 1 hour
+- **ite25-194a** (single, d1, 4 options) Exophthalmos, low TSH, high free T4 and diffuse high uptake on a radioiodine scan. Which drug?
+  → Methimazole
+- **ite25-194b** (single, d2, 4 options) A thyrotoxic patient has low uptake on the radioiodine scan. What does that mean?
+  → Thyroiditis
+- **ite25-194c** (single, d2, 4 options) When is propylthiouracil chosen over methimazole?
+  → The first trimester of pregnancy
+- **ite25-195a** (single, d1, 4 options) Day three of pneumonia in an 85-year-old, now agitated and confused, no drug cause, redirection failing. Which drug?
+  → Olanzapine
+- **ite25-196a** (single, d1, 4 options) An 84-year-old with a hip fracture is confused and cannot explain the risks of surgery. How is capacity handled?
+  → Document lack of capacity; consult his power of attorney
+- **ite25-196b** (single, d2, 4 options) Who determines whether a patient has decision-making capacity?
+  → The treating clinician
+- **ite25-197a** (single, d2, 4 options) A lost skier found conscious but confused, not shivering, not moving. What is the first step?
+  → Heat packs around the chest and a vapour barrier
+- **ite25-197b** (single, d2, 4 options) When are wet clothes removed from a hypothermic patient in the field?
+  → Only with shelter and rescue over 30 minutes away
+- **ite25-198a** (single, d1, 4 options) A healthy 63-year-old with a PSA of 4.6 after a normal result two years ago. What is next?
+  → Repeat the PSA in 4 to 8 weeks
+- **ite25-198b** (single, d3, 4 options, fixed order) What proportion of newly raised PSA results normalise on repeat testing?
+  → Up to 40%
+- **ite25-199a** (single, d1, 4 options) Four days of watery diarrhoea in a healthy 37-year-old, afebrile, mildly dry, son had the same. What testing?
+  → No stool testing
+- **ite25-199b** (multi, d2, 8 options) Which features of acute diarrhoea call for stool testing?
+  → Immunocompromise + Recent hospitalisation + Recent antibiotics + Diarrhoea lasting more than seven days + Fever of 38.3 or more
+- **ite25-200a** (single, d1, 4 options) Which dog bite may be closed primarily rather than left to heal by secondary intention?
+  → A linear wound on the face
+- **ite25-200b** (single, d2, 4 options, fixed order) Beyond how many hours is a dog bite to the leg considered a delayed presentation?
+  → 6 to 12 hours
