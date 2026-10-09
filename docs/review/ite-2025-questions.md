@@ -704,3 +704,97 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Bupropion + Trazodone + Tricyclic antidepressants
 - **ite25-150a** (single, d2, 4 options) A healthy 20-year-old asks for cervical screening. What does the task force say?
   → Not before 21; it is recommended against
+
+## ITE 2025, items 151 to 163 (21 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 151 to 163. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-151a** (single, d2, 4 options) Confusion with a blood pressure of 280/140. Which cause demands a systolic of 120 within twenty minutes?
+  → Acute aortic dissection
+- **ite25-151b** (single, d2, 4 options, fixed order) Below what heart rate is an acute aortic dissection held while the pressure is lowered?
+  → 60
+- **ite25-152a** (single, d1, 4 options) Falling asleep at work, told he snores, up three times a night to pass urine, BMI 32. Which test makes the diagnosis?
+  → Polysomnography
+- **ite25-152b** (single, d2, 4 options) A tired, snoring, obese man. Which added features would have made hypothyroidism the better bet?
+  → Dry skin, constipation and low mood
+- **ite25-153a** (single, d2, 4 options) A 16-year-old who is not sexually active. Which screening has the strongest task force evidence?
+  → Anxiety
+- **ite25-154a** (single, d2, 4 options) Shoulder pain with no injury and normal radiographs. Which finding best supports adhesive capsulitis?
+  → Restricted passive abduction and external rotation
+- **ite25-154b** (multi, d2, 6 options) Which shoulder findings point to an extra-articular cause such as the rotator cuff rather than the joint itself?
+  → Restricted active abduction with full passive range + Pain on resisted abduction + Weakness on resisted external rotation
+- **ite25-155a** (single, d1, 4 options) A deep plantar diabetic ulcer with surrounding erythema, probe-to-bone positive. Which osteomyelitis test is next?
+  → Plain radiography
+- **ite25-155b** (single, d2, 4 options) A severe diabetic foot infection has a normal white cell count. What does that tell you?
+  → Little; it is normal in half of severe cases
+- **ite25-156a** (single, d2, 4 options) Months of mild pitting oedema in both legs, better each morning, on a thiazide, lisinopril and oestrogen. Next?
+  → Hold the oestrogen and watch
+- **ite25-156b** (single, d2, 4 options) When is compression ultrasound the right test for a swollen leg?
+  → Acute swelling of one leg
+- **ite25-157a** (single, d1, 4 options) Syphilis in a pregnant woman with a penicillin allergy. What is given?
+  → Penicillin after desensitisation
+- **ite25-158a** (single, d1, 4 options) Parents of a 7-year-old above the 80th BMI centile ask how to help. Which advice is correct?
+  → An hour a day of moderate or vigorous activity
+- **ite25-158b** (single, d1, 4 options, fixed order) How many servings of fruit and vegetables a day are recommended for a child?
+  → 5
+- **ite25-159a** (single, d2, 4 options) Numb soles in both feet, normal strength, reflexes, pulses and a full screening panel. What is next?
+  → Nerve conduction studies and EMG
+- **ite25-159b** (multi, d2, 7 options) Which features would shift a numb-feet work-up towards a central cause and an MRI?
+  → Ataxia + Double vision + Speech difficulty + An asymmetric pattern
+- **ite25-160a** (single, d1, 4 options) Achilles tendinopathy after a hiking trip. What is the next step?
+  → Referral to physiotherapy
+- **ite25-161a** (single, d1, 4 options) A newly diagnosed diabetic is anxious and doubts he can manage. Which approach best helps him follow through?
+  → Motivational interviewing around his own priorities
+- **ite25-162a** (single, d1, 4 options) A 15-year-old with months of pain and loose stools, height down from the 50th to the 35th centile. What is ordered?
+  → IgA tissue transglutaminase
+- **ite25-162b** (single, d2, 4 options) What is sent alongside the transglutaminase antibody when coeliac disease is strongly suspected?
+  → Total IgA, to catch IgA deficiency
+- **ite25-163a** (single, d2, 4 options) A 60-year-old with low energy and libido asks about testosterone. Which symptom would be most specific for deficiency?
+  → Loss of axillary and pubic hair
+
+## ITE 2025, items 164 to 175 (21 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 164 to 175. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-164a** (single, d1, 4 options) A well 3-year-old with a soft continuous murmur below the clavicle, heard sitting, gone lying down. What is done?
+  → Reassure; no follow-up needed
+- **ite25-164b** (multi, d2, 7 options) Which features mark a murmur as a venous hum?
+  → Continuous rather than systolic + Loudest below the clavicle + Heard only when upright + Changes with head movement
+- **ite25-165a** (single, d1, 4 options) Anaphylaxis to tree nuts needed two doses of epinephrine; she now feels well. What is next?
+  → Emergency department, observed 6 to 12 hours
+- **ite25-165b** (single, d2, 4 options) Why is severe anaphylaxis observed for hours after the symptoms have settled?
+  → A biphasic reaction can follow hours later
+- **ite25-166a** (single, d2, 4 options) Mechanical aortic valve, prior stroke and DVT, GFR 28, warfarin held for colonoscopy with biopsies. How is he bridged?
+  → An intravenous heparin infusion
+- **ite25-166b** (single, d3, 4 options, fixed order) What INR is targeted for a mechanical aortic valve in a patient with a prior embolic stroke?
+  → 2.5 to 3.5
+- **ite25-167a** (single, d1, 4 options) A 4-year-old with a buckle fracture of the distal radius. What is the management?
+  → A splint for 3 weeks; radiographs if pain persists
+- **ite25-168a** (single, d2, 4 options) A 19-year-old home from college for a wellness visit. Which screening does the task force recommend?
+  → Unhealthy drug use
+- **ite25-168b** (multi, d3, 8 options) Which screens in adolescents and young adults does the task force rate as insufficient evidence?
+  → Eating disorders + Elevated blood pressure + Scoliosis + Suicide risk + Dyslipidaemia
+- **ite25-169a** (single, d1, 4 options) Three days of large-volume milky-white watery stools in an oyster fisherman, non-toxic. Which pathogen?
+  → Vibrio species
+- **ite25-169b** (multi, d2, 7 options) Which features of acute diarrhoea prompt stool testing for bacterial pathogens?
+  → Fever + Bloody or mucoid stools + Signs of sepsis + Severe abdominal cramping or tenderness
+- **ite25-170a** (single, d2, 4 options) A 35-year-old with Down syndrome, no symptoms, labs two years ago normal. Which screening is due today?
+  → A TSH level
+- **ite25-170b** (multi, d2, 6 options) Which are recommended for adults with Down syndrome?
+  → TSH every one to two years from 21 + Dementia screening with a validated tool from 40 + Cardiovascular prevention as for other adults
+- **ite25-171a** (single, d1, 4 options) Day three at 9600 feet: breathless at rest, tachycardic, now coughing frothy sputum. What is done?
+  → Oxygen and descent
+- **ite25-171b** (single, d2, 4 options) When is nifedipine used to treat high-altitude pulmonary oedema?
+  → When descent or a hyperbaric chamber is unavailable
+- **ite25-172a** (single, d1, 4 options) Which antibiotic is most often behind Stevens-Johnson syndrome?
+  → Sulfamethoxazole-trimethoprim
+- **ite25-173a** (single, d1, 4 options) One episode of postmenopausal spotting two months ago, endometrial stripe 4 mm, no polyps or fibroids. What follows?
+  → No further evaluation
+- **ite25-173b** (single, d2, 4 options) The spotting recurs despite a 4-mm endometrial stripe. What is next?
+  → Endometrial biopsy
+- **ite25-174a** (single, d2, 4 options) Shoulder pain with catching and popping after a fall on the outstretched arm, positive anterior slide test. Diagnosis?
+  → A glenoid labral tear
+- **ite25-174b** (single, d2, 4 options) Which findings point to a rotator cuff tear rather than a labral tear?
+  → Weakness with a positive empty-can test
+- **ite25-175a** (single, d1, 4 options) An adult screens positive for unhealthy alcohol use. What does the task force recommend next?
+  → A brief counselling intervention

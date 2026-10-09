@@ -1,0 +1,412 @@
+{
+  "id": "ite25-items-151-163",
+  "title": "ITE 2025, items 151 to 163",
+  "short": "Items 151 to 163",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 151 to 163. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-151a",
+      "item": 151,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Confusion with a blood pressure of 280/140. Which cause demands a systolic of 120 within twenty minutes?",
+      "a": "Acute aortic dissection",
+      "d": [
+        "Acute ischaemic stroke",
+        "Intracerebral haemorrhage",
+        "Hypertensive encephalopathy"
+      ],
+      "why": "In dissection every minute of shear stress propagates the tear, so pressure and heart rate are driven down fast. The brain injuries are lowered cautiously, because a sudden drop in perfusion pressure does its own damage.",
+      "tags": [
+        "hypertensive-emergency",
+        "dissection"
+      ]
+    },
+    {
+      "id": "ite25-151b",
+      "item": 151,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Below what heart rate is an acute aortic dissection held while the pressure is lowered?",
+      "a": "60",
+      "d": [
+        "50",
+        "80",
+        "100"
+      ],
+      "options": [
+        "50",
+        "60",
+        "80",
+        "100"
+      ],
+      "why": "Rate control reduces the force of each ejection against the aortic wall, which is why a beta-blocker goes in before the vasodilator.",
+      "tags": [
+        "dissection"
+      ]
+    },
+    {
+      "id": "ite25-152a",
+      "item": 152,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Falling asleep at work, told he snores, up three times a night to pass urine, BMI 32. Which test makes the diagnosis?",
+      "a": "Polysomnography",
+      "d": [
+        "A serum TSH",
+        "Iron studies",
+        "A comprehensive metabolic panel"
+      ],
+      "why": "Obesity, snoring and fatigue make obstructive sleep apnoea the likely cause, and the sleep study is definitive. The TSH would be the tempting first test, but he has none of the dry skin, constipation or mood change that would point to the thyroid.",
+      "tags": [
+        "sleep-apnoea"
+      ]
+    },
+    {
+      "id": "ite25-152b",
+      "item": 152,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A tired, snoring, obese man. Which added features would have made hypothyroidism the better bet?",
+      "a": "Dry skin, constipation and low mood",
+      "d": [
+        "Nocturia three times a night",
+        "Daytime sleepiness at the desk",
+        "A blood pressure of 140/88"
+      ],
+      "why": "Those are the thyroid clues that were absent. Nocturia, sleepiness and mild hypertension all sit comfortably with sleep apnoea.",
+      "tags": [
+        "sleep-apnoea",
+        "hypothyroidism"
+      ]
+    },
+    {
+      "id": "ite25-153a",
+      "item": 153,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 16-year-old who is not sexually active. Which screening has the strongest task force evidence?",
+      "a": "Anxiety",
+      "d": [
+        "Chlamydia and gonorrhoea",
+        "Elevated blood pressure",
+        "Scoliosis"
+      ],
+      "why": "Anxiety screening from 8 to 18 carries a B recommendation. Chlamydia and gonorrhoea screening is also B, but only for sexually active girls, and blood pressure and scoliosis are rated insufficient.",
+      "tags": [
+        "screening",
+        "adolescent"
+      ]
+    },
+    {
+      "id": "ite25-154a",
+      "item": 154,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Shoulder pain with no injury and normal radiographs. Which finding best supports adhesive capsulitis?",
+      "a": "Restricted passive abduction and external rotation",
+      "d": [
+        "Restricted active abduction with full passive range",
+        "Weakness on resisted abduction and external rotation",
+        "Apprehension at 90 degrees of abduction"
+      ],
+      "why": "The capsule itself is contracted, so the examiner cannot move the joint either. Osteoarthritis restricts passive motion too, but the radiographs would show it; here they are normal.",
+      "tags": [
+        "shoulder",
+        "adhesive-capsulitis"
+      ]
+    },
+    {
+      "id": "ite25-154b",
+      "item": 154,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which shoulder findings point to an extra-articular cause such as the rotator cuff rather than the joint itself?",
+      "a": [
+        "Restricted active abduction with full passive range",
+        "Pain on resisted abduction",
+        "Weakness on resisted external rotation"
+      ],
+      "d": [
+        "Restricted passive external rotation",
+        "Apprehension at 90 degrees of abduction",
+        "Joint space narrowing on radiographs"
+      ],
+      "why": "When the examiner can move the arm but the patient cannot, the joint is free and the problem is in the cuff, bursa or biceps tendon. Weakness on resisted testing raises a full-thickness tear, and apprehension is instability.",
+      "tags": [
+        "shoulder",
+        "rotator-cuff"
+      ]
+    },
+    {
+      "id": "ite25-155a",
+      "item": 155,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A deep plantar diabetic ulcer with surrounding erythema, probe-to-bone positive. Which osteomyelitis test is next?",
+      "a": "Plain radiography",
+      "d": [
+        "A white cell count",
+        "A culture swab of the ulcer",
+        "Transcutaneous oximetry"
+      ],
+      "why": "Radiographs are cheap, safe and available, and a positive film can make advanced imaging unnecessary. A surface swab grows skin flora rather than the organism in the bone, and oximetry measures perfusion, not infection.",
+      "tags": [
+        "diabetic-foot",
+        "osteomyelitis"
+      ]
+    },
+    {
+      "id": "ite25-155b",
+      "item": 155,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A severe diabetic foot infection has a normal white cell count. What does that tell you?",
+      "a": "Little; it is normal in half of severe cases",
+      "d": [
+        "Osteomyelitis is unlikely to be present",
+        "The infection is mild enough for oral drugs",
+        "Antibiotics can wait for culture results"
+      ],
+      "why": "The white count grades severity when it is raised and means nothing when it is not. A markedly raised ESR is the marker that does suggest bone infection.",
+      "tags": [
+        "diabetic-foot",
+        "osteomyelitis"
+      ]
+    },
+    {
+      "id": "ite25-156a",
+      "item": 156,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Months of mild pitting oedema in both legs, better each morning, on a thiazide, lisinopril and oestrogen. Next?",
+      "a": "Hold the oestrogen and watch",
+      "d": [
+        "Hold the lisinopril and watch",
+        "Bilateral ankle-brachial indices",
+        "Bilateral venous compression ultrasound"
+      ],
+      "why": "A drug effect is checked before any test, and oestrogen causes oedema while an ACE inhibitor does not. At 63 she is well past menopause, which is a second reason to stop it.",
+      "tags": [
+        "oedema",
+        "drug-effects"
+      ]
+    },
+    {
+      "id": "ite25-156b",
+      "item": 156,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is compression ultrasound the right test for a swollen leg?",
+      "a": "Acute swelling of one leg",
+      "d": [
+        "Chronic swelling of both legs",
+        "Swelling that is better each morning",
+        "Swelling with strong pedal pulses"
+      ],
+      "why": "That is the picture of deep vein thrombosis, graded first by a Wells score; a low score with a negative D-dimer rules it out without a scan. Ankle-brachial indices are for suspected arterial disease and come before compression stockings.",
+      "tags": [
+        "oedema",
+        "dvt"
+      ]
+    },
+    {
+      "id": "ite25-157a",
+      "item": 157,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Syphilis in a pregnant woman with a penicillin allergy. What is given?",
+      "a": "Penicillin after desensitisation",
+      "d": [
+        "Azithromycin for two weeks",
+        "Ceftriaxone intramuscularly",
+        "Doxycycline for two weeks"
+      ],
+      "why": "Penicillin is the only drug proven to cure the mother and protect the fetus, so the allergy is managed rather than avoided. Azithromycin fails on both counts, ceftriaxone lacks data, and doxycycline is not used after the first trimester.",
+      "tags": [
+        "syphilis",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "ite25-158a",
+      "item": 158,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Parents of a 7-year-old above the 80th BMI centile ask how to help. Which advice is correct?",
+      "a": "An hour a day of moderate or vigorous activity",
+      "d": [
+        "Calorie restriction alone is enough",
+        "Avoid screen-based physical activity",
+        "Fruit juice counts towards the fruit servings"
+      ],
+      "why": "Sixty minutes a day applies from 6 to 17. Calorie restriction only works alongside activity and behaviour change, movement-based video games can help, and the paediatric academy advises against juice as a substitute for whole fruit.",
+      "tags": [
+        "obesity",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-158b",
+      "item": 158,
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "How many servings of fruit and vegetables a day are recommended for a child?",
+      "a": "5",
+      "d": [
+        "3",
+        "7",
+        "9"
+      ],
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "why": "Whole fruit rather than juice, because juice carries the calories without the fibre.",
+      "tags": [
+        "nutrition",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-159a",
+      "item": 159,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Numb soles in both feet, normal strength, reflexes, pulses and a full screening panel. What is next?",
+      "a": "Nerve conduction studies and EMG",
+      "d": [
+        "Gabapentin three times daily",
+        "Lyme antibody testing",
+        "MRI of the brain"
+      ],
+      "why": "A symmetric distal pattern with normal labs is a peripheral neuropathy of unknown cause, and electrodiagnostics classify it. Gabapentin treats pain without answering the question, and an MRI needs central signs or asymmetry.",
+      "tags": [
+        "neuropathy"
+      ]
+    },
+    {
+      "id": "ite25-159b",
+      "item": 159,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features would shift a numb-feet work-up towards a central cause and an MRI?",
+      "a": [
+        "Ataxia",
+        "Double vision",
+        "Speech difficulty",
+        "An asymmetric pattern"
+      ],
+      "d": [
+        "Symmetric stocking-pattern loss",
+        "Normal reflexes",
+        "A normal B12 level"
+      ],
+      "why": "The red flags are the ones a peripheral nerve cannot produce. A patient's fear of multiple sclerosis is not one of them.",
+      "tags": [
+        "neuropathy",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-160a",
+      "item": 160,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Achilles tendinopathy after a hiking trip. What is the next step?",
+      "a": "Referral to physiotherapy",
+      "d": [
+        "MRI to confirm the diagnosis",
+        "Non-weight-bearing until pain settles",
+        "A corticosteroid injection"
+      ],
+      "why": "The diagnosis is clinical and the treatment is loading exercises with activity modification. Complete rest and steroid injection are both advised against, and platelet-rich plasma has not beaten placebo convincingly.",
+      "tags": [
+        "achilles",
+        "tendinopathy"
+      ]
+    },
+    {
+      "id": "ite25-161a",
+      "item": 161,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A newly diagnosed diabetic is anxious and doubts he can manage. Which approach best helps him follow through?",
+      "a": "Motivational interviewing around his own priorities",
+      "d": [
+        "Pictures of complications to convey seriousness",
+        "Precise medical terminology throughout",
+        "Detailed written instructions after the visit"
+      ],
+      "why": "Change comes from what matters to the patient, and motivational interviewing is built to find it. Scare tactics do not work, jargon obstructs, and a stack of handouts overwhelms someone already anxious.",
+      "tags": [
+        "counselling",
+        "diabetes"
+      ]
+    },
+    {
+      "id": "ite25-162a",
+      "item": 162,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 15-year-old with months of pain and loose stools, height down from the 50th to the 35th centile. What is ordered?",
+      "a": "IgA tissue transglutaminase",
+      "d": [
+        "Faecal fat testing",
+        "A carbohydrate breath test",
+        "Oesophagogastroduodenoscopy"
+      ],
+      "why": "Falling centiles with diarrhoea is malabsorption until proven otherwise, and the transglutaminase antibody is 95 percent sensitive and specific for coeliac disease. Endoscopy confirms a positive result rather than replacing it.",
+      "tags": [
+        "coeliac",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-162b",
+      "item": 162,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is sent alongside the transglutaminase antibody when coeliac disease is strongly suspected?",
+      "a": "Total IgA, to catch IgA deficiency",
+      "d": [
+        "Faecal calprotectin for inflammation",
+        "A 72-hour faecal fat collection",
+        "A hydrogen breath test for overgrowth"
+      ],
+      "why": "Two to three percent of coeliac patients lack IgA and would test falsely negative. Breath testing is for bacterial overgrowth, which needs abnormal anatomy or motility and presents with bloating.",
+      "tags": [
+        "coeliac"
+      ]
+    },
+    {
+      "id": "ite25-163a",
+      "item": 163,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 60-year-old with low energy and libido asks about testosterone. Which symptom would be most specific for deficiency?",
+      "a": "Loss of axillary and pubic hair",
+      "d": [
+        "Difficulty with memory",
+        "Fatigue and poor stamina",
+        "Thinning hair at the temples"
+      ],
+      "why": "Body hair loss is one of the few findings that points at androgen deficiency rather than at ageing in general. Temporal thinning is androgenic alopecia, and eyebrow loss would suggest thyroid disease.",
+      "tags": [
+        "hypogonadism"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "id": "ite25-items-164-175",
+  "title": "ITE 2025, items 164 to 175",
+  "short": "Items 164 to 175",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 164 to 175. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-164a",
+      "item": 164,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A well 3-year-old with a soft continuous murmur below the clavicle, heard sitting, gone lying down. What is done?",
+      "a": "Reassure; no follow-up needed",
+      "d": [
+        "Recheck the murmur in a month",
+        "Refer to paediatric cardiology",
+        "Evaluate for a patent ductus"
+      ],
+      "why": "A venous hum is vibration in the neck veins, and its disappearance when supine is what makes it innocent. A patent ductus is also continuous but does not come and go with posture.",
+      "tags": [
+        "murmur",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-164b",
+      "item": 164,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features mark a murmur as a venous hum?",
+      "a": [
+        "Continuous rather than systolic",
+        "Loudest below the clavicle",
+        "Heard only when upright",
+        "Changes with head movement"
+      ],
+      "d": [
+        "Loudest when lying flat",
+        "Harsh and holosystolic",
+        "Radiates to the back"
+      ],
+      "why": "The hum appears between 3 and 6 and needs no follow-up. A murmur that persists lying down or radiates is a different conversation.",
+      "tags": [
+        "murmur",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-165a",
+      "item": 165,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Anaphylaxis to tree nuts needed two doses of epinephrine; she now feels well. What is next?",
+      "a": "Emergency department, observed 6 to 12 hours",
+      "d": [
+        "Emergency department, observed 1 to 2 hours",
+        "Prednisone for five days and review",
+        "Famotidine daily and review in a week"
+      ],
+      "why": "Needing a second dose makes the reaction refractory, and refractory or severe anaphylaxis carries a risk of a biphasic reaction hours later. Antihistamines and steroids are adjuncts afterwards, not the treatment.",
+      "tags": [
+        "anaphylaxis"
+      ]
+    },
+    {
+      "id": "ite25-165b",
+      "item": 165,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is severe anaphylaxis observed for hours after the symptoms have settled?",
+      "a": "A biphasic reaction can follow hours later",
+      "d": [
+        "Epinephrine keeps working for twelve hours",
+        "Steroids take six hours to act",
+        "Allergy testing must be done the same day"
+      ],
+      "why": "The second wave comes without a second exposure, which is why feeling well at the clinic door is not the end of the episode.",
+      "tags": [
+        "anaphylaxis"
+      ]
+    },
+    {
+      "id": "ite25-166a",
+      "item": 166,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Mechanical aortic valve, prior stroke and DVT, GFR 28, warfarin held for colonoscopy with biopsies. How is he bridged?",
+      "a": "An intravenous heparin infusion",
+      "d": [
+        "Enoxaparin 1.5 mg/kg daily",
+        "Heparin 5000 units subcutaneously",
+        "Vitamin K, then warfarin afterwards"
+      ],
+      "why": "His thromboembolic risk is as high as it gets and the procedure bleeds, so he needs full anticoagulation that can be switched off. Enoxaparin is out at that GFR, 5000 units is a prophylactic dose, and vitamin K is for the bleeding patient.",
+      "tags": [
+        "anticoagulation",
+        "bridging"
+      ]
+    },
+    {
+      "id": "ite25-166b",
+      "item": 166,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "What INR is targeted for a mechanical aortic valve in a patient with a prior embolic stroke?",
+      "a": "2.5 to 3.5",
+      "d": [
+        "1.5 to 2.5",
+        "2.0 to 3.0",
+        "3.0 to 4.0"
+      ],
+      "options": [
+        "1.5 to 2.5",
+        "2.0 to 3.0",
+        "2.5 to 3.5",
+        "3.0 to 4.0"
+      ],
+      "why": "The higher range is for mechanical valves with added risk factors, which a prior embolic event is. Warfarin is resumed after the procedure with the same target.",
+      "tags": [
+        "anticoagulation",
+        "mechanical-valve"
+      ]
+    },
+    {
+      "id": "ite25-167a",
+      "item": 167,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 4-year-old with a buckle fracture of the distal radius. What is the management?",
+      "a": "A splint for 3 weeks; radiographs if pain persists",
+      "d": [
+        "A splint for 3 weeks with routine radiographs",
+        "A cast for 6 weeks with routine radiographs",
+        "A cast for 6 weeks; radiographs if pain persists"
+      ],
+      "why": "A buckle is an incomplete compression fracture with the cortex intact, so a splint, soft cast or wrap is enough. Choosing Wisely advises against follow-up films unless pain or tenderness persists.",
+      "tags": [
+        "fracture",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-168a",
+      "item": 168,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 19-year-old home from college for a wellness visit. Which screening does the task force recommend?",
+      "a": "Unhealthy drug use",
+      "d": [
+        "Lipid disorders",
+        "Skin cancer by examination",
+        "Suicide risk"
+      ],
+      "why": "Drug use screening from 18 carries a B recommendation and covers nonprescribed use of psychoactive medicines or illegally obtained drugs. The other three are rated insufficient at this age.",
+      "tags": [
+        "screening",
+        "young-adult"
+      ]
+    },
+    {
+      "id": "ite25-168b",
+      "item": 168,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which screens in adolescents and young adults does the task force rate as insufficient evidence?",
+      "a": [
+        "Eating disorders",
+        "Elevated blood pressure",
+        "Scoliosis",
+        "Suicide risk",
+        "Dyslipidaemia"
+      ],
+      "d": [
+        "Anxiety from 8 to 18",
+        "Depression from 12 to 18",
+        "Unhealthy drug use from 18"
+      ],
+      "why": "Insufficient means neither for nor against, which is not the same as recommended against. Anxiety, depression and drug use screening all carry B recommendations.",
+      "tags": [
+        "screening",
+        "adolescent"
+      ]
+    },
+    {
+      "id": "ite25-169a",
+      "item": 169,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Three days of large-volume milky-white watery stools in an oyster fisherman, non-toxic. Which pathogen?",
+      "a": "Vibrio species",
+      "d": [
+        "Clostridioides difficile",
+        "Enterotoxigenic Escherichia coli",
+        "Yersinia enterocolitica"
+      ],
+      "why": "Rice-water or milky stool is the Vibrio signature, and it is tested for on that basis whether or not shellfish or brackish water are in the history. The other three are sought when there is fever, blood or mucus, sepsis or severe cramping.",
+      "tags": [
+        "diarrhoea",
+        "vibrio"
+      ]
+    },
+    {
+      "id": "ite25-169b",
+      "item": 169,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features of acute diarrhoea prompt stool testing for bacterial pathogens?",
+      "a": [
+        "Fever",
+        "Bloody or mucoid stools",
+        "Signs of sepsis",
+        "Severe abdominal cramping or tenderness"
+      ],
+      "d": [
+        "Three days of watery stool on its own",
+        "Recent travel on its own",
+        "Shellfish in the past week on its own"
+      ],
+      "why": "Rice-water stool is the one exception that is tested regardless. Most watery diarrhoea in a non-toxic patient needs fluids and nothing else.",
+      "tags": [
+        "diarrhoea"
+      ]
+    },
+    {
+      "id": "ite25-170a",
+      "item": 170,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 35-year-old with Down syndrome, no symptoms, labs two years ago normal. Which screening is due today?",
+      "a": "A TSH level",
+      "d": [
+        "A dementia screening tool",
+        "A DXA scan",
+        "Cervical spine radiographs"
+      ],
+      "why": "Hypothyroidism affects about half of adults with Down syndrome over 30, so the TSH is repeated every one to two years from 21. Dementia screening starts at 40, and bone density waits for 65 like everyone else.",
+      "tags": [
+        "down-syndrome",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-170b",
+      "item": 170,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which are recommended for adults with Down syndrome?",
+      "a": [
+        "TSH every one to two years from 21",
+        "Dementia screening with a validated tool from 40",
+        "Cardiovascular prevention as for other adults"
+      ],
+      "d": [
+        "DXA before the age of 65",
+        "Routine cervical spine radiographs",
+        "Dementia screening from the age of 30"
+      ],
+      "why": "Atlantoaxial instability is commoner but no study supports screening films; the advice is to watch for myelopathy, meaning incontinence, gait change, brisk reflexes or clonus. Dementia before 40 is rare and gets a search for other causes.",
+      "tags": [
+        "down-syndrome",
+        "screening"
+      ]
+    },
+    {
+      "id": "ite25-171a",
+      "item": 171,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Day three at 9600 feet: breathless at rest, tachycardic, now coughing frothy sputum. What is done?",
+      "a": "Oxygen and descent",
+      "d": [
+        "Oral acetazolamide",
+        "Oral dexamethasone",
+        "Oral nifedipine"
+      ],
+      "why": "High-altitude pulmonary oedema is an emergency and descent is the treatment. Acetazolamide prevents mountain sickness, dexamethasone is for cerebral oedema, and nifedipine is a stand-in when descent is impossible.",
+      "tags": [
+        "altitude",
+        "hape"
+      ]
+    },
+    {
+      "id": "ite25-171b",
+      "item": 171,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is nifedipine used to treat high-altitude pulmonary oedema?",
+      "a": "When descent or a hyperbaric chamber is unavailable",
+      "d": [
+        "As the first treatment at any ski resort",
+        "For the headache of mountain sickness",
+        "For high-altitude cerebral oedema"
+      ],
+      "why": "Its main role is prevention in people who have had HAPE before. The risk of mountain sickness climbs once people sleep above about 8200 feet.",
+      "tags": [
+        "altitude",
+        "hape"
+      ]
+    },
+    {
+      "id": "ite25-172a",
+      "item": 172,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Which antibiotic is most often behind Stevens-Johnson syndrome?",
+      "a": "Sulfamethoxazole-trimethoprim",
+      "d": [
+        "Cephalexin for a week",
+        "Ciprofloxacin for a week",
+        "Nitrofurantoin for a week"
+      ],
+      "why": "Sulfonamides account for most antibiotic-associated cases, and antibiotics as a class cause more than a quarter of all Stevens-Johnson and toxic epidermal necrolysis worldwide.",
+      "tags": [
+        "drug-reactions"
+      ]
+    },
+    {
+      "id": "ite25-173a",
+      "item": 173,
+      "type": "single",
+      "difficulty": 1,
+      "q": "One episode of postmenopausal spotting two months ago, endometrial stripe 4 mm, no polyps or fibroids. What follows?",
+      "a": "No further evaluation",
+      "d": [
+        "Endometrial biopsy",
+        "Hysteroscopy with biopsy",
+        "Repeat ultrasound in a year"
+      ],
+      "why": "A stripe of 4 mm or less carries a negative predictive value above 99 percent for endometrial cancer. Biopsy would have been an equally good first test, but it is not needed after a reassuring scan.",
+      "tags": [
+        "postmenopausal-bleeding"
+      ]
+    },
+    {
+      "id": "ite25-173b",
+      "item": 173,
+      "type": "single",
+      "difficulty": 2,
+      "q": "The spotting recurs despite a 4-mm endometrial stripe. What is next?",
+      "a": "Endometrial biopsy",
+      "d": [
+        "Repeat ultrasound in a year",
+        "Reassurance once more",
+        "Dilation and curettage first"
+      ],
+      "why": "Recurrent or persistent bleeding needs tissue whatever the scan showed. Hysteroscopy with curettage comes after a biopsy that fails to explain continuing bleeding.",
+      "tags": [
+        "postmenopausal-bleeding"
+      ]
+    },
+    {
+      "id": "ite25-174a",
+      "item": 174,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Shoulder pain with catching and popping after a fall on the outstretched arm, positive anterior slide test. Diagnosis?",
+      "a": "A glenoid labral tear",
+      "d": [
+        "A rotator cuff tear",
+        "Acromioclavicular joint arthritis",
+        "Adhesive capsulitis"
+      ],
+      "why": "Catching or popping with a positive anterior slide test gives a likelihood ratio of 6 for a labral tear. A cuff tear brings weakness overhead and positive empty-can and external rotation tests instead.",
+      "tags": [
+        "shoulder",
+        "labrum"
+      ]
+    },
+    {
+      "id": "ite25-174b",
+      "item": 174,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which findings point to a rotator cuff tear rather than a labral tear?",
+      "a": "Weakness with a positive empty-can test",
+      "d": [
+        "Catching and popping in the joint",
+        "A positive anterior slide test",
+        "Pain on cross-body adduction"
+      ],
+      "why": "The cuff tear is a weakness problem and the labral tear a mechanical one. Pain on cross-body adduction with a tender joint is acromioclavicular arthritis.",
+      "tags": [
+        "shoulder",
+        "rotator-cuff"
+      ]
+    },
+    {
+      "id": "ite25-175a",
+      "item": 175,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An adult screens positive for unhealthy alcohol use. What does the task force recommend next?",
+      "a": "A brief counselling intervention",
+      "d": [
+        "Cognitive behavioural therapy",
+        "Interpersonal psychotherapy",
+        "Referral for addiction treatment"
+      ],
+      "why": "Screening, brief intervention and referral to treatment reduces risky drinking, and the brief intervention is usually motivational interviewing. Referral is for patients who meet criteria for alcohol use disorder.",
+      "tags": [
+        "alcohol",
+        "screening"
+      ]
+    }
+  ]
+}
