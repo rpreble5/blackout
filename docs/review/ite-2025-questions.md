@@ -472,7 +472,7 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Complex regional pain syndrome
 - **ite25-95b** (multi, d2, 7 options) Which findings after limb trauma support complex regional pain syndrome?
   → Pain from light touch + A temperature difference between the limbs + Oedema of the limb + Weakness of the limb
-- **ite25-96a** (single, d2, 4 options) Lower abdominal pain, cervical motion and adnexal tenderness, pus cells in the discharge, not pregnant. What test is added?
+- **ite25-96a** (single, d2, 4 options) Lower abdominal pain, cervical motion and adnexal tenderness, pus in the discharge, not pregnant. What test is added?
   → No further test
 - **ite25-96b** (multi, d2, 6 options) Which findings on their own justify treating a woman at risk for pelvic inflammatory disease?
   → Cervical motion tenderness + Uterine tenderness + Adnexal tenderness
