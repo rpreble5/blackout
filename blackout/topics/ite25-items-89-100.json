@@ -1,0 +1,494 @@
+{
+  "id": "ite25-items-89-100",
+  "title": "ITE 2025, items 89 to 100",
+  "short": "Items 89 to 100",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 89 to 100. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-89a",
+      "item": 89,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 5-year-old fell off a table, vomited once, has a parietal haematoma and a normal examination. What is next?",
+      "a": "Reassurance and outpatient follow-up",
+      "d": [
+        "Observation in the emergency department",
+        "Radiography of the skull",
+        "CT of the head and neck"
+      ],
+      "why": "A mild traumatic brain injury. Routine imaging is not recommended in children, and skull films have no role at all.",
+      "tags": [
+        "head-injury",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-89b",
+      "item": 89,
+      "type": "single",
+      "difficulty": 2,
+      "q": "After a child's minor head injury, what would make CT appropriate?",
+      "a": "Worsening symptoms or signs of headache",
+      "d": [
+        "A single vomit at the scene of the fall",
+        "A scalp haematoma with nothing else",
+        "Being under six years old at the time"
+      ],
+      "why": "A suspected head or neck injury on examination is the other trigger. A child who becomes fussier or holds the head has changed category.",
+      "tags": [
+        "head-injury",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-89c",
+      "item": 89,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What would prompt a child protection referral after a fall at home?",
+      "a": "Delay in seeking care or inconsistent findings",
+      "d": [
+        "Any fall from a piece of household furniture",
+        "A parietal haematoma after the fall",
+        "A parent who did not see the fall happen"
+      ],
+      "why": "Unusual physical findings or behaviour between parent and child count too. A witnessed climb and fall, brought in straight away, does not.",
+      "tags": [
+        "head-injury",
+        "safeguarding"
+      ]
+    },
+    {
+      "id": "ite25-90a",
+      "item": 90,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A motivated smoker asks for behavioural help to quit. Which change improves his chances?",
+      "a": "A smoke-free home and car",
+      "d": [
+        "More caffeine during cravings",
+        "Switching to menthol cigarettes",
+        "A course of hypnotherapy"
+      ],
+      "why": "Part of the Ask, Advise, Assist model. Hypnotherapy and acupuncture lack moderate-quality evidence; caffeine and menthol have no role.",
+      "tags": [
+        "smoking-cessation"
+      ]
+    },
+    {
+      "id": "ite25-90b",
+      "item": 90,
+      "type": "multi",
+      "difficulty": 1,
+      "q": "Which pharmacotherapies are recommended for smoking cessation?",
+      "a": [
+        "Nicotine replacement",
+        "Sustained-release bupropion",
+        "Varenicline"
+      ],
+      "d": [
+        "Hypnotherapy",
+        "Acupuncture",
+        "Menthol cigarettes"
+      ],
+      "why": "Combining a drug with behavioural support beats either alone.",
+      "tags": [
+        "smoking-cessation"
+      ]
+    },
+    {
+      "id": "ite25-91a",
+      "item": 91,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the initial inhaler for COPD in GOLD group A?",
+      "a": "A long-acting muscarinic antagonist",
+      "d": [
+        "A LAMA with a LABA",
+        "An inhaled corticosteroid with a LABA",
+        "A LAMA, LABA and inhaled corticosteroid"
+      ],
+      "why": "A long-acting beta-agonist is the alternative for group A. The combination is where groups B and E start, and triple therapy is considered for group E with eosinophils of 300 or more.",
+      "tags": [
+        "copd"
+      ]
+    },
+    {
+      "id": "ite25-92a",
+      "item": 92,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Confused and hypotensive: glucose 750, osmolality 350, trace ketones, pH 7.3, normal gap. What is this?",
+      "a": "Hyperglycaemic hyperosmolar state",
+      "d": [
+        "Diabetic ketoacidosis proper",
+        "Euglycaemic ketoacidosis",
+        "Severe lactic acidosis"
+      ],
+      "why": "No significant ketosis and no acidosis. Isotonic fluid comes first, then an insulin infusion, with potassium added after the first bolus.",
+      "tags": [
+        "hhs",
+        "diabetes"
+      ]
+    },
+    {
+      "id": "ite25-92b",
+      "item": 92,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "At what rate is the insulin infusion run in the hyperglycaemic hyperosmolar state?",
+      "a": "0.05 units/kg/hour",
+      "d": [
+        "0.01 units/kg/hour",
+        "0.1 units/kg/hour",
+        "0.5 units/kg/hour"
+      ],
+      "options": [
+        "0.01 units/kg/hour",
+        "0.05 units/kg/hour",
+        "0.1 units/kg/hour",
+        "0.5 units/kg/hour"
+      ],
+      "why": "Half the ketoacidosis rate. Bicarbonate is considered only if the arterial pH falls under 7.0.",
+      "tags": [
+        "hhs",
+        "diabetes"
+      ]
+    },
+    {
+      "id": "ite25-93a",
+      "item": 93,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the effect of adding a calcium channel blocker in heart failure with reduced ejection fraction?",
+      "a": "No mortality benefit, and possibly worse outcomes",
+      "d": [
+        "Lower mortality, like a beta-blocker",
+        "Fewer admissions but no mortality change",
+        "Better symptoms with neutral outcomes"
+      ],
+      "why": "A thiazide is likewise an adjunct for congestion only. The drug that does cut mortality in HFrEF regardless of diabetes is an SGLT2 inhibitor.",
+      "tags": [
+        "hfref"
+      ]
+    },
+    {
+      "id": "ite25-94a",
+      "item": 94,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Two weeks of polyuria and polydipsia and a random glucose of 210. What else is needed to diagnose diabetes?",
+      "a": "Nothing; the symptoms and one value suffice",
+      "d": [
+        "A repeat random glucose on another day",
+        "A fasting glucose on another day",
+        "A haemoglobin A1c to confirm it"
+      ],
+      "why": "Without classic symptoms, a fasting value, an A1c or a 2-hour tolerance test each needs a second abnormal result to confirm.",
+      "tags": [
+        "diabetes",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "ite25-94b",
+      "item": 94,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What does a 1-hour value of 145 mg/dL on a 50-g glucose challenge mean?",
+      "a": "A positive first step of gestational screening",
+      "d": [
+        "Diabetes, needing no confirmation at all",
+        "Prediabetes, by the usual criteria",
+        "Nothing; it is within normal limits"
+      ],
+      "why": "The 50-g test belongs to pregnancy. Outside it, 100 to 125 fasting or an A1c of 5.7% to 6.4% is prediabetes.",
+      "tags": [
+        "diabetes",
+        "gestational"
+      ]
+    },
+    {
+      "id": "ite25-95a",
+      "item": 95,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Six weeks after a casted forearm fracture: burning pain, pain to light touch, a warm swollen arm, weak grip. Cause?",
+      "a": "Complex regional pain syndrome",
+      "d": [
+        "Cellulitis",
+        "Peripheral neuropathy",
+        "Functional neurological disorder"
+      ],
+      "why": "A clinical diagnosis by the Budapest criteria. No fever argues against infection, and no stocking-glove pattern against neuropathy.",
+      "tags": [
+        "crps",
+        "pain"
+      ]
+    },
+    {
+      "id": "ite25-95b",
+      "item": 95,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which findings after limb trauma support complex regional pain syndrome?",
+      "a": [
+        "Pain from light touch",
+        "A temperature difference between the limbs",
+        "Oedema of the limb",
+        "Weakness of the limb"
+      ],
+      "d": [
+        "Fever",
+        "Stocking-glove sensory loss",
+        "Absent distal pulses"
+      ],
+      "why": "Objective findings are what separate it from factitious and functional disorders.",
+      "tags": [
+        "crps",
+        "pain"
+      ]
+    },
+    {
+      "id": "ite25-96a",
+      "item": 96,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Lower abdominal pain, cervical motion and adnexal tenderness, pus cells in the discharge, not pregnant. What test is added?",
+      "a": "No further test",
+      "d": [
+        "Pelvic ultrasound",
+        "Pelvic MRI",
+        "Laparoscopy"
+      ],
+      "why": "Pelvic inflammatory disease is a clinical diagnosis in most cases, treated empirically once STI testing is sent. Laparoscopy is never the initial evaluation.",
+      "tags": [
+        "pid"
+      ]
+    },
+    {
+      "id": "ite25-96b",
+      "item": 96,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which findings on their own justify treating a woman at risk for pelvic inflammatory disease?",
+      "a": [
+        "Cervical motion tenderness",
+        "Uterine tenderness",
+        "Adnexal tenderness"
+      ],
+      "d": [
+        "A temperature of 38",
+        "Leukocytes on a wet mount",
+        "A raised C-reactive protein"
+      ],
+      "why": "Any one of the three. The others support the diagnosis without being required for it.",
+      "tags": [
+        "pid"
+      ]
+    },
+    {
+      "id": "ite25-96c",
+      "item": 96,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What would prompt pelvic ultrasound in suspected pelvic inflammatory disease?",
+      "a": "Unilateral pain or an adnexal mass",
+      "d": [
+        "Cervical motion tenderness",
+        "A negative pregnancy test",
+        "Leukocytes in the discharge"
+      ],
+      "why": "Those point to tubo-ovarian abscess or appendicitis. MRI follows if the ultrasound shows an abscess; CT looks for complications above the pelvis.",
+      "tags": [
+        "pid",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-97a",
+      "item": 97,
+      "type": "single",
+      "difficulty": 3,
+      "q": "A high-risk TIA 20 hours ago, ABCD2 of 4, normal examination. What is given on day one?",
+      "a": "Clopidogrel 300 to 600 mg with aspirin",
+      "d": [
+        "Aspirin 81 mg on its own",
+        "Clopidogrel 75 mg on its own",
+        "A heparin infusion for 48 hours"
+      ],
+      "why": "The loading doses, within 24 hours of onset, then both drugs daily before dropping to one. Ninety-day stroke risk falls from 7.8% to 5.2% against aspirin alone.",
+      "tags": [
+        "tia",
+        "antiplatelets"
+      ]
+    },
+    {
+      "id": "ite25-97b",
+      "item": 97,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which elements make up the ABCD2 score for a transient ischaemic attack?",
+      "a": [
+        "Age",
+        "Blood pressure",
+        "Clinical features of the attack",
+        "Duration of symptoms",
+        "Diabetes"
+      ],
+      "d": [
+        "Atrial fibrillation on the ECG",
+        "Carotid stenosis",
+        "Smoking"
+      ],
+      "why": "A score of 4 or more marks the attack as moderate to high risk, which is what earns the double antiplatelet course.",
+      "tags": [
+        "tia"
+      ]
+    },
+    {
+      "id": "ite25-98a",
+      "item": 98,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hepatitis C with fibrosis on ultrasound, in recovery from opioid use. What is begun now to improve the fibrosis?",
+      "a": "Treatment of the hepatitis C",
+      "d": [
+        "Prophylactic antibiotics",
+        "A non-selective beta-blocker",
+        "Pre-exposure prophylaxis for HIV"
+      ],
+      "why": "Antibiotic prophylaxis and beta-blockers have their own triggers, prior peritonitis and significant varices among them, and neither reverses fibrosis.",
+      "tags": [
+        "hepatitis-c",
+        "cirrhosis"
+      ]
+    },
+    {
+      "id": "ite25-98b",
+      "item": 98,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why raise HIV pre-exposure prophylaxis with a patient who has hepatitis C and a history of injecting?",
+      "a": "Coinfection accelerates fibrosis to cirrhosis",
+      "d": [
+        "Prophylaxis improves liver fibrosis",
+        "Prophylaxis also treats hepatitis C",
+        "It is required before antivirals"
+      ],
+      "why": "Offering both together improves uptake, but the prophylaxis itself does nothing for the liver.",
+      "tags": [
+        "hepatitis-c",
+        "hiv"
+      ]
+    },
+    {
+      "id": "ite25-99a",
+      "item": 99,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Pelvic pressure, mild stress leakage, anterior prolapse 0.5 cm above the hymen, only mildly bothered. What is advised?",
+      "a": "Pelvic floor muscle training",
+      "d": [
+        "Reassurance alone for now",
+        "Topical oestrogen cream",
+        "Surgical consultation"
+      ],
+      "why": "Training reduces prolapse by 1 to 2 cm and improves symptoms. Oestrogen alone has no clear evidence, and surgery can worsen incontinence, so it waits for more bother.",
+      "tags": [
+        "prolapse"
+      ]
+    },
+    {
+      "id": "ite25-99b",
+      "item": 99,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "A prolapse within how far of the hymenal ring, above or below, is grade 2?",
+      "a": "1 cm",
+      "d": [
+        "0.5 cm",
+        "2 cm",
+        "3 cm"
+      ],
+      "options": [
+        "0.5 cm",
+        "1 cm",
+        "2 cm",
+        "3 cm"
+      ],
+      "why": "Prolapse tends to progress until menopause and then alternate between regression and progression.",
+      "tags": [
+        "prolapse"
+      ]
+    },
+    {
+      "id": "ite25-100a",
+      "item": 100,
+      "type": "single",
+      "difficulty": 1,
+      "q": "An hour of sudden leg pain, a cold numb mottled foot, no pedal pulses. What is the first step?",
+      "a": "Transfer to an emergency department with vascular surgery",
+      "d": [
+        "Stat duplex ultrasonography of the leg",
+        "Stat CT angiography of the leg",
+        "Expedited outpatient vascular surgery referral"
+      ],
+      "why": "Imaging locates the block but must not delay the transfer. Skeletal muscle survives four to six hours without flow.",
+      "tags": [
+        "acute-limb-ischaemia"
+      ]
+    },
+    {
+      "id": "ite25-100b",
+      "item": 100,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which anticoagulant is started on arrival for acute limb ischaemia?",
+      "a": "Unfractionated heparin",
+      "d": [
+        "Rivaroxaban",
+        "Aspirin with clopidogrel",
+        "Warfarin"
+      ],
+      "why": "A direct oral anticoagulant has a place in chronic symptomatic peripheral artery disease, not in the acute event.",
+      "tags": [
+        "acute-limb-ischaemia",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-100c",
+      "item": 100,
+      "type": "multi",
+      "difficulty": 1,
+      "q": "Which are among the six Ps of acute limb ischaemia?",
+      "a": [
+        "Pain",
+        "Pallor",
+        "Poikilothermia",
+        "Pulselessness",
+        "Paraesthesia",
+        "Paralysis"
+      ],
+      "d": [
+        "Pitting oedema",
+        "Purpura"
+      ],
+      "why": "Paralysis is the late one, and the one that means muscle is dying.",
+      "tags": [
+        "acute-limb-ischaemia"
+      ]
+    }
+  ]
+}

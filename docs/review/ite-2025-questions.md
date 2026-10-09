@@ -374,3 +374,125 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → An acute infection + Dehydration + Severe physical stress + Missed doses of the steroid
 - **ite25-75a** (single, d2, 4 options) Which test is added to the syncope work-up when the episode occurred during exertion?
   → An exercise stress test
+
+## ITE 2025, items 76 to 88 (31 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 76 to 88. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-76a** (single, d1, 4 options) Months of frequency, urgency and nocturia with a weak stream and hesitancy, urinalysis negative. What is started?
+  → An alpha-blocker
+- **ite25-76b** (multi, d2, 6 options) Which findings justify adding a 5-alpha-reductase inhibitor for male urinary symptoms?
+  → A prostate volume of 30 mL or more + An enlarged prostate on examination + A PSA above 1.5 ng/mL
+- **ite25-76c** (single, d2, 4 options) A man on an alpha-blocker still has urgency and frequency. What is considered next?
+  → An anticholinergic or beta-3 agonist, after a residual
+- **ite25-77a** (single, d1, 4 options) A 5-day-old exclusively breastfed infant, feeding 10 to 12 times a day. Which finding means feeding is inadequate?
+  → Four wet nappies a day
+- **ite25-77b** (single, d2, 4 options, fixed order) Beyond what loss from birth weight does a breastfed newborn's weight become a concern?
+  → 7%
+- **ite25-77c** (single, d2, 4 options) How much nipple pain at the start of a breastfeed is normal?
+  → The first 30 to 60 seconds
+- **ite25-78a** (single, d1, 4 options) A healthy 25-year-old, four days of fever and cough, rapid test positive for influenza B. What is the treatment?
+  → Supportive care
+- **ite25-78b** (single, d3, 4 options) What do neuraminidase inhibitors achieve for low-risk influenza patients treated as outpatients?
+  → No reduction in hospitalisation or death
+- **ite25-79a** (single, d1, 4 options) Obsessive-compulsive disorder with an inadequate response to psychotherapy. Which drug is started?
+  → Sertraline
+- **ite25-79b** (single, d2, 4 options) Where does clomipramine sit in the treatment of obsessive-compulsive disorder?
+  → Approved, but too toxic for first-line
+- **ite25-80a** (multi, d2, 7 options) Which interventions have evidence for preventing falls in a community-dwelling older adult at higher risk?
+  → Exercise, individual or in a group + Home hazard assessment with a validated tool + Multifactorial risk assessment with tailored interventions
+- **ite25-80b** (single, d3, 4 options, fixed order) What share of adults aged 65 and over fall at least once a year?
+  → About 28%
+- **ite25-81a** (single, d1, 4 options) What is first-line treatment for symptomatic Helicobacter pylori infection?
+  → Bismuth, metronidazole, a PPI and tetracycline
+- **ite25-81b** (single, d3, 4 options, fixed order) What eradication rate does bismuth quadruple therapy achieve for Helicobacter pylori?
+  → About 91%
+- **ite25-81c** (single, d2, 4 options) When may a clarithromycin or levofloxacin regimen be used for Helicobacter pylori?
+  → With documented susceptibility to the drug
+- **ite25-82a** (single, d1, 4 options) A 5-year-old scalded on the arms and chest minutes ago, skin red and intact. What does the parent do first?
+  → Cool the burns under running tap water
+- **ite25-82b** (single, d3, 4 options, fixed order) Up to how long after a burn does cooling under running water still help?
+  → 3 hours
+- **ite25-82c** (multi, d2, 6 options) Which features indicate a full-thickness burn?
+  → White rather than red + Dry and waxy + Less pain than a shallower burn
+- **ite25-83a** (single, d2, 4 options) Why does a direct oral anticoagulant for a first DVT need no heparin lead-in?
+  → It reaches therapeutic levels quickly
+- **ite25-83b** (single, d2, 4 options) A direct oral anticoagulant is unaffordable for a first DVT. What is the outpatient alternative?
+  → LMWH overlapping warfarin until the INR is therapeutic
+- **ite25-84a** (multi, d2, 8 options) Which are risk factors for breast cancer?
+  → Chest radiotherapy in childhood + Menopause after 55 + A first pregnancy after 35 + A first-degree relative with breast cancer + Dense breasts on mammography
+- **ite25-84b** (single, d2, 4 options) Why do dense breasts on mammography raise the risk of breast cancer?
+  → More glandular and stromal tissue
+- **ite25-85a** (single, d1, 4 options) Low mood, anhedonia and hypersomnia six weeks after an ischaemic stroke. With talk therapy, what is first-line?
+  → Escitalopram
+- **ite25-85b** (single, d2, 4 options) Nortriptyline worked in trials of post-stroke depression. Why is it not preferred?
+  → Tricyclics carry more anticholinergic effect
+- **ite25-86a** (single, d2, 4 options) Which patient on a modest opioid dose should still be offered naloxone and overdose education?
+  → One with sleep-disordered breathing
+- **ite25-86b** (single, d3, 4 options) Why is a patient tapering off opioids offered naloxone?
+  → Tolerance falls, so a relapse to the old dose can overdose
+- **ite25-87a** (single, d1, 4 options) Sweating, shaking and faintness, glucose 52, an hour or two after sugary drinks, after gastric bypass. What is it?
+  → Late dumping syndrome
+- **ite25-87b** (multi, d2, 7 options) Which features belong to early rather than late dumping syndrome?
+  → Onset within 30 to 60 minutes of eating + Flushing and palpitations + Diarrhoea and bloating + No measured hypoglycaemia
+- **ite25-88a** (single, d2, 4 options) A 10-month-old with a fever of 39.2 and a bulging left eardrum, hives to amoxicillin before. What is prescribed?
+  → Cefdinir
+- **ite25-88b** (multi, d2, 6 options) When does acute otitis media get amoxicillin-clavulanate instead of amoxicillin?
+  → Amoxicillin within the past 30 days + Purulent conjunctivitis at the same time + Previous otitis unresponsive to amoxicillin
+- **ite25-88c** (single, d2, 4 options) Which child with acute otitis media may be observed without antibiotics?
+  → A 3-year-old with mild unilateral disease
+
+## ITE 2025, items 89 to 100 (25 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 89 to 100. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-89a** (single, d2, 4 options) A 5-year-old fell off a table, vomited once, has a parietal haematoma and a normal examination. What is next?
+  → Reassurance and outpatient follow-up
+- **ite25-89b** (single, d2, 4 options) After a child's minor head injury, what would make CT appropriate?
+  → Worsening symptoms or signs of headache
+- **ite25-89c** (single, d2, 4 options) What would prompt a child protection referral after a fall at home?
+  → Delay in seeking care or inconsistent findings
+- **ite25-90a** (single, d1, 4 options) A motivated smoker asks for behavioural help to quit. Which change improves his chances?
+  → A smoke-free home and car
+- **ite25-90b** (multi, d1, 6 options) Which pharmacotherapies are recommended for smoking cessation?
+  → Nicotine replacement + Sustained-release bupropion + Varenicline
+- **ite25-91a** (single, d2, 4 options) What is the initial inhaler for COPD in GOLD group A?
+  → A long-acting muscarinic antagonist
+- **ite25-92a** (single, d1, 4 options) Confused and hypotensive: glucose 750, osmolality 350, trace ketones, pH 7.3, normal gap. What is this?
+  → Hyperglycaemic hyperosmolar state
+- **ite25-92b** (single, d3, 4 options, fixed order) At what rate is the insulin infusion run in the hyperglycaemic hyperosmolar state?
+  → 0.05 units/kg/hour
+- **ite25-93a** (single, d2, 4 options) What is the effect of adding a calcium channel blocker in heart failure with reduced ejection fraction?
+  → No mortality benefit, and possibly worse outcomes
+- **ite25-94a** (single, d2, 4 options) Two weeks of polyuria and polydipsia and a random glucose of 210. What else is needed to diagnose diabetes?
+  → Nothing; the symptoms and one value suffice
+- **ite25-94b** (single, d3, 4 options) What does a 1-hour value of 145 mg/dL on a 50-g glucose challenge mean?
+  → A positive first step of gestational screening
+- **ite25-95a** (single, d2, 4 options) Six weeks after a casted forearm fracture: burning pain, pain to light touch, a warm swollen arm, weak grip. Cause?
+  → Complex regional pain syndrome
+- **ite25-95b** (multi, d2, 7 options) Which findings after limb trauma support complex regional pain syndrome?
+  → Pain from light touch + A temperature difference between the limbs + Oedema of the limb + Weakness of the limb
+- **ite25-96a** (single, d2, 4 options) Lower abdominal pain, cervical motion and adnexal tenderness, pus cells in the discharge, not pregnant. What test is added?
+  → No further test
+- **ite25-96b** (multi, d2, 6 options) Which findings on their own justify treating a woman at risk for pelvic inflammatory disease?
+  → Cervical motion tenderness + Uterine tenderness + Adnexal tenderness
+- **ite25-96c** (single, d2, 4 options) What would prompt pelvic ultrasound in suspected pelvic inflammatory disease?
+  → Unilateral pain or an adnexal mass
+- **ite25-97a** (single, d3, 4 options) A high-risk TIA 20 hours ago, ABCD2 of 4, normal examination. What is given on day one?
+  → Clopidogrel 300 to 600 mg with aspirin
+- **ite25-97b** (multi, d2, 8 options) Which elements make up the ABCD2 score for a transient ischaemic attack?
+  → Age + Blood pressure + Clinical features of the attack + Duration of symptoms + Diabetes
+- **ite25-98a** (single, d1, 4 options) Hepatitis C with fibrosis on ultrasound, in recovery from opioid use. What is begun now to improve the fibrosis?
+  → Treatment of the hepatitis C
+- **ite25-98b** (single, d2, 4 options) Why raise HIV pre-exposure prophylaxis with a patient who has hepatitis C and a history of injecting?
+  → Coinfection accelerates fibrosis to cirrhosis
+- **ite25-99a** (single, d2, 4 options) Pelvic pressure, mild stress leakage, anterior prolapse 0.5 cm above the hymen, only mildly bothered. What is advised?
+  → Pelvic floor muscle training
+- **ite25-99b** (single, d3, 4 options, fixed order) A prolapse within how far of the hymenal ring, above or below, is grade 2?
+  → 1 cm
+- **ite25-100a** (single, d1, 4 options) An hour of sudden leg pain, a cold numb mottled foot, no pedal pulses. What is the first step?
+  → Transfer to an emergency department with vascular surgery
+- **ite25-100b** (single, d2, 4 options) Which anticoagulant is started on arrival for acute limb ischaemia?
+  → Unfractionated heparin
+- **ite25-100c** (multi, d1, 8 options) Which are among the six Ps of acute limb ischaemia?
+  → Pain + Pallor + Poikilothermia + Pulselessness + Paraesthesia + Paralysis

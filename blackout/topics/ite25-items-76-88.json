@@ -1,0 +1,620 @@
+{
+  "id": "ite25-items-76-88",
+  "title": "ITE 2025, items 76 to 88",
+  "short": "Items 76 to 88",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 76 to 88. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-76a",
+      "item": 76,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Months of frequency, urgency and nocturia with a weak stream and hesitancy, urinalysis negative. What is started?",
+      "a": "An alpha-blocker",
+      "d": [
+        "A 5-alpha-reductase inhibitor",
+        "An anticholinergic",
+        "A beta-3 agonist"
+      ],
+      "why": "Tamsulosin, alfuzosin or terazosin, whichever symptom group dominates. The storage drugs come in when the alpha-blocker leaves storage symptoms behind, after a post-void residual is checked.",
+      "tags": [
+        "luts",
+        "bph"
+      ]
+    },
+    {
+      "id": "ite25-76b",
+      "item": 76,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which findings justify adding a 5-alpha-reductase inhibitor for male urinary symptoms?",
+      "a": [
+        "A prostate volume of 30 mL or more",
+        "An enlarged prostate on examination",
+        "A PSA above 1.5 ng/mL"
+      ],
+      "d": [
+        "Predominant storage symptoms",
+        "Nocturia more than twice a night",
+        "A post-void residual under 50 mL"
+      ],
+      "why": "It takes up to a year to reach full effect, which is why the alpha-blocker is still the one that starts first.",
+      "tags": [
+        "luts",
+        "bph"
+      ]
+    },
+    {
+      "id": "ite25-76c",
+      "item": 76,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A man on an alpha-blocker still has urgency and frequency. What is considered next?",
+      "a": "An anticholinergic or beta-3 agonist, after a residual",
+      "d": [
+        "A daily phosphodiesterase-5 inhibitor",
+        "Switching to a different alpha-blocker",
+        "Stopping the alpha-blocker for a drug holiday"
+      ],
+      "why": "Alone or combined with the alpha-blocker. Daily tadalafil has a place when erectile dysfunction coexists, but it is not the step for storage symptoms.",
+      "tags": [
+        "luts",
+        "overactive-bladder"
+      ]
+    },
+    {
+      "id": "ite25-77a",
+      "item": 77,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 5-day-old exclusively breastfed infant, feeding 10 to 12 times a day. Which finding means feeding is inadequate?",
+      "a": "Four wet nappies a day",
+      "d": [
+        "Four green stools a day",
+        "5% weight loss from birth",
+        "Nipple pain in the first 15 seconds of a feed"
+      ],
+      "why": "After day four the targets are six or more wet nappies and three or more stools. Breasts that look soft or small prove nothing; no breast change at all by day five might.",
+      "tags": [
+        "breastfeeding",
+        "newborn"
+      ]
+    },
+    {
+      "id": "ite25-77b",
+      "item": 77,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Beyond what loss from birth weight does a breastfed newborn's weight become a concern?",
+      "a": "7%",
+      "d": [
+        "3%",
+        "5%",
+        "10%"
+      ],
+      "options": [
+        "3%",
+        "5%",
+        "7%",
+        "10%"
+      ],
+      "why": "Loss is expected for the first three days; loss that continues after day three is a concern at any percentage.",
+      "tags": [
+        "breastfeeding",
+        "newborn"
+      ]
+    },
+    {
+      "id": "ite25-77c",
+      "item": 77,
+      "type": "single",
+      "difficulty": 2,
+      "q": "How much nipple pain at the start of a breastfeed is normal?",
+      "a": "The first 30 to 60 seconds",
+      "d": [
+        "None; any pain is abnormal",
+        "The first five minutes",
+        "Throughout the first week"
+      ],
+      "why": "Pain that persists past the first minute needs the latch looked at. If formula supplementation becomes necessary, it follows the Academy of Breastfeeding Medicine protocol.",
+      "tags": [
+        "breastfeeding"
+      ]
+    },
+    {
+      "id": "ite25-78a",
+      "item": 78,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A healthy 25-year-old, four days of fever and cough, rapid test positive for influenza B. What is the treatment?",
+      "a": "Supportive care",
+      "d": [
+        "Oseltamivir",
+        "Rimantadine",
+        "Methylprednisolone"
+      ],
+      "why": "Antivirals are not recommended for low-risk patients presenting more than 48 hours after onset. Rimantadine has no activity against influenza B in any case.",
+      "tags": [
+        "influenza"
+      ]
+    },
+    {
+      "id": "ite25-78b",
+      "item": 78,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What do neuraminidase inhibitors achieve for low-risk influenza patients treated as outpatients?",
+      "a": "No reduction in hospitalisation or death",
+      "d": [
+        "About half the risk of pneumonia",
+        "Protection of household contacts",
+        "A week less of illness"
+      ],
+      "why": "Systematic reviews including unpublished trials found no effect on those outcomes. Oseltamivir stays first-line for high-risk patients.",
+      "tags": [
+        "influenza",
+        "antivirals"
+      ]
+    },
+    {
+      "id": "ite25-79a",
+      "item": 79,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Obsessive-compulsive disorder with an inadequate response to psychotherapy. Which drug is started?",
+      "a": "Sertraline",
+      "d": [
+        "Clomipramine",
+        "Bupropion",
+        "Quetiapine"
+      ],
+      "why": "Fluoxetine, fluvoxamine, sertraline and paroxetine all carry the indication, and the doses needed are often higher than for depression. Bupropion, buspirone and quetiapine are not first-line.",
+      "tags": [
+        "ocd"
+      ]
+    },
+    {
+      "id": "ite25-79b",
+      "item": 79,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Where does clomipramine sit in the treatment of obsessive-compulsive disorder?",
+      "a": "Approved, but too toxic for first-line",
+      "d": [
+        "Not effective for the disorder at all",
+        "First-line ahead of the SSRIs",
+        "Used with an antipsychotic, not alone"
+      ],
+      "why": "A tricyclic with the indication, held back by its toxicity profile rather than its efficacy.",
+      "tags": [
+        "ocd"
+      ]
+    },
+    {
+      "id": "ite25-80a",
+      "item": 80,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which interventions have evidence for preventing falls in a community-dwelling older adult at higher risk?",
+      "a": [
+        "Exercise, individual or in a group",
+        "Home hazard assessment with a validated tool",
+        "Multifactorial risk assessment with tailored interventions"
+      ],
+      "d": [
+        "Education about the harms of falls",
+        "A cane while walking",
+        "Correction of visual impairment",
+        "Footwear assessment"
+      ],
+      "why": "No type of exercise beats another. The multifactorial approach gives a small net benefit on average; the home assessment usually means a home visit.",
+      "tags": [
+        "falls",
+        "geriatrics"
+      ]
+    },
+    {
+      "id": "ite25-80b",
+      "item": 80,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "What share of adults aged 65 and over fall at least once a year?",
+      "a": "About 28%",
+      "d": [
+        "About 10%",
+        "About 45%",
+        "About 60%"
+      ],
+      "options": [
+        "About 10%",
+        "About 28%",
+        "About 45%",
+        "About 60%"
+      ],
+      "why": "Falls are the leading cause of injury death in older adults, with over 300,000 hip fracture admissions a year, and a previous fall is the strongest predictor of the next.",
+      "tags": [
+        "falls",
+        "geriatrics"
+      ]
+    },
+    {
+      "id": "ite25-81a",
+      "item": 81,
+      "type": "single",
+      "difficulty": 1,
+      "q": "What is first-line treatment for symptomatic Helicobacter pylori infection?",
+      "a": "Bismuth, metronidazole, a PPI and tetracycline",
+      "d": [
+        "A PPI, amoxicillin and clarithromycin",
+        "A PPI, amoxicillin and levofloxacin",
+        "Vonoprazan with amoxicillin"
+      ],
+      "why": "Optimised bismuth quadruple therapy. Vonoprazan with amoxicillin is the fallback for patients who cannot take it.",
+      "tags": [
+        "h-pylori"
+      ]
+    },
+    {
+      "id": "ite25-81b",
+      "item": 81,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "What eradication rate does bismuth quadruple therapy achieve for Helicobacter pylori?",
+      "a": "About 91%",
+      "d": [
+        "About 60%",
+        "About 75%",
+        "About 99%"
+      ],
+      "options": [
+        "About 60%",
+        "About 75%",
+        "About 91%",
+        "About 99%"
+      ],
+      "why": "Vonoprazan with amoxicillin manages 70% to 80%, which is why it is second choice.",
+      "tags": [
+        "h-pylori"
+      ]
+    },
+    {
+      "id": "ite25-81c",
+      "item": 81,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When may a clarithromycin or levofloxacin regimen be used for Helicobacter pylori?",
+      "a": "With documented susceptibility to the drug",
+      "d": [
+        "When bismuth is unavailable",
+        "In a patient with penicillin allergy",
+        "After one failed course of anything"
+      ],
+      "why": "Resistance to macrolides and fluoroquinolones is common enough that empiric use of either is no longer recommended.",
+      "tags": [
+        "h-pylori"
+      ]
+    },
+    {
+      "id": "ite25-82a",
+      "item": 82,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 5-year-old scalded on the arms and chest minutes ago, skin red and intact. What does the parent do first?",
+      "a": "Cool the burns under running tap water",
+      "d": [
+        "Apply ice to the burns",
+        "Cover the burns with cool wet gauze",
+        "Apply aloe vera and leave uncovered"
+      ],
+      "why": "For at least 20 minutes, after removing the clothing. Ice vasoconstricts and deepens the damage; wet dressings do not cool; aloe and NSAID gel are for pain afterwards.",
+      "tags": [
+        "burns",
+        "first-aid"
+      ]
+    },
+    {
+      "id": "ite25-82b",
+      "item": 82,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "Up to how long after a burn does cooling under running water still help?",
+      "a": "3 hours",
+      "d": [
+        "30 minutes",
+        "1 hour",
+        "24 hours"
+      ],
+      "options": [
+        "30 minutes",
+        "1 hour",
+        "3 hours",
+        "24 hours"
+      ],
+      "why": "Ideally within the first 30 minutes. Cooling reduces burn depth, shortens healing and lowers the need for grafting.",
+      "tags": [
+        "burns",
+        "first-aid"
+      ]
+    },
+    {
+      "id": "ite25-82c",
+      "item": 82,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features indicate a full-thickness burn?",
+      "a": [
+        "White rather than red",
+        "Dry and waxy",
+        "Less pain than a shallower burn"
+      ],
+      "d": [
+        "Red and blanching",
+        "Blistered and weeping",
+        "Painful to light touch"
+      ],
+      "why": "Superficial burns blanch and hurt; superficial partial-thickness burns blister and weep; deep partial-thickness burns are dry and do not blanch. The deep partial and full-thickness ones go to a burn centre.",
+      "tags": [
+        "burns"
+      ]
+    },
+    {
+      "id": "ite25-83a",
+      "item": 83,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a direct oral anticoagulant for a first DVT need no heparin lead-in?",
+      "a": "It reaches therapeutic levels quickly",
+      "d": [
+        "It is given together with aspirin",
+        "It is loaded over the first week",
+        "It is easily reversed if bleeding occurs"
+      ],
+      "why": "Less major bleeding and less monitoring than warfarin complete the case for it as outpatient monotherapy.",
+      "tags": [
+        "dvt",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-83b",
+      "item": 83,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A direct oral anticoagulant is unaffordable for a first DVT. What is the outpatient alternative?",
+      "a": "LMWH overlapping warfarin until the INR is therapeutic",
+      "d": [
+        "Warfarin alone, with weekly INR checks",
+        "Unfractionated heparin in hospital for five days",
+        "Aspirin until the warfarin takes effect"
+      ],
+      "why": "The low molecular weight heparin is started with the warfarin and stopped once the INR reaches goal. Admission for intravenous heparin is how it used to be done.",
+      "tags": [
+        "dvt",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-84a",
+      "item": 84,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which are risk factors for breast cancer?",
+      "a": [
+        "Chest radiotherapy in childhood",
+        "Menopause after 55",
+        "A first pregnancy after 35",
+        "A first-degree relative with breast cancer",
+        "Dense breasts on mammography"
+      ],
+      "d": [
+        "Menopause before 50",
+        "A first pregnancy before 30",
+        "Fatty breasts on mammography"
+      ],
+      "why": "Childhood chest radiation, especially whole-lung, carries the highest risk of the list. A grandmother with breast cancer is too distant to count on its own.",
+      "tags": [
+        "breast-cancer",
+        "risk"
+      ]
+    },
+    {
+      "id": "ite25-84b",
+      "item": 84,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do dense breasts on mammography raise the risk of breast cancer?",
+      "a": "More glandular and stromal tissue",
+      "d": [
+        "More adipose tissue",
+        "Thicker skin over the breast",
+        "Larger overall breast volume"
+      ],
+      "why": "Density is the proportion of glandular and stromal tissue to fat. It also hides tumours, which is a separate problem from causing them.",
+      "tags": [
+        "breast-cancer",
+        "risk"
+      ]
+    },
+    {
+      "id": "ite25-85a",
+      "item": 85,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Low mood, anhedonia and hypersomnia six weeks after an ischaemic stroke. With talk therapy, what is first-line?",
+      "a": "Escitalopram",
+      "d": [
+        "Bupropion",
+        "Nortriptyline",
+        "Transcranial magnetic stimulation"
+      ],
+      "why": "Post-stroke depression affects 20% to 60% of patients depending on how and when it is counted. Bupropion is for SSRI failure or intolerance; magnetic stimulation has growing evidence but is not first-line.",
+      "tags": [
+        "post-stroke-depression"
+      ]
+    },
+    {
+      "id": "ite25-85b",
+      "item": 85,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Nortriptyline worked in trials of post-stroke depression. Why is it not preferred?",
+      "a": "Tricyclics carry more anticholinergic effect",
+      "d": [
+        "It raises the risk of a second stroke",
+        "It cannot be combined with talk therapy",
+        "It takes twice as long to act"
+      ],
+      "why": "SNRIs and vortioxetine are the other alternatives when an SSRI is not suitable.",
+      "tags": [
+        "post-stroke-depression"
+      ]
+    },
+    {
+      "id": "ite25-86a",
+      "item": 86,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which patient on a modest opioid dose should still be offered naloxone and overdose education?",
+      "a": "One with sleep-disordered breathing",
+      "d": [
+        "One on a three-day course after dental work",
+        "One on hospice morphine as needed",
+        "One on nightly alprazolam with no opioid"
+      ],
+      "why": "The other triggers are a history of substance use or overdose, 50 MME a day or more, a benzodiazepine taken with the opioid, and a taper with loss of tolerance.",
+      "tags": [
+        "naloxone",
+        "opioids"
+      ]
+    },
+    {
+      "id": "ite25-86b",
+      "item": 86,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why is a patient tapering off opioids offered naloxone?",
+      "a": "Tolerance falls, so a relapse to the old dose can overdose",
+      "d": [
+        "Withdrawal itself causes respiratory depression",
+        "Tapering doubles the chance of a benzodiazepine prescription",
+        "Naloxone eases the symptoms of withdrawal"
+      ],
+      "why": "The risk is the return to a higher dose, not the taper itself. Naloxone precipitates withdrawal rather than easing it.",
+      "tags": [
+        "naloxone",
+        "opioids"
+      ]
+    },
+    {
+      "id": "ite25-87a",
+      "item": 87,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Sweating, shaking and faintness, glucose 52, an hour or two after sugary drinks, after gastric bypass. What is it?",
+      "a": "Late dumping syndrome",
+      "d": [
+        "Early dumping syndrome",
+        "Insulinoma",
+        "Gastroparesis"
+      ],
+      "why": "Rapid carbohydrate absorption drives an exaggerated insulin surge. An insulinoma causes hypoglycaemia regardless of meals; gastroparesis delays emptying and does not drop the glucose.",
+      "tags": [
+        "dumping",
+        "bariatric"
+      ]
+    },
+    {
+      "id": "ite25-87b",
+      "item": 87,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which features belong to early rather than late dumping syndrome?",
+      "a": [
+        "Onset within 30 to 60 minutes of eating",
+        "Flushing and palpitations",
+        "Diarrhoea and bloating",
+        "No measured hypoglycaemia"
+      ],
+      "d": [
+        "Onset 1 to 3 hours after eating",
+        "A glucose of 50 mg/dL during the episode",
+        "Symptoms unrelated to meals"
+      ],
+      "why": "Early dumping is fluid shift and gut hormone release from rapid transit. Dumping of one kind or another affects about 40% of patients after bariatric surgery.",
+      "tags": [
+        "dumping",
+        "bariatric"
+      ]
+    },
+    {
+      "id": "ite25-88a",
+      "item": 88,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 10-month-old with a fever of 39.2 and a bulging left eardrum, hives to amoxicillin before. What is prescribed?",
+      "a": "Cefdinir",
+      "d": [
+        "Amoxicillin",
+        "Amoxicillin-clavulanate",
+        "Sulfamethoxazole-trimethoprim"
+      ],
+      "why": "A temperature of 39 or more is a severe criterion, so antibiotics are due even for one ear. Cefuroxime, cefpodoxime and ceftriaxone are the other alternatives; sulfamethoxazole-trimethoprim no longer works against pneumococcus.",
+      "tags": [
+        "otitis-media",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-88b",
+      "item": 88,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "When does acute otitis media get amoxicillin-clavulanate instead of amoxicillin?",
+      "a": [
+        "Amoxicillin within the past 30 days",
+        "Purulent conjunctivitis at the same time",
+        "Previous otitis unresponsive to amoxicillin"
+      ],
+      "d": [
+        "Age under 12 months",
+        "Bilateral disease",
+        "A fever of 39"
+      ],
+      "why": "The three call for beta-lactamase cover. Ciprofloxacin is not used in children at all.",
+      "tags": [
+        "otitis-media",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "ite25-88c",
+      "item": 88,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which child with acute otitis media may be observed without antibiotics?",
+      "a": "A 3-year-old with mild unilateral disease",
+      "d": [
+        "An 18-month-old with bilateral disease",
+        "A 10-month-old with a fever of 39",
+        "A child with otalgia for three days"
+      ],
+      "why": "Under 24 months, bilateral disease is treated even without severe symptoms. Severe means moderate or severe otalgia, otalgia beyond 48 hours, or a temperature of 39 or more.",
+      "tags": [
+        "otitis-media",
+        "paediatrics"
+      ]
+    }
+  ]
+}
