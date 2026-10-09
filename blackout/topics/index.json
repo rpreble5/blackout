@@ -65,7 +65,9 @@
         "ite-endocrine.json",
         "ite-followup.json",
         "ite-office-a.json",
-        "ite-office-b.json"
+        "ite-office-b.json",
+        "ite25-items-26-38.json",
+        "ite25-items-39-50.json"
       ],
       "mode": "pool",
       "draw": 10

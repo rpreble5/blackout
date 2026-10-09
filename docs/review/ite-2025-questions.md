@@ -134,3 +134,119 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → Carbidopa/levodopa + Rasagiline + Pramipexole
 - **ite25-17b** (single, d2, 4 options) Which feature separates the tremor of Parkinson disease from essential tremor?
   → It is present at rest
+
+## ITE 2025, items 26 to 38 (29 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 26 to 38. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-26a** (multi, d2, 6 options) Rosacea with papules and pustules, not helped by sun protection and gentle skincare. Which are first-line?
+  → Topical metronidazole + Topical azelaic acid
+- **ite25-26b** (single, d2, 4 options) Which side effect of doxycycline is a particular problem when it is used for rosacea?
+  → Photosensitivity
+- **ite25-27a** (single, d2, 4 options) A 67-year-old whose last cervical screen was 15 years ago, never abnormal. What does the task force advise?
+  → Screen now; stop after adequate negatives
+- **ite25-27b** (multi, d3, 6 options) Which conditions make prior cervical screening adequate enough to stop at 65?
+  → Three consecutive negative cytology results in the past 10 years + Two consecutive negative co-tests in the past 10 years + The most recent test within the past 5 years
+- **ite25-28a** (single, d1, 4 options) PHQ-9 of 19, and thoughts of being better off dead nearly every day. What is the next step?
+  → Assess suicide risk: plan, means, substances, stressors
+- **ite25-28b** (single, d3, 4 options) What is the main limitation of ketamine for depression with suicidal ideation?
+  → The benefit fades within about two weeks
+- **ite25-28c** (single, d2, 4 options) Which drug reduces suicide attempts and all-cause mortality in major depression and bipolar disorder?
+  → Lithium
+- **ite25-29a** (single, d2, 4 options, fixed order) Two tubular adenomas of 6 and 8 mm were removed at a screening colonoscopy. When is the next colonoscopy?
+  → 7 to 10 years
+- **ite25-29b** (single, d2, 4 options) After adenomas are found at colonoscopy, which test is used for surveillance in the United States?
+  → Colonoscopy only
+- **ite25-30a** (multi, d3, 7 options) Which outcomes did the ARRIVE trial show induction at 39 weeks improves in low-risk nulliparas?
+  → The caesarean delivery rate + Gestational hypertension and preeclampsia + Neonatal respiratory support in the first 72 hours
+- **ite25-30b** (single, d2, 4 options) How did induction at 39 weeks change time on the labour and delivery unit in the ARRIVE trial?
+  → Lengthened it by about six hours
+- **ite25-31a** (single, d1, 4 options) Hip osteoarthritis in a 75-year-old whose NSAID use is limited by gastric irritation. What relieves the pain best?
+  → An intra-articular corticosteroid injection
+- **ite25-31b** (single, d2, 4 options, fixed order) How long does a corticosteroid injection typically relieve hip osteoarthritis pain?
+  → At least 4 months
+- **ite25-31c** (single, d3, 4 options) What does the evidence say about tramadol for hip osteoarthritis?
+  → No benefit for pain or function, with opioid risks
+- **ite25-32a** (single, d1, 4 options) Sudden amnesia after intercourse, repeating the same questions, otherwise normal with a normal CT. Treatment?
+  → Observation and reassurance
+- **ite25-32b** (single, d2, 4 options, fixed order) Within roughly how long does transient global amnesia resolve?
+  → 6 hours
+- **ite25-33a** (single, d1, 4 options) Serologically confirmed early Lyme disease, no rash, and doxycycline causes severe vomiting. What is given?
+  → Amoxicillin for 14 to 21 days
+- **ite25-33b** (single, d2, 4 options) When is intravenous ceftriaxone used for Lyme disease?
+  → Late neurological manifestations
+- **ite25-33c** (single, d1, 4 options) Fever and body aches a week after a tick bite, no rash. How is Lyme disease diagnosed?
+  → Two-tier serology, immunoassay then blot
+- **ite25-34a** (single, d2, 4 options) Shingles two months ago, rash gone, mild neuralgia persists. What must resolve before the recombinant vaccine?
+  → The rash only, which it has
+- **ite25-35a** (multi, d2, 5 options) A red, swollen eyelid. Which findings point to orbital rather than preseptal cellulitis?
+  → Pain with eye movements + Reduced visual acuity
+- **ite25-35b** (single, d2, 4 options) Which imaging is used for suspected orbital cellulitis?
+  → CT of the orbits with intravenous contrast
+- **ite25-36a** (single, d2, 4 options) Acute femoral vein thrombosis, no pulmonary embolism, GFR 22. What is the initial treatment?
+  → Enoxaparin 1 mg/kg once daily as an outpatient
+- **ite25-36b** (single, d2, 4 options, fixed order) Below what GFR are direct oral anticoagulants avoided for acute venous thromboembolism?
+  → 30 mL/min
+- **ite25-36c** (single, d3, 4 options, fixed order) Rivaroxaban for acute venous thromboembolism starts at 15 mg twice daily for how long?
+  → 21 days
+- **ite25-37a** (single, d1, 4 options) Four months of pelvic pain, a boggy tender prostate, pyuria, negative STI tests. What is prescribed?
+  → A fluoroquinolone
+- **ite25-37b** (single, d2, 4 options) What makes fluoroquinolones the class for chronic bacterial prostatitis?
+  → They penetrate prostatic tissue well
+- **ite25-38a** (single, d1, 4 options) A stable 25-year-old smoker with a pneumothorax under 10% on the chest film. What is next?
+  → Oxygen and a repeat film at six hours
+- **ite25-38b** (single, d2, 4 options) A small primary pneumothorax is unchanged on the film at six hours. What happens next?
+  → Home, with review at 24 hours
+
+## ITE 2025, items 39 to 50 (24 questions)
+
+Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 39 to 50. Each question cites its item. Authoring batch for the ITE pool; review before trusting.
+
+- **ite25-39a** (single, d1, 4 options) A 17-year-old with well-controlled diabetes wants to play soccer. Which finding would rule her out?
+  → An enlarged spleen
+- **ite25-39b** (single, d2, 4 options) What does obesity change at a sports preparticipation evaluation?
+  → Raises heat-illness risk; does not restrict play
+- **ite25-40a** (single, d1, 4 options) Three bouts of vertigo lasting hours, with fullness, tinnitus and hearing loss in one ear. What is ordered?
+  → Audiometry
+- **ite25-40b** (single, d2, 4 options) How is an acute attack of Meniere disease treated?
+  → A vestibular suppressant
+- **ite25-40c** (single, d3, 4 options) What is the evidence for salt, alcohol and caffeine restriction in Meniere disease?
+  → Traditional advice, without sufficient evidence
+- **ite25-41a** (single, d1, 4 options, fixed order) Event rates of 0.085 on low-intensity and 0.045 on high-intensity treatment. What is the number needed to treat?
+  → 25
+- **ite25-42a** (single, d2, 4 options) Neurogenic orthostatic hypotension in a 75-year-old, no drug cause found. Which single agent is indicated?
+  → Midodrine
+- **ite25-42b** (multi, d3, 6 options) Which harms make fludrocortisone a cautious choice for orthostatic hypotension?
+  → Hypokalaemia + Left ventricular hypertrophy + Renal failure
+- **ite25-43a** (single, d2, 4 options) In diabetic ketoacidosis, why is glucose added to the fluids rather than the insulin stopped?
+  → Ketosis clears more slowly than the glucose
+- **ite25-44a** (single, d1, 4 options) PTSD, improving with trauma-focused therapy, still waking mid-sleep with nightmares. What is prescribed?
+  → Prazosin
+- **ite25-45a** (single, d2, 4 options) Burning feet, falls, absent reflexes, weakness and confusion after bariatric surgery. What is the diagnosis?
+  → Thiamine deficiency
+- **ite25-45b** (multi, d2, 8 options) Which are risk factors for thiamine deficiency?
+  → Alcohol use + Bariatric surgery + Older age + Diabetes + HIV infection
+- **ite25-45c** (single, d3, 4 options) Which feature of a symmetric neuropathy in a diabetic patient argues against diabetes as the cause?
+  → Motor weakness with the sensory loss
+- **ite25-46a** (single, d1, 4 options) A 76-year-old fell on her knee yesterday. Benign examination, negative ligament tests. What is ordered?
+  → A plain radiograph of the knee
+- **ite25-46b** (multi, d2, 8 options) Which findings after a knee injury call for a radiograph under the Ottawa knee rule?
+  → Age 55 or older + Isolated tenderness of the patella + Tenderness at the fibular head + Inability to flex the knee to 90 degrees + Inability to bear weight for four steps
+- **ite25-47a** (single, d2, 4 options) Fever and headache at 8 weeks pregnant, a tick removed today, no rash. Suspected spotted fever. What is given?
+  → Doxycycline
+- **ite25-47b** (single, d1, 4 options) Rocky Mountain spotted fever is suspected. What is done about confirmatory testing?
+  → Treat now; do not wait for any test
+- **ite25-48a** (single, d1, 4 options) Pruritus, alkaline phosphatase 450, AST 70, positive antimitochondrial antibodies. What is the diagnosis?
+  → Primary biliary cholangitis
+- **ite25-48b** (multi, d3, 6 options) Primary biliary cholangitis is diagnosed on two of which three findings?
+  → Cholestatic liver enzymes + Antimitochondrial antibodies + Nonsuppurative destructive cholangitis on biopsy
+- **ite25-49a** (single, d2, 4 options) Months of irritability, overspending and infidelity, now depressed, with similar past episodes. What is started?
+  → Quetiapine
+- **ite25-49b** (single, d2, 4 options) What is the problem with antidepressant monotherapy in a patient with mixed features?
+  → Contraindicated with mixed or manic features
+- **ite25-49c** (multi, d3, 8 options) For which presentations is electroconvulsive therapy an effective treatment?
+  → Psychotic depression + Mania + Catatonia + Refractory illness + Suicidal behaviour
+- **ite25-50a** (single, d2, 4 options) A 23-year-old with a BMI of 33 planning her first pregnancy. What is advised about aspirin for preeclampsia?
+  → Aspirin 81 mg daily from 12 weeks
+- **ite25-50b** (multi, d3, 8 options) Which are high-risk factors for preeclampsia, any one of which earns aspirin on its own?
+  → A previous pregnancy with preeclampsia + A multifetal pregnancy + Chronic hypertension + Pre-existing diabetes + Kidney disease

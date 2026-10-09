@@ -1,0 +1,578 @@
+{
+  "id": "ite25-items-26-38",
+  "title": "ITE 2025, items 26 to 38",
+  "short": "Items 26 to 38",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 26 to 38. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-26a",
+      "item": 26,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Rosacea with papules and pustules, not helped by sun protection and gentle skincare. Which are first-line?",
+      "a": [
+        "Topical metronidazole",
+        "Topical azelaic acid"
+      ],
+      "d": [
+        "Topical brimonidine",
+        "Topical cyclosporine",
+        "Oral doxycycline",
+        "Laser or light therapy"
+      ],
+      "why": "Doxycycline is the next step when the topicals fail. Brimonidine, cyclosporine and light therapy are second-line, brimonidine for its cost and the irritation it causes.",
+      "tags": [
+        "rosacea"
+      ]
+    },
+    {
+      "id": "ite25-26b",
+      "item": 26,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which side effect of doxycycline is a particular problem when it is used for rosacea?",
+      "a": "Photosensitivity",
+      "d": [
+        "Oesophageal irritation",
+        "Tooth discolouration",
+        "Tendon rupture"
+      ],
+      "why": "Rosacea is worse in the warm months, which is exactly when a photosensitising drug bites. It is one reason the oral drug waits for the topicals to fail.",
+      "tags": [
+        "rosacea",
+        "doxycycline"
+      ]
+    },
+    {
+      "id": "ite25-27a",
+      "item": 27,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 67-year-old whose last cervical screen was 15 years ago, never abnormal. What does the task force advise?",
+      "a": "Screen now; stop after adequate negatives",
+      "d": [
+        "No screening, since she is past 65",
+        "One normal cytology now, then stop screening",
+        "One normal co-test now, then stop screening"
+      ],
+      "why": "Age ends screening only for women who were adequately screened before 65. She needs two negative co-tests five years apart, or three negative cytology results three years apart.",
+      "tags": [
+        "cervical-screening"
+      ]
+    },
+    {
+      "id": "ite25-27b",
+      "item": 27,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which conditions make prior cervical screening adequate enough to stop at 65?",
+      "a": [
+        "Three consecutive negative cytology results in the past 10 years",
+        "Two consecutive negative co-tests in the past 10 years",
+        "The most recent test within the past 5 years"
+      ],
+      "d": [
+        "Any one normal result after age 60",
+        "A hysterectomy for cervical dysplasia",
+        "No abnormal result at any age"
+      ],
+      "why": "Either run of negatives qualifies, provided the latest was within five years. A hysterectomy for dysplasia is a reason to keep screening the vaginal cuff, not to stop.",
+      "tags": [
+        "cervical-screening"
+      ]
+    },
+    {
+      "id": "ite25-28a",
+      "item": 28,
+      "type": "single",
+      "difficulty": 1,
+      "q": "PHQ-9 of 19, and thoughts of being better off dead nearly every day. What is the next step?",
+      "a": "Assess suicide risk: plan, means, substances, stressors",
+      "d": [
+        "Start escitalopram with cognitive behavioural therapy",
+        "Start escitalopram with lithium",
+        "Send him to the emergency department"
+      ],
+      "why": "Treatment waits for the assessment. SSRIs with CBT are first-line afterwards, and the emergency department is for a plan or other high-risk features, often as a bridge to an inpatient bed.",
+      "tags": [
+        "suicide",
+        "depression"
+      ]
+    },
+    {
+      "id": "ite25-28b",
+      "item": 28,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What is the main limitation of ketamine for depression with suicidal ideation?",
+      "a": "The benefit fades within about two weeks",
+      "d": [
+        "It worsens suicidal thinking at first",
+        "It takes six weeks to act",
+        "It cannot be combined with an SSRI"
+      ],
+      "why": "The improvement comes within 24 hours, which is its appeal, but the evidence is low quality and it is reserved for depression resistant to other drugs.",
+      "tags": [
+        "ketamine",
+        "depression"
+      ]
+    },
+    {
+      "id": "ite25-28c",
+      "item": 28,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which drug reduces suicide attempts and all-cause mortality in major depression and bipolar disorder?",
+      "a": "Lithium",
+      "d": [
+        "Escitalopram",
+        "Quetiapine",
+        "Ketamine"
+      ],
+      "why": "Often alongside an SSRI, but only once the diagnosis is made. Up to half of patients judged low risk go on to complete suicide, which is why the assessment is not skipped.",
+      "tags": [
+        "lithium",
+        "suicide"
+      ]
+    },
+    {
+      "id": "ite25-29a",
+      "item": 29,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Two tubular adenomas of 6 and 8 mm were removed at a screening colonoscopy. When is the next colonoscopy?",
+      "a": "7 to 10 years",
+      "d": [
+        "Within 2 years",
+        "3 years",
+        "3 to 5 years"
+      ],
+      "options": [
+        "Within 2 years",
+        "3 years",
+        "3 to 5 years",
+        "7 to 10 years"
+      ],
+      "why": "Small adenomas progress slowly, if at all. Three or four of them bring it to 3 to 5 years, five to ten to 3 years, and more than ten to yearly.",
+      "tags": [
+        "colonoscopy",
+        "polyps"
+      ]
+    },
+    {
+      "id": "ite25-29b",
+      "item": 29,
+      "type": "single",
+      "difficulty": 2,
+      "q": "After adenomas are found at colonoscopy, which test is used for surveillance in the United States?",
+      "a": "Colonoscopy only",
+      "d": [
+        "Faecal immunochemical testing",
+        "Stool DNA testing",
+        "CT colonography"
+      ],
+      "why": "International guidelines allow stool-based follow-up; the US Multi-Society Task Force does not. Screening continues to at least 75 in a healthy patient.",
+      "tags": [
+        "colonoscopy",
+        "polyps"
+      ]
+    },
+    {
+      "id": "ite25-30a",
+      "item": 30,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which outcomes did the ARRIVE trial show induction at 39 weeks improves in low-risk nulliparas?",
+      "a": [
+        "The caesarean delivery rate",
+        "Gestational hypertension and preeclampsia",
+        "Neonatal respiratory support in the first 72 hours"
+      ],
+      "d": [
+        "Neonatal ICU admission",
+        "Postpartum haemorrhage",
+        "The rate of low birth weight",
+        "Time on the labour and delivery unit"
+      ],
+      "why": "Caesareans fell from 22% to 19%. The composite neonatal outcome did not differ, and median birth weight was slightly lower with induction without more low-birth-weight infants.",
+      "tags": [
+        "induction",
+        "arrive"
+      ]
+    },
+    {
+      "id": "ite25-30b",
+      "item": 30,
+      "type": "single",
+      "difficulty": 2,
+      "q": "How did induction at 39 weeks change time on the labour and delivery unit in the ARRIVE trial?",
+      "a": "Lengthened it by about six hours",
+      "d": [
+        "Shortened it by about six hours",
+        "Made no measurable difference",
+        "Lengthened it by about two days"
+      ],
+      "why": "A median of 20 hours against 14. It is the cost side of the shared decision, along with whether the unit can actually accommodate elective inductions.",
+      "tags": [
+        "induction",
+        "arrive"
+      ]
+    },
+    {
+      "id": "ite25-31a",
+      "item": 31,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hip osteoarthritis in a 75-year-old whose NSAID use is limited by gastric irritation. What relieves the pain best?",
+      "a": "An intra-articular corticosteroid injection",
+      "d": [
+        "An intra-articular hyaluronic acid injection",
+        "A topical lidocaine patch",
+        "A course of tramadol"
+      ],
+      "why": "Hyaluronic acid has not shown substantial benefit in the hip, and lidocaine patches have no evidence there. Groin pain with the FADIR test places the problem in the joint.",
+      "tags": [
+        "osteoarthritis",
+        "hip"
+      ]
+    },
+    {
+      "id": "ite25-31b",
+      "item": 31,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "How long does a corticosteroid injection typically relieve hip osteoarthritis pain?",
+      "a": "At least 4 months",
+      "d": [
+        "About 2 weeks",
+        "About 1 month",
+        "At least 1 year"
+      ],
+      "options": [
+        "About 2 weeks",
+        "About 1 month",
+        "At least 4 months",
+        "At least 1 year"
+      ],
+      "why": "Along with better activity levels and quality of life in many patients, which is more than any of the oral options offer in this joint.",
+      "tags": [
+        "osteoarthritis",
+        "hip"
+      ]
+    },
+    {
+      "id": "ite25-31c",
+      "item": 31,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What does the evidence say about tramadol for hip osteoarthritis?",
+      "a": "No benefit for pain or function, with opioid risks",
+      "d": [
+        "Relieves pain without improving function",
+        "Effective for the first few weeks, then fades",
+        "Preferred over NSAIDs in older adults"
+      ],
+      "why": "Opioids of every kind are advised against in chronic osteoarthritis: no long-term effect, significant side effects, and a high risk of misuse.",
+      "tags": [
+        "osteoarthritis",
+        "opioids"
+      ]
+    },
+    {
+      "id": "ite25-32a",
+      "item": 32,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Sudden amnesia after intercourse, repeating the same questions, otherwise normal with a normal CT. Treatment?",
+      "a": "Observation and reassurance",
+      "d": [
+        "Oral apixaban",
+        "Aspirin with clopidogrel",
+        "Intravenous lorazepam"
+      ],
+      "why": "Transient global amnesia is triggered by intense physical or emotional stress and has nothing to do with stroke, TIA or seizure, so none of their treatments apply.",
+      "tags": [
+        "amnesia"
+      ]
+    },
+    {
+      "id": "ite25-32b",
+      "item": 32,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Within roughly how long does transient global amnesia resolve?",
+      "a": "6 hours",
+      "d": [
+        "1 hour",
+        "24 hours",
+        "72 hours"
+      ],
+      "options": [
+        "1 hour",
+        "6 hours",
+        "24 hours",
+        "72 hours"
+      ],
+      "why": "The amnesia is anterograde, with identity and the rest of the neurological examination intact throughout.",
+      "tags": [
+        "amnesia"
+      ]
+    },
+    {
+      "id": "ite25-33a",
+      "item": 33,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Serologically confirmed early Lyme disease, no rash, and doxycycline causes severe vomiting. What is given?",
+      "a": "Amoxicillin for 14 to 21 days",
+      "d": [
+        "Intravenous ceftriaxone",
+        "Oral chloramphenicol",
+        "Doxycycline with an antiemetic"
+      ],
+      "why": "Cefuroxime is the other alternative. A course the patient can finish matters, since partial treatment risks later complications.",
+      "tags": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "ite25-33b",
+      "item": 33,
+      "type": "single",
+      "difficulty": 2,
+      "q": "When is intravenous ceftriaxone used for Lyme disease?",
+      "a": "Late neurological manifestations",
+      "d": [
+        "Early disease without a rash",
+        "Any patient intolerant of doxycycline",
+        "Disease acquired in pregnancy"
+      ],
+      "why": "Early disease, rash or no rash, is treated orally. Chloramphenicol, the other distractor in the exam item, is the doxycycline alternative for Rocky Mountain spotted fever.",
+      "tags": [
+        "lyme"
+      ]
+    },
+    {
+      "id": "ite25-33c",
+      "item": 33,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Fever and body aches a week after a tick bite, no rash. How is Lyme disease diagnosed?",
+      "a": "Two-tier serology, immunoassay then blot",
+      "d": [
+        "On the clinical picture alone, no test",
+        "PCR of the blood for the organism",
+        "Culture of the tick that bit him"
+      ],
+      "why": "The rash of erythema migrans is the one presentation diagnosed clinically. Flu-like illness in spring or summer after time outdoors should raise every tick-borne disease.",
+      "tags": [
+        "lyme",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "ite25-34a",
+      "item": 34,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Shingles two months ago, rash gone, mild neuralgia persists. What must resolve before the recombinant vaccine?",
+      "a": "The rash only, which it has",
+      "d": [
+        "The rash and the neuralgia",
+        "Twelve months since the episode",
+        "Nothing; it is given during the rash"
+      ],
+      "why": "A prior live zoster vaccine is no bar either. Evidence after a recent episode is indirect, but recurrence is real and the vaccine is safe and immunogenic.",
+      "tags": [
+        "zoster",
+        "vaccines"
+      ]
+    },
+    {
+      "id": "ite25-35a",
+      "item": 35,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "A red, swollen eyelid. Which findings point to orbital rather than preseptal cellulitis?",
+      "a": [
+        "Pain with eye movements",
+        "Reduced visual acuity"
+      ],
+      "d": [
+        "Erythema of the eyelid",
+        "Oedema of the eyelid",
+        "A low-grade fever"
+      ],
+      "why": "Orbital cellulitis means transfer to the emergency department for intravenous antibiotics and ophthalmology, not same-day clinic, oral antibiotics or compresses, each of which delays treatment.",
+      "tags": [
+        "orbital-cellulitis"
+      ]
+    },
+    {
+      "id": "ite25-35b",
+      "item": 35,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Which imaging is used for suspected orbital cellulitis?",
+      "a": "CT of the orbits with intravenous contrast",
+      "d": [
+        "CT of the orbits without contrast",
+        "Plain radiographs of the sinuses",
+        "Ultrasound of the orbit"
+      ],
+      "why": "MRI is the alternative. A non-contrast scan is less accurate and can delay definitive treatment.",
+      "tags": [
+        "orbital-cellulitis",
+        "imaging"
+      ]
+    },
+    {
+      "id": "ite25-36a",
+      "item": 36,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Acute femoral vein thrombosis, no pulmonary embolism, GFR 22. What is the initial treatment?",
+      "a": "Enoxaparin 1 mg/kg once daily as an outpatient",
+      "d": [
+        "Rivaroxaban 15 mg twice daily, then 20 mg",
+        "Dabigatran 75 mg twice daily",
+        "Admission for intravenous heparin"
+      ],
+      "why": "Once daily rather than twice is the renal adjustment. Dabigatran carries more bleeding, warfarin alone is not for the acute phase, and uncomplicated DVT is treated at home.",
+      "tags": [
+        "dvt",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-36b",
+      "item": 36,
+      "type": "single",
+      "difficulty": 2,
+      "order": "fixed",
+      "q": "Below what GFR are direct oral anticoagulants avoided for acute venous thromboembolism?",
+      "a": "30 mL/min",
+      "d": [
+        "15 mL/min",
+        "45 mL/min",
+        "60 mL/min"
+      ],
+      "options": [
+        "15 mL/min",
+        "30 mL/min",
+        "45 mL/min",
+        "60 mL/min"
+      ],
+      "why": "The same cut-off moves enoxaparin from twice daily to once daily.",
+      "tags": [
+        "dvt",
+        "anticoagulation",
+        "renal"
+      ]
+    },
+    {
+      "id": "ite25-36c",
+      "item": 36,
+      "type": "single",
+      "difficulty": 3,
+      "order": "fixed",
+      "q": "Rivaroxaban for acute venous thromboembolism starts at 15 mg twice daily for how long?",
+      "a": "21 days",
+      "d": [
+        "7 days",
+        "14 days",
+        "28 days"
+      ],
+      "options": [
+        "7 days",
+        "14 days",
+        "21 days",
+        "28 days"
+      ],
+      "why": "Then 20 mg once daily. The exam item offered a 14-day load as a distractor, which was wrong on two counts: the duration, and the kidney.",
+      "tags": [
+        "dvt",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "ite25-37a",
+      "item": 37,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Four months of pelvic pain, a boggy tender prostate, pyuria, negative STI tests. What is prescribed?",
+      "a": "A fluoroquinolone",
+      "d": [
+        "Amoxicillin",
+        "Ceftriaxone",
+        "A referral to urology"
+      ],
+      "why": "Chronic bacterial prostatitis. CT adds nothing to the diagnosis, and the condition sits within family medicine.",
+      "tags": [
+        "prostatitis"
+      ]
+    },
+    {
+      "id": "ite25-37b",
+      "item": 37,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What makes fluoroquinolones the class for chronic bacterial prostatitis?",
+      "a": "They penetrate prostatic tissue well",
+      "d": [
+        "They cover anaerobes well",
+        "They are safe in renal failure",
+        "They work in a single dose"
+      ],
+      "why": "Together with cover of the usual uropathogens and high oral bioavailability. Amoxicillin and ceftriaxone fail on the penetration.",
+      "tags": [
+        "prostatitis"
+      ]
+    },
+    {
+      "id": "ite25-38a",
+      "item": 38,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A stable 25-year-old smoker with a pneumothorax under 10% on the chest film. What is next?",
+      "a": "Oxygen and a repeat film at six hours",
+      "d": [
+        "Discharge with return precautions",
+        "CT of the chest to confirm",
+        "A chest tube in the fifth interspace"
+      ],
+      "why": "Small means under 15% of the hemithorax. CT is for an equivocal film. Decompression and a tube are for the unstable patient or a large pneumothorax.",
+      "tags": [
+        "pneumothorax"
+      ]
+    },
+    {
+      "id": "ite25-38b",
+      "item": 38,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A small primary pneumothorax is unchanged on the film at six hours. What happens next?",
+      "a": "Home, with review at 24 hours",
+      "d": [
+        "Admission for overnight observation",
+        "Needle aspiration before discharge",
+        "A CT before discharge"
+      ],
+      "why": "Oxygen by nasal cannula during the observation period speeds reabsorption. Severe symptoms at any point change the plan to decompression and a tube.",
+      "tags": [
+        "pneumothorax"
+      ]
+    }
+  ]
+}

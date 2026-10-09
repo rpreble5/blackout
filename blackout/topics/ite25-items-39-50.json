@@ -1,0 +1,478 @@
+{
+  "id": "ite25-items-39-50",
+  "title": "ITE 2025, items 39 to 50",
+  "short": "Items 39 to 50",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examination critiques, items 39 to 50. Each question cites its item. Authoring batch for the ITE pool; review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "ite25-39a",
+      "item": 39,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 17-year-old with well-controlled diabetes wants to play soccer. Which finding would rule her out?",
+      "a": "An enlarged spleen",
+      "d": [
+        "A BMI over 30",
+        "Insulin-dependent diabetes",
+        "Mild asymptomatic mitral valve prolapse"
+      ],
+      "why": "An acutely enlarged spleen or liver can rupture in contact sport and needs a cause found first. Exercise is encouraged in diabetes, with insulin and meals adjusted.",
+      "tags": [
+        "preparticipation"
+      ]
+    },
+    {
+      "id": "ite25-39b",
+      "item": 39,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What does obesity change at a sports preparticipation evaluation?",
+      "a": "Raises heat-illness risk; does not restrict play",
+      "d": [
+        "It restricts contact sports until weight falls",
+        "It requires cardiology clearance first",
+        "It requires an ECG before clearance"
+      ],
+      "why": "Tibial tubercle apophysitis is the same kind of finding: noted, managed conservatively, and not a reason to keep an adolescent off the field.",
+      "tags": [
+        "preparticipation"
+      ]
+    },
+    {
+      "id": "ite25-40a",
+      "item": 40,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Three bouts of vertigo lasting hours, with fullness, tinnitus and hearing loss in one ear. What is ordered?",
+      "a": "Audiometry",
+      "d": [
+        "The Epley manoeuvre",
+        "A thiazide diuretic",
+        "Oral prednisone"
+      ],
+      "why": "Meniere disease has no diagnostic test, but audiometry is done in every suspected case. The Epley manoeuvre treats positional vertigo, a different disease.",
+      "tags": [
+        "meniere",
+        "vertigo"
+      ]
+    },
+    {
+      "id": "ite25-40b",
+      "item": 40,
+      "type": "single",
+      "difficulty": 2,
+      "q": "How is an acute attack of Meniere disease treated?",
+      "a": "A vestibular suppressant",
+      "d": [
+        "A loop diuretic",
+        "A short course of prednisone",
+        "An oral antiviral"
+      ],
+      "why": "Diazepam and prochlorperazine are the other suppressants. No good-quality evidence supports diuretics, steroids or antivirals for treating or preventing it.",
+      "tags": [
+        "meniere",
+        "vertigo"
+      ]
+    },
+    {
+      "id": "ite25-40c",
+      "item": 40,
+      "type": "single",
+      "difficulty": 3,
+      "q": "What is the evidence for salt, alcohol and caffeine restriction in Meniere disease?",
+      "a": "Traditional advice, without sufficient evidence",
+      "d": [
+        "Salt restriction alone prevents attacks",
+        "Alcohol reduction alone prevents attacks",
+        "Each is supported by trial evidence"
+      ],
+      "why": "Which is why a reduction in the one glass of wine a night was not the answer in the exam item, and audiometry was.",
+      "tags": [
+        "meniere"
+      ]
+    },
+    {
+      "id": "ite25-41a",
+      "item": 41,
+      "type": "single",
+      "difficulty": 1,
+      "order": "fixed",
+      "q": "Event rates of 0.085 on low-intensity and 0.045 on high-intensity treatment. What is the number needed to treat?",
+      "a": "25",
+      "d": [
+        "4",
+        "40",
+        "50"
+      ],
+      "options": [
+        "4",
+        "25",
+        "40",
+        "50"
+      ],
+      "why": "Control rate minus treatment rate gives an absolute risk reduction of 0.04, and the number needed to treat is 1 divided by that.",
+      "tags": [
+        "evidence",
+        "nnt"
+      ]
+    },
+    {
+      "id": "ite25-42a",
+      "item": 42,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Neurogenic orthostatic hypotension in a 75-year-old, no drug cause found. Which single agent is indicated?",
+      "a": "Midodrine",
+      "d": [
+        "Fludrocortisone",
+        "Atomoxetine",
+        "Methylphenidate"
+      ],
+      "why": "The safest and best tolerated option. Atomoxetine works only as an add-on to it, methylphenidate has no role, and sodium tablets risk hypernatraemia without fixing the problem.",
+      "tags": [
+        "orthostatic-hypotension"
+      ]
+    },
+    {
+      "id": "ite25-42b",
+      "item": 42,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which harms make fludrocortisone a cautious choice for orthostatic hypotension?",
+      "a": [
+        "Hypokalaemia",
+        "Left ventricular hypertrophy",
+        "Renal failure"
+      ],
+      "d": [
+        "Hyponatraemia",
+        "Bradycardia",
+        "Hypoglycaemia"
+      ],
+      "why": "Its use here is off-label. The mineralocorticoid effect retains sodium and wastes potassium, and the volume load is what the heart and kidneys pay for.",
+      "tags": [
+        "orthostatic-hypotension",
+        "fludrocortisone"
+      ]
+    },
+    {
+      "id": "ite25-43a",
+      "item": 43,
+      "type": "single",
+      "difficulty": 2,
+      "q": "In diabetic ketoacidosis, why is glucose added to the fluids rather than the insulin stopped?",
+      "a": "Ketosis clears more slowly than the glucose",
+      "d": [
+        "To prevent cerebral oedema as the glucose falls",
+        "To replenish liver glycogen stores",
+        "To let the insulin infusion be stopped"
+      ],
+      "why": "The insulin runs on until the gap closes, and the glucose infusion holds the plasma level at 150 to 200 mg/dL while it does.",
+      "tags": [
+        "dka"
+      ]
+    },
+    {
+      "id": "ite25-44a",
+      "item": 44,
+      "type": "single",
+      "difficulty": 1,
+      "q": "PTSD, improving with trauma-focused therapy, still waking mid-sleep with nightmares. What is prescribed?",
+      "a": "Prazosin",
+      "d": [
+        "Mirtazapine",
+        "Temazepam",
+        "Risperidone"
+      ],
+      "why": "It damps sympathetic tone during sleep. Benzodiazepines are avoided for misuse and long-term harm, and the sedating antidepressants and antipsychotics carry too much side-effect burden for a sleep symptom.",
+      "tags": [
+        "ptsd",
+        "sleep"
+      ]
+    },
+    {
+      "id": "ite25-45a",
+      "item": 45,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Burning feet, falls, absent reflexes, weakness and confusion after bariatric surgery. What is the diagnosis?",
+      "a": "Thiamine deficiency",
+      "d": [
+        "Diabetic peripheral neuropathy",
+        "Neurological Lyme disease",
+        "Secondary syphilis"
+      ],
+      "why": "Beriberi. Blood or urine thiamine confirms it, and severe deficiency goes on to heart failure. Lyme neuropathy is rare and a mononeuropathy; secondary syphilis affects eyes and ears, not peripheral nerves.",
+      "tags": [
+        "thiamine",
+        "neuropathy"
+      ]
+    },
+    {
+      "id": "ite25-45b",
+      "item": 45,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which are risk factors for thiamine deficiency?",
+      "a": [
+        "Alcohol use",
+        "Bariatric surgery",
+        "Older age",
+        "Diabetes",
+        "HIV infection"
+      ],
+      "d": [
+        "Hypothyroidism",
+        "A vegetarian diet",
+        "Iron overload"
+      ],
+      "why": "The vegetarian diet is the vitamin B12 trap. Diabetes earns its place twice over: it is a risk factor for the deficiency and a diagnosis that gets blamed for the neuropathy.",
+      "tags": [
+        "thiamine"
+      ]
+    },
+    {
+      "id": "ite25-45c",
+      "item": 45,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Which feature of a symmetric neuropathy in a diabetic patient argues against diabetes as the cause?",
+      "a": "Motor weakness with the sensory loss",
+      "d": [
+        "Burning that is worse at night",
+        "A symmetric stocking distribution",
+        "Reduced pinprick sensation in the feet"
+      ],
+      "why": "Diabetic neuropathy is sensory until it is severe. Weakness, absent reflexes and a recent bariatric operation point to thiamine.",
+      "tags": [
+        "thiamine",
+        "neuropathy"
+      ]
+    },
+    {
+      "id": "ite25-46a",
+      "item": 46,
+      "type": "single",
+      "difficulty": 1,
+      "q": "A 76-year-old fell on her knee yesterday. Benign examination, negative ligament tests. What is ordered?",
+      "a": "A plain radiograph of the knee",
+      "d": [
+        "No imaging",
+        "An MRI of the knee",
+        "An ultrasound of the knee"
+      ],
+      "why": "Age 55 or older alone satisfies the Ottawa knee rule. MRI is for positive ligament or meniscal tests, and radiography beats ultrasound for fracture in adults.",
+      "tags": [
+        "ottawa",
+        "knee"
+      ]
+    },
+    {
+      "id": "ite25-46b",
+      "item": 46,
+      "type": "multi",
+      "difficulty": 2,
+      "q": "Which findings after a knee injury call for a radiograph under the Ottawa knee rule?",
+      "a": [
+        "Age 55 or older",
+        "Isolated tenderness of the patella",
+        "Tenderness at the fibular head",
+        "Inability to flex the knee to 90 degrees",
+        "Inability to bear weight for four steps"
+      ],
+      "d": [
+        "Pain lateral to the patella",
+        "Warmth over the anterior knee",
+        "A negative Lachman test"
+      ],
+      "why": "Any one criterion is enough. Arthrocentesis with culture is the test when the history and examination suggest an infected joint.",
+      "tags": [
+        "ottawa",
+        "knee"
+      ]
+    },
+    {
+      "id": "ite25-47a",
+      "item": 47,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Fever and headache at 8 weeks pregnant, a tick removed today, no rash. Suspected spotted fever. What is given?",
+      "a": "Doxycycline",
+      "d": [
+        "Chloramphenicol",
+        "Amoxicillin",
+        "Erythromycin"
+      ],
+      "why": "Short courses of 5 to 10 days are safe in pregnancy and in children. Chloramphenicol is an option with a higher death rate; amoxicillin and erythromycin have no role.",
+      "tags": [
+        "rmsf",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "ite25-47b",
+      "item": 47,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Rocky Mountain spotted fever is suspected. What is done about confirmatory testing?",
+      "a": "Treat now; do not wait for any test",
+      "d": [
+        "Send serology and treat if positive",
+        "Treat once the rash appears",
+        "Send the tick for PCR first"
+      ],
+      "why": "The disease can be fatal and testing delays treatment. A true doxycycline allergy is handled by inpatient rapid desensitisation rather than a substitute.",
+      "tags": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "ite25-48a",
+      "item": 48,
+      "type": "single",
+      "difficulty": 1,
+      "q": "Pruritus, alkaline phosphatase 450, AST 70, positive antimitochondrial antibodies. What is the diagnosis?",
+      "a": "Primary biliary cholangitis",
+      "d": [
+        "Primary sclerosing cholangitis",
+        "Autoimmune hepatitis",
+        "Metabolic dysfunction-associated steatotic liver disease"
+      ],
+      "why": "The antibody is positive in over 95% of cases and rarely in sclerosing cholangitis, which is linked to inflammatory bowel disease and diagnosed by strictures on cholangiography.",
+      "tags": [
+        "pbc",
+        "liver"
+      ]
+    },
+    {
+      "id": "ite25-48b",
+      "item": 48,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Primary biliary cholangitis is diagnosed on two of which three findings?",
+      "a": [
+        "Cholestatic liver enzymes",
+        "Antimitochondrial antibodies",
+        "Nonsuppurative destructive cholangitis on biopsy"
+      ],
+      "d": [
+        "Anti-smooth muscle antibodies",
+        "Bile duct strictures on cholangiography",
+        "Associated inflammatory bowel disease"
+      ],
+      "why": "Anti-smooth muscle and antinuclear antibodies with raised aminotransferases are autoimmune hepatitis. Strictures and bowel disease are primary sclerosing cholangitis.",
+      "tags": [
+        "pbc",
+        "liver"
+      ]
+    },
+    {
+      "id": "ite25-49a",
+      "item": 49,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Months of irritability, overspending and infidelity, now depressed, with similar past episodes. What is started?",
+      "a": "Quetiapine",
+      "d": [
+        "Sertraline",
+        "Bupropion",
+        "Electroconvulsive therapy"
+      ],
+      "why": "Bipolar disorder. Lithium, an anticonvulsant or an atypical antipsychotic are the approved options, and drugs come before ECT.",
+      "tags": [
+        "bipolar"
+      ]
+    },
+    {
+      "id": "ite25-49b",
+      "item": 49,
+      "type": "single",
+      "difficulty": 2,
+      "q": "What is the problem with antidepressant monotherapy in a patient with mixed features?",
+      "a": "Contraindicated with mixed or manic features",
+      "d": [
+        "It takes too long to work in a crisis",
+        "It interacts with the antipsychotics",
+        "It lowers the seizure threshold"
+      ],
+      "why": "The same holds for bipolar I. Omega-3, light therapy, ketamine and probiotics have insufficient evidence as add-ons; CBT, exercise and nutrition do help.",
+      "tags": [
+        "bipolar"
+      ]
+    },
+    {
+      "id": "ite25-49c",
+      "item": 49,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "For which presentations is electroconvulsive therapy an effective treatment?",
+      "a": [
+        "Psychotic depression",
+        "Mania",
+        "Catatonia",
+        "Refractory illness",
+        "Suicidal behaviour"
+      ],
+      "d": [
+        "First-episode mild depression",
+        "Chronic insomnia",
+        "Mixed features before any drug has been tried"
+      ],
+      "why": "Acute psychosis is also on the list. In bipolar disorder it sits behind pharmacotherapy, which is first-line.",
+      "tags": [
+        "ect",
+        "bipolar"
+      ]
+    },
+    {
+      "id": "ite25-50a",
+      "item": 50,
+      "type": "single",
+      "difficulty": 2,
+      "q": "A 23-year-old with a BMI of 33 planning her first pregnancy. What is advised about aspirin for preeclampsia?",
+      "a": "Aspirin 81 mg daily from 12 weeks",
+      "d": [
+        "No aspirin; she does not qualify",
+        "Aspirin for three months before conception",
+        "Aspirin if her blood pressure rises in pregnancy"
+      ],
+      "why": "Nulliparity and a BMI over 30 are two moderate-risk factors, which is enough. It also lowers growth restriction and preterm birth, with a good safety profile.",
+      "tags": [
+        "preeclampsia",
+        "aspirin"
+      ]
+    },
+    {
+      "id": "ite25-50b",
+      "item": 50,
+      "type": "multi",
+      "difficulty": 3,
+      "q": "Which are high-risk factors for preeclampsia, any one of which earns aspirin on its own?",
+      "a": [
+        "A previous pregnancy with preeclampsia",
+        "A multifetal pregnancy",
+        "Chronic hypertension",
+        "Pre-existing diabetes",
+        "Kidney disease"
+      ],
+      "d": [
+        "A first pregnancy",
+        "Age 35 or older",
+        "A BMI over 30"
+      ],
+      "why": "Autoimmune disease completes the high-risk list. The three distractors are moderate-risk factors, and it takes two of those to qualify.",
+      "tags": [
+        "preeclampsia",
+        "aspirin"
+      ]
+    }
+  ]
+}
