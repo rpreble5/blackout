@@ -1,0 +1,1093 @@
+{
+  "id": "ite25-why-001-050",
+  "title": "ITE 2025 why, items 1 to 50",
+  "short": "Why 1 to 50",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "why",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 1 to 50, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "why25-001a",
+      "item": 1,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do patient-specific reminders beat general reminders to clinicians for raising screening rates?",
+      "a": "Flags act at the point of care, not from memory",
+      "d": [
+        "They cost less than clinician education",
+        "They carry weight in an audit",
+        "They replace the clinician's recommendation"
+      ],
+      "why": "A general reminder asks a busy clinician to notice, remember and act on every visit; a patient-specific flag does the noticing for them. The direct recommendation in the room still does most of the persuading.",
+      "tags": [
+        "quality-improvement"
+      ]
+    },
+    {
+      "id": "why25-002a",
+      "item": 2,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a 7% weight loss the target in diabetes prevention programmes rather than a return to normal weight?",
+      "a": "It is the loss the trials tied to risk reduction",
+      "d": [
+        "It is the most any programme can deliver",
+        "It fully reverses the insulin resistance",
+        "Larger losses raise the gallstone risk"
+      ],
+      "why": "The Diabetes Prevention Program set 7% because that is roughly what its participants lost, and that loss cut incident diabetes by more than half. The benefit comes from the loss itself, not from reaching a particular weight.",
+      "tags": [
+        "prediabetes"
+      ]
+    },
+    {
+      "id": "why25-002b",
+      "item": 2,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why does modest weight loss improve glucose tolerance out of proportion to the pounds lost?",
+      "a": "Liver and visceral fat go first and drive resistance",
+      "d": [
+        "Muscle mass rises as the fat comes off",
+        "Appetite hormones settle at a lower set point",
+        "Beta cells regenerate once the load falls"
+      ],
+      "why": "Early weight loss comes disproportionately from the liver and visceral stores, which are the depots that impair insulin signalling. Subcutaneous fat, which makes up most of the weight, matters far less metabolically.",
+      "tags": [
+        "prediabetes",
+        "insulin-resistance"
+      ]
+    },
+    {
+      "id": "why25-003a",
+      "item": 3,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a proximal fifth metatarsal fracture treated more cautiously than a shaft fracture?",
+      "a": "A watershed blood supply there heals poorly",
+      "d": [
+        "The peroneal tendon pulls the fragment apart",
+        "It is far more often an open fracture",
+        "It extends into the ankle joint surface"
+      ],
+      "why": "The Jones fracture sits in a zone of poor vascularity between two arterial supplies, so nonunion is common and a cast or even a screw is used. The shaft heals well with a boot and weight-bearing.",
+      "tags": [
+        "foot-fracture"
+      ]
+    },
+    {
+      "id": "why25-004a",
+      "item": 4,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is norepinephrine preferred over dopamine as the first vasopressor in septic shock?",
+      "a": "Dopamine caused more arrhythmias with no survival gain",
+      "d": [
+        "Norepinephrine raises cardiac output far more",
+        "Dopamine cannot run through a peripheral line",
+        "Norepinephrine is cheaper and easier to store"
+      ],
+      "why": "Head-to-head, dopamine produced more tachyarrhythmias and a trend to more deaths in cardiogenic subgroups. Norepinephrine restores the vascular tone that sepsis takes away, which is the actual defect.",
+      "tags": [
+        "sepsis",
+        "vasopressors"
+      ]
+    },
+    {
+      "id": "why25-004b",
+      "item": 4,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why does a mean arterial pressure of 65 matter more than the systolic in shock?",
+      "a": "Organs are perfused by the mean across the cycle",
+      "d": [
+        "The systolic cannot be read on a pressor",
+        "The diastolic is unreliable in sepsis",
+        "It is the number the monitors chart best"
+      ],
+      "why": "Tissues are perfused throughout the cardiac cycle, and autoregulation in the kidney and brain fails below a mean of roughly 60 to 65. A good systolic with a collapsed diastolic can hide a dangerously low mean.",
+      "tags": [
+        "sepsis",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-005a",
+      "item": 5,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a beta-blocker help in thyroid storm when it does nothing to the hormone levels?",
+      "a": "It blocks the adrenergic effects hormone amplifies",
+      "d": [
+        "It inhibits the synthesis of new hormone",
+        "It speeds hepatic clearance of the hormone",
+        "It drives TSH back down towards normal"
+      ],
+      "why": "Thyroid hormone upregulates beta-receptors, so the tachycardia, tremor and agitation are adrenergic. Propranolol also modestly blocks T4 to T3 conversion, which is a bonus rather than the point.",
+      "tags": [
+        "thyroid-storm"
+      ]
+    },
+    {
+      "id": "why25-005b",
+      "item": 5,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why would iodine given before a thionamide make thyroid storm worse?",
+      "a": "It feeds synthesis before the block is in place",
+      "d": [
+        "It provokes an allergic reaction in storm",
+        "It stops the thionamide being absorbed",
+        "It drives TSH up and worsens the drive"
+      ],
+      "why": "The Wolff-Chaikoff effect that iodine relies on is transient, and a gland in storm can escape it and use the iodine to make more hormone. With synthesis already blocked, iodine only inhibits release.",
+      "tags": [
+        "thyroid-storm",
+        "iodine"
+      ]
+    },
+    {
+      "id": "why25-006a",
+      "item": 6,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why would a non-absorbed antibiotic help the pain and bloating of irritable bowel syndrome?",
+      "a": "It cuts bacterial gas and metabolites in the lumen",
+      "d": [
+        "Enough is absorbed to act on the brain",
+        "It eradicates Helicobacter in the stomach",
+        "It anaesthetises the stretched gut wall"
+      ],
+      "why": "Rifaximin stays in the lumen, which is where the fermentation that produces gas and the metabolites that sensitise the gut happen. That is also why it has so few systemic side effects.",
+      "tags": [
+        "ibs"
+      ]
+    },
+    {
+      "id": "why25-007a",
+      "item": 7,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are opioids avoided for neuropathic pain even when they reduce it?",
+      "a": "Tolerance, hyperalgesia and dependence outrun the benefit",
+      "d": [
+        "They have no effect on nerve pain of any kind",
+        "They push the blood glucose up over time",
+        "They accelerate the nerve damage itself"
+      ],
+      "why": "Opioids do blunt neuropathic pain in the short term, but the dose creeps, the pain threshold falls, and the harms accumulate. The first-line drugs act on the nerve signalling itself rather than on perception.",
+      "tags": [
+        "neuropathy",
+        "opioids"
+      ]
+    },
+    {
+      "id": "why25-007b",
+      "item": 7,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why do an antidepressant and an anticonvulsant both treat painful neuropathy?",
+      "a": "Both quieten abnormal firing in sensitised pathways",
+      "d": [
+        "Both treat a depression that causes the pain",
+        "Both help damaged myelin to regrow",
+        "Both lower the glucose that drives the damage"
+      ],
+      "why": "Duloxetine boosts descending inhibition through serotonin and noradrenaline; gabapentin and pregabalin bind calcium channel subunits on hyperexcitable neurons. Different targets, the same end: less spontaneous signalling.",
+      "tags": [
+        "neuropathy",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-008a",
+      "item": 8,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a post-void residual part of the first incontinence evaluation?",
+      "a": "Overflow from retention mimics urge and stress leakage",
+      "d": [
+        "It measures how much the bladder can hold at most",
+        "It is the test that diagnoses infection",
+        "It predicts who will respond to surgery"
+      ],
+      "why": "A bladder that never empties leaks when it is full, and treating that as overactivity with an anticholinergic makes it worse. The residual is the one measurement that separates the two.",
+      "tags": [
+        "incontinence"
+      ]
+    },
+    {
+      "id": "why25-009a",
+      "item": 9,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a platelet count of 47,000 in immune thrombocytopenia not treated?",
+      "a": "Bleeding is rare above 30,000 and treatment has harms",
+      "d": [
+        "The count rises on its own within weeks",
+        "Steroids stop working once the count passes 30,000",
+        "Bleeding starts at counts under 10,000"
+      ],
+      "why": "Platelets in ITP are young and functional, so haemostasis holds at counts that would worry you in marrow failure. Steroids and rituximab carry real toxicity, which is only worth it when bleeding risk is real.",
+      "tags": [
+        "itp"
+      ]
+    },
+    {
+      "id": "why25-010a",
+      "item": 10,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is kidney function monitored so closely on long-term antiretroviral therapy?",
+      "a": "Tenofovir can injure the proximal tubule",
+      "d": [
+        "HIV damages the glomerulus in most patients",
+        "Protease inhibitors cause stones in most patients",
+        "The drugs need a dose change every year"
+      ],
+      "why": "Tenofovir disoproxil accumulates in proximal tubular cells and can cause a Fanconi-like picture; a urinalysis catches the proteinuria and glycosuria before the GFR falls. HIV nephropathy exists but is far less common on treatment.",
+      "tags": [
+        "hiv",
+        "nephrotoxicity"
+      ]
+    },
+    {
+      "id": "why25-011a",
+      "item": 11,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why can a stress test be negative in a patient who has coronary plaque?",
+      "a": "It detects flow limitation, not plaque",
+      "d": [
+        "It is reliable in women but not in men",
+        "It cannot see the right coronary territory",
+        "Diabetes blunts the heart rate response"
+      ],
+      "why": "A stress test asks whether a stenosis is tight enough to starve the muscle under load. Plaque that narrows a vessel by 40 percent passes the test and can still rupture, which is what CT angiography sees and the stress test cannot.",
+      "tags": [
+        "chest-pain",
+        "imaging"
+      ]
+    },
+    {
+      "id": "why25-012a",
+      "item": 12,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does acamprosate only work once a patient has already stopped drinking?",
+      "a": "It calms the glutamate rebound of withdrawal",
+      "d": [
+        "It makes alcohol taste unpleasant",
+        "It blocks the reward alcohol delivers",
+        "Alcohol in the blood inactivates it"
+      ],
+      "why": "Chronic alcohol suppresses glutamate; stopping leaves the system overactive, which drives craving and relapse. Acamprosate calms that rebound, so it has nothing to act on while drinking continues.",
+      "tags": [
+        "alcohol",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-012b",
+      "item": 12,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does gabapentin help someone who is still drinking when acamprosate does not?",
+      "a": "It eases withdrawal and is safe with alcohol on board",
+      "d": [
+        "It blocks alcohol absorption in the gut",
+        "It induces vomiting if alcohol is taken",
+        "It replaces the sedative effect of alcohol"
+      ],
+      "why": "Gabapentin reduces the anxiety, insomnia and tremor of early abstinence without the interaction risk of a benzodiazepine, so it can be started before the last drink. Its role is to make stopping tolerable.",
+      "tags": [
+        "alcohol",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-013a",
+      "item": 13,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a short steroid course cause rebound in poison ivy but not in asthma?",
+      "a": "The T cell reaction outlasts a short course and reignites",
+      "d": [
+        "Skin absorbs oral steroids more slowly",
+        "Urushiol stays in the skin for months",
+        "Inhaled steroids act for longer than oral ones"
+      ],
+      "why": "The sensitised T cells keep responding for two to three weeks regardless of treatment. Five days of steroid holds the inflammation down and then releases it, which is why the taper runs for fifteen.",
+      "tags": [
+        "poison-ivy",
+        "immunology"
+      ]
+    },
+    {
+      "id": "why25-014a",
+      "item": 14,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are subsolid lung nodules followed longer than solid ones?",
+      "a": "Ground-glass adenocarcinomas grow very slowly",
+      "d": [
+        "They are harder to measure on CT",
+        "They are usually infectious and resolve",
+        "They calcify as they age"
+      ],
+      "why": "A persistent ground-glass nodule may be an indolent adenocarcinoma with a doubling time measured in years, so two years of stability does not clear it. Solid cancers declare themselves faster.",
+      "tags": [
+        "pulmonary-nodule"
+      ]
+    },
+    {
+      "id": "why25-015a",
+      "item": 15,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an upper gastrointestinal bleed raise the BUN out of proportion to the creatinine?",
+      "a": "Digested blood protein is absorbed and made into urea",
+      "d": [
+        "The kidneys shut down with the blood loss",
+        "Haemoglobin is filtered and read as urea",
+        "The liver stops clearing urea when bleeding"
+      ],
+      "why": "Blood in the small bowel is a protein meal, and the amino acids absorbed become urea in the liver. A lower bleed does not raise the BUN this way, so the ratio helps place the source.",
+      "tags": [
+        "gi-bleed",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-015b",
+      "item": 15,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a proton pump inhibitor started before endoscopy in a suspected ulcer bleed?",
+      "a": "A higher gastric pH lets the clot stabilise",
+      "d": [
+        "It stops the bleeding by vasoconstriction",
+        "It clears the view for the endoscopist",
+        "It lowers the aspiration risk during the scope"
+      ],
+      "why": "Platelet aggregation and clot stability fail in acid, and pepsin digests fibrin. Raising the pH lets the body's own haemostasis hold, and it reduces the number of high-risk lesions found at endoscopy.",
+      "tags": [
+        "gi-bleed",
+        "ppi"
+      ]
+    },
+    {
+      "id": "why25-016a",
+      "item": 16,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is swallowed toothpaste a concern in young children?",
+      "a": "Excess fluoride mottles enamel as it forms",
+      "d": [
+        "It causes acute poisoning at small amounts",
+        "It erodes the lining of the gut",
+        "It stains the tongue and the gums"
+      ],
+      "why": "Fluoride mottles enamel while the permanent teeth are still forming, which is through about age 6. The rice-sized smear gives the topical benefit with too little to swallow.",
+      "tags": [
+        "fluoride"
+      ]
+    },
+    {
+      "id": "why25-017a",
+      "item": 17,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is levodopa given with carbidopa?",
+      "a": "Carbidopa stops peripheral conversion to dopamine",
+      "d": [
+        "Carbidopa is the drug that acts in the brain",
+        "Carbidopa slows absorption to smooth the levels",
+        "Carbidopa is what treats the tremor"
+      ],
+      "why": "Without carbidopa, most levodopa becomes dopamine in the gut and blood, causing nausea and hypotension and never crossing the blood-brain barrier. Carbidopa blocks the peripheral enzyme and does not enter the brain itself.",
+      "tags": [
+        "parkinson",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-018a",
+      "item": 18,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is IGF-1 measured rather than growth hormone itself to diagnose acromegaly?",
+      "a": "Growth hormone is pulsatile; IGF-1 averages it",
+      "d": [
+        "Growth hormone cannot be measured reliably",
+        "IGF-1 is secreted by the tumour itself",
+        "Growth hormone rises mainly during sleep"
+      ],
+      "why": "Growth hormone swings widely through the day, so a single level means little. The liver makes IGF-1 in response, and its level integrates hours of secretion.",
+      "tags": [
+        "pituitary",
+        "acromegaly"
+      ]
+    },
+    {
+      "id": "why25-019a",
+      "item": 19,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a woman without a uterus take oestrogen alone, while one with a uterus needs a progestogen too?",
+      "a": "Unopposed oestrogen drives endometrial cancer",
+      "d": [
+        "The progestogen treats the hot flashes",
+        "Oestrogen alone causes breast cancer",
+        "The progestogen prevents venous clots"
+      ],
+      "why": "Oestrogen proliferates the endometrium; a progestogen opposes that. After hysterectomy there is no endometrium to protect, and leaving the progestogen out removes some of its own risks.",
+      "tags": [
+        "menopause",
+        "hormones"
+      ]
+    },
+    {
+      "id": "why25-019b",
+      "item": 19,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why would an SSRI reduce hot flashes?",
+      "a": "Serotonin helps set the thermoregulatory threshold",
+      "d": [
+        "It raises the circulating oestrogen level",
+        "It treats the anxiety that provokes them",
+        "It dilates the vessels of the skin"
+      ],
+      "why": "Falling oestrogen narrows the thermoneutral zone, so small temperature rises trigger a flush. Serotonin and noradrenaline modulate that zone, which is why SSRIs, SNRIs and gabapentin all have an effect.",
+      "tags": [
+        "menopause",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-020a",
+      "item": 20,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a blood refusal directive bind even when the physician is certain death will follow?",
+      "a": "Autonomy includes refusing life-saving treatment",
+      "d": [
+        "Transfusion is rarely effective in trauma",
+        "The hospital's liability is lower that way",
+        "Religious law takes precedence over medical law"
+      ],
+      "why": "Consent is the patient's to give or withhold, and an informed refusal with capacity is as valid as an informed consent. Overriding it is battery, however good the intention.",
+      "tags": [
+        "ethics"
+      ]
+    },
+    {
+      "id": "why25-021a",
+      "item": 21,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is the soft lower nose pinched for epistaxis rather than the bony bridge?",
+      "a": "Most bleeds arise from the anterior septal plexus",
+      "d": [
+        "The bony bridge is too painful to compress",
+        "The bony part of the nose carries no vessels",
+        "Pinching the bridge would close the airway"
+      ],
+      "why": "Kiesselbach's plexus sits on the anterior septum under the soft part of the nose, and pressure there compresses it directly. Pinching the bridge compresses bone and nothing else.",
+      "tags": [
+        "epistaxis",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "why25-022a",
+      "item": 22,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a long-acting nitrate relieve angina?",
+      "a": "Venodilation cuts preload and oxygen demand",
+      "d": [
+        "It dilates the stenosed coronary segment",
+        "It slows the heart rate and lengthens diastole",
+        "It reduces platelet aggregation in the plaque"
+      ],
+      "why": "Nitrates mainly dilate veins, so less blood returns, the ventricle works less, and demand falls below the limited supply. Some coronary dilation helps, but the preload effect is the main one.",
+      "tags": [
+        "angina",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-022b",
+      "item": 22,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why would ivabradine harm a patient with coronary disease and a normal ejection fraction?",
+      "a": "Rate control without benefit left more cardiac events",
+      "d": [
+        "It raises the blood pressure over time",
+        "It provokes coronary spasm at rest",
+        "It interacts badly with the beta-blocker already on board"
+      ],
+      "why": "The SIGNIFY trial found more cardiovascular death and infarction in patients with limiting angina and preserved function. Its benefit lives in systolic heart failure, where the slower rate improves filling.",
+      "tags": [
+        "angina",
+        "ivabradine"
+      ]
+    },
+    {
+      "id": "why25-023a",
+      "item": 23,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does sleep restriction, which cuts time in bed, improve insomnia?",
+      "a": "It builds sleep pressure and pairs bed with sleep",
+      "d": [
+        "It lengthens total sleep time from the start",
+        "It resets the circadian clock within days",
+        "It tires the body through sheer exhaustion"
+      ],
+      "why": "Lying awake teaches the brain that bed is for wakefulness. Compressing time in bed produces consolidated sleep, and the window is widened only as efficiency proves it.",
+      "tags": [
+        "insomnia",
+        "cbt-i"
+      ]
+    },
+    {
+      "id": "why25-024a",
+      "item": 24,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a positive thyroid peroxidase antibody change the decision in subclinical hypothyroidism?",
+      "a": "It predicts progression to overt hypothyroidism",
+      "d": [
+        "It means the TSH reading is falsely elevated",
+        "It marks a risk of thyroid cancer",
+        "It causes the symptoms by itself"
+      ],
+      "why": "Antibody-positive patients progress at several percent a year, antibody-negative ones often normalise. Treating the ones who will need it anyway is the logic.",
+      "tags": [
+        "hypothyroidism"
+      ]
+    },
+    {
+      "id": "why25-025a",
+      "item": 25,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does tranexamic acid reduce heavy uterine bleeding?",
+      "a": "It blocks plasmin and stabilises the fibrin clot",
+      "d": [
+        "It makes the uterus contract",
+        "It thickens the lining of the endometrium",
+        "It constricts the uterine arteries"
+      ],
+      "why": "Menstrual blood is kept liquid by fibrinolysis in the endometrium. Tranexamic acid inhibits that, so clots hold, and it does nothing to hormones, which is why it suits a woman after breast cancer.",
+      "tags": [
+        "uterine-bleeding",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-025b",
+      "item": 25,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why does intravenous oestrogen stop acute uterine bleeding?",
+      "a": "It rapidly rebuilds an unstable endometrium",
+      "d": [
+        "It constricts the uterine vessels",
+        "It activates platelets at the bleeding site",
+        "It suppresses ovulation within hours"
+      ],
+      "why": "Acute bleeding usually comes from a thin, unstable endometrium; oestrogen rebuilds it within hours. The same drug raises clot risk, which is why it is held for the unstable patient.",
+      "tags": [
+        "uterine-bleeding",
+        "hormones"
+      ]
+    },
+    {
+      "id": "why25-026a",
+      "item": 26,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a low-dose antibiotic help rosacea when it is not an infection?",
+      "a": "Tetracyclines are anti-inflammatory at low doses",
+      "d": [
+        "Rosacea is driven by a skin bacterium",
+        "They reduce the skin's oil production",
+        "They block the flushing vasodilation"
+      ],
+      "why": "Doxycycline inhibits matrix metalloproteinases and neutrophil chemotaxis, which is why 40 mg modified-release works without selecting resistant organisms. The papules are inflammatory, not infected.",
+      "tags": [
+        "rosacea"
+      ]
+    },
+    {
+      "id": "why25-027a",
+      "item": 27,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does cervical screening stop at 65 for well-screened women but not for under-screened ones?",
+      "a": "Cancer at that age grows from disease missed earlier",
+      "d": [
+        "HPV cannot infect a postmenopausal cervix",
+        "Cytology becomes unreliable after 65",
+        "Treatment is not offered past 65"
+      ],
+      "why": "Cervical cancer takes a decade or more to develop from HPV infection, so a woman with years of negative tests has nothing in the pipeline. One with no history may be carrying a lesion that started years ago.",
+      "tags": [
+        "cervical-screening"
+      ]
+    },
+    {
+      "id": "why25-028a",
+      "item": 28,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a suicide risk assessment done before starting an antidepressant rather than alongside it?",
+      "a": "The right setting may be inpatient, not a prescription",
+      "d": [
+        "Antidepressants are contraindicated with those thoughts",
+        "The assessment takes several weeks to complete",
+        "SSRIs interfere with the risk assessment"
+      ],
+      "why": "The assessment decides the setting. A patient with a plan and means needs containment now, and an outpatient prescription with a follow-up in a month is the wrong level of care for that.",
+      "tags": [
+        "suicide"
+      ]
+    },
+    {
+      "id": "why25-029a",
+      "item": 29,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why can a repeat colonoscopy wait seven to ten years after two small adenomas?",
+      "a": "Small adenomas take a decade or more to progress",
+      "d": [
+        "The adenomas were removed in their entirety",
+        "Stool testing covers the interval between scopes",
+        "Age reduces the risk of new adenomas"
+      ],
+      "why": "The adenoma-carcinoma sequence is slow, and small tubular adenomas rarely progress at all. The interval shortens as the number and size rise because the risk of a missed or new advanced lesion rises with them.",
+      "tags": [
+        "polyps"
+      ]
+    },
+    {
+      "id": "why25-030a",
+      "item": 30,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why would inducing labour at 39 weeks lower the caesarean rate when induction was long thought to raise it?",
+      "a": "Waiting lets the fetus grow and complications accrue",
+      "d": [
+        "Induced labours are shorter than spontaneous ones",
+        "Induction avoids the need for anaesthesia",
+        "The trial enrolled women of normal weight for the most part"
+      ],
+      "why": "Expectant management past 39 weeks adds macrosomia, hypertensive disease and non-reassuring fetal status, each of which ends in a caesarean. The older belief came from comparing induction with spontaneous labour rather than with waiting.",
+      "tags": [
+        "induction"
+      ]
+    },
+    {
+      "id": "why25-031a",
+      "item": 31,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does hyaluronic acid help the knee more than the hip?",
+      "a": "The deep hip joint is hard to inject without imaging",
+      "d": [
+        "Hip cartilage lacks the receptor for hyaluronan",
+        "The hip bears less load than the knee",
+        "Hip arthritis is usually inflammatory"
+      ],
+      "why": "The evidence for viscosupplementation is modest even in the knee, and hip trials, where injection needs imaging guidance and the joint space is small, have not shown meaningful benefit. Steroids at least reliably reach the joint.",
+      "tags": [
+        "osteoarthritis",
+        "hip"
+      ]
+    },
+    {
+      "id": "why25-032a",
+      "item": 32,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does transient global amnesia spare a patient's identity while erasing recent events?",
+      "a": "It stalls hippocampal encoding of new memories",
+      "d": [
+        "It is a dissociative response to stress",
+        "It is confined to the frontal lobes",
+        "The deficit is produced deliberately"
+      ],
+      "why": "The hippocampus lays down new memories; identity and old memories live elsewhere. Whatever the trigger does, it transiently stalls that encoding, which is why the patient repeats the same questions.",
+      "tags": [
+        "amnesia",
+        "neurology"
+      ]
+    },
+    {
+      "id": "why25-033a",
+      "item": 33,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is Lyme disease without a rash diagnosed with two tests in sequence?",
+      "a": "The screening assay is sensitive but not specific",
+      "d": [
+        "The organism cannot be grown in culture",
+        "Antibodies rise in two separate phases",
+        "Insurers will not pay for a single test"
+      ],
+      "why": "The enzyme immunoassay catches nearly everyone infected but also reacts to other conditions. The Western blot confirms specificity, which matters because a false label means a needless course and a missed real diagnosis.",
+      "tags": [
+        "lyme",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "why25-034a",
+      "item": 34,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does the recombinant zoster vaccine work in immunocompromised adults when the live one was contraindicated?",
+      "a": "It is a glycoprotein and adjuvant, with no live virus",
+      "d": [
+        "It is given at a much lower dose",
+        "It targets a different member of the herpes family",
+        "It is injected into the dermis"
+      ],
+      "why": "A live vaccine can cause disseminated infection in someone who cannot contain it. The recombinant vaccine presents a single viral protein with a strong adjuvant, so there is nothing to replicate and the immune response is still robust.",
+      "tags": [
+        "zoster",
+        "vaccines"
+      ]
+    },
+    {
+      "id": "why25-035a",
+      "item": 35,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does orbital cellulitis cause pain on eye movement when preseptal cellulitis does not?",
+      "a": "Infection behind the septum inflames the eye muscles",
+      "d": [
+        "The optic nerve is inflamed in most cases",
+        "The swollen lid weighs on the globe",
+        "The cornea is involved from the start"
+      ],
+      "why": "The orbital septum is a fibrous barrier. Infection in front of it stays in the lid; infection behind it inflames the muscles and the orbital contents, which is why movement hurts and vision drops.",
+      "tags": [
+        "orbital-cellulitis",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "why25-036a",
+      "item": 36,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are direct oral anticoagulants avoided below a GFR of 30?",
+      "a": "They are renally cleared and accumulate",
+      "d": [
+        "They cause acute kidney injury themselves",
+        "Uraemia inactivates the drug in the blood",
+        "Their trials enrolled no one with kidney disease"
+      ],
+      "why": "Dabigatran is 80 percent renally cleared and rivaroxaban about a third, and the pivotal trials excluded severe kidney disease, so neither the dose nor the safety is established there. Heparins can be dosed and monitored.",
+      "tags": [
+        "anticoagulation",
+        "renal"
+      ]
+    },
+    {
+      "id": "why25-036b",
+      "item": 36,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why does enoxaparin drop to once daily, rather than a smaller dose twice daily, in renal impairment?",
+      "a": "The longer half-life keeps levels up between doses",
+      "d": [
+        "Twice-daily injections are too painful",
+        "The drug is absorbed from the injection site over a day",
+        "It halves the cost of the treatment"
+      ],
+      "why": "With slowed clearance, the drug lingers, so one full dose a day avoids the accumulation that twice-daily dosing would produce. Anti-Xa monitoring checks the result when the kidney function is borderline.",
+      "tags": [
+        "anticoagulation",
+        "renal"
+      ]
+    },
+    {
+      "id": "why25-037a",
+      "item": 37,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does chronic prostatitis need weeks of antibiotics when cystitis needs days?",
+      "a": "Few drugs penetrate the prostate and biofilm",
+      "d": [
+        "The prostate has almost no blood supply",
+        "The infection is usually viral at first",
+        "Voiding clears bacteria from the bladder"
+      ],
+      "why": "The prostatic epithelium and its acidic fluid keep most antibiotics out, and bacteria in calculi and biofilm are hard to reach. Fluoroquinolones concentrate in prostatic tissue, which is why they are chosen, and even they need four to six weeks.",
+      "tags": [
+        "prostatitis"
+      ]
+    },
+    {
+      "id": "why25-038a",
+      "item": 38,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does supplemental oxygen speed the resolution of a small pneumothorax?",
+      "a": "A lower nitrogen gradient speeds pleural gas absorption",
+      "d": [
+        "The pressure re-expands the lung",
+        "It treats the lung infection that caused the leak",
+        "It prevents progression to tension"
+      ],
+      "why": "The gas in the pleural space is mostly nitrogen. Breathing high oxygen washes nitrogen out of the blood, steepening the gradient from pleura to capillary, and absorption roughly quadruples.",
+      "tags": [
+        "pneumothorax",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-039a",
+      "item": 39,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an enlarged spleen rule an adolescent out of contact sport?",
+      "a": "A stretched capsule ruptures with blunt impact",
+      "d": [
+        "It indicates leukaemia until proven otherwise",
+        "It causes syncope with exertion",
+        "It lowers the platelet count during play"
+      ],
+      "why": "A normal spleen is tucked under the ribs; an enlarged one, as in mononucleosis, extends below them with a thin tense capsule, and a tackle can split it. The cause is found and the spleen allowed to shrink first.",
+      "tags": [
+        "preparticipation"
+      ]
+    },
+    {
+      "id": "why25-040a",
+      "item": 40,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does Meniere disease cause hearing loss as well as vertigo?",
+      "a": "Endolymphatic hydrops affects cochlea and vestibule",
+      "d": [
+        "The vertigo damages the eardrum",
+        "The eighth nerve is compressed by swelling",
+        "Each attack causes a middle ear effusion"
+      ],
+      "why": "The inner ear shares one fluid system. Excess endolymph distends both the cochlear duct, giving fullness, tinnitus and low-frequency loss, and the vestibular apparatus, giving the spinning.",
+      "tags": [
+        "meniere"
+      ]
+    },
+    {
+      "id": "why25-041a",
+      "item": 41,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why can a treatment with an impressive relative risk reduction still have a large number needed to treat?",
+      "a": "A relative cut in a rare event is a small absolute cut",
+      "d": [
+        "Relative risk is miscalculated in most trials",
+        "The number needed to treat ignores harms",
+        "Rare events cannot reach significance"
+      ],
+      "why": "Halving a risk of 2 percent saves one patient in a hundred, a number needed to treat of 100. The absolute risk reduction, not the relative, is what the patient in front of you gains.",
+      "tags": [
+        "evidence",
+        "nnt"
+      ]
+    },
+    {
+      "id": "why25-042a",
+      "item": 42,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is midodrine timed to the day and not given at bedtime?",
+      "a": "It causes supine hypertension",
+      "d": [
+        "It causes insomnia if taken late",
+        "It is inactivated by melatonin at night",
+        "It works on the pressure of standing alone"
+      ],
+      "why": "An alpha-agonist raises pressure whether the patient is standing or lying, and lying flat with a raised pressure risks the brain and heart overnight. The last dose goes in by late afternoon and the head of the bed is raised.",
+      "tags": [
+        "orthostatic-hypotension",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-043a",
+      "item": 43,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does insulin need to continue in ketoacidosis even after the glucose is controlled?",
+      "a": "Insulin is what switches off ketone production",
+      "d": [
+        "The glucose climbs straight back without it",
+        "It corrects the potassium deficit",
+        "It treats the dehydration directly"
+      ],
+      "why": "Ketogenesis is driven by the absence of insulin, not by the glucose level. Fluids and insulin bring the glucose down in hours, but the acidosis clears only when enough insulin has been on board for long enough.",
+      "tags": [
+        "dka",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-044a",
+      "item": 44,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does prazosin, a blood pressure drug, treat the nightmares of PTSD?",
+      "a": "It blocks the central noradrenergic surge in REM sleep",
+      "d": [
+        "It lowers the blood pressure through the night",
+        "It is sedating at bedtime doses",
+        "It raises serotonin in the brain"
+      ],
+      "why": "PTSD leaves the brain in a state of noradrenergic overdrive, which fragments sleep and fuels trauma dreams. Prazosin crosses into the brain and blocks alpha-1 receptors there; the blood pressure effect is incidental.",
+      "tags": [
+        "ptsd",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-045a",
+      "item": 45,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does bariatric surgery lead to thiamine deficiency so quickly?",
+      "a": "Stores last weeks, and intake and absorption both fall",
+      "d": [
+        "The surgery removes the liver's store",
+        "Stomach acid is needed to make thiamine from food",
+        "Vomiting excretes thiamine in bile"
+      ],
+      "why": "Thiamine stores are small, and a patient who is vomiting, eating little and absorbing poorly across a bypassed duodenum exhausts them within a month. The same logic explains Wernicke encephalopathy in alcohol use.",
+      "tags": [
+        "thiamine"
+      ]
+    },
+    {
+      "id": "why25-046a",
+      "item": 46,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does the Ottawa knee rule make age 55 a criterion on its own?",
+      "a": "Older bone fractures with trivial mechanisms",
+      "d": [
+        "Older patients describe the injury poorly",
+        "Knee cartilage thins sharply after 55",
+        "The rule was derived in older adults"
+      ],
+      "why": "Osteopenia lowers the force needed to fracture, so the history loses its predictive value. The rule trades a few unnecessary films for not missing a fracture the examination cannot exclude.",
+      "tags": [
+        "ottawa",
+        "knee"
+      ]
+    },
+    {
+      "id": "why25-047a",
+      "item": 47,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is doxycycline given for suspected spotted fever before the rash or the test?",
+      "a": "Mortality climbs steeply with each day of delay",
+      "d": [
+        "The rash does not appear in adults",
+        "The serology takes months to turn positive",
+        "The rash means the infection has passed"
+      ],
+      "why": "Rickettsia damage the endothelium, and by the time the rash and the antibodies appear the vasculitis is advanced. Treatment in the first five days is what keeps the fatality rate low.",
+      "tags": [
+        "rmsf"
+      ]
+    },
+    {
+      "id": "why25-047b",
+      "item": 47,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a short course of doxycycline acceptable in pregnancy and young children for spotted fever?",
+      "a": "Staining needs cumulative exposure; untreated disease kills",
+      "d": [
+        "Doxycycline does not cross the placenta",
+        "Permanent teeth do not begin to form until the age of 8",
+        "Pregnancy inactivates the drug"
+      ],
+      "why": "The tetracycline warning came from long courses of older agents. Doxycycline binds calcium less, and five to ten days has not been shown to stain, while untreated rickettsial disease has a real death rate.",
+      "tags": [
+        "rmsf",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "why25-048a",
+      "item": 48,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does primary biliary cholangitis raise the alkaline phosphatase more than the transaminases?",
+      "a": "The injury is to the small bile ducts, not hepatocytes",
+      "d": [
+        "The liver stops producing transaminases",
+        "Bile acids interfere with the transaminase assay",
+        "The disease begins in the bones"
+      ],
+      "why": "Alkaline phosphatase comes from the biliary epithelium and rises when ducts are inflamed or obstructed. The transaminases mark hepatocyte death, which is a later and lesser part of this disease.",
+      "tags": [
+        "pbc",
+        "liver"
+      ]
+    },
+    {
+      "id": "why25-049a",
+      "item": 49,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why can an antidepressant alone harm a patient with bipolar disorder?",
+      "a": "It can precipitate mania or rapid cycling",
+      "d": [
+        "It cancels the effect of the mood stabiliser",
+        "It causes serotonin syndrome in bipolar patients",
+        "Bipolar depression does not respond to drugs"
+      ],
+      "why": "Raising monoamines in a brain prone to mania can flip the episode, and repeated flips accelerate the cycle. A mood stabiliser or atypical antipsychotic treats the depression without that risk.",
+      "tags": [
+        "bipolar"
+      ]
+    },
+    {
+      "id": "why25-050a",
+      "item": 50,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does low-dose aspirin prevent preeclampsia?",
+      "a": "It rebalances thromboxane and prostacyclin in the placenta",
+      "d": [
+        "It lowers the maternal blood pressure directly",
+        "It thins the blood enough to prevent clots",
+        "It limits the growth of the placenta"
+      ],
+      "why": "Preeclampsia involves excess thromboxane and endothelial dysfunction in the uteroplacental circulation. Low-dose aspirin blocks platelet thromboxane while sparing endothelial prostacyclin, and it works only if started before the placenta is established, hence 12 weeks.",
+      "tags": [
+        "preeclampsia",
+        "aspirin"
+      ]
+    }
+  ]
+}

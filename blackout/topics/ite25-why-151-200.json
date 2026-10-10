@@ -1,0 +1,942 @@
+{
+  "id": "ite25-why-151-200",
+  "title": "ITE 2025 why, items 151 to 200",
+  "short": "Why 151 to 200",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "why",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 151 to 200, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "why25-151a",
+      "item": 151,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is the heart rate lowered before the blood pressure in aortic dissection?",
+      "a": "A vasodilator alone provokes a reflex tachycardia",
+      "d": [
+        "Beta-blockers lower the pressure too",
+        "The rate is easier to measure",
+        "Vasodilators cannot be given before a beta-blocker"
+      ],
+      "why": "Shear stress on the aortic wall depends on how fast each beat accelerates the blood, which is rate and contractility. Dropping the pressure first makes the heart beat harder and faster, which is the opposite of the goal.",
+      "tags": [
+        "dissection",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-151b",
+      "item": 151,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is blood pressure lowered cautiously in acute ischaemic stroke?",
+      "a": "The penumbra depends on pressure to perfuse",
+      "d": [
+        "Antihypertensives cross into the brain",
+        "Stroke patients drop their pressure on their own",
+        "The pressure is not truly raised"
+      ],
+      "why": "Autoregulation fails around the infarct, so flow to the salvageable tissue tracks the systemic pressure. Dropping it too far converts penumbra to infarct, which is why pressure is left high unless thrombolysis is planned.",
+      "tags": [
+        "stroke",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-152a",
+      "item": 152,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does sleep apnoea cause nocturia?",
+      "a": "Each obstruction stretches the atria and releases natriuretic peptide",
+      "d": [
+        "The snoring wakes the patient, who then notices the bladder",
+        "Abdominal fat presses on the bladder when lying flat",
+        "Apnoea brings on diabetes"
+      ],
+      "why": "Straining against a closed airway pulls blood into the chest and stretches the atria, which respond by secreting a diuretic hormone. Treating the apnoea often fixes the nocturia, which surprises patients who thought it was their prostate.",
+      "tags": [
+        "sleep-apnoea",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-153a",
+      "item": 153,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is adolescent scoliosis screening rated insufficient when the condition is treatable?",
+      "a": "Most curves found by screening would not progress",
+      "d": [
+        "Bracing does not change the outcome",
+        "Scoliosis is too rare to screen for",
+        "The examination is unreliable in adolescents"
+      ],
+      "why": "School screening finds many small curves, most of which stay small, and it generates radiographs and referrals for them. Bracing helps the minority with progressive curves, but screening has not been shown to find those better than ordinary care.",
+      "tags": [
+        "screening",
+        "adolescent"
+      ]
+    },
+    {
+      "id": "why25-154a",
+      "item": 154,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does adhesive capsulitis restrict passive motion when a rotator cuff tear does not?",
+      "a": "The capsule itself has thickened and contracted",
+      "d": [
+        "A cuff tear is painless on examination",
+        "The capsule is torn in a cuff tear",
+        "Capsulitis paralyses the muscles"
+      ],
+      "why": "A cuff tear weakens the muscle that moves the arm, so active motion fails but the examiner can still move the joint through its range. In capsulitis the joint lining is fibrosed, and nobody can move it.",
+      "tags": [
+        "shoulder",
+        "adhesive-capsulitis"
+      ]
+    },
+    {
+      "id": "why25-155a",
+      "item": 155,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a probe reaching bone predict osteomyelitis?",
+      "a": "Reaching bone means the periosteal barrier is breached",
+      "d": [
+        "Bone under a diabetic ulcer is infected as a rule",
+        "The probe inoculates the bone itself",
+        "Deep ulcers are older ulcers"
+      ],
+      "why": "An ulcer that has eroded through soft tissue to bare bone has given bacteria direct access, and the positive predictive value in a diabetic foot is high. A negative probe in a low-risk ulcer is reassuring.",
+      "tags": [
+        "diabetic-foot",
+        "osteomyelitis"
+      ]
+    },
+    {
+      "id": "why25-156a",
+      "item": 156,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a calcium channel blocker cause ankle oedema that a diuretic does not fix?",
+      "a": "It dilates arterioles more than venules, raising capillary pressure",
+      "d": [
+        "It causes the kidney to retain salt and water over weeks",
+        "It weakens the heart's contraction",
+        "It blocks the lymphatic drainage from the legs"
+      ],
+      "why": "The oedema is hydrostatic from an imbalance of dilation, not fluid overload, so a diuretic dehydrates the patient without draining the ankles. An ACE inhibitor dilates the venous side and rebalances it.",
+      "tags": [
+        "oedema",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-157a",
+      "item": 157,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is desensitisation chosen over an alternative antibiotic for syphilis in pregnancy?",
+      "a": "Penicillin alone crosses the placenta well enough to treat the fetus",
+      "d": [
+        "The other antibiotics are teratogenic in pregnancy",
+        "Desensitisation is quicker than a course of an alternative",
+        "Penicillin allergy is usually false"
+      ],
+      "why": "Treating the mother is only half the job; untreated congenital syphilis causes stillbirth and lifelong damage. Macrolides do not reach the fetus adequately and tetracyclines are off limits, so the allergy is managed rather than avoided.",
+      "tags": [
+        "syphilis",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "why25-158a",
+      "item": 158,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is fruit juice discouraged when whole fruit is encouraged?",
+      "a": "Juice delivers the sugar without the fibre",
+      "d": [
+        "Juice contains added sugar",
+        "Juice lacks the vitamins of whole fruit",
+        "Juice damages the teeth alone"
+      ],
+      "why": "A glass of juice is several fruits' worth of sugar absorbed in minutes, with no bulk to satisfy. Whole fruit fills the child and releases its sugar slowly.",
+      "tags": [
+        "nutrition",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "why25-159a",
+      "item": 159,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do nerve conduction studies matter when the diagnosis of neuropathy is already clear?",
+      "a": "Axonal and demyelinating patterns have different causes",
+      "d": [
+        "They quantify the degree of pain",
+        "They locate the lesion in the brain",
+        "They are required before a drug can be prescribed"
+      ],
+      "why": "Demyelination suggests an inflammatory or treatable neuropathy; an axonal pattern points to metabolic, toxic or infectious causes and directs the next tests. The study classifies rather than confirms.",
+      "tags": [
+        "neuropathy"
+      ]
+    },
+    {
+      "id": "why25-160a",
+      "item": 160,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are corticosteroid injections avoided around the Achilles tendon?",
+      "a": "They weaken the tendon and risk rupture",
+      "d": [
+        "The tendon has no blood supply to carry the drug",
+        "They cause skin atrophy and nothing more",
+        "They mask the pain and nothing more"
+      ],
+      "why": "Steroids inhibit the collagen synthesis the tendon needs to repair, and the Achilles already works at the edge of its strength. Loading exercises stimulate repair, which is why physiotherapy is the treatment.",
+      "tags": [
+        "achilles",
+        "tendinopathy"
+      ]
+    },
+    {
+      "id": "why25-161a",
+      "item": 161,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do scare tactics fail to change health behaviour?",
+      "a": "Fear without control produces avoidance, not action",
+      "d": [
+        "Patients do not believe the risks",
+        "The fear is forgotten within a few hours",
+        "They breach the rules of consent"
+      ],
+      "why": "A threat the patient feels unable to meet is managed by not thinking about it, which looks like denial and ends in missed appointments. Pairing the risk with a concrete, achievable step is what moves people.",
+      "tags": [
+        "counselling"
+      ]
+    },
+    {
+      "id": "why25-162a",
+      "item": 162,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why must a patient keep eating gluten until coeliac testing is done?",
+      "a": "Antibodies and biopsy changes resolve off gluten",
+      "d": [
+        "Gluten is needed to absorb the test",
+        "The diet produces false positives",
+        "Gluten protects the gut during testing"
+      ],
+      "why": "Tissue transglutaminase antibodies are a response to ongoing exposure, and villi regrow within weeks of removing gluten. A patient who has already gone gluten-free can test negative while having the disease.",
+      "tags": [
+        "coeliac",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "why25-163a",
+      "item": 163,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a morning testosterone level required rather than any time of day?",
+      "a": "Secretion peaks in the morning and falls through the day",
+      "d": [
+        "The assay requires fasting",
+        "Afternoon levels read falsely high",
+        "Morning samples include the free testosterone fraction"
+      ],
+      "why": "Testosterone follows a circadian rhythm, highest around 8 a.m. in younger men, and an afternoon value can look deficient in a normal man. Two low morning values are needed before the label is applied.",
+      "tags": [
+        "hypogonadism"
+      ]
+    },
+    {
+      "id": "why25-164a",
+      "item": 164,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a venous hum disappear when the child lies down?",
+      "a": "Jugular return stops falling under gravity",
+      "d": [
+        "The heart rate drops when supine",
+        "The murmur arises from the ductus",
+        "The chest wall muffles it"
+      ],
+      "why": "Upright, blood drains fast through the jugular veins and the turbulence hums; supine, the flow is slower and the hum stops. Turning the head or compressing the vein changes it for the same reason.",
+      "tags": [
+        "murmur",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-165a",
+      "item": 165,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is epinephrine, not an antihistamine, the treatment for anaphylaxis?",
+      "a": "It reverses the vasodilation and airway oedema",
+      "d": [
+        "Histamine plays no part in anaphylaxis",
+        "Antihistamines absorb too slowly",
+        "Epinephrine blocks IgE"
+      ],
+      "why": "Anaphylaxis is mediated by histamine, leukotrienes, tryptase and more, and the killers are hypotension and airway swelling. Epinephrine constricts vessels, relaxes bronchi and stabilises mast cells; an antihistamine blocks one mediator's effect on skin and nose.",
+      "tags": [
+        "anaphylaxis",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-166a",
+      "item": 166,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a mechanical valve with a prior stroke need a higher INR target than the valve alone?",
+      "a": "The prior event proves the risk exceeds the average",
+      "d": [
+        "Strokes damage the valve leaflets",
+        "Warfarin works less well after a stroke",
+        "The higher INR protects the brain from further emboli"
+      ],
+      "why": "An embolic event on treatment means the standard target did not hold, and each additional risk factor shifts the balance towards more anticoagulation. The bleeding risk rises with it, which is the trade.",
+      "tags": [
+        "anticoagulation",
+        "mechanical-valve"
+      ]
+    },
+    {
+      "id": "why25-167a",
+      "item": 167,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do children get buckle fractures where adults would get complete breaks?",
+      "a": "Young bone is porous and bends before it snaps",
+      "d": [
+        "Children fall from lower heights",
+        "The growth plate absorbs the force of the fall",
+        "Children's bones lack calcium"
+      ],
+      "why": "Immature bone has a thick periosteum and lower mineral content, so compression crumples the cortex instead of cracking it through. The periosteum holds it in place, and healing is fast.",
+      "tags": [
+        "fracture",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "why25-168a",
+      "item": 168,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is suicide risk screening rated insufficient when depression screening is recommended?",
+      "a": "No tool has been shown to reduce suicide in unselected patients",
+      "d": [
+        "Suicide is too rare to screen for in primary care",
+        "Asking about suicide increases the risk",
+        "Depression screening already covers it"
+      ],
+      "why": "Depression screening finds a treatable illness with a known pathway. Suicide risk tools identify many people who will not attempt and miss some who will, and no trial shows that acting on them changes the outcome. Asking does not increase risk.",
+      "tags": [
+        "screening",
+        "suicide"
+      ]
+    },
+    {
+      "id": "why25-169a",
+      "item": 169,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is cholera stool watery and colourless?",
+      "a": "The toxin drives secretion without damaging the mucosa",
+      "d": [
+        "The organism digests the stool",
+        "Bile flow is blocked",
+        "The lining of the gut sloughs into the stool"
+      ],
+      "why": "Cholera toxin locks adenylate cyclase on, and the crypt cells pour out electrolytes and water. No invasion, no blood, no leukocytes, just litres of fluid, which is why rehydration is the whole treatment.",
+      "tags": [
+        "diarrhoea",
+        "vibrio"
+      ]
+    },
+    {
+      "id": "why25-170a",
+      "item": 170,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does dementia come early in Down syndrome?",
+      "a": "Chromosome 21 carries the amyloid precursor gene",
+      "d": [
+        "The hypothyroidism causes it",
+        "The syndrome ages every organ system early",
+        "Early hearing loss leads to it"
+      ],
+      "why": "Three copies of the gene mean lifelong overproduction of amyloid, and plaques are present by the forties in nearly everyone with trisomy 21. Screening from 40 catches the change that follows.",
+      "tags": [
+        "down-syndrome",
+        "dementia"
+      ]
+    },
+    {
+      "id": "why25-171a",
+      "item": 171,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does nifedipine help high-altitude pulmonary oedema?",
+      "a": "It relieves the patchy hypoxic vasoconstriction",
+      "d": [
+        "It lowers the systemic blood pressure",
+        "It strengthens the right ventricle",
+        "It reduces the fluid intake"
+      ],
+      "why": "Hypoxia constricts pulmonary arterioles unevenly, and the open segments take all the flow at high pressure until their capillaries leak. A pulmonary vasodilator lowers that pressure; descent and oxygen do it better.",
+      "tags": [
+        "altitude",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-172a",
+      "item": 172,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do sulfonamides cause Stevens-Johnson syndrome more than other antibiotics?",
+      "a": "Reactive metabolites bind skin proteins and provoke T cells",
+      "d": [
+        "They are given at higher doses than other antibiotics",
+        "They are strongly photosensitising drugs",
+        "They deplete folate in the skin"
+      ],
+      "why": "Slow acetylators accumulate a reactive hydroxylamine metabolite that haptenates skin proteins, and a cytotoxic T cell response kills keratinocytes. Certain HLA types raise the risk, which is why it runs in families and populations.",
+      "tags": [
+        "drug-reactions",
+        "immunology"
+      ]
+    },
+    {
+      "id": "why25-173a",
+      "item": 173,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a thin endometrium rule out cancer after postmenopausal bleeding?",
+      "a": "Cancer thickens the lining before it bleeds",
+      "d": [
+        "Thin tissue cannot bleed",
+        "Cancer presents as a polyp as a rule",
+        "Ultrasound sees the tumour cells"
+      ],
+      "why": "Carcinoma arises from proliferating endometrium, which is thick on ultrasound. A stripe of 4 mm or less has a negative predictive value above 99 percent, and the bleeding is usually from atrophy.",
+      "tags": [
+        "postmenopausal-bleeding"
+      ]
+    },
+    {
+      "id": "why25-174a",
+      "item": 174,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a labral tear cause catching rather than weakness?",
+      "a": "The torn rim flips into the joint on movement",
+      "d": [
+        "The labrum is a small muscle",
+        "The nerve to the deltoid is bruised",
+        "The tear leaks fluid into the joint"
+      ],
+      "why": "The labrum is a fibrocartilage ring that deepens the socket. A flap of it displaces with certain movements and catches between the surfaces, then pops free. Muscle strength is intact because the cuff is untouched.",
+      "tags": [
+        "shoulder",
+        "labrum"
+      ]
+    },
+    {
+      "id": "why25-175a",
+      "item": 175,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a brief counselling intervention reduce risky drinking?",
+      "a": "Many risky drinkers have never been told and will cut back",
+      "d": [
+        "It removes the need for treatment",
+        "It frightens most patients into abstinence",
+        "It is paired with medication to reduce craving"
+      ],
+      "why": "Risky drinking is not addiction, and most risky drinkers respond to clear feedback about their intake and its effects. The brief intervention works because the population is one that can change; alcohol use disorder needs more.",
+      "tags": [
+        "alcohol"
+      ]
+    },
+    {
+      "id": "why25-176a",
+      "item": 176,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does relaxing the anal sphincter heal a fissure?",
+      "a": "Sphincter spasm starves the posterior midline of blood",
+      "d": [
+        "It keeps stool away from the fissure",
+        "It reduces the inflammation directly",
+        "It widens the anus so the stool passes without tearing"
+      ],
+      "why": "The posterior anoderm is the least perfused part of the canal, and a tight internal sphincter compresses the vessels that feed it. Lower the tone and blood returns, which is what a chronic fissure has been waiting for.",
+      "tags": [
+        "anal-fissure",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-177a",
+      "item": 177,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a high-fibre diet protect against diverticulitis?",
+      "a": "Bulky stool lowers the pressure that forces mucosa out",
+      "d": [
+        "Fibre kills the gut bacteria",
+        "Fibre coats the diverticula and protects them",
+        "Fibre reduces the appetite"
+      ],
+      "why": "A small hard stool needs high segmental pressure to move, and that pressure pushes mucosa out through the weak points where vessels penetrate. Fibre keeps the stool large and the pressure low.",
+      "tags": [
+        "diverticulitis"
+      ]
+    },
+    {
+      "id": "why25-178a",
+      "item": 178,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is carbamazepine, an anticonvulsant, the first drug for trigeminal neuralgia?",
+      "a": "It silences ectopic firing in a demyelinated nerve",
+      "d": [
+        "The pain is a form of seizure",
+        "It numbs the face",
+        "It shrinks the vessel that compresses the nerve"
+      ],
+      "why": "A vessel pressing on the nerve root strips myelin, and the bare axons fire spontaneously and cross-talk. Carbamazepine stabilises sodium channels and silences that, often dramatically.",
+      "tags": [
+        "trigeminal-neuralgia",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-179a",
+      "item": 179,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does weight loss in old age predict dementia when midlife obesity also does?",
+      "a": "Late weight loss is an early effect of the disease",
+      "d": [
+        "Thin older people eat too little protein",
+        "Obesity protects the brain after 70",
+        "The two findings contradict each other"
+      ],
+      "why": "Dementia changes appetite and metabolism years before diagnosis, so falling weight is a marker of disease already under way. Midlife obesity is a genuine risk factor acting through vascular and metabolic pathways.",
+      "tags": [
+        "dementia"
+      ]
+    },
+    {
+      "id": "why25-180a",
+      "item": 180,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does polymyalgia rheumatica respond to steroids within days when other arthritides take weeks?",
+      "a": "It is steroid-sensitive bursitis, not joint destruction",
+      "d": [
+        "The dose used is much higher",
+        "Older patients absorb steroids faster",
+        "The disease stems from a deficiency of cortisol"
+      ],
+      "why": "The pathology is synovitis and bursitis around the shoulders and hips with no erosive change. Low-dose prednisone switches that off, and a response that is anything less than dramatic within a few days means the diagnosis is wrong.",
+      "tags": [
+        "pmr"
+      ]
+    },
+    {
+      "id": "why25-181a",
+      "item": 181,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a false-positive herpes serology harmful rather than merely inconvenient?",
+      "a": "It labels a lifelong infection with no treatment to offer",
+      "d": [
+        "It triggers unnecessary surgery in many patients",
+        "It leads to antiviral resistance",
+        "It causes a false-positive HIV test"
+      ],
+      "why": "The low-positive range of the type-2 assay is often wrong, and the diagnosis carries stigma, disclosure burdens and anxiety without a therapy to offer. Screening harms were judged to outweigh benefits.",
+      "tags": [
+        "herpes",
+        "screening"
+      ]
+    },
+    {
+      "id": "why25-182a",
+      "item": 182,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does intussusception produce bloody mucous stool?",
+      "a": "The trapped segment is congested and its mucosa bleeds",
+      "d": [
+        "The bowel perforates early",
+        "The child has swallowed blood from the nose",
+        "The enema itself causes it"
+      ],
+      "why": "The telescoped bowel drags its mesentery in with it, veins are compressed before arteries, and the engorged mucosa weeps blood and mucus. Red currant jelly is a late sign; most children present before it.",
+      "tags": [
+        "intussusception"
+      ]
+    },
+    {
+      "id": "why25-183a",
+      "item": 183,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does varenicline outperform nicotine replacement?",
+      "a": "It eases craving and blunts the reward from a cigarette",
+      "d": [
+        "It contains more nicotine than the patches do",
+        "It is taken for a longer course",
+        "It treats the underlying anxiety"
+      ],
+      "why": "As a partial agonist at the nicotinic receptor it supplies enough stimulation to prevent withdrawal, while occupying the receptor so a lapse cigarette delivers little. Replacement therapy does only the first half.",
+      "tags": [
+        "smoking-cessation",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-184a",
+      "item": 184,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a thiazide prevent calcium stones when a loop diuretic promotes them?",
+      "a": "Thiazides cut urinary calcium; loop diuretics raise it",
+      "d": [
+        "Thiazides acidify the urine",
+        "Loop diuretics concentrate the urine overnight",
+        "Thiazides dissolve existing stones"
+      ],
+      "why": "The thiazide site in the distal tubule reabsorbs calcium when sodium transport is blocked; the loop of Henle does the opposite and spills calcium. Stone formation follows the urinary calcium.",
+      "tags": [
+        "nephrolithiasis",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-185a",
+      "item": 185,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does correcting sodium too fast damage the brain?",
+      "a": "Adapted cells shrink and the myelin is stripped",
+      "d": [
+        "Sodium is directly toxic to neurons",
+        "The blood becomes too viscous to perfuse the brain",
+        "The kidney cannot keep pace"
+      ],
+      "why": "Over days, brain cells shed solutes to stop swelling. Raise the plasma sodium quickly and water rushes out of those adapted cells, and the oligodendrocytes of the pons are the first casualties. The brain takes days to re-adapt, so the correction must too.",
+      "tags": [
+        "hyponatraemia",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-186a",
+      "item": 186,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does bed rest prolong back pain rather than relieve it?",
+      "a": "Immobility weakens the muscles and stiffens the spine",
+      "d": [
+        "Lying down compresses the disc",
+        "Bed rest brings on a depression that slows recovery",
+        "Pain receptors adapt to inactivity"
+      ],
+      "why": "Trials comparing rest with staying active found the active patients recovered faster with less chronic disability. The spine is built to move, and fear of movement is itself a predictor of a poor outcome.",
+      "tags": [
+        "back-pain"
+      ]
+    },
+    {
+      "id": "why25-187a",
+      "item": 187,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are an ACE inhibitor and a calcium channel blocker paired rather than two drugs from one class?",
+      "a": "Different mechanisms add, and side effects cancel",
+      "d": [
+        "They come in a single tablet",
+        "Two drugs of one class breed resistance",
+        "The combination is cheaper"
+      ],
+      "why": "The calcium channel blocker dilates arterioles and causes ankle oedema; the ACE inhibitor dilates the venous side and relieves it, while the two mechanisms add. Combining within a class adds side effects without adding effect.",
+      "tags": [
+        "hypertension",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-188a",
+      "item": 188,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is refeeding in anorexia nervosa dangerous?",
+      "a": "Insulin drives phosphate and potassium into cells",
+      "d": [
+        "The stomach has shrunk",
+        "Food triggers purging",
+        "The liver cannot process protein after starvation"
+      ],
+      "why": "A starved body has depleted stores of phosphate, potassium and magnesium that look normal in the blood. Carbohydrate restarts insulin, the electrolytes vanish into cells, and the heart and respiratory muscles fail. Feeding starts slowly with monitoring.",
+      "tags": [
+        "anorexia",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-189a",
+      "item": 189,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is colonoscopy repeated every one to two years in Lynch syndrome when average-risk intervals are ten?",
+      "a": "Mismatch repair defects speed the adenoma-to-cancer sequence",
+      "d": [
+        "The polyps are harder to see",
+        "Lynch patients grow far more polyps than average",
+        "Stool tests fail in Lynch syndrome"
+      ],
+      "why": "With one repair gene already lost, a single hit disables the system and mutations accumulate fast. Cancers arise from small, flat lesions within two or three years, so the surveillance interval has to be shorter than that.",
+      "tags": [
+        "lynch",
+        "genetics"
+      ]
+    },
+    {
+      "id": "why25-190a",
+      "item": 190,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does enteral feeding reduce infection in acute pancreatitis?",
+      "a": "It maintains the gut barrier and prevents translocation",
+      "d": [
+        "Food kills pancreatic bacteria",
+        "It rests the inflamed pancreas by diverting enzymes",
+        "It replaces the lost enzymes"
+      ],
+      "why": "An unfed gut atrophies and leaks, and gut organisms cross into the inflamed peripancreatic tissue, which is where infected necrosis comes from. Feeding keeps the mucosa intact. The old idea of resting the pancreas did not survive the trials.",
+      "tags": [
+        "pancreatitis",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-191a",
+      "item": 191,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a parental hip fracture raise a woman's osteoporosis risk more than a parent on a bone drug?",
+      "a": "The fracture is an outcome; the prescription may reflect caution",
+      "d": [
+        "Hip fractures are inherited as a single-gene trait",
+        "Bone drugs are prescribed for fractures alone",
+        "Parents on drugs have stronger bones"
+      ],
+      "why": "A hip fracture in a parent is a hard event with a proven heritable component. A prescription may have been written for an osteopenic score or a cautious physician, and it tells you less about the bones.",
+      "tags": [
+        "osteoporosis",
+        "risk"
+      ]
+    },
+    {
+      "id": "why25-192a",
+      "item": 192,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do peaked T waves appear first in hyperkalaemia?",
+      "a": "Potassium speeds repolarisation before it slows conduction",
+      "d": [
+        "The atria are affected last",
+        "Potassium binds the T wave channels",
+        "The ventricles are more sensitive than the atria"
+      ],
+      "why": "A high extracellular potassium accelerates the potassium currents that end the action potential, so repolarisation becomes brisk and the T wave narrow and tall. Higher levels inactivate sodium channels, and then the P wave flattens and the QRS widens.",
+      "tags": [
+        "hyperkalaemia",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-192b",
+      "item": 192,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does intravenous calcium protect the heart in hyperkalaemia without lowering the potassium?",
+      "a": "It restores the gap between resting and threshold potential",
+      "d": [
+        "It binds the excess potassium",
+        "It drives the potassium into the cells quickly",
+        "It raises the blood pressure"
+      ],
+      "why": "Hyperkalaemia depolarises the resting membrane towards threshold and inactivates sodium channels. Calcium raises the threshold back up, so the cells are excitable again. Insulin and dextrose do the shifting; dialysis or binders do the removing.",
+      "tags": [
+        "hyperkalaemia",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-193a",
+      "item": 193,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does reimplantation of a tooth fail after an hour out of the socket?",
+      "a": "The ligament cells on the root die when dry",
+      "d": [
+        "The socket closes over within the hour",
+        "The tooth absorbs bacteria",
+        "The enamel cracks"
+      ],
+      "why": "A tooth survives reimplantation because the ligament cells regrow their attachment, and those cells die within minutes dry and within hours in milk. Rinsing with saline rather than scrubbing is to spare them.",
+      "tags": [
+        "dental-trauma"
+      ]
+    },
+    {
+      "id": "why25-194a",
+      "item": 194,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does Graves disease cause exophthalmos when other causes of hyperthyroidism do not?",
+      "a": "The autoantibodies also attack the orbital tissues",
+      "d": [
+        "High T4 swells the eye muscles",
+        "The enlarged thyroid presses on the orbit",
+        "The goitre protects the eyes"
+      ],
+      "why": "The TSH receptor is expressed on orbital fibroblasts, and the same antibodies that stimulate the thyroid inflame and expand the orbital fat and muscles. A toxic nodule has no antibodies and no eye disease.",
+      "tags": [
+        "graves",
+        "immunology"
+      ]
+    },
+    {
+      "id": "why25-195a",
+      "item": 195,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do benzodiazepines worsen delirium in older adults?",
+      "a": "They deepen the attention and arousal deficit",
+      "d": [
+        "They cause withdrawal within hours",
+        "They are poorly absorbed in the elderly",
+        "They interact with the antibiotics"
+      ],
+      "why": "Delirium is a failure of attention and arousal, and a sedative impairs both further, often with paradoxical agitation. Benzodiazepines are the treatment only when the delirium is alcohol withdrawal.",
+      "tags": [
+        "delirium",
+        "geriatrics"
+      ]
+    },
+    {
+      "id": "why25-196a",
+      "item": 196,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is capacity assessed per decision rather than as a global judgement?",
+      "a": "Understanding and weighing depend on the decision's complexity",
+      "d": [
+        "The law requires a separate assessment form for each",
+        "Capacity changes from one hour to the next",
+        "Surrogates cover a single decision"
+      ],
+      "why": "A patient may be able to choose a meal or refuse a blood draw and still be unable to weigh the risks of surgery. Capacity is about this decision at this time, which is why it is the treating clinician's call and not a psychiatric label.",
+      "tags": [
+        "capacity",
+        "ethics"
+      ]
+    },
+    {
+      "id": "why25-197a",
+      "item": 197,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a moderately hypothermic patient kept horizontal and handled gently?",
+      "a": "Movement and standing can trigger fibrillation",
+      "d": [
+        "Standing lowers the body temperature further",
+        "The joints are frozen",
+        "It prevents frostbite in the limbs"
+      ],
+      "why": "A cold heart is irritable, and rough handling or a sudden postural drop in pressure can tip it into an arrhythmia that is hard to reverse until the patient is warm. Rewarming the core before the limbs avoids the afterdrop too.",
+      "tags": [
+        "hypothermia",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-198a",
+      "item": 198,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an elevated PSA often normalise on repeat?",
+      "a": "Prostatitis, ejaculation and enlargement raise it briefly",
+      "d": [
+        "The assay drifts between laboratories and runs",
+        "Early prostate cancer regresses spontaneously",
+        "The first sample is usually haemolysed"
+      ],
+      "why": "PSA is a marker of prostate activity, not of cancer, and anything that irritates the gland raises it for weeks. A repeat separates the transient rise from the persistent one worth investigating.",
+      "tags": [
+        "psa",
+        "prostate"
+      ]
+    },
+    {
+      "id": "why25-199a",
+      "item": 199,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do faecal leukocytes perform poorly as a test for bacterial diarrhoea?",
+      "a": "The cells break down in the sample and the finding is nonspecific",
+      "d": [
+        "Bacteria do not provoke leukocytes",
+        "Viral diarrhoea produces more leukocytes than bacterial",
+        "The test needs a fresh biopsy"
+      ],
+      "why": "White cells lyse within hours of passage, so a negative test means little, and inflammatory bowel disease produces them without infection. Clinical features decide who is cultured.",
+      "tags": [
+        "diarrhoea",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "why25-200a",
+      "item": 200,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are hand bites left open when facial bites are closed?",
+      "a": "The hand's tight compartments let infection take hold",
+      "d": [
+        "Hand wounds do not scar",
+        "Facial skin cannot be left open",
+        "Hand bites are deeper than bites elsewhere"
+      ],
+      "why": "The face has a rich blood supply that clears bacteria and heals well, so the cosmetic gain is worth the small risk. The hand has tendon sheaths and small spaces where a closed infection spreads, so it is irrigated and left to drain.",
+      "tags": [
+        "bites",
+        "wounds"
+      ]
+    }
+  ]
+}

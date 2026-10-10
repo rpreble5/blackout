@@ -1,7 +1,9 @@
 """Wire a new ITE batch into the game and run the style checks.
 
 Usage, from the repo root:
-  python tools/ite-batch.py <facts-fragment.md> <lo> <hi> <topic-file.json> [<topic-file.json> ...]
+  python tools/ite-batch.py <facts-fragment.md|-> <lo> <hi> <topic-file.json> [...] [--set <set-id>]
+
+Pass "-" as the facts fragment to skip the facts append; --set names the set in index.json (default ite).
 
 Appends the facts fragment to docs/facts/ite-2025.md (once), bumps the status line to "items 1 to <hi>",
 adds the topic files to the ITE set in topics/index.json (once), then checks every question in those files:
@@ -14,16 +16,20 @@ import json, re, sys, os, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def main():
-    frag, lo, hi, files = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4:]
+    args = sys.argv[1:]
+    set_id = 'ite'
+    if '--set' in args:
+        i = args.index('--set'); set_id = args[i + 1]; del args[i:i + 2]
+    frag, lo, hi, files = args[0], int(args[1]), int(args[2]), args[3:]
     facts = os.path.join(ROOT, 'docs', 'facts', 'ite-2025.md')
     s = open(facts, encoding='utf-8').read()
-    if f'## Item {lo}.' not in s:
+    if frag != '-' and f'## Item {lo}.' not in s:
         s = re.sub(r'Status: first pass, items 1 to \d+\.', f'Status: first pass, items 1 to {hi}.', s)
         s = s.rstrip('\n') + '\n' + open(frag, encoding='utf-8').read()
         open(facts, 'w', encoding='utf-8').write(s)
     idx_path = os.path.join(ROOT, 'blackout', 'topics', 'index.json')
     idx = json.load(open(idx_path, encoding='utf-8'))
-    st = next(x for x in idx['sets'] if x['id'] == 'ite')
+    st = next(x for x in idx['sets'] if x['id'] == set_id)
     for f in files:
         if f not in st['topics']:
             st['topics'].append(f)

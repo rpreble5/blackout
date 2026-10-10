@@ -1,0 +1,1002 @@
+{
+  "id": "ite25-why-051-100",
+  "title": "ITE 2025 why, items 51 to 100",
+  "short": "Why 51 to 100",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "why",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 51 to 100, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "why25-051a",
+      "item": 51,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is anticoagulation delayed for days after a cardioembolic stroke rather than started at once?",
+      "a": "Fresh infarcts bleed when anticoagulated",
+      "d": [
+        "The atrial clot takes days to form",
+        "Antiplatelets work better in the first week",
+        "Anticoagulants need a loading period"
+      ],
+      "why": "An infarct reperfuses through damaged vessels, and the larger it is the more likely it is to turn haemorrhagic. The early days trade a small recurrence risk against that bleeding risk, so small infarcts start sooner.",
+      "tags": [
+        "stroke",
+        "anticoagulation"
+      ]
+    },
+    {
+      "id": "why25-051b",
+      "item": 51,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why do direct oral anticoagulants not replace warfarin for a mechanical valve?",
+      "a": "Dabigatran gave more valve thrombosis and bleeding",
+      "d": [
+        "They cannot be reversed in an emergency",
+        "The valve metal inactivates the drug",
+        "They have not been studied in valves"
+      ],
+      "why": "RE-ALIGN was stopped early for harm. The clotting on a mechanical surface is contact-activated and intense, and warfarin's broad effect on several factors appears to suit it better than blocking one.",
+      "tags": [
+        "anticoagulation",
+        "mechanical-valve"
+      ]
+    },
+    {
+      "id": "why25-052a",
+      "item": 52,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does papillary muscle rupture occur days after the infarct rather than at the moment of occlusion?",
+      "a": "Necrotic muscle softens before it scars",
+      "d": [
+        "The valve takes days to fail",
+        "Anticoagulation weakens the muscle",
+        "A second infarct is needed for rupture"
+      ],
+      "why": "Infarcted tissue liquefies over three to five days as inflammatory cells clear it, and that is its weakest point. By the second week fibrous tissue has taken over, and the risk falls.",
+      "tags": [
+        "myocardial-infarction",
+        "pathology"
+      ]
+    },
+    {
+      "id": "why25-052b",
+      "item": 52,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does acute mitral regurgitation produce pulmonary oedema so suddenly?",
+      "a": "A small stiff atrium cannot buffer the backflow",
+      "d": [
+        "The right ventricle fails first",
+        "The lungs are already infarcted",
+        "The regurgitant jet injures the alveoli"
+      ],
+      "why": "Chronic regurgitation enlarges a compliant atrium that buffers the backflow. An acute leak dumps a full stroke volume into a small stiff atrium, and the pressure goes straight back into the lungs.",
+      "tags": [
+        "myocardial-infarction",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-053a",
+      "item": 53,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does as-needed steroid-formoterol prevent exacerbations better than a daily steroid with albuterol relief?",
+      "a": "The steroid dose rises as the symptoms rise",
+      "d": [
+        "Formoterol dilates more than albuterol",
+        "Daily steroids are poorly absorbed",
+        "Albuterol itself drives inflammation"
+      ],
+      "why": "Exacerbations build over days of rising symptoms, and reaching for the reliever delivers the anti-inflammatory at exactly that moment. Patients on a fixed daily dose tend to skip it when well and overuse albuterol when not.",
+      "tags": [
+        "asthma"
+      ]
+    },
+    {
+      "id": "why25-054a",
+      "item": 54,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does cutaneous larva migrans stay in the skin rather than migrating to the lung like other hookworms?",
+      "a": "Animal hookworm cannot cross the human basement membrane",
+      "d": [
+        "Human skin kills the larva within a few days of entry",
+        "No hookworm has a lung stage",
+        "The albendazole stops the migration"
+      ],
+      "why": "The larvae are of dog and cat hookworm species adapted to their hosts. In human skin they can burrow but not cross into the dermal vessels, so they wander in the epidermis until they die, which is why the disease is self-limited.",
+      "tags": [
+        "travel",
+        "parasitology"
+      ]
+    },
+    {
+      "id": "why25-055a",
+      "item": 55,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does chlorination fail to control Cryptosporidium in pools?",
+      "a": "The oocyst wall resists chlorine for days",
+      "d": [
+        "The organism lives in the pool filter",
+        "Chlorine activates the oocyst",
+        "It spreads in lakes but not pools"
+      ],
+      "why": "Cryptosporidium oocysts survive standard pool chlorine for up to ten days, unlike most pathogens that die in minutes. That is why exclusion from swimming, not more chlorine, is the control.",
+      "tags": [
+        "cryptosporidium"
+      ]
+    },
+    {
+      "id": "why25-056a",
+      "item": 56,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does delivery treat HELLP syndrome?",
+      "a": "The placenta drives the endothelial injury",
+      "d": [
+        "The fetus consumes the platelets",
+        "The uterus compresses the liver",
+        "Labour releases protective cortisol"
+      ],
+      "why": "Preeclampsia and HELLP are diseases of an abnormal placenta releasing factors that injure maternal endothelium. Removing the placenta removes the source, and the platelets and liver recover over days.",
+      "tags": [
+        "hellp",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-056b",
+      "item": 56,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why does the right upper quadrant hurt in HELLP syndrome?",
+      "a": "Fibrin blocks the sinusoids and stretches the capsule",
+      "d": [
+        "Gallstones form during pregnancy",
+        "The enlarged uterus displaces the liver upward and out",
+        "Haemolysis irritates the bile ducts"
+      ],
+      "why": "Microangiopathy in the liver obstructs sinusoidal flow and causes periportal necrosis and subcapsular haematoma. The pain is a warning of the hepatic rupture that makes the syndrome lethal.",
+      "tags": [
+        "hellp",
+        "pathology"
+      ]
+    },
+    {
+      "id": "why25-057a",
+      "item": 57,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a diagnosis of chronic kidney disease require three months of evidence?",
+      "a": "To exclude an acute injury that will recover",
+      "d": [
+        "GFR equations are inaccurate for three months",
+        "Insurers require three months of records",
+        "Kidneys scar in exactly three months"
+      ],
+      "why": "An eGFR of 49 on one day may be dehydration, a drug or an intercurrent illness. Chronicity is what carries the prognosis and the treatment, and only time or old records can prove it.",
+      "tags": [
+        "ckd"
+      ]
+    },
+    {
+      "id": "why25-058a",
+      "item": 58,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does Kawasaki disease damage the coronary arteries in particular?",
+      "a": "It is a medium-vessel vasculitis that targets coronaries",
+      "d": [
+        "The sustained fever damages the myocardium directly",
+        "The rash extends to the heart",
+        "Aspirin injures the vessel wall"
+      ],
+      "why": "The inflammation attacks the walls of medium-sized muscular arteries, and in the coronaries that weakens the wall into aneurysms. Intravenous immunoglobulin in the first ten days cuts the aneurysm rate several-fold.",
+      "tags": [
+        "kawasaki"
+      ]
+    },
+    {
+      "id": "why25-059a",
+      "item": 59,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does the task force recommend against routine BRCA testing in women without a suggestive history?",
+      "a": "A low prior probability makes false positives the main outcome",
+      "d": [
+        "The test is inaccurate in most commercial laboratories",
+        "The mutations cannot be acted on",
+        "Testing is restricted by law"
+      ],
+      "why": "Fewer than one woman in 300 carries a mutation, so a positive in an unselected population is often a variant of uncertain significance, and the cascade of counselling, imaging and surgery that follows does more harm than good.",
+      "tags": [
+        "brca",
+        "screening"
+      ]
+    },
+    {
+      "id": "why25-060a",
+      "item": 60,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why must folic acid be taken before conception to prevent neural tube defects?",
+      "a": "The tube closes by day 28, before pregnancy is known",
+      "d": [
+        "Folate is poorly absorbed in pregnancy",
+        "The placenta blocks folate later",
+        "Red cell folate takes months to rise to a useful level"
+      ],
+      "why": "Neural tube closure is complete at four weeks after conception, which is around the time of the first missed period. Supplementation that begins at the first prenatal visit has already missed its window.",
+      "tags": [
+        "folic-acid"
+      ]
+    },
+    {
+      "id": "why25-061a",
+      "item": 61,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does starting allopurinol provoke a gout flare?",
+      "a": "Falling urate mobilises crystals from the joint deposits",
+      "d": [
+        "Allopurinol is itself inflammatory",
+        "It raises the uric acid through the first few weeks",
+        "It injures the kidney at the start"
+      ],
+      "why": "Urate crystals in tophi and cartilage dissolve unevenly as the serum level falls, shedding microcrystals into the joint. Colchicine cover for the first months absorbs that, and slow titration reduces it.",
+      "tags": [
+        "gout"
+      ]
+    },
+    {
+      "id": "why25-061b",
+      "item": 61,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is the urate target under 6 mg/dL?",
+      "a": "Below saturation crystals dissolve rather than form",
+      "d": [
+        "It is the lower limit of the normal range",
+        "Kidney stones form at levels above 6",
+        "The assay is unreliable above 6"
+      ],
+      "why": "Urate crystallises at about 6.8 mg/dL at body temperature, and cooler peripheral joints lower that. Holding the level under 6 keeps the joints undersaturated and lets existing deposits shrink.",
+      "tags": [
+        "gout"
+      ]
+    },
+    {
+      "id": "why25-062a",
+      "item": 62,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does angina occur in aortic stenosis even with normal coronary arteries?",
+      "a": "Hypertrophied muscle outgrows its perfusion",
+      "d": [
+        "Valve calcium embolises to the coronaries",
+        "The stenosis blocks the coronary ostia",
+        "The murmur reflects coronary turbulence"
+      ],
+      "why": "The thick muscle demands more oxygen, while high ventricular pressure and a low aortic pressure squeeze the gradient that drives coronary flow in diastole. Half of patients with angina from aortic stenosis have clean coronaries, which is why they are also evaluated.",
+      "tags": [
+        "aortic-stenosis",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-063a",
+      "item": 63,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do intranasal steroids beat antihistamines for allergic rhinitis?",
+      "a": "They suppress the whole cascade, not one mediator",
+      "d": [
+        "They are absorbed into the circulation",
+        "Histamine plays no part in rhinitis",
+        "They shrink the turbinates permanently"
+      ],
+      "why": "Allergic rhinitis involves histamine, leukotrienes, cytokines and eosinophil recruitment. An antihistamine blocks one of those; a topical steroid dampens all of them, which is why congestion, the symptom antihistamines handle worst, responds.",
+      "tags": [
+        "allergic-rhinitis"
+      ]
+    },
+    {
+      "id": "why25-064a",
+      "item": 64,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does polycystic ovary syndrome cause infertility?",
+      "a": "Disordered gonadotrophins stop a dominant follicle ovulating",
+      "d": [
+        "The cysts obstruct the fallopian tubes",
+        "Androgens are toxic to the eggs",
+        "The endometrium cannot support an implanting embryo"
+      ],
+      "why": "Excess LH and insulin drive ovarian androgen production, follicles stall at a small size, and no single one matures to ovulate. The cysts on ultrasound are those arrested follicles.",
+      "tags": [
+        "pcos",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-065a",
+      "item": 65,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a patient with vestibular neuritis veer towards the affected side?",
+      "a": "The intact side's unopposed signal pushes perception",
+      "d": [
+        "The affected ear is heavier",
+        "Cerebellar input is lost on the affected side",
+        "The nystagmus drags the eyes that way"
+      ],
+      "why": "Each vestibular nerve tonically fires, and balance is the difference between them. Lose one and the brain reads the imbalance as rotation away from the lesion, so the body corrects by leaning towards it, and the fast phase of nystagmus beats away from it.",
+      "tags": [
+        "vertigo",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-066a",
+      "item": 66,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are three drugs combined for melasma?",
+      "a": "They act on pigment, turnover and the irritation",
+      "d": [
+        "Each is too weak to use on its own",
+        "The combination is the cheaper option",
+        "The combination alone carries approval"
+      ],
+      "why": "Hydroquinone blocks tyrosinase, tretinoin speeds epidermal turnover to shed the pigment, and the steroid dampens the irritation the first two cause. Any one alone works slowly and less well.",
+      "tags": [
+        "melasma"
+      ]
+    },
+    {
+      "id": "why25-067a",
+      "item": 67,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does early exposure to peanut reduce allergy when avoidance was advised for years?",
+      "a": "Oral exposure induces tolerance before skin sensitisation",
+      "d": [
+        "Peanut proteins have changed over time",
+        "Infants cannot mount an IgE response",
+        "The avoidance advice had no evidence behind it"
+      ],
+      "why": "The LEAP trial showed an 80 percent reduction in peanut allergy with early introduction. Sensitisation happens through inflamed skin; feeding the allergen first teaches the gut immune system to tolerate it.",
+      "tags": [
+        "food-allergy",
+        "immunology"
+      ]
+    },
+    {
+      "id": "why25-068a",
+      "item": 68,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is HIV post-exposure prophylaxis three drugs when pre-exposure prophylaxis is two?",
+      "a": "Established exposure needs full suppression",
+      "d": [
+        "The third drug covers hepatitis B",
+        "Two drugs breed resistance after exposure",
+        "Three drugs are easier to adhere to"
+      ],
+      "why": "After an exposure, virus may already be replicating in local cells, and the aim is to stop it before it seeds the lymphoid tissue. That needs the same potency as treatment. Prophylaxis before exposure only has to block the first cells.",
+      "tags": [
+        "hiv",
+        "pep"
+      ]
+    },
+    {
+      "id": "why25-069a",
+      "item": 69,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a continuous combined pill help premenstrual dysphoric disorder?",
+      "a": "It removes the hormone swing that triggers symptoms",
+      "d": [
+        "It holds progesterone at a steady high",
+        "It treats the depression that underlies the symptoms",
+        "It stops menstruation altogether"
+      ],
+      "why": "The disorder is an abnormal sensitivity to normal hormonal swings, not abnormal hormone levels. Suppressing the cycle flattens the swing, which a cyclical pill with a pill-free week does not do.",
+      "tags": [
+        "pms"
+      ]
+    },
+    {
+      "id": "why25-070a",
+      "item": 70,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why must oral bisphosphonates be taken upright on an empty stomach with water?",
+      "a": "They are poorly absorbed and erode the oesophagus",
+      "d": [
+        "Food inactivates the drug",
+        "Lying down slows the absorption from the stomach",
+        "They cause hypoglycaemia if fasting"
+      ],
+      "why": "Less than one percent of an oral dose is absorbed, and any food or calcium reduces that further. A tablet that lingers in the oesophagus causes erosive oesophagitis, which is what sends patients to the intravenous drug.",
+      "tags": [
+        "osteoporosis",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-071a",
+      "item": 71,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does dexamethasone improve outcomes in bacterial meningitis?",
+      "a": "It blunts the inflammation released by bacterial lysis",
+      "d": [
+        "It has direct antibacterial activity",
+        "It lowers the fever and the intracranial pressure",
+        "It prevents seizures directly"
+      ],
+      "why": "Bactericidal antibiotics burst the organisms and release cell wall fragments that drive a surge of cytokines in the subarachnoid space, and that inflammation causes the hearing loss and brain injury. The steroid has to be there before the surge.",
+      "tags": [
+        "meningitis"
+      ]
+    },
+    {
+      "id": "why25-072a",
+      "item": 72,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a swallowed inhaler steroid effective in eosinophilic oesophagitis?",
+      "a": "It coats the mucosa and acts topically",
+      "d": [
+        "It is absorbed through the lungs",
+        "It raises the systemic cortisol",
+        "It neutralises refluxed acid"
+      ],
+      "why": "The disease is in the oesophageal lining, so the drug needs contact, not blood levels. The same property that keeps inhaled steroids out of the circulation makes them safe to swallow for months.",
+      "tags": [
+        "eosinophilic-oesophagitis"
+      ]
+    },
+    {
+      "id": "why25-073a",
+      "item": 73,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a live vaccine dangerous on methotrexate and azathioprine?",
+      "a": "The attenuated virus can replicate unchecked",
+      "d": [
+        "The drugs inactivate the vaccine strain",
+        "It causes a drug interaction",
+        "The antigen triggers a Crohn flare"
+      ],
+      "why": "An attenuated strain relies on an intact immune system to limit it. Without that, it can disseminate, which is why live vaccines are given before immunosuppression starts, not during it.",
+      "tags": [
+        "vaccines",
+        "immunosuppression"
+      ]
+    },
+    {
+      "id": "why25-074a",
+      "item": 74,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an infection precipitate an adrenal crisis in someone on replacement steroids?",
+      "a": "A fixed replacement dose cannot meet the stress demand",
+      "d": [
+        "The infection consumes the cortisol",
+        "Antibiotics block the synthesis of cortisol",
+        "Fever breaks down hydrocortisone"
+      ],
+      "why": "A normal adrenal multiplies its output several-fold during illness. A fixed replacement dose stays fixed, and the vomiting may stop even that from being absorbed. Sick-day rules double the dose for this reason.",
+      "tags": [
+        "adrenal-crisis"
+      ]
+    },
+    {
+      "id": "why25-074b",
+      "item": 74,
+      "type": "single",
+      "difficulty": 3,
+      "q": "Why does adrenal crisis cause hyperkalaemia and hyponatraemia together?",
+      "a": "Aldosterone deficiency wastes sodium and holds potassium",
+      "d": [
+        "Vomiting loses sodium and spares the potassium",
+        "Cortisol deficiency alone does both",
+        "The kidneys fail with the hypotension"
+      ],
+      "why": "In primary adrenal insufficiency the mineralocorticoid is lost as well, so the distal tubule stops exchanging sodium for potassium. Cortisol deficiency adds hyponatraemia through unchecked vasopressin, and hypoglycaemia through lost gluconeogenesis.",
+      "tags": [
+        "adrenal-crisis",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-075a",
+      "item": 75,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is an ECG part of every syncope work-up but an EEG is not?",
+      "a": "Cardiac causes kill and often show on the ECG",
+      "d": [
+        "EEGs are too expensive to use routinely",
+        "The ECG detects seizures as well",
+        "Syncope has no neurological causes"
+      ],
+      "why": "Syncope with no warning and a structural or electrical heart cause carries a real one-year mortality, and a long QT, Brugada pattern or block is visible on a cheap test. An EEG is for witnessed seizure activity, which is a different history.",
+      "tags": [
+        "syncope"
+      ]
+    },
+    {
+      "id": "why25-076a",
+      "item": 76,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an alpha-blocker relieve storage symptoms as well as voiding symptoms?",
+      "a": "Relieving obstruction eases the irritated bladder",
+      "d": [
+        "It relaxes the detrusor muscle directly",
+        "It shrinks the prostate within weeks",
+        "It reduces the volume of urine made"
+      ],
+      "why": "An obstructed bladder works harder, thickens, and becomes overactive. Lowering outlet resistance eases both the weak stream and, over time, the urgency that the obstruction caused.",
+      "tags": [
+        "luts",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-076b",
+      "item": 76,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a 5-alpha-reductase inhibitor take up to a year to work?",
+      "a": "It shrinks the prostate slowly by cutting dihydrotestosterone",
+      "d": [
+        "It is absorbed slowly from the gut",
+        "It must accumulate in the bladder wall",
+        "It needs the alpha-blocker to have failed before it works"
+      ],
+      "why": "Dihydrotestosterone maintains prostate volume. Blocking its synthesis lets the gland involute by about a quarter, but tissue regresses over months, which is why the drug is paired with an alpha-blocker for the meantime.",
+      "tags": [
+        "bph",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-077a",
+      "item": 77,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is weight loss expected in the first three days of a newborn's life?",
+      "a": "Extracellular fluid is shed while milk volume is low",
+      "d": [
+        "Infants are not fed for the first two days",
+        "Meconium weighs several hundred grams",
+        "Placental hormones cause a diuresis"
+      ],
+      "why": "Newborns are born fluid-loaded and diurese it, while colostrum comes in small volumes before the milk. Loss beyond 7 percent or beyond day three means intake is falling short of that physiology.",
+      "tags": [
+        "newborn"
+      ]
+    },
+    {
+      "id": "why25-078a",
+      "item": 78,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do influenza antivirals work only in the first 48 hours?",
+      "a": "Replication peaks early; later illness is immune-driven",
+      "d": [
+        "The virus mutates away from the drug after two days",
+        "Fever destroys the drug",
+        "Antibodies neutralise the drug"
+      ],
+      "why": "Neuraminidase inhibitors block release of new virions, and the viral load is already falling by day three. The fever and aches that follow are the cytokine response, which the drug does not touch.",
+      "tags": [
+        "influenza",
+        "antivirals"
+      ]
+    },
+    {
+      "id": "why25-079a",
+      "item": 79,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does obsessive-compulsive disorder need higher SSRI doses than depression?",
+      "a": "The response is dose-dependent in different circuits",
+      "d": [
+        "Patients with OCD metabolise SSRIs more quickly",
+        "Lower doses provoke compulsions",
+        "Depression responds more to placebo"
+      ],
+      "why": "Trials show a clear dose-response in OCD that depression lacks, with the cortico-striatal loops needing more serotonergic drive to settle. The response is also slower, so a trial runs ten to twelve weeks.",
+      "tags": [
+        "ocd",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-080a",
+      "item": 80,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does exercise prevent falls when education about falls does not?",
+      "a": "Only training changes the balance and strength deficit",
+      "d": [
+        "Education makes patients overconfident on their feet",
+        "Exercise improves the eyesight",
+        "Education is rarely delivered well"
+      ],
+      "why": "Most falls come from a failed postural correction, which is a matter of leg strength and balance reflexes. Knowing about the risk does not change the reflex; practising it does.",
+      "tags": [
+        "falls"
+      ]
+    },
+    {
+      "id": "why25-081a",
+      "item": 81,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why has bismuth quadruple therapy replaced clarithromycin triple therapy for Helicobacter pylori?",
+      "a": "Clarithromycin resistance now exceeds the working threshold",
+      "d": [
+        "Bismuth is cheaper than clarithromycin",
+        "Clarithromycin interacts with the proton pump inhibitor",
+        "Triple therapy causes C. difficile"
+      ],
+      "why": "Macrolide resistance passed 15 percent in most regions, and above that threshold triple therapy fails too often to use blind. Bismuth and tetracycline rarely meet resistance, and metronidazole resistance is overcome by dose.",
+      "tags": [
+        "h-pylori"
+      ]
+    },
+    {
+      "id": "why25-082a",
+      "item": 82,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does cooling a burn under running water for twenty minutes reduce its depth?",
+      "a": "The zone of stasis around the burn is salvageable",
+      "d": [
+        "Water carries the heat source away",
+        "It prevents the wound becoming infected",
+        "It numbs the pain so the child stays still"
+      ],
+      "why": "A burn has a dead centre, a surrounding zone of impaired circulation, and an outer zone of hyperaemia. Prolonged cooling keeps the stasis zone perfused and stops it converting to necrosis over the following hours.",
+      "tags": [
+        "burns",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-083a",
+      "item": 83,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does warfarin need heparin cover at the start when a direct oral anticoagulant does not?",
+      "a": "Warfarin lowers protein C before the clotting factors",
+      "d": [
+        "Warfarin is absorbed slowly from the gut",
+        "Heparin activates the warfarin",
+        "The INR takes a week to become measurable"
+      ],
+      "why": "Protein C, an anticoagulant, has a short half-life and falls first, while the long-lived procoagulant factors persist for days. That window is prothrombotic. A direct inhibitor blocks its target within hours.",
+      "tags": [
+        "anticoagulation",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-084a",
+      "item": 84,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do early menarche, late menopause and late first pregnancy all raise breast cancer risk?",
+      "a": "Each lengthens lifetime exposure to cycling oestrogen",
+      "d": [
+        "Each lowers the lifetime exposure to progesterone",
+        "Each is a marker of obesity",
+        "Each delays breast development"
+      ],
+      "why": "Breast epithelium proliferates with every cycle, and more cycles mean more chances for a mutation to take hold. A first full-term pregnancy differentiates the tissue, which is why having it early protects.",
+      "tags": [
+        "breast-cancer",
+        "risk"
+      ]
+    },
+    {
+      "id": "why25-085a",
+      "item": 85,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are tricyclics a poor choice for depression after a stroke?",
+      "a": "Anticholinergic and cardiac effects hit a vulnerable patient",
+      "d": [
+        "They do not work after a stroke",
+        "They raise the risk of a second stroke by a direct effect",
+        "They interact with the antiplatelet"
+      ],
+      "why": "Confusion, urinary retention, orthostatic falls and arrhythmia are the costs of a tricyclic, and an older stroke patient pays each of them. An SSRI treats the depression with none of that burden.",
+      "tags": [
+        "post-stroke-depression"
+      ]
+    },
+    {
+      "id": "why25-086a",
+      "item": 86,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a benzodiazepine with an opioid raise overdose risk so sharply?",
+      "a": "Both depress breathing by different routes and compound",
+      "d": [
+        "The benzodiazepine raises the opioid blood level",
+        "They compete for the same receptor",
+        "Naloxone cannot act when both are present"
+      ],
+      "why": "Opioids blunt the brainstem's response to carbon dioxide; benzodiazepines dampen arousal and muscle tone. Together, the patient neither breathes nor wakes, and naloxone reverses only half of it.",
+      "tags": [
+        "opioids",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-087a",
+      "item": 87,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does late dumping cause hypoglycaemia when early dumping does not?",
+      "a": "Rapid sugar absorption triggers an insulin overshoot",
+      "d": [
+        "The pancreas is damaged by the surgery",
+        "Early dumping blocks insulin release",
+        "The fluid shift raises the glucose first"
+      ],
+      "why": "After bypass, sugar reaches the jejunum undiluted and is absorbed at once, driving a glucose spike and an exaggerated GLP-1 and insulin response. Two hours later the glucose has gone but the insulin is still working.",
+      "tags": [
+        "dumping",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-088a",
+      "item": 88,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a cephalosporin acceptable after an amoxicillin rash?",
+      "a": "Cross-reactivity is low, especially with later generations",
+      "d": [
+        "Cephalosporins are not beta-lactams",
+        "The rash was a viral exanthem rather than an allergy",
+        "Children do not react to cephalosporins"
+      ],
+      "why": "The shared beta-lactam ring is rarely the allergen; the side chains are, and cefdinir shares none with amoxicillin. Cross-reactivity runs around one to two percent, and lower still for a non-anaphylactic history.",
+      "tags": [
+        "otitis-media",
+        "allergy"
+      ]
+    },
+    {
+      "id": "why25-089a",
+      "item": 89,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is CT avoided for minor head injury in children when it is readily available?",
+      "a": "Radiation carries a lifetime cancer risk in a young brain",
+      "d": [
+        "Children cannot lie still long enough for the scan",
+        "CT misses bleeds in young children",
+        "Sedation is needed for most scans"
+      ],
+      "why": "A head CT in a young child adds a small but real risk of later malignancy, and decision rules identify the children at low risk of a bleed accurately enough to spare them. Observation finds the few who deteriorate.",
+      "tags": [
+        "head-injury",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "why25-090a",
+      "item": 90,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a smoke-free home help a smoker quit?",
+      "a": "It removes cues and makes each cigarette an effort",
+      "d": [
+        "It lowers the amount of nicotine absorbed per cigarette",
+        "Family members enforce the rule",
+        "It cuts carbon monoxide exposure"
+      ],
+      "why": "Smoking is cue-driven, and a home where smoking happens anywhere keeps the cues everywhere. Having to go outside adds friction to each cigarette, which cuts consumption and raises quit rates.",
+      "tags": [
+        "smoking-cessation"
+      ]
+    },
+    {
+      "id": "why25-091a",
+      "item": 91,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a muscarinic antagonist the first inhaler in COPD rather than a steroid, as in asthma?",
+      "a": "COPD obstruction is cholinergic, not eosinophilic",
+      "d": [
+        "Steroids are contraindicated in COPD",
+        "Beta-agonists cause arrhythmia in COPD",
+        "Anticholinergics repair the alveoli"
+      ],
+      "why": "Vagal tone is the main reversible component of COPD obstruction, and anticholinergics reduce exacerbations more than beta-agonists do. Inhaled steroids help only the subgroup with eosinophilic inflammation, and they add pneumonia risk.",
+      "tags": [
+        "copd",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-092a",
+      "item": 92,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does the hyperosmolar state produce no ketoacidosis?",
+      "a": "Enough insulin remains to block ketones, not hyperglycaemia",
+      "d": [
+        "Ketones are excreted faster in type 2 diabetes",
+        "High osmolality inhibits ketone formation",
+        "Type 2 diabetics cannot produce ketones"
+      ],
+      "why": "Ketogenesis needs near-total insulin absence; type 2 diabetes keeps a small output that prevents it. Glucose control needs far more insulin, so the sugar climbs unchecked and the osmotic diuresis dehydrates the patient over days.",
+      "tags": [
+        "hhs",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-093a",
+      "item": 93,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an SGLT2 inhibitor reduce heart failure deaths in patients without diabetes?",
+      "a": "Natriuresis and cardiac metabolic effects, not glucose",
+      "d": [
+        "It lowers the glucose in non-diabetics too",
+        "It is a potent loop-like diuretic",
+        "It raises the ejection fraction directly"
+      ],
+      "why": "The drugs cause a mild sodium and water loss, lower filling pressures, and shift cardiac fuel use, with effects on the kidney as well. The mortality benefit appeared identically in diabetic and non-diabetic patients.",
+      "tags": [
+        "hfref",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-094a",
+      "item": 94,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a random glucose of 200 with symptoms diagnose diabetes outright, when a fasting value needs a repeat?",
+      "a": "Symptoms plus one high value are unlikely to be a fluke",
+      "d": [
+        "Random assays are more accurate than fasting",
+        "Fasting values vary with sleep quality",
+        "The symptoms are diagnostic on their own"
+      ],
+      "why": "A confirmatory test guards against transient hyperglycaemia or laboratory error in an asymptomatic person. Polyuria and polydipsia are evidence of sustained hyperglycaemia, which does the confirming.",
+      "tags": [
+        "diabetes",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "why25-095a",
+      "item": 95,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does complex regional pain syndrome produce a warm, swollen limb?",
+      "a": "Dysregulated sympathetic and inflammatory signalling",
+      "d": [
+        "The fracture site has become infected",
+        "A deep vein thrombosis has formed",
+        "The cast was applied too tightly for too long"
+      ],
+      "why": "The syndrome is a maladaptive response of the nervous system to injury, with neurogenic inflammation and abnormal vasomotor control. Early recognition matters because mobilisation and desensitisation work best before the limb becomes cold and atrophic.",
+      "tags": [
+        "crps"
+      ]
+    },
+    {
+      "id": "why25-096a",
+      "item": 96,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is pelvic inflammatory disease treated on minimal clinical criteria rather than confirmed first?",
+      "a": "Delay risks tubal damage; the treatment is low-risk",
+      "d": [
+        "There is no laboratory test for it",
+        "The organisms cannot be cultured",
+        "Ultrasound is rarely available in clinic"
+      ],
+      "why": "Tubal scarring begins within days, and each episode roughly doubles the risk of infertility and ectopic pregnancy. A course of antibiotics given to a woman who turns out not to have it costs little by comparison.",
+      "tags": [
+        "pid"
+      ]
+    },
+    {
+      "id": "why25-097a",
+      "item": 97,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does dual antiplatelet therapy after a TIA stop at three weeks?",
+      "a": "Recurrence is front-loaded; bleeding risk is constant",
+      "d": [
+        "Clopidogrel stops working after three weeks",
+        "Aspirin tolerance develops by then",
+        "Three weeks was the trial's funding limit"
+      ],
+      "why": "Most recurrent strokes after a TIA happen in the first days, so the double cover pays for itself then. After that the stroke risk falls while the bleeding risk from two drugs does not, and the balance flips.",
+      "tags": [
+        "tia",
+        "antiplatelets"
+      ]
+    },
+    {
+      "id": "why25-098a",
+      "item": 98,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does curing hepatitis C improve liver fibrosis that is already present?",
+      "a": "Fibrosis is dynamic and regresses when injury stops",
+      "d": [
+        "The antivirals dissolve the scar tissue",
+        "The virus itself produces collagen",
+        "The fibrosis was a misreading of the scan"
+      ],
+      "why": "Hepatic stellate cells lay down collagen in response to ongoing inflammation and remove it when the stimulus ends. Scarring short of established cirrhosis reverses substantially over the years after a sustained viral response.",
+      "tags": [
+        "hepatitis-c",
+        "fibrosis"
+      ]
+    },
+    {
+      "id": "why25-099a",
+      "item": 99,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why can repairing a pelvic organ prolapse make urinary incontinence worse?",
+      "a": "The prolapse was kinking the urethra and masking leakage",
+      "d": [
+        "Surgery damages the nerves that supply the bladder",
+        "The repair tightens the bladder neck",
+        "Oestrogen falls after the operation"
+      ],
+      "why": "A bulging anterior wall can obstruct the urethra just enough to hold urine in. Put the anatomy back and the hidden sphincter weakness shows, which is why patients are warned and sometimes tested with the prolapse reduced beforehand.",
+      "tags": [
+        "prolapse"
+      ]
+    },
+    {
+      "id": "why25-100a",
+      "item": 100,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an ischaemic limb become paralysed late rather than early?",
+      "a": "Nerve and muscle survive ischaemia for hours first",
+      "d": [
+        "The clot moves distally as the hours pass",
+        "Pain inhibits movement at first",
+        "Paralysis is a sign of reperfusion"
+      ],
+      "why": "Sensory fibres fail first, giving paraesthesia, and motor function follows as the muscle starts to infarct. Paralysis means the four-to-six-hour window is closing, and the limb may not be salvageable.",
+      "tags": [
+        "acute-limb-ischaemia"
+      ]
+    }
+  ]
+}

@@ -898,3 +898,461 @@ Source: Written for Blackout, 2026-10-09, from the ABFM 2025 In-Training Examina
   → A linear wound on the face
 - **ite25-200b** (single, d2, 4 options, fixed order) Beyond how many hours is a dog bite to the leg considered a delayed presentation?
   → 6 to 12 hours
+
+## ITE 2025 why, items 1 to 50 (61 questions)
+
+Source: Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 1 to 50, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.
+
+- **why25-001a** (single, d2, 4 options) Why do patient-specific reminders beat general reminders to clinicians for raising screening rates?
+  → Flags act at the point of care, not from memory
+- **why25-002a** (single, d2, 4 options) Why is a 7% weight loss the target in diabetes prevention programmes rather than a return to normal weight?
+  → It is the loss the trials tied to risk reduction
+- **why25-002b** (single, d3, 4 options) Why does modest weight loss improve glucose tolerance out of proportion to the pounds lost?
+  → Liver and visceral fat go first and drive resistance
+- **why25-003a** (single, d2, 4 options) Why is a proximal fifth metatarsal fracture treated more cautiously than a shaft fracture?
+  → A watershed blood supply there heals poorly
+- **why25-004a** (single, d2, 4 options) Why is norepinephrine preferred over dopamine as the first vasopressor in septic shock?
+  → Dopamine caused more arrhythmias with no survival gain
+- **why25-004b** (single, d3, 4 options) Why does a mean arterial pressure of 65 matter more than the systolic in shock?
+  → Organs are perfused by the mean across the cycle
+- **why25-005a** (single, d2, 4 options) Why does a beta-blocker help in thyroid storm when it does nothing to the hormone levels?
+  → It blocks the adrenergic effects hormone amplifies
+- **why25-005b** (single, d3, 4 options) Why would iodine given before a thionamide make thyroid storm worse?
+  → It feeds synthesis before the block is in place
+- **why25-006a** (single, d2, 4 options) Why would a non-absorbed antibiotic help the pain and bloating of irritable bowel syndrome?
+  → It cuts bacterial gas and metabolites in the lumen
+- **why25-007a** (single, d2, 4 options) Why are opioids avoided for neuropathic pain even when they reduce it?
+  → Tolerance, hyperalgesia and dependence outrun the benefit
+- **why25-007b** (single, d3, 4 options) Why do an antidepressant and an anticonvulsant both treat painful neuropathy?
+  → Both quieten abnormal firing in sensitised pathways
+- **why25-008a** (single, d2, 4 options) Why is a post-void residual part of the first incontinence evaluation?
+  → Overflow from retention mimics urge and stress leakage
+- **why25-009a** (single, d2, 4 options) Why is a platelet count of 47,000 in immune thrombocytopenia not treated?
+  → Bleeding is rare above 30,000 and treatment has harms
+- **why25-010a** (single, d2, 4 options) Why is kidney function monitored so closely on long-term antiretroviral therapy?
+  → Tenofovir can injure the proximal tubule
+- **why25-011a** (single, d2, 4 options) Why can a stress test be negative in a patient who has coronary plaque?
+  → It detects flow limitation, not plaque
+- **why25-012a** (single, d2, 4 options) Why does acamprosate only work once a patient has already stopped drinking?
+  → It calms the glutamate rebound of withdrawal
+- **why25-012b** (single, d2, 4 options) Why does gabapentin help someone who is still drinking when acamprosate does not?
+  → It eases withdrawal and is safe with alcohol on board
+- **why25-013a** (single, d2, 4 options) Why does a short steroid course cause rebound in poison ivy but not in asthma?
+  → The T cell reaction outlasts a short course and reignites
+- **why25-014a** (single, d2, 4 options) Why are subsolid lung nodules followed longer than solid ones?
+  → Ground-glass adenocarcinomas grow very slowly
+- **why25-015a** (single, d2, 4 options) Why does an upper gastrointestinal bleed raise the BUN out of proportion to the creatinine?
+  → Digested blood protein is absorbed and made into urea
+- **why25-015b** (single, d2, 4 options) Why is a proton pump inhibitor started before endoscopy in a suspected ulcer bleed?
+  → A higher gastric pH lets the clot stabilise
+- **why25-016a** (single, d2, 4 options) Why is swallowed toothpaste a concern in young children?
+  → Excess fluoride mottles enamel as it forms
+- **why25-017a** (single, d2, 4 options) Why is levodopa given with carbidopa?
+  → Carbidopa stops peripheral conversion to dopamine
+- **why25-018a** (single, d2, 4 options) Why is IGF-1 measured rather than growth hormone itself to diagnose acromegaly?
+  → Growth hormone is pulsatile; IGF-1 averages it
+- **why25-019a** (single, d2, 4 options) Why does a woman without a uterus take oestrogen alone, while one with a uterus needs a progestogen too?
+  → Unopposed oestrogen drives endometrial cancer
+- **why25-019b** (single, d3, 4 options) Why would an SSRI reduce hot flashes?
+  → Serotonin helps set the thermoregulatory threshold
+- **why25-020a** (single, d2, 4 options) Why does a blood refusal directive bind even when the physician is certain death will follow?
+  → Autonomy includes refusing life-saving treatment
+- **why25-021a** (single, d2, 4 options) Why is the soft lower nose pinched for epistaxis rather than the bony bridge?
+  → Most bleeds arise from the anterior septal plexus
+- **why25-022a** (single, d2, 4 options) Why does a long-acting nitrate relieve angina?
+  → Venodilation cuts preload and oxygen demand
+- **why25-022b** (single, d3, 4 options) Why would ivabradine harm a patient with coronary disease and a normal ejection fraction?
+  → Rate control without benefit left more cardiac events
+- **why25-023a** (single, d2, 4 options) Why does sleep restriction, which cuts time in bed, improve insomnia?
+  → It builds sleep pressure and pairs bed with sleep
+- **why25-024a** (single, d2, 4 options) Why does a positive thyroid peroxidase antibody change the decision in subclinical hypothyroidism?
+  → It predicts progression to overt hypothyroidism
+- **why25-025a** (single, d2, 4 options) Why does tranexamic acid reduce heavy uterine bleeding?
+  → It blocks plasmin and stabilises the fibrin clot
+- **why25-025b** (single, d3, 4 options) Why does intravenous oestrogen stop acute uterine bleeding?
+  → It rapidly rebuilds an unstable endometrium
+- **why25-026a** (single, d2, 4 options) Why does a low-dose antibiotic help rosacea when it is not an infection?
+  → Tetracyclines are anti-inflammatory at low doses
+- **why25-027a** (single, d2, 4 options) Why does cervical screening stop at 65 for well-screened women but not for under-screened ones?
+  → Cancer at that age grows from disease missed earlier
+- **why25-028a** (single, d2, 4 options) Why is a suicide risk assessment done before starting an antidepressant rather than alongside it?
+  → The right setting may be inpatient, not a prescription
+- **why25-029a** (single, d2, 4 options) Why can a repeat colonoscopy wait seven to ten years after two small adenomas?
+  → Small adenomas take a decade or more to progress
+- **why25-030a** (single, d2, 4 options) Why would inducing labour at 39 weeks lower the caesarean rate when induction was long thought to raise it?
+  → Waiting lets the fetus grow and complications accrue
+- **why25-031a** (single, d2, 4 options) Why does hyaluronic acid help the knee more than the hip?
+  → The deep hip joint is hard to inject without imaging
+- **why25-032a** (single, d2, 4 options) Why does transient global amnesia spare a patient's identity while erasing recent events?
+  → It stalls hippocampal encoding of new memories
+- **why25-033a** (single, d2, 4 options) Why is Lyme disease without a rash diagnosed with two tests in sequence?
+  → The screening assay is sensitive but not specific
+- **why25-034a** (single, d2, 4 options) Why does the recombinant zoster vaccine work in immunocompromised adults when the live one was contraindicated?
+  → It is a glycoprotein and adjuvant, with no live virus
+- **why25-035a** (single, d2, 4 options) Why does orbital cellulitis cause pain on eye movement when preseptal cellulitis does not?
+  → Infection behind the septum inflames the eye muscles
+- **why25-036a** (single, d2, 4 options) Why are direct oral anticoagulants avoided below a GFR of 30?
+  → They are renally cleared and accumulate
+- **why25-036b** (single, d3, 4 options) Why does enoxaparin drop to once daily, rather than a smaller dose twice daily, in renal impairment?
+  → The longer half-life keeps levels up between doses
+- **why25-037a** (single, d2, 4 options) Why does chronic prostatitis need weeks of antibiotics when cystitis needs days?
+  → Few drugs penetrate the prostate and biofilm
+- **why25-038a** (single, d2, 4 options) Why does supplemental oxygen speed the resolution of a small pneumothorax?
+  → A lower nitrogen gradient speeds pleural gas absorption
+- **why25-039a** (single, d2, 4 options) Why does an enlarged spleen rule an adolescent out of contact sport?
+  → A stretched capsule ruptures with blunt impact
+- **why25-040a** (single, d2, 4 options) Why does Meniere disease cause hearing loss as well as vertigo?
+  → Endolymphatic hydrops affects cochlea and vestibule
+- **why25-041a** (single, d2, 4 options) Why can a treatment with an impressive relative risk reduction still have a large number needed to treat?
+  → A relative cut in a rare event is a small absolute cut
+- **why25-042a** (single, d2, 4 options) Why is midodrine timed to the day and not given at bedtime?
+  → It causes supine hypertension
+- **why25-043a** (single, d2, 4 options) Why does insulin need to continue in ketoacidosis even after the glucose is controlled?
+  → Insulin is what switches off ketone production
+- **why25-044a** (single, d2, 4 options) Why does prazosin, a blood pressure drug, treat the nightmares of PTSD?
+  → It blocks the central noradrenergic surge in REM sleep
+- **why25-045a** (single, d2, 4 options) Why does bariatric surgery lead to thiamine deficiency so quickly?
+  → Stores last weeks, and intake and absorption both fall
+- **why25-046a** (single, d2, 4 options) Why does the Ottawa knee rule make age 55 a criterion on its own?
+  → Older bone fractures with trivial mechanisms
+- **why25-047a** (single, d2, 4 options) Why is doxycycline given for suspected spotted fever before the rash or the test?
+  → Mortality climbs steeply with each day of delay
+- **why25-047b** (single, d2, 4 options) Why is a short course of doxycycline acceptable in pregnancy and young children for spotted fever?
+  → Staining needs cumulative exposure; untreated disease kills
+- **why25-048a** (single, d2, 4 options) Why does primary biliary cholangitis raise the alkaline phosphatase more than the transaminases?
+  → The injury is to the small bile ducts, not hepatocytes
+- **why25-049a** (single, d2, 4 options) Why can an antidepressant alone harm a patient with bipolar disorder?
+  → It can precipitate mania or rapid cycling
+- **why25-050a** (single, d2, 4 options) Why does low-dose aspirin prevent preeclampsia?
+  → It rebalances thromboxane and prostacyclin in the placenta
+
+## ITE 2025 why, items 51 to 100 (56 questions)
+
+Source: Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 51 to 100, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.
+
+- **why25-051a** (single, d2, 4 options) Why is anticoagulation delayed for days after a cardioembolic stroke rather than started at once?
+  → Fresh infarcts bleed when anticoagulated
+- **why25-051b** (single, d3, 4 options) Why do direct oral anticoagulants not replace warfarin for a mechanical valve?
+  → Dabigatran gave more valve thrombosis and bleeding
+- **why25-052a** (single, d2, 4 options) Why does papillary muscle rupture occur days after the infarct rather than at the moment of occlusion?
+  → Necrotic muscle softens before it scars
+- **why25-052b** (single, d2, 4 options) Why does acute mitral regurgitation produce pulmonary oedema so suddenly?
+  → A small stiff atrium cannot buffer the backflow
+- **why25-053a** (single, d2, 4 options) Why does as-needed steroid-formoterol prevent exacerbations better than a daily steroid with albuterol relief?
+  → The steroid dose rises as the symptoms rise
+- **why25-054a** (single, d2, 4 options) Why does cutaneous larva migrans stay in the skin rather than migrating to the lung like other hookworms?
+  → Animal hookworm cannot cross the human basement membrane
+- **why25-055a** (single, d2, 4 options) Why does chlorination fail to control Cryptosporidium in pools?
+  → The oocyst wall resists chlorine for days
+- **why25-056a** (single, d2, 4 options) Why does delivery treat HELLP syndrome?
+  → The placenta drives the endothelial injury
+- **why25-056b** (single, d3, 4 options) Why does the right upper quadrant hurt in HELLP syndrome?
+  → Fibrin blocks the sinusoids and stretches the capsule
+- **why25-057a** (single, d2, 4 options) Why does a diagnosis of chronic kidney disease require three months of evidence?
+  → To exclude an acute injury that will recover
+- **why25-058a** (single, d2, 4 options) Why does Kawasaki disease damage the coronary arteries in particular?
+  → It is a medium-vessel vasculitis that targets coronaries
+- **why25-059a** (single, d2, 4 options) Why does the task force recommend against routine BRCA testing in women without a suggestive history?
+  → A low prior probability makes false positives the main outcome
+- **why25-060a** (single, d2, 4 options) Why must folic acid be taken before conception to prevent neural tube defects?
+  → The tube closes by day 28, before pregnancy is known
+- **why25-061a** (single, d2, 4 options) Why does starting allopurinol provoke a gout flare?
+  → Falling urate mobilises crystals from the joint deposits
+- **why25-061b** (single, d2, 4 options) Why is the urate target under 6 mg/dL?
+  → Below saturation crystals dissolve rather than form
+- **why25-062a** (single, d2, 4 options) Why does angina occur in aortic stenosis even with normal coronary arteries?
+  → Hypertrophied muscle outgrows its perfusion
+- **why25-063a** (single, d2, 4 options) Why do intranasal steroids beat antihistamines for allergic rhinitis?
+  → They suppress the whole cascade, not one mediator
+- **why25-064a** (single, d2, 4 options) Why does polycystic ovary syndrome cause infertility?
+  → Disordered gonadotrophins stop a dominant follicle ovulating
+- **why25-065a** (single, d2, 4 options) Why does a patient with vestibular neuritis veer towards the affected side?
+  → The intact side's unopposed signal pushes perception
+- **why25-066a** (single, d2, 4 options) Why are three drugs combined for melasma?
+  → They act on pigment, turnover and the irritation
+- **why25-067a** (single, d2, 4 options) Why does early exposure to peanut reduce allergy when avoidance was advised for years?
+  → Oral exposure induces tolerance before skin sensitisation
+- **why25-068a** (single, d2, 4 options) Why is HIV post-exposure prophylaxis three drugs when pre-exposure prophylaxis is two?
+  → Established exposure needs full suppression
+- **why25-069a** (single, d2, 4 options) Why does a continuous combined pill help premenstrual dysphoric disorder?
+  → It removes the hormone swing that triggers symptoms
+- **why25-070a** (single, d2, 4 options) Why must oral bisphosphonates be taken upright on an empty stomach with water?
+  → They are poorly absorbed and erode the oesophagus
+- **why25-071a** (single, d2, 4 options) Why does dexamethasone improve outcomes in bacterial meningitis?
+  → It blunts the inflammation released by bacterial lysis
+- **why25-072a** (single, d2, 4 options) Why is a swallowed inhaler steroid effective in eosinophilic oesophagitis?
+  → It coats the mucosa and acts topically
+- **why25-073a** (single, d2, 4 options) Why is a live vaccine dangerous on methotrexate and azathioprine?
+  → The attenuated virus can replicate unchecked
+- **why25-074a** (single, d2, 4 options) Why does an infection precipitate an adrenal crisis in someone on replacement steroids?
+  → A fixed replacement dose cannot meet the stress demand
+- **why25-074b** (single, d3, 4 options) Why does adrenal crisis cause hyperkalaemia and hyponatraemia together?
+  → Aldosterone deficiency wastes sodium and holds potassium
+- **why25-075a** (single, d2, 4 options) Why is an ECG part of every syncope work-up but an EEG is not?
+  → Cardiac causes kill and often show on the ECG
+- **why25-076a** (single, d2, 4 options) Why does an alpha-blocker relieve storage symptoms as well as voiding symptoms?
+  → Relieving obstruction eases the irritated bladder
+- **why25-076b** (single, d2, 4 options) Why does a 5-alpha-reductase inhibitor take up to a year to work?
+  → It shrinks the prostate slowly by cutting dihydrotestosterone
+- **why25-077a** (single, d2, 4 options) Why is weight loss expected in the first three days of a newborn's life?
+  → Extracellular fluid is shed while milk volume is low
+- **why25-078a** (single, d2, 4 options) Why do influenza antivirals work only in the first 48 hours?
+  → Replication peaks early; later illness is immune-driven
+- **why25-079a** (single, d2, 4 options) Why does obsessive-compulsive disorder need higher SSRI doses than depression?
+  → The response is dose-dependent in different circuits
+- **why25-080a** (single, d2, 4 options) Why does exercise prevent falls when education about falls does not?
+  → Only training changes the balance and strength deficit
+- **why25-081a** (single, d2, 4 options) Why has bismuth quadruple therapy replaced clarithromycin triple therapy for Helicobacter pylori?
+  → Clarithromycin resistance now exceeds the working threshold
+- **why25-082a** (single, d2, 4 options) Why does cooling a burn under running water for twenty minutes reduce its depth?
+  → The zone of stasis around the burn is salvageable
+- **why25-083a** (single, d2, 4 options) Why does warfarin need heparin cover at the start when a direct oral anticoagulant does not?
+  → Warfarin lowers protein C before the clotting factors
+- **why25-084a** (single, d2, 4 options) Why do early menarche, late menopause and late first pregnancy all raise breast cancer risk?
+  → Each lengthens lifetime exposure to cycling oestrogen
+- **why25-085a** (single, d2, 4 options) Why are tricyclics a poor choice for depression after a stroke?
+  → Anticholinergic and cardiac effects hit a vulnerable patient
+- **why25-086a** (single, d2, 4 options) Why does a benzodiazepine with an opioid raise overdose risk so sharply?
+  → Both depress breathing by different routes and compound
+- **why25-087a** (single, d2, 4 options) Why does late dumping cause hypoglycaemia when early dumping does not?
+  → Rapid sugar absorption triggers an insulin overshoot
+- **why25-088a** (single, d2, 4 options) Why is a cephalosporin acceptable after an amoxicillin rash?
+  → Cross-reactivity is low, especially with later generations
+- **why25-089a** (single, d2, 4 options) Why is CT avoided for minor head injury in children when it is readily available?
+  → Radiation carries a lifetime cancer risk in a young brain
+- **why25-090a** (single, d2, 4 options) Why does a smoke-free home help a smoker quit?
+  → It removes cues and makes each cigarette an effort
+- **why25-091a** (single, d2, 4 options) Why is a muscarinic antagonist the first inhaler in COPD rather than a steroid, as in asthma?
+  → COPD obstruction is cholinergic, not eosinophilic
+- **why25-092a** (single, d2, 4 options) Why does the hyperosmolar state produce no ketoacidosis?
+  → Enough insulin remains to block ketones, not hyperglycaemia
+- **why25-093a** (single, d2, 4 options) Why does an SGLT2 inhibitor reduce heart failure deaths in patients without diabetes?
+  → Natriuresis and cardiac metabolic effects, not glucose
+- **why25-094a** (single, d2, 4 options) Why does a random glucose of 200 with symptoms diagnose diabetes outright, when a fasting value needs a repeat?
+  → Symptoms plus one high value are unlikely to be a fluke
+- **why25-095a** (single, d2, 4 options) Why does complex regional pain syndrome produce a warm, swollen limb?
+  → Dysregulated sympathetic and inflammatory signalling
+- **why25-096a** (single, d2, 4 options) Why is pelvic inflammatory disease treated on minimal clinical criteria rather than confirmed first?
+  → Delay risks tubal damage; the treatment is low-risk
+- **why25-097a** (single, d2, 4 options) Why does dual antiplatelet therapy after a TIA stop at three weeks?
+  → Recurrence is front-loaded; bleeding risk is constant
+- **why25-098a** (single, d2, 4 options) Why does curing hepatitis C improve liver fibrosis that is already present?
+  → Fibrosis is dynamic and regresses when injury stops
+- **why25-099a** (single, d2, 4 options) Why can repairing a pelvic organ prolapse make urinary incontinence worse?
+  → The prolapse was kinking the urethra and masking leakage
+- **why25-100a** (single, d2, 4 options) Why does an ischaemic limb become paralysed late rather than early?
+  → Nerve and muscle survive ischaemia for hours first
+
+## ITE 2025 why, items 101 to 150 (50 questions)
+
+Source: Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 101 to 150, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.
+
+- **why25-101a** (single, d2, 4 options) Why are radiographs normal in the first weeks of a stress fracture?
+  → Reaction and callus take weeks to show
+- **why25-102a** (single, d2, 4 options) Why does omalizumab help chronic urticaria that is not allergic?
+  → Removing IgE makes mast cells shed their receptors
+- **why25-103a** (single, d2, 4 options) Why does double sickening point to bacterial sinusitis?
+  → Bacteria colonise sinuses the virus has blocked
+- **why25-104a** (single, d2, 4 options) Why does lung cancer screening eligibility end 15 years after quitting?
+  → Risk falls until screening harms outweigh benefit
+- **why25-105a** (single, d2, 4 options) Why has azithromycin become the drug for Mycoplasma genitalium urethritis rather than doxycycline?
+  → The organism has no cell wall and resists doxycycline
+- **why25-106a** (single, d2, 4 options) Why does CT sensitivity for subarachnoid haemorrhage fall after six hours?
+  → Blood dilutes into the CSF and is cleared
+- **why25-107a** (single, d2, 4 options) Why do hot showers relieve cannabinoid hyperemesis?
+  → Heat activates the TRPV1 receptors capsaicin does
+- **why25-108a** (single, d2, 4 options) Why do NSAIDs fail in fibromyalgia?
+  → The pain is central sensitisation, not inflammation
+- **why25-109a** (single, d2, 4 options) Why does an enuresis alarm beat desmopressin in the long run?
+  → It trains arousal to a full bladder, and that persists
+- **why25-110a** (single, d2, 4 options) Why do stimulants raise heart rate and blood pressure?
+  → They raise noradrenaline peripherally as well as centrally
+- **why25-111a** (single, d2, 4 options) Why does a first shoulder dislocation recur so often in young athletes?
+  → The dislocation tears the labrum and stretches the capsule
+- **why25-112a** (single, d2, 4 options) Why is frequent pumping no longer advised for mastitis?
+  → Emptying stimulates supply and worsens the inflammation
+- **why25-113a** (single, d2, 4 options) Why is cystic fibrosis so common among recessive diseases in people of European descent?
+  → Carriers were thought to have a survival advantage
+- **why25-114a** (single, d2, 4 options) Why is graded exercise therapy no longer recommended for chronic fatigue syndrome?
+  → Exertion triggers crashes; pacing works better
+- **why25-115a** (single, d2, 4 options) Why do patients with heart failure sleep in a recliner?
+  → Lying flat returns pooled blood to a congested circulation
+- **why25-116a** (single, d2, 4 options) Why must amblyopia be found before school age?
+  → The visual cortex stops adapting after the first years
+- **why25-117a** (single, d2, 4 options) Why is dermatomyositis linked to cancer?
+  → It can be a paraneoplastic response to tumour antigens
+- **why25-118a** (single, d2, 4 options) Why is anchoring so hard to escape once a diagnosis is written in the chart?
+  → New data is read to fit the label, not to test it
+- **why25-119a** (single, d2, 4 options) Why do adolescents with heavy periods so often turn out to have a bleeding disorder?
+  → Menarche is the first real haemostatic challenge
+- **why25-120a** (single, d2, 4 options) Why is Helicobacter serology a poor test for deciding treatment?
+  → Antibodies persist for years after the infection clears
+- **why25-121a** (single, d2, 4 options) Why does a low parathyroid hormone with hypercalcaemia point to malignancy?
+  → A normal gland suppresses its output when calcium rises
+- **why25-122a** (single, d2, 4 options) Why are steroids given in Bell palsy?
+  → They reduce the nerve's swelling in its bony canal
+- **why25-123a** (single, d2, 4 options) Why can an older adult have a subdural haematoma with a normal examination?
+  → Atrophy leaves room for blood before compression
+- **why25-124a** (single, d2, 4 options) Why is skin turgor unreliable for dehydration in a neonate?
+  → Neonatal skin is elastic and recoils even when dry
+- **why25-125a** (single, d2, 4 options) Why did SSRIs acquire a boxed warning for suicidality in adolescents?
+  → Trials found more suicidal thinking early, not more deaths
+- **why25-126a** (single, d2, 4 options) Why does green sputum not mean a bacterial infection?
+  → The colour comes from neutrophil enzymes, viral or not
+- **why25-127a** (single, d2, 4 options) Why does the Ottawa ankle rule name the posterior edge of the malleolus but not the anterior?
+  → Ligaments attach anteriorly, so that tenderness is a sprain
+- **why25-128a** (single, d2, 4 options) Why does polyethylene glycol work for constipation without causing cramping?
+  → It holds water in the stool without stimulating the bowel
+- **why25-129a** (single, d2, 4 options) Why does diabetes earn a statin without a risk calculation?
+  → Diabetes carries a risk the calculator underestimates
+- **why25-130a** (single, d2, 4 options) Why does tapping behind the medial malleolus reproduce tarsal tunnel symptoms?
+  → The tibial nerve runs under the retinaculum there
+- **why25-131a** (single, d2, 4 options) Why can a single gunshot cause permanent hearing loss when a loud concert does not?
+  → Impulse noise over 140 dB tears hair cells mechanically
+- **why25-132a** (single, d2, 4 options) Why does a new left bundle branch block count as a heart attack equivalent?
+  → It can mark a large infarct and hides the ST changes
+- **why25-133a** (single, d2, 4 options) Why does a fragility fracture outrank the T-score in diagnosing osteoporosis?
+  → Fracture is the outcome the score tries to predict
+- **why25-134a** (single, d2, 4 options) Why does anti-D immunoglobulin prevent sensitisation?
+  → It clears fetal red cells before the mother is sensitised
+- **why25-135a** (single, d2, 4 options) Why is a surface antibody over 10 taken as lifelong protection even if later levels fall?
+  → Memory B cells respond to exposure after the titre wanes
+- **why25-136a** (single, d2, 4 options) Why is HIV screened in everyone from 15 to 65 when most have no risk factors?
+  → Risk-based testing misses too many, and treatment stops spread
+- **why25-137a** (single, d2, 4 options) Why do flashes and floaters precede a retinal detachment?
+  → The vitreous pulls on the retina as it separates
+- **why25-138a** (single, d2, 4 options) Why does early imaging for back pain lead to more surgery without better outcomes?
+  → It finds changes common in people without pain
+- **why25-139a** (single, d2, 4 options) Why does naloxone precipitate withdrawal rather than just restoring breathing?
+  → It displaces the opioid from every receptor at once
+- **why25-140a** (single, d2, 4 options) Why is watchful waiting safe for an asymptomatic inguinal hernia?
+  → Strangulation runs well under one percent a year
+- **why25-141a** (single, d2, 4 options) Why does gait fail first in normal-pressure hydrocephalus?
+  → Enlarging ventricles stretch the nearby leg fibres
+- **why25-142a** (single, d2, 4 options) Why does painless gross haematuria worry more than painful haematuria?
+  → Pain means stone or infection; silence suggests tumour
+- **why25-143a** (single, d2, 4 options) Why does arguing for change make an ambivalent patient less likely to change?
+  → They defend the other side of their own ambivalence
+- **why25-144a** (single, d2, 4 options) Why do the shins take the brunt of diabetic skin disease?
+  → Pretibial skin is thin, poorly perfused and easily hurt
+- **why25-145a** (single, d2, 4 options) Why does metformin lower vitamin B12?
+  → It disturbs calcium-dependent absorption in the ileum
+- **why25-146a** (single, d2, 4 options) Why is amoxicillin dosed high for pneumonia when it is dosed low for strep throat?
+  → Higher levels overcome pneumococcal resistance
+- **why25-147a** (single, d2, 4 options) Why is a dorsal PIP dislocation splinted in flexion rather than straight?
+  → Flexion keeps the joint reduced while the volar plate heals
+- **why25-148a** (single, d2, 4 options) Why does Giardia produce greasy stools?
+  → It coats the small bowel and blocks fat absorption
+- **why25-149a** (single, d2, 4 options) Why does bupropion lower the seizure threshold more than other antidepressants?
+  → It raises dopamine and noradrenaline enough to excite the cortex
+- **why25-150a** (single, d2, 4 options) Why is cervical screening recommended against before 21?
+  → HPV infection is common and clears on its own at that age
+
+## ITE 2025 why, items 151 to 200 (52 questions)
+
+Source: Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 151 to 200, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.
+
+- **why25-151a** (single, d2, 4 options) Why is the heart rate lowered before the blood pressure in aortic dissection?
+  → A vasodilator alone provokes a reflex tachycardia
+- **why25-151b** (single, d2, 4 options) Why is blood pressure lowered cautiously in acute ischaemic stroke?
+  → The penumbra depends on pressure to perfuse
+- **why25-152a** (single, d2, 4 options) Why does sleep apnoea cause nocturia?
+  → Each obstruction stretches the atria and releases natriuretic peptide
+- **why25-153a** (single, d2, 4 options) Why is adolescent scoliosis screening rated insufficient when the condition is treatable?
+  → Most curves found by screening would not progress
+- **why25-154a** (single, d2, 4 options) Why does adhesive capsulitis restrict passive motion when a rotator cuff tear does not?
+  → The capsule itself has thickened and contracted
+- **why25-155a** (single, d2, 4 options) Why does a probe reaching bone predict osteomyelitis?
+  → Reaching bone means the periosteal barrier is breached
+- **why25-156a** (single, d2, 4 options) Why does a calcium channel blocker cause ankle oedema that a diuretic does not fix?
+  → It dilates arterioles more than venules, raising capillary pressure
+- **why25-157a** (single, d2, 4 options) Why is desensitisation chosen over an alternative antibiotic for syphilis in pregnancy?
+  → Penicillin alone crosses the placenta well enough to treat the fetus
+- **why25-158a** (single, d2, 4 options) Why is fruit juice discouraged when whole fruit is encouraged?
+  → Juice delivers the sugar without the fibre
+- **why25-159a** (single, d2, 4 options) Why do nerve conduction studies matter when the diagnosis of neuropathy is already clear?
+  → Axonal and demyelinating patterns have different causes
+- **why25-160a** (single, d2, 4 options) Why are corticosteroid injections avoided around the Achilles tendon?
+  → They weaken the tendon and risk rupture
+- **why25-161a** (single, d2, 4 options) Why do scare tactics fail to change health behaviour?
+  → Fear without control produces avoidance, not action
+- **why25-162a** (single, d2, 4 options) Why must a patient keep eating gluten until coeliac testing is done?
+  → Antibodies and biopsy changes resolve off gluten
+- **why25-163a** (single, d2, 4 options) Why is a morning testosterone level required rather than any time of day?
+  → Secretion peaks in the morning and falls through the day
+- **why25-164a** (single, d2, 4 options) Why does a venous hum disappear when the child lies down?
+  → Jugular return stops falling under gravity
+- **why25-165a** (single, d2, 4 options) Why is epinephrine, not an antihistamine, the treatment for anaphylaxis?
+  → It reverses the vasodilation and airway oedema
+- **why25-166a** (single, d2, 4 options) Why does a mechanical valve with a prior stroke need a higher INR target than the valve alone?
+  → The prior event proves the risk exceeds the average
+- **why25-167a** (single, d2, 4 options) Why do children get buckle fractures where adults would get complete breaks?
+  → Young bone is porous and bends before it snaps
+- **why25-168a** (single, d2, 4 options) Why is suicide risk screening rated insufficient when depression screening is recommended?
+  → No tool has been shown to reduce suicide in unselected patients
+- **why25-169a** (single, d2, 4 options) Why is cholera stool watery and colourless?
+  → The toxin drives secretion without damaging the mucosa
+- **why25-170a** (single, d2, 4 options) Why does dementia come early in Down syndrome?
+  → Chromosome 21 carries the amyloid precursor gene
+- **why25-171a** (single, d2, 4 options) Why does nifedipine help high-altitude pulmonary oedema?
+  → It relieves the patchy hypoxic vasoconstriction
+- **why25-172a** (single, d2, 4 options) Why do sulfonamides cause Stevens-Johnson syndrome more than other antibiotics?
+  → Reactive metabolites bind skin proteins and provoke T cells
+- **why25-173a** (single, d2, 4 options) Why does a thin endometrium rule out cancer after postmenopausal bleeding?
+  → Cancer thickens the lining before it bleeds
+- **why25-174a** (single, d2, 4 options) Why does a labral tear cause catching rather than weakness?
+  → The torn rim flips into the joint on movement
+- **why25-175a** (single, d2, 4 options) Why does a brief counselling intervention reduce risky drinking?
+  → Many risky drinkers have never been told and will cut back
+- **why25-176a** (single, d2, 4 options) Why does relaxing the anal sphincter heal a fissure?
+  → Sphincter spasm starves the posterior midline of blood
+- **why25-177a** (single, d2, 4 options) Why does a high-fibre diet protect against diverticulitis?
+  → Bulky stool lowers the pressure that forces mucosa out
+- **why25-178a** (single, d2, 4 options) Why is carbamazepine, an anticonvulsant, the first drug for trigeminal neuralgia?
+  → It silences ectopic firing in a demyelinated nerve
+- **why25-179a** (single, d2, 4 options) Why does weight loss in old age predict dementia when midlife obesity also does?
+  → Late weight loss is an early effect of the disease
+- **why25-180a** (single, d2, 4 options) Why does polymyalgia rheumatica respond to steroids within days when other arthritides take weeks?
+  → It is steroid-sensitive bursitis, not joint destruction
+- **why25-181a** (single, d2, 4 options) Why is a false-positive herpes serology harmful rather than merely inconvenient?
+  → It labels a lifelong infection with no treatment to offer
+- **why25-182a** (single, d2, 4 options) Why does intussusception produce bloody mucous stool?
+  → The trapped segment is congested and its mucosa bleeds
+- **why25-183a** (single, d2, 4 options) Why does varenicline outperform nicotine replacement?
+  → It eases craving and blunts the reward from a cigarette
+- **why25-184a** (single, d2, 4 options) Why does a thiazide prevent calcium stones when a loop diuretic promotes them?
+  → Thiazides cut urinary calcium; loop diuretics raise it
+- **why25-185a** (single, d2, 4 options) Why does correcting sodium too fast damage the brain?
+  → Adapted cells shrink and the myelin is stripped
+- **why25-186a** (single, d2, 4 options) Why does bed rest prolong back pain rather than relieve it?
+  → Immobility weakens the muscles and stiffens the spine
+- **why25-187a** (single, d2, 4 options) Why are an ACE inhibitor and a calcium channel blocker paired rather than two drugs from one class?
+  → Different mechanisms add, and side effects cancel
+- **why25-188a** (single, d2, 4 options) Why is refeeding in anorexia nervosa dangerous?
+  → Insulin drives phosphate and potassium into cells
+- **why25-189a** (single, d2, 4 options) Why is colonoscopy repeated every one to two years in Lynch syndrome when average-risk intervals are ten?
+  → Mismatch repair defects speed the adenoma-to-cancer sequence
+- **why25-190a** (single, d2, 4 options) Why does enteral feeding reduce infection in acute pancreatitis?
+  → It maintains the gut barrier and prevents translocation
+- **why25-191a** (single, d2, 4 options) Why does a parental hip fracture raise a woman's osteoporosis risk more than a parent on a bone drug?
+  → The fracture is an outcome; the prescription may reflect caution
+- **why25-192a** (single, d2, 4 options) Why do peaked T waves appear first in hyperkalaemia?
+  → Potassium speeds repolarisation before it slows conduction
+- **why25-192b** (single, d2, 4 options) Why does intravenous calcium protect the heart in hyperkalaemia without lowering the potassium?
+  → It restores the gap between resting and threshold potential
+- **why25-193a** (single, d2, 4 options) Why does reimplantation of a tooth fail after an hour out of the socket?
+  → The ligament cells on the root die when dry
+- **why25-194a** (single, d2, 4 options) Why does Graves disease cause exophthalmos when other causes of hyperthyroidism do not?
+  → The autoantibodies also attack the orbital tissues
+- **why25-195a** (single, d2, 4 options) Why do benzodiazepines worsen delirium in older adults?
+  → They deepen the attention and arousal deficit
+- **why25-196a** (single, d2, 4 options) Why is capacity assessed per decision rather than as a global judgement?
+  → Understanding and weighing depend on the decision's complexity
+- **why25-197a** (single, d2, 4 options) Why is a moderately hypothermic patient kept horizontal and handled gently?
+  → Movement and standing can trigger fibrillation
+- **why25-198a** (single, d2, 4 options) Why does an elevated PSA often normalise on repeat?
+  → Prostatitis, ejaculation and enlargement raise it briefly
+- **why25-199a** (single, d2, 4 options) Why do faecal leukocytes perform poorly as a test for bacterial diarrhoea?
+  → The cells break down in the sample and the finding is nonspecific
+- **why25-200a** (single, d2, 4 options) Why are hand bites left open when facial bites are closed?
+  → The hand's tight compartments let infection take hold

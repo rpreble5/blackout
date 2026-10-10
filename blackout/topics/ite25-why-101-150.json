@@ -1,0 +1,900 @@
+{
+  "id": "ite25-why-101-150",
+  "title": "ITE 2025 why, items 101 to 150",
+  "short": "Why 101 to 150",
+  "specialty": "Family medicine",
+  "tags": [
+    "ite",
+    "why",
+    "batch"
+  ],
+  "source": {
+    "citation": "Written for Blackout, 2026-10-10. Reasoning questions behind ABFM 2025 ITE items 101 to 150, drawing on the critiques and general medicine. Each question cites its item. Review before trusting.",
+    "facts": "docs/facts/ite-2025.md"
+  },
+  "questions": [
+    {
+      "id": "why25-101a",
+      "item": 101,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are radiographs normal in the first weeks of a stress fracture?",
+      "a": "Reaction and callus take weeks to show",
+      "d": [
+        "The injury is in the cartilage",
+        "The swelling obscures the bone",
+        "Radiographs image the tibia poorly"
+      ],
+      "why": "A stress injury is an accumulation of microcracks, not a displaced break, and bone responds to it over weeks. MRI sees the marrow oedema from the first days, which is why it is definitive.",
+      "tags": [
+        "stress-fracture",
+        "imaging"
+      ]
+    },
+    {
+      "id": "why25-102a",
+      "item": 102,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does omalizumab help chronic urticaria that is not allergic?",
+      "a": "Removing IgE makes mast cells shed their receptors",
+      "d": [
+        "Chronic urticaria is allergic in most patients",
+        "It destroys the mast cells",
+        "It blocks the histamine receptor"
+      ],
+      "why": "Most chronic urticaria is autoimmune, with antibodies cross-linking IgE receptors on mast cells. Taking IgE out of circulation makes the mast cells shed those receptors, so they stop responding to whatever is activating them.",
+      "tags": [
+        "urticaria",
+        "immunology"
+      ]
+    },
+    {
+      "id": "why25-103a",
+      "item": 103,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does double sickening point to bacterial sinusitis?",
+      "a": "Bacteria colonise sinuses the virus has blocked",
+      "d": [
+        "Viruses do not produce a second peak",
+        "It marks an allergic flare on top",
+        "The bacteria arrive first, the virus second"
+      ],
+      "why": "A cold blocks sinus drainage, and once the viral phase settles, trapped secretions let bacteria multiply. Improvement followed by relapse is that sequence showing itself, which purulent discharge alone does not.",
+      "tags": [
+        "sinusitis"
+      ]
+    },
+    {
+      "id": "why25-104a",
+      "item": 104,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does lung cancer screening eligibility end 15 years after quitting?",
+      "a": "Risk falls until screening harms outweigh benefit",
+      "d": [
+        "The lungs have fully repaired by then",
+        "Scans do not detect old damage",
+        "Insurers stop covering it at that point"
+      ],
+      "why": "Risk never returns to that of a never-smoker, but it falls enough that the false positives, biopsies and radiation of annual CT cost more than the cancers found. The line was drawn where the trials' benefit ran out.",
+      "tags": [
+        "lung-cancer",
+        "screening"
+      ]
+    },
+    {
+      "id": "why25-105a",
+      "item": 105,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why has azithromycin become the drug for Mycoplasma genitalium urethritis rather than doxycycline?",
+      "a": "The organism has no cell wall and resists doxycycline",
+      "d": [
+        "Doxycycline is contraindicated in men",
+        "Azithromycin also covers gonorrhoea",
+        "Doxycycline causes too much photosensitivity"
+      ],
+      "why": "Mycoplasma lacks the targets that beta-lactams need and clears with doxycycline only about a third of the time. Macrolides do better, and moxifloxacin is kept for macrolide-resistant strains, which are rising.",
+      "tags": [
+        "urethritis",
+        "microbiology"
+      ]
+    },
+    {
+      "id": "why25-106a",
+      "item": 106,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does CT sensitivity for subarachnoid haemorrhage fall after six hours?",
+      "a": "Blood dilutes into the CSF and is cleared",
+      "d": [
+        "The scanner cannot detect older blood",
+        "Vasospasm hides the bleeding",
+        "Patients become too agitated to scan"
+      ],
+      "why": "Fresh blood is dense and bright; as it mixes with CSF and lyses it loses density. A lumbar puncture then finds the xanthochromia that the breakdown products leave behind.",
+      "tags": [
+        "subarachnoid",
+        "imaging"
+      ]
+    },
+    {
+      "id": "why25-107a",
+      "item": 107,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do hot showers relieve cannabinoid hyperemesis?",
+      "a": "Heat activates the TRPV1 receptors capsaicin does",
+      "d": [
+        "Heat speeds the metabolism of cannabis",
+        "The steam rehydrates the patient",
+        "The shower acts as a distraction"
+      ],
+      "why": "Chronic cannabis disturbs the signalling between gut and brain, and the TRPV1 receptor sits in that pathway. Heat and capsaicin both stimulate it, which is why the patient discovers the shower before the doctor discovers the diagnosis.",
+      "tags": [
+        "cannabinoid-hyperemesis"
+      ]
+    },
+    {
+      "id": "why25-108a",
+      "item": 108,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do NSAIDs fail in fibromyalgia?",
+      "a": "The pain is central sensitisation, not inflammation",
+      "d": [
+        "The drugs are poorly absorbed in fibromyalgia",
+        "The inflammation lies too deep to reach",
+        "They block the wrong prostaglandin"
+      ],
+      "why": "Fibromyalgia amplifies pain signals in the spinal cord and brain with no inflamed tissue to act on. Drugs that modulate central processing, the SNRIs and gabapentinoids, are the ones that help.",
+      "tags": [
+        "fibromyalgia"
+      ]
+    },
+    {
+      "id": "why25-109a",
+      "item": 109,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does an enuresis alarm beat desmopressin in the long run?",
+      "a": "It trains arousal to a full bladder, and that persists",
+      "d": [
+        "Desmopressin stops working after about a month",
+        "The alarm reduces urine production",
+        "Desmopressin is unsafe in children"
+      ],
+      "why": "Desmopressin suppresses overnight urine and works only while it is taken. The alarm conditions arousal, and most children stay dry after it is stopped. The drug is for the camp weekend.",
+      "tags": [
+        "enuresis"
+      ]
+    },
+    {
+      "id": "why25-110a",
+      "item": 110,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do stimulants raise heart rate and blood pressure?",
+      "a": "They raise noradrenaline peripherally as well as centrally",
+      "d": [
+        "They cause the body to retain fluid and sodium",
+        "They block the vagal tone to the heart",
+        "They act directly on the adrenal gland"
+      ],
+      "why": "Methylphenidate and amphetamines raise dopamine and noradrenaline wherever those synapses are, including the sympathetic nerves to the heart and vessels. Atomoxetine is more selective and milder on the circulation.",
+      "tags": [
+        "adhd",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-111a",
+      "item": 111,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a first shoulder dislocation recur so often in young athletes?",
+      "a": "The dislocation tears the labrum and stretches the capsule",
+      "d": [
+        "Young bone is too soft to hold the joint",
+        "The rotator cuff wastes during the weeks in the sling",
+        "Athletes rarely complete rehabilitation"
+      ],
+      "why": "An anterior dislocation usually peels the labrum off the glenoid, the Bankart lesion, and the joint loses its bumper. Younger tissue heals the lesion poorly and the activity level keeps testing it, which is why surgery wins under 25.",
+      "tags": [
+        "shoulder",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "why25-112a",
+      "item": 112,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is frequent pumping no longer advised for mastitis?",
+      "a": "Emptying stimulates supply and worsens the inflammation",
+      "d": [
+        "Pumping spreads the bacteria through the ducts",
+        "It damages the nipple and lets bacteria in",
+        "Milk supply is already excessive in mastitis"
+      ],
+      "why": "The newer model sees mastitis as inflammation of an overfull, narrowed ductal system rather than a blocked duct to be cleared. Driving supply up makes it worse; cold, anti-inflammatories and feeding on demand let it settle.",
+      "tags": [
+        "mastitis"
+      ]
+    },
+    {
+      "id": "why25-113a",
+      "item": 113,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is cystic fibrosis so common among recessive diseases in people of European descent?",
+      "a": "Carriers were thought to have a survival advantage",
+      "d": [
+        "The gene mutates far more often than most genes",
+        "It is dominant in some families",
+        "Carriers tend to have more children"
+      ],
+      "why": "One in 25 Europeans carries a CFTR mutation, far more than mutation alone explains. The leading idea is that a single defective copy protected against secretory diarrhoeas such as cholera in the past.",
+      "tags": [
+        "genetics"
+      ]
+    },
+    {
+      "id": "why25-114a",
+      "item": 114,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is graded exercise therapy no longer recommended for chronic fatigue syndrome?",
+      "a": "Exertion triggers crashes; pacing works better",
+      "d": [
+        "Patients are unable to exercise at all",
+        "The approach was not tested in a proper trial",
+        "It worsens the underlying sleep disorder"
+      ],
+      "why": "Post-exertional malaise is the defining feature, so a programme built on pushing through it harms many patients. Current guidance teaches energy management within the envelope the patient can tolerate.",
+      "tags": [
+        "me-cfs"
+      ]
+    },
+    {
+      "id": "why25-115a",
+      "item": 115,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do patients with heart failure sleep in a recliner?",
+      "a": "Lying flat returns pooled blood to a congested circulation",
+      "d": [
+        "The recliner supports the lower back",
+        "They are unable to climb the stairs to the bedroom",
+        "Sitting up lowers the heart rate"
+      ],
+      "why": "Upright, gravity holds blood in the legs and splanchnic bed. Supine, it returns to a left ventricle that cannot handle it, and pulmonary pressure climbs within minutes. Orthopnoea is one of the more specific symptoms.",
+      "tags": [
+        "hfref",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-116a",
+      "item": 116,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why must amblyopia be found before school age?",
+      "a": "The visual cortex stops adapting after the first years",
+      "d": [
+        "Glasses cannot be fitted before age 5",
+        "Surgery becomes impossible later",
+        "Older children cannot describe the symptom"
+      ],
+      "why": "A blurred or misaligned eye in early childhood is suppressed by the brain, and the cortical connections for it are pruned. Patching or correction works while that plasticity lasts and fails once it ends.",
+      "tags": [
+        "amblyopia",
+        "paediatrics"
+      ]
+    },
+    {
+      "id": "why25-117a",
+      "item": 117,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is dermatomyositis linked to cancer?",
+      "a": "It can be a paraneoplastic response to tumour antigens",
+      "d": [
+        "The steroids used to treat it cause cancer",
+        "Muscle breakdown releases carcinogens",
+        "Both conditions follow sun exposure"
+      ],
+      "why": "Some tumours express proteins that resemble those in regenerating muscle and skin, and the immune attack on the tumour spills over. The association is strongest in the years around diagnosis and with certain antibodies.",
+      "tags": [
+        "dermatomyositis"
+      ]
+    },
+    {
+      "id": "why25-118a",
+      "item": 118,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is anchoring so hard to escape once a diagnosis is written in the chart?",
+      "a": "New data is read to fit the label, not to test it",
+      "d": [
+        "Charts cannot be amended once signed",
+        "The first clinician is usually right",
+        "Patients come to adopt the diagnosis as their own"
+      ],
+      "why": "Confirmation seeking makes the ambiguous findings look supportive and the contradictory ones look like noise. The defence is a deliberate pause to ask what else this could be.",
+      "tags": [
+        "cognitive-bias"
+      ]
+    },
+    {
+      "id": "why25-119a",
+      "item": 119,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do adolescents with heavy periods so often turn out to have a bleeding disorder?",
+      "a": "Menarche is the first real haemostatic challenge",
+      "d": [
+        "Puberty itself causes von Willebrand disease",
+        "Adolescent cycles are heavier as a rule",
+        "Oestrogen lowers the clotting factors"
+      ],
+      "why": "A mild platelet or von Willebrand defect produces no symptoms until something bleeds, and the first periods are often it. That is why the yield of testing is 20 percent rather than the population's 1 to 2.",
+      "tags": [
+        "menorrhagia",
+        "bleeding-disorder"
+      ]
+    },
+    {
+      "id": "why25-120a",
+      "item": 120,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is Helicobacter serology a poor test for deciding treatment?",
+      "a": "Antibodies persist for years after the infection clears",
+      "d": [
+        "The antibodies cross-react with other bacteria",
+        "Serology turns positive with ulcers alone",
+        "The test requires an overnight fast"
+      ],
+      "why": "A positive IgG cannot tell past from present infection, so it cannot confirm cure either. The stool antigen and the breath test detect the living organism, which is what you are treating.",
+      "tags": [
+        "h-pylori",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "why25-121a",
+      "item": 121,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a low parathyroid hormone with hypercalcaemia point to malignancy?",
+      "a": "A normal gland suppresses its output when calcium rises",
+      "d": [
+        "Tumours destroy the parathyroid glands as they spread",
+        "Cancer lowers PTH by a direct effect",
+        "A low PTH means vitamin D excess"
+      ],
+      "why": "If the calcium is high and the parathyroids are quiet, something else is raising it: a tumour secreting PTH-related peptide, bone metastases, or lymphoma making vitamin D. A high or inappropriately normal PTH means the gland itself is the problem.",
+      "tags": [
+        "hypercalcaemia",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-122a",
+      "item": 122,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why are steroids given in Bell palsy?",
+      "a": "They reduce the nerve's swelling in its bony canal",
+      "d": [
+        "They kill the herpes virus directly",
+        "They stimulate the damaged nerve to regrow",
+        "They protect the eye from drying"
+      ],
+      "why": "The facial nerve runs through a tight canal in the temporal bone, and inflammation compresses it there. Prednisone within 72 hours improves the odds of full recovery; the antiviral adds little on its own.",
+      "tags": [
+        "bell-palsy"
+      ]
+    },
+    {
+      "id": "why25-123a",
+      "item": 123,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why can an older adult have a subdural haematoma with a normal examination?",
+      "a": "Atrophy leaves room for blood before compression",
+      "d": [
+        "Older nerves fail to transmit the deficit",
+        "The skull thickens with age",
+        "Subdurals rarely occur before 65"
+      ],
+      "why": "A shrunken brain stretches the bridging veins, which tear easily, and the extra space means the bleed can grow for hours or days before pressure rises. Anticoagulants make it worse.",
+      "tags": [
+        "head-injury",
+        "geriatrics"
+      ]
+    },
+    {
+      "id": "why25-124a",
+      "item": 124,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is skin turgor unreliable for dehydration in a neonate?",
+      "a": "Neonatal skin is elastic and recoils even when dry",
+      "d": [
+        "Neonates have too little subcutaneous fat to pinch",
+        "The skin is too thin to pinch",
+        "Vernix masks the sign"
+      ],
+      "why": "Turgor depends on loss of tissue elasticity with fluid loss, and a newborn's collagen and elastin are abundant. Capillary refill reflects perfusion directly, which is what dehydration threatens.",
+      "tags": [
+        "dehydration",
+        "neonate"
+      ]
+    },
+    {
+      "id": "why25-125a",
+      "item": 125,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why did SSRIs acquire a boxed warning for suicidality in adolescents?",
+      "a": "Trials found more suicidal thinking early, not more deaths",
+      "d": [
+        "They cause mania in most adolescents who take them",
+        "They are ineffective under the age of 18",
+        "Adolescents overdose on them more often"
+      ],
+      "why": "The energy and agitation of early treatment can precede the lift in mood, and a few patients act on thoughts they could not act on before. The response is closer follow-up in the first weeks, not withholding the drug.",
+      "tags": [
+        "depression",
+        "adolescent"
+      ]
+    },
+    {
+      "id": "why25-126a",
+      "item": 126,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does green sputum not mean a bacterial infection?",
+      "a": "The colour comes from neutrophil enzymes, viral or not",
+      "d": [
+        "Bacterial sputum is clear, not green",
+        "The colour comes from what the patient has eaten",
+        "Viruses do not reach the bronchi"
+      ],
+      "why": "Myeloperoxidase from neutrophils is green, and neutrophils arrive for any airway inflammation. Purulence tells you there is inflammation, not what caused it.",
+      "tags": [
+        "bronchitis"
+      ]
+    },
+    {
+      "id": "why25-127a",
+      "item": 127,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does the Ottawa ankle rule name the posterior edge of the malleolus but not the anterior?",
+      "a": "Ligaments attach anteriorly, so that tenderness is a sprain",
+      "d": [
+        "The posterior edge is easier to palpate through swelling",
+        "Fractures occur on the posterior edge alone",
+        "A tendon covers the anterior edge"
+      ],
+      "why": "The anterior talofibular ligament inserts at the front of the lateral malleolus, and a sprain hurts there. Bone tenderness along the back and tip is harder to explain by ligament, which is why it earns the film.",
+      "tags": [
+        "ottawa",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "why25-128a",
+      "item": 128,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does polyethylene glycol work for constipation without causing cramping?",
+      "a": "It holds water in the stool without stimulating the bowel",
+      "d": [
+        "It lubricates the lining of the colon",
+        "It kills the gut bacteria",
+        "It stimulates peristalsis gently along the colon"
+      ],
+      "why": "The polymer is not absorbed and binds water, so the stool stays soft and bulky and passes on its own. Stimulant laxatives contract the colon, which is what causes the cramps.",
+      "tags": [
+        "constipation",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-129a",
+      "item": 129,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does diabetes earn a statin without a risk calculation?",
+      "a": "Diabetes carries a risk the calculator underestimates",
+      "d": [
+        "Statins lower the blood glucose",
+        "The calculator excludes diabetic patients",
+        "Diabetics cannot change their lifestyle"
+      ],
+      "why": "Diabetes roughly doubles cardiovascular risk and accelerates atherosclerosis in ways that age and lipids alone do not capture. Trials showed the statin benefit in diabetics regardless of their baseline LDL.",
+      "tags": [
+        "statin",
+        "diabetes"
+      ]
+    },
+    {
+      "id": "why25-130a",
+      "item": 130,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does tapping behind the medial malleolus reproduce tarsal tunnel symptoms?",
+      "a": "The tibial nerve runs under the retinaculum there",
+      "d": [
+        "The plantar fascia originates at that point",
+        "The Achilles tendon inserts there",
+        "The deltoid ligament is inflamed"
+      ],
+      "why": "The tunnel sits behind and below the medial malleolus, and a compressed nerve fires when percussed, the same Tinel sign as at the wrist. Nerve conduction studies confirm what the tap suggests.",
+      "tags": [
+        "tarsal-tunnel",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "why25-131a",
+      "item": 131,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why can a single gunshot cause permanent hearing loss when a loud concert does not?",
+      "a": "Impulse noise over 140 dB tears hair cells mechanically",
+      "d": [
+        "Gunpowder residue is ototoxic",
+        "Concerts stay below 80 decibels",
+        "The ear adapts to music played over several hours"
+      ],
+      "why": "Sustained noise damages hair cells through metabolic exhaustion, which takes hours. A peak over 140 dB tears them physically in a millisecond, and they do not regrow.",
+      "tags": [
+        "hearing",
+        "safety"
+      ]
+    },
+    {
+      "id": "why25-132a",
+      "item": 132,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a new left bundle branch block count as a heart attack equivalent?",
+      "a": "It can mark a large infarct and hides the ST changes",
+      "d": [
+        "It leads to sudden cardiac death in most cases",
+        "It proves a right coronary occlusion",
+        "It cannot occur without an infarction"
+      ],
+      "why": "The septal conduction system is supplied by the left anterior descending artery, and a new block often means that territory is dying. The abnormal depolarisation also distorts the ST segments, so the usual signs cannot be read.",
+      "tags": [
+        "ecg",
+        "acs"
+      ]
+    },
+    {
+      "id": "why25-133a",
+      "item": 133,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does a fragility fracture outrank the T-score in diagnosing osteoporosis?",
+      "a": "Fracture is the outcome the score tries to predict",
+      "d": [
+        "DXA is inaccurate at the spine",
+        "The T-score changes after any fracture has healed",
+        "Fractures raise the T-score"
+      ],
+      "why": "Bone density is a surrogate; the bone has already proven it breaks under normal loads. Most fragility fractures in fact happen in women with osteopenic rather than osteoporotic scores.",
+      "tags": [
+        "osteoporosis"
+      ]
+    },
+    {
+      "id": "why25-134a",
+      "item": 134,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does anti-D immunoglobulin prevent sensitisation?",
+      "a": "It clears fetal red cells before the mother is sensitised",
+      "d": [
+        "It blocks the Rh antigen on the fetus",
+        "It suppresses the maternal bone marrow",
+        "It neutralises antibodies the mother has already formed"
+      ],
+      "why": "Passive antibody coats any Rh-positive fetal cells that cross into the mother and the spleen removes them, so no memory response forms. It cannot undo sensitisation that has already happened, which is why timing matters.",
+      "tags": [
+        "rh",
+        "immunology"
+      ]
+    },
+    {
+      "id": "why25-135a",
+      "item": 135,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a surface antibody over 10 taken as lifelong protection even if later levels fall?",
+      "a": "Memory B cells respond to exposure after the titre wanes",
+      "d": [
+        "The antibody level does not fall",
+        "Hepatitis B cannot infect vaccinated people",
+        "Boosters are given every ten years regardless"
+      ],
+      "why": "A documented response proves immune memory was laid down, and that memory mounts a rapid response on challenge. That is why routine boosters are not given to responders.",
+      "tags": [
+        "hepatitis-b",
+        "immunology"
+      ]
+    },
+    {
+      "id": "why25-136a",
+      "item": 136,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is HIV screened in everyone from 15 to 65 when most have no risk factors?",
+      "a": "Risk-based testing misses too many, and treatment stops spread",
+      "d": [
+        "HIV is now spread by respiratory droplets as well",
+        "The test is free to the patient",
+        "Risk factors are universal at that age"
+      ],
+      "why": "A large share of new infections come from people who do not know they are infected and do not see themselves as at risk. Universal testing finds them earlier, and suppressed viral load stops onward spread.",
+      "tags": [
+        "hiv",
+        "screening"
+      ]
+    },
+    {
+      "id": "why25-137a",
+      "item": 137,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do flashes and floaters precede a retinal detachment?",
+      "a": "The vitreous pulls on the retina as it separates",
+      "d": [
+        "The retinal artery is occluding",
+        "Blood is entering the anterior chamber",
+        "The lens is dislocating"
+      ],
+      "why": "With age the vitreous gel liquefies and peels away from the retina. Traction stimulates the photoreceptors, seen as flashes, and debris casts floaters; if it tears the retina, fluid gets behind it and the detachment follows.",
+      "tags": [
+        "retinal-detachment",
+        "physiology"
+      ]
+    },
+    {
+      "id": "why25-138a",
+      "item": 138,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does early imaging for back pain lead to more surgery without better outcomes?",
+      "a": "It finds changes common in people without pain",
+      "d": [
+        "Radiologists overcall fractures",
+        "Surgeons act on every finding the report lists",
+        "Imaging worsens the pain directly"
+      ],
+      "why": "A third of asymptomatic adults have a bulging disc on MRI. Once seen, it is blamed and treated, and the patient also learns that something is wrong with their spine, which itself predicts a worse course.",
+      "tags": [
+        "back-pain",
+        "imaging"
+      ]
+    },
+    {
+      "id": "why25-139a",
+      "item": 139,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does naloxone precipitate withdrawal rather than just restoring breathing?",
+      "a": "It displaces the opioid from every receptor at once",
+      "d": [
+        "It is a stimulant in its own right",
+        "It raises adrenaline directly",
+        "It blocks GABA receptors in the brainstem"
+      ],
+      "why": "A competitive antagonist with higher affinity knocks the agonist off the mu receptors in the brainstem, which restores breathing, and off the receptors everywhere else, which produces the withdrawal. Titrating the dose spares some of that.",
+      "tags": [
+        "naloxone",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-140a",
+      "item": 140,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is watchful waiting safe for an asymptomatic inguinal hernia?",
+      "a": "Strangulation runs well under one percent a year",
+      "d": [
+        "Asymptomatic hernias stay the same size",
+        "Surgery has no benefit at any stage",
+        "The hernia closes over on its own"
+      ],
+      "why": "Trials following men with painless hernias found strangulation rare and most of them eventually choosing repair for symptoms anyway, with no penalty for having waited. Symptoms, not the bulge, decide.",
+      "tags": [
+        "hernia"
+      ]
+    },
+    {
+      "id": "why25-141a",
+      "item": 141,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does gait fail first in normal-pressure hydrocephalus?",
+      "a": "Enlarging ventricles stretch the nearby leg fibres",
+      "d": [
+        "The cerebellum is compressed by the fourth ventricle",
+        "Spinal fluid floods the spinal cord",
+        "The basal ganglia are destroyed"
+      ],
+      "why": "The corticospinal fibres for the legs run closest to the lateral ventricles, so they are the first distorted and the first to recover after drainage. The frontal projections for continence and cognition follow.",
+      "tags": [
+        "nph",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "why25-142a",
+      "item": 142,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does painless gross haematuria worry more than painful haematuria?",
+      "a": "Pain means stone or infection; silence suggests tumour",
+      "d": [
+        "Painless bleeding is heavier",
+        "Tumours block the sensory nerves",
+        "Painful haematuria turns out benign as a rule"
+      ],
+      "why": "Stones and infection inflame or obstruct and hurt; a bladder tumour bleeds from its surface without doing either. Painless gross haematuria in an older smoker is bladder cancer until cystoscopy says otherwise.",
+      "tags": [
+        "haematuria"
+      ]
+    },
+    {
+      "id": "why25-143a",
+      "item": 143,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does arguing for change make an ambivalent patient less likely to change?",
+      "a": "They defend the other side of their own ambivalence",
+      "d": [
+        "Patients distrust advice from physicians",
+        "Arguments take too long in a visit",
+        "It triggers a state of denial"
+      ],
+      "why": "Ambivalence means both arguments already live in the patient. Supply one, and the patient voices the other, and people believe what they hear themselves say. Motivational interviewing gets the patient to speak for change.",
+      "tags": [
+        "counselling"
+      ]
+    },
+    {
+      "id": "why25-144a",
+      "item": 144,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why do the shins take the brunt of diabetic skin disease?",
+      "a": "Pretibial skin is thin, poorly perfused and easily hurt",
+      "d": [
+        "Insulin injected into the shins damages the skin",
+        "The shins carry the most sweat glands",
+        "Glucose pools in the lower legs by gravity"
+      ],
+      "why": "Dermopathy follows minor trauma to skin whose small vessels are already damaged, and necrobiosis lipoidica favours the same ground. Both are markers of microvascular disease elsewhere.",
+      "tags": [
+        "diabetes",
+        "dermatology"
+      ]
+    },
+    {
+      "id": "why25-145a",
+      "item": 145,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does metformin lower vitamin B12?",
+      "a": "It disturbs calcium-dependent absorption in the ileum",
+      "d": [
+        "It destroys intrinsic factor",
+        "It causes atrophy of the lining of the stomach",
+        "It binds vitamin B12 in the stomach"
+      ],
+      "why": "The B12-intrinsic factor complex needs calcium to bind its ileal receptor, and metformin disturbs that. Calcium supplementation partly reverses it, and a B12 level every year or two on long-term metformin is reasonable.",
+      "tags": [
+        "metformin",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-146a",
+      "item": 146,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is amoxicillin dosed high for pneumonia when it is dosed low for strep throat?",
+      "a": "Higher levels overcome pneumococcal resistance",
+      "d": [
+        "Lung tissue absorbs the drug poorly",
+        "Children metabolise it faster",
+        "Pneumonia is a larger infection than pharyngitis"
+      ],
+      "why": "Penicillin resistance in pneumococcus comes from altered binding proteins, and enough drug still saturates them. Ninety milligrams per kilogram does what forty-five cannot; Streptococcus pyogenes has never become resistant.",
+      "tags": [
+        "pneumonia",
+        "microbiology"
+      ]
+    },
+    {
+      "id": "why25-147a",
+      "item": 147,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is a dorsal PIP dislocation splinted in flexion rather than straight?",
+      "a": "Flexion keeps the joint reduced while the volar plate heals",
+      "d": [
+        "Extension damages the digital nerve",
+        "The finger cannot straighten again after dislocation",
+        "Flexion speeds the healing of bone"
+      ],
+      "why": "The volar plate tears when the finger hyperextends, and extension would pull the joint back towards dislocation. Thirty degrees of flexion with buddy taping lets the plate heal and prevents a swan-neck deformity.",
+      "tags": [
+        "finger",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "why25-148a",
+      "item": 148,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does Giardia produce greasy stools?",
+      "a": "It coats the small bowel and blocks fat absorption",
+      "d": [
+        "It secretes a lipid of its own",
+        "It damages the pancreas and its enzyme output",
+        "It causes bile to reflux"
+      ],
+      "why": "Trophozoites attach to the duodenal and jejunal lining in sheets, flattening villi and blocking the surface where fat and fat-soluble vitamins are absorbed. The unabsorbed fat is the steatorrhoea.",
+      "tags": [
+        "giardia"
+      ]
+    },
+    {
+      "id": "why25-149a",
+      "item": 149,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why does bupropion lower the seizure threshold more than other antidepressants?",
+      "a": "It raises dopamine and noradrenaline enough to excite the cortex",
+      "d": [
+        "It blocks GABA receptors throughout the cortex",
+        "It is converted in the liver to an amphetamine-like stimulant",
+        "It depletes sodium in the brain"
+      ],
+      "why": "Seizure risk with bupropion rises steeply above the licensed dose and in eating disorders, where electrolytes are already off. SSRIs have no such effect at any dose, which is why they are the safer choice in epilepsy.",
+      "tags": [
+        "depression",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "why25-150a",
+      "item": 150,
+      "type": "single",
+      "difficulty": 2,
+      "q": "Why is cervical screening recommended against before 21?",
+      "a": "HPV infection is common and clears on its own at that age",
+      "d": [
+        "The cervix is not yet fully formed",
+        "Cervical cancer does not occur in women under 30",
+        "Young women tolerate the examination poorly"
+      ],
+      "why": "Most sexually active teenagers acquire HPV and most clear it within two years. Screening finds those transient changes and leads to treatment that harms future pregnancies without preventing a cancer that takes a decade to develop.",
+      "tags": [
+        "cervical-screening"
+      ]
+    }
+  ]
+}
